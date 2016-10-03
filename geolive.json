@@ -1,0 +1,247 @@
+{
+    "plugin.1": {
+        "name": "Data Types",
+        "instance": "Data",
+        "parameters": {}
+    },
+    "plugin.2": {
+        "name": "External Content",
+        "instance": "ExternalContent",
+        "parameters": {}
+    },
+    "plugin.3": {
+        "name": "Filesystem",
+        "instance": "Filesystem",
+        "parameters": {}
+    },
+    "plugin.4": {
+        "name": "Google Maps",
+        "instance": "GoogleMaps",
+        "parameters": {}
+    },
+    "plugin.5": {
+        "name": "Language",
+        "instance": "Language",
+        "parameters": {}
+    },
+    "plugin.6": {
+        "name": "Maps",
+        "instance": "Maps",
+        "parameters": {}
+    },
+    "plugin.7": {
+        "name": "System Parameters",
+        "instance": "SystemParameters",
+        "parameters": {
+            "JSFileObfuscationEnabled": false,
+            "JSInlineObfuscationEnabled": false,
+            "CSSFileObfuscationEnabled": true,
+            "CSSInlineObfuscationEnabled": true,
+            "PHPDebugEnabled": false,
+            "JSDebugEnabled": false,
+            "CachingEnabled": false,
+            "ExternalizeWidgetScripts": true,
+            "PrettyPrintJson": true,
+            "JSCacheObfuscationEnabled": true,
+            "phase": "production"
+        }
+    },
+    "plugin.8": {
+        "name": "User Interface",
+        "instance": "UserInterface",
+        "parameters": {}
+    },
+    "plugin.9": {
+        "name": "Users",
+        "instance": "Users",
+        "parameters": {}
+    },
+    "plugin.10": {
+        "name": "Upgrade",
+        "instance": "Upgrade",
+        "parameters": {
+            "releaseServer": "https:\/\/release.geolive.ca",
+            "releasePackage": "master",
+            "autoUpdate": false
+        }
+    },
+    "plugin.11": {
+        "name": "Attributes",
+        "instance": "Attributes",
+        "parameters": {},
+        "attributes": "plugin.Attributes.11.attributes.json"
+    },
+    "plugin.12": {
+        "name": "Slack Monitor",
+        "instance": "SlackMonitor",
+        "parameters": "_SlackMonitor.json"
+    },
+    "plugin.13": {
+        "name": "Deploy",
+        "instance": "Deploy",
+        "parameters": "_Deploy.json"
+    },
+    "widget.1": {
+        "name": "Google Controls",
+        "instance": "GoogleControl",
+        "parameters": {
+            "showStreetControl": true,
+            "streetControlPosition": "LEFT_TOP",
+            "showPanControl": true,
+            "panControlPosition": "LEFT_TOP",
+            "showZoomControl": true,
+            "zoomControl": "SMALL",
+            "zoomControlPosition": "LEFT_TOP",
+            "showMapTypeControl": true,
+            "mapType": "HORIZONTAL_BAR",
+            "mapTypePosition": "TOP_RIGHT",
+            "showMapScaleControl": true,
+            "mapScaleType": "DEFAULT",
+            "mapScalePosition": "BOTTOM_RIGHT",
+            "showMapOverviewControl": false,
+            "mapOverviewControlOpened": false,
+            "widgetTitle": "",
+            "readAccess": "public"
+        }
+    },
+    "widget.2": {
+        "name": "Tile Buttons",
+        "instance": "DiscussionMenu",
+        "parameters": {
+            "sections": [
+                "fullscreen",
+                "home",
+                "login",
+                "logout"
+            ],
+            "controlColor": "rgb(143, 21, 64)",
+            "discussionTag": false,
+            "iconSetReferenceName": "",
+            "markerSearch": true,
+            "tileIcon": [],
+            "groupIcon": [],
+            "position": "RIGHT_CENTER",
+            "offsetX": 100,
+            "offsetY": 100,
+            "tilePadding": 0,
+            "direction": "auto",
+            "markerSize": 32,
+            "tileSize": 50,
+            "showToolTips": false,
+            "fullscreenTip": false,
+            "homeTip": false,
+            "markerTip": false,
+            "loginTip": false,
+            "logoutTip": false,
+            "profileTip": false,
+            "markerIconset": [],
+            "layerMap": [],
+            "tipMap": [],
+            "filterLayerMappedIcons": true,
+            "iconsetMetadata": [],
+            "widgetTitle": "",
+            "readAccess": "public",
+            "subControlColor": "rgb(143, 21, 64)",
+            "guestLoginDrag": true,
+            "onDragEndScript": "widget.DiscussionMenu.2.onDragEndScript.js",
+            "useTipIconsetLayerTitle": false,
+            "formatTipScript": "",
+            "profileIcon": null,
+            "_raw_layerMap": null,
+            "_raw_tipMap": null
+        }
+    },
+    "widget.3": {
+        "name": "Map Layers Widget",
+        "instance": "Layers",
+        "parameters": {}
+    },
+    "widget.4": {
+        "name": "Search Engine Optimization Helper",
+        "instance": "SearchEngineOptimizationHelper",
+        "parameters": {}
+    },
+    "widget.5": {
+        "name": "No Javascript Helper",
+        "instance": "NoJavascriptHelper",
+        "parameters": {}
+    },
+    "widget.6": {
+        "name": "Login Behavior",
+        "instance": "LoginWizard",
+        "parameters": {
+            "defineLoginScript": "widget.LoginWizard.6.defineLoginScript.js",
+            "defineLogoutScript": "widget.LoginWizard.6.defineLogoutScript.js",
+            "filterLoginModulesScript": "widget.LoginWizard.6.filterLoginModulesScript.js",
+            "widgetTitle": "",
+            "readAccess": "public",
+            "position": "RIGHT_CENTER"
+        }
+    },
+    "widget.7": {
+        "name": "Session Behavior",
+        "instance": "Session",
+        "parameters": {}
+    },
+    "widget.8": {
+        "name": "Custom Behavior Script",
+        "instance": "CustomBehaviorScript",
+        "parameters": {
+            "customScript": "widget.CustomBehaviorScript.8.customScript.js",
+            "widgetTitle": "Custom Map Style",
+            "readAccess": "public"
+        }
+    },
+    "widget.9": {
+        "name": "Custom CSS",
+        "instance": "CSS",
+        "parameters": {
+            "customCSS": "widget.CSS.9.customCSS.css",
+            "widgetTitle": "map css",
+            "readAccess": "public"
+        }
+    },
+    "widget.10": {
+        "name": "Custom Tile Control Script",
+        "instance": "CustomTileControlScript",
+        "parameters": {
+            "customScript": "",
+            "tileIcon": [
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_ZxF_L1q_[ImAgE]_x1.png"
+            ],
+            "hoverTip": "",
+            "className": "",
+            "widgetTitle": "",
+            "readAccess": "public",
+            "position": "RIGHT_CENTER"
+        }
+    },
+    "widget.11": {
+        "name": "Attr Search Bar",
+        "instance": "AttributesSearch",
+        "parameters": {
+            "position": "TOP_CENTER",
+            "barWidth": 500,
+            "locationSearch": true,
+            "showFilterBuilder": true,
+            "hoverTheme": false,
+            "themeLabel": "Theme",
+            "showCloud": true,
+            "cloudTable": "",
+            "cloudField": "",
+            "mapitemSearchLabel": "Placemarks",
+            "locationSearchLabel": "Locations",
+            "showDemoTags": false,
+            "demoTagsMinimum": 10,
+            "cloudResults": 30,
+            "searchColor": "rgb(143, 21, 64)",
+            "searchTintColor": "rgb(0,0,0)",
+            "clearColor": "rgb(191, 0, 191)",
+            "clearTintColor": "rgb(0,0,0)",
+            "placeholderText": "Search Location, Items, Attributes...",
+            "searchUsers": false,
+            "widgetTitle": "",
+            "readAccess": "public"
+        }
+    }
+}
