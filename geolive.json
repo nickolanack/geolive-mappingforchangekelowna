@@ -81,6 +81,12 @@
         "instance": "Deploy",
         "parameters": "_Deploy.json"
     },
+    "plugin.14": {
+        "name": "Custom Events",
+        "instance": "CustomEvents",
+        "parameters": {},
+        "attributes": "plugin.CustomEvents.14.attributes.json"
+    },
     "widget.1": {
         "name": "Google Controls",
         "instance": "GoogleControl",
@@ -201,6 +207,36 @@
             "readAccess": "public"
         }
     },
+    "widget.12": {
+        "name": "Flexible Height Widget",
+        "instance": "FlexibleHeight",
+        "parameters": {
+            "offset": 220,
+            "customScript": "",
+            "widgetTitle": "",
+            "readAccess": "public"
+        }
+    },
+    "widget.13": {
+        "name": "Side Panel",
+        "instance": "SidePanel",
+        "parameters": {
+            "widgetTitle": "",
+            "readAccess": "public",
+            "position": "LEFT_CENTER",
+            "customScript": ""
+        }
+    },
+    "widget.14": {
+        "name": "Side Panel",
+        "instance": "SidePanel",
+        "parameters": {
+            "widgetTitle": "",
+            "readAccess": "public",
+            "position": "RIGHT_CENTER",
+            "customScript": "widget.SidePanel.14.customScript.js"
+        }
+    },
     "widget.11": {
         "name": "Attr Search Bar",
         "instance": "AttributesSearch",
@@ -225,6 +261,242 @@
             "clearTintColor": "rgb(0,0,0)",
             "placeholderText": "Search Location, Items, Attributes...",
             "searchUsers": false,
+            "widgetTitle": "",
+            "readAccess": "public"
+        }
+    },
+    "widget.15": {
+        "name": "Marker Wizard",
+        "instance": "WizardBuilder",
+        "parameters": {
+            "metadata": {
+                "class": "DescisionNode",
+                "_diagramState": {
+                    "x": -156,
+                    "y": 307
+                },
+                "children": [
+                    {
+                        "class": "Node",
+                        "_diagramState": {
+                            "x": -145,
+                            "y": 369
+                        }
+                    },
+                    {
+                        "title": "New Empty Step",
+                        "class": "AttributesTableNode",
+                        "fields": [
+                            []
+                        ],
+                        "_diagramState": {
+                            "x": 79,
+                            "y": 159
+                        },
+                        "children": [
+                            {
+                                "class": "Node",
+                                "_diagramState": {
+                                    "x": 371,
+                                    "y": 268
+                                }
+                            }
+                        ],
+                        "builderMetadata": {
+                            "positions": {
+                                "title": {
+                                    "modules": []
+                                },
+                                "content": {
+                                    "modules": [
+                                        {
+                                            "type": "WizardGeocodeAddress",
+                                            "config": {
+                                                "label": "Location",
+                                                "message": "set the location",
+                                                "className": "",
+                                                "maxChars": 0,
+                                                "textFormatScript": ""
+                                            }
+                                        },
+                                        {
+                                            "type": "WizardTitleField",
+                                            "config": {
+                                                "label": "Title",
+                                                "message": "add a title",
+                                                "className": "",
+                                                "maxChars": 0,
+                                                "textFormatScript": ""
+                                            }
+                                        },
+                                        {
+                                            "type": "WizardDescriptionField",
+                                            "config": {
+                                                "label": "Description",
+                                                "message": "add a description",
+                                                "lines": 3,
+                                                "mandatory": false,
+                                                "showAudios": true,
+                                                "showImages": true,
+                                                "showDocuments": true,
+                                                "showVideos": true,
+                                                "className": "",
+                                                "maxChars": 0,
+                                                "showExpandInput": true,
+                                                "toolbarPosition": "bottom",
+                                                "textFormatScript": "",
+                                                "mediaIconTint": "rgb(143, 21, 64)"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "footer": {
+                                    "modules": [
+                                        {
+                                            "type": "WizardButtons",
+                                            "config": {
+                                                "className": "",
+                                                "reduceOpacity": false,
+                                                "onCompleteScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.footer.modules.0.config.onCompleteScript.js",
+                                                "labelForCancel": "cancel",
+                                                "labelForSubmit": "save",
+                                                "labelForNext": "next",
+                                                "labelForPrevious": "previous",
+                                                "showCancel": false
+                                            }
+                                        }
+                                    ]
+                                },
+                                "menu": {
+                                    "modules": []
+                                }
+                            },
+                            "positionList": [
+                                "title",
+                                "content",
+                                "footer",
+                                "menu"
+                            ]
+                        }
+                    }
+                ]
+            },
+            "beforeSubmitScript": "",
+            "onCreateScript": "",
+            "onUpdateScript": "",
+            "onSaveScript": "",
+            "templateName": "MapItemTemplate",
+            "widgetTitle": "",
+            "readAccess": "public"
+        }
+    },
+    "widget.16": {
+        "name": "Draggable Marker Tile",
+        "instance": "MarkerTile",
+        "parameters": {
+            "customScript": "",
+            "controlColor": "rgb(48,84,107)",
+            "markerIconset": [
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/jji_qic_[ImAgE]_fpd_[G].png"
+            ],
+            "markerSize": 32,
+            "hoverTip": "This will not be visible!",
+            "className": "",
+            "wizardName": "MapItemTemplate",
+            "guestLoginDrag": true,
+            "onDragEndScript": "widget.MarkerTile.16.onDragEndScript.js",
+            "formatTipScript": "",
+            "widgetTitle": "",
+            "readAccess": "public",
+            "position": "RIGHT_CENTER"
+        }
+    },
+    "widget.17": {
+        "name": "Icon Set",
+        "instance": "IconSet",
+        "parameters": {
+            "markerIconset": [
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/jji_qic_[ImAgE]_fpd_[G].png"
+            ],
+            "layerMap": [],
+            "tipMap": [],
+            "filterLayerMappedIcons": true,
+            "iconsetMetadata": {
+                "layerMap": {
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/jji_qic_[ImAgE]_fpd_[G].png": 1
+                },
+                "renderSettings": []
+            },
+            "_raw_layerMap": null,
+            "_raw_tipMap": null,
+            "widgetTitle": "",
+            "readAccess": "public"
+        }
+    },
+    "widget.18": {
+        "name": "Info-Window",
+        "instance": "InfoWindowBuilder",
+        "parameters": {
+            "metadata": {
+                "positions": {
+                    "title": {
+                        "modules": [
+                            {
+                                "type": "DefaultTitle",
+                                "config": {
+                                    "className": "",
+                                    "maxChars": 0
+                                }
+                            }
+                        ]
+                    },
+                    "content": {
+                        "modules": [
+                            {
+                                "type": "GeolocationTags"
+                            },
+                            {
+                                "type": "DefaultDescription",
+                                "config": {
+                                    "className": "",
+                                    "imageWidth": 300,
+                                    "imageHeight": 240,
+                                    "multiImageWidth": 100,
+                                    "multiImageHeight": 75,
+                                    "portraitImageWidth": 75,
+                                    "portraitImageHeight": 100,
+                                    "autoArrange": true,
+                                    "oneLine": true,
+                                    "maxChars": 0,
+                                    "maxWidth": 0,
+                                    "showAudios": true,
+                                    "showVideos": true,
+                                    "showImages": true,
+                                    "showDocuments": true,
+                                    "showLinks": true,
+                                    "showExternalContent": true,
+                                    "embedPortrait": true,
+                                    "preferLocalContent": true,
+                                    "portraitClip": true
+                                }
+                            }
+                        ]
+                    },
+                    "footer": {
+                        "modules": []
+                    },
+                    "menu": {
+                        "modules": []
+                    }
+                },
+                "positionList": [
+                    "title",
+                    "content",
+                    "footer",
+                    "menu"
+                ]
+            },
+            "templateName": "default",
             "widgetTitle": "",
             "readAccess": "public"
         }
