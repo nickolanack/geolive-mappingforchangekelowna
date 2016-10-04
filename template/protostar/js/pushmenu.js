@@ -35,7 +35,9 @@ window.setLoginWindowMessage = function(message) {
 };
 
 window.addEvent("load", function() {
-
-    $('pushmenu-btn').addEvent('click', window.openLoginWindow);
-
+    try{
+        $('pushmenu-btn').addEvent('click', window.openLoginWindow);
+    }catch(e){
+        //no login buton...
+    }
 });
