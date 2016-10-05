@@ -385,8 +385,8 @@
             "onCreateScript": "",
             "onUpdateScript": "",
             "onSaveScript": "",
-            "templateName": "MapItemTemplate",
-            "widgetTitle": "",
+            "templateName": "ServiceProviderWizardTemplate",
+            "widgetTitle": "ServiceProviderWizardTemplate",
             "readAccess": "public"
         }
     },
@@ -416,19 +416,26 @@
         "instance": "IconSet",
         "parameters": {
             "markerIconset": [
-                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/jji_qic_[ImAgE]_fpd_[G].png"
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/jji_qic_[ImAgE]_fpd_[G].png",
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/MMT_92i_[ImAgE]_k3H_[G].png"
             ],
             "layerMap": [],
             "tipMap": [],
             "filterLayerMappedIcons": true,
             "iconsetMetadata": {
                 "layerMap": {
-                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/jji_qic_[ImAgE]_fpd_[G].png": 1
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/jji_qic_[ImAgE]_fpd_[G].png": 1,
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/MMT_92i_[ImAgE]_k3H_[G].png": 2
                 },
-                "renderSettings": []
+                "renderSettings": {
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/jji_qic_[ImAgE]_fpd_[G].png": {
+                        "anchor": [
+                            "50.0%",
+                            "100.0%"
+                        ]
+                    }
+                }
             },
-            "_raw_layerMap": null,
-            "_raw_tipMap": null,
             "widgetTitle": "",
             "readAccess": "public"
         }
@@ -499,6 +506,142 @@
             "templateName": "default",
             "widgetTitle": "",
             "readAccess": "public"
+        }
+    },
+    "widget.21": {
+        "name": "Marker Wizard",
+        "instance": "WizardBuilder",
+        "parameters": {
+            "metadata": {
+                "class": "DescisionNode",
+                "_diagramState": {
+                    "x": -50,
+                    "y": 152
+                },
+                "children": [
+                    {
+                        "class": "Node",
+                        "_diagramState": {
+                            "x": -39,
+                            "y": 214
+                        }
+                    },
+                    {
+                        "title": "Default Wizard Step One",
+                        "class": "AttributesTableNode",
+                        "fields": [
+                            []
+                        ],
+                        "_diagramState": {
+                            "x": 140,
+                            "y": 88
+                        },
+                        "children": [
+                            {
+                                "class": "Node",
+                                "_diagramState": {
+                                    "x": 472,
+                                    "y": 237
+                                }
+                            }
+                        ],
+                        "builderMetadata": {
+                            "positions": {
+                                "title": {
+                                    "modules": []
+                                },
+                                "content": {
+                                    "modules": [
+                                        {
+                                            "type": "WizardTitleField",
+                                            "config": {
+                                                "label": "Name",
+                                                "message": "add a title",
+                                                "className": "",
+                                                "maxChars": 0,
+                                                "textFormatScript": ""
+                                            }
+                                        },
+                                        {
+                                            "type": "WizardDescriptionField",
+                                            "config": {
+                                                "label": "Description",
+                                                "message": "add a description",
+                                                "lines": 4,
+                                                "mandatory": true,
+                                                "showAudios": true,
+                                                "showImages": true,
+                                                "showDocuments": true,
+                                                "showVideos": true,
+                                                "className": "",
+                                                "maxChars": 0,
+                                                "showExpandInput": true,
+                                                "toolbarPosition": "bottom",
+                                                "textFormatScript": "",
+                                                "mediaIconTint": "rgb(100, 149, 237)"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "footer": {
+                                    "modules": [
+                                        {
+                                            "type": "WizardButtons",
+                                            "config": {
+                                                "className": "WizardFooter",
+                                                "reduceOpacity": false,
+                                                "onCompleteScript": "widget.WizardBuilder.21.metadata.children.1.builderMetadata.positions.footer.modules.0.config.onCompleteScript.js",
+                                                "labelForCancel": "cancel",
+                                                "labelForSubmit": "Save",
+                                                "labelForNext": "next",
+                                                "labelForPrevious": "previous",
+                                                "showCancel": false
+                                            }
+                                        }
+                                    ]
+                                },
+                                "menu": {
+                                    "modules": []
+                                }
+                            },
+                            "positionList": [
+                                "title",
+                                "content",
+                                "footer",
+                                "menu"
+                            ]
+                        }
+                    }
+                ]
+            },
+            "beforeSubmitScript": "",
+            "onCreateScript": "",
+            "onUpdateScript": "",
+            "onSaveScript": "",
+            "templateName": "AgencyWizardTemplate",
+            "widgetTitle": "AgencyWizardTemplate",
+            "readAccess": "public"
+        }
+    },
+    "widget.22": {
+        "name": "Draggable Marker Tile",
+        "instance": "MarkerTile",
+        "parameters": {
+            "customScript": "",
+            "controlColor": "rgb(48,84,107)",
+            "markerIconset": [
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/MMT_92i_[ImAgE]_k3H_[G].png"
+            ],
+            "markerSize": 32,
+            "hoverTip": "Not going to be visible",
+            "className": "",
+            "wizardName": "MapItemTemplate",
+            "guestLoginDrag": true,
+            "onDragEndScript": "widget.MarkerTile.22.onDragEndScript.js",
+            "formatTipScript": "",
+            "widgetTitle": "",
+            "readAccess": "public",
+            "position": "RIGHT_CENTER"
         }
     }
 }
