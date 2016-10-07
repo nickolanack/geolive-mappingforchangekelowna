@@ -87,6 +87,11 @@
         "parameters": {},
         "attributes": "plugin.CustomEvents.14.attributes.json"
     },
+    "plugin.15": {
+        "name": "Pusher Message Server",
+        "instance": "PusherMessages",
+        "parameters": "_PusherMessages.json"
+    },
     "widget.1": {
         "name": "Google Controls",
         "instance": "GoogleControl",
