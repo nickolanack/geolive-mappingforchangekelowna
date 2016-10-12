@@ -1,73 +1,191 @@
+var detailContent=container.appendChild(new Element('div', {'class':'detail-content'}));
+var tabs=container.appendChild(new Element('ul',{'class':'sidebar-tabs'}));
+var page=container.appendChild(new Element('div', {'class':'sidebar-content'}));
+
+
+
+var infoTabContent=page.appendChild(new Element('div', {'class':'infotab-content'}));
+var editTabContent=page.appendChild(new Element('div', {'class':'edittab-content'}));
+var agencyTabContent=page.appendChild(new Element('div', {'class':'agencytab-content'}));
+
 var ContentModuleViewer=new Class({
-	        	Extends:ModuleViewer,
-	        	display:function(content){
-	        		
-	        		page.empty();
-	        		page.appendChild(content);
+	Extends:ModuleViewer,
+	initialize:function(map, container, options){
+		var me=this;
+		me._container=container
+		me.parent(map, options);
+	},
+	display:function(content){
+		var me=this;
+		me._container.empty();
+		me._container.appendChild(content);
 
-	        		this.fireEvent('load');
+		this.fireEvent('load');
 
-	        	}
-	        });
-var sideBarViewController=new ContentModuleViewer(map, {});
+	}
+});
 
+var miniDetailViewController=new ContentModuleViewer(map, detailContent, {});
+var infoTabViewController=new ContentModuleViewer(map, infoTabContent, {});
+var editTabViewController=new ContentModuleViewer(map, editTabContent, {});
+var agencyTabViewController=new ContentModuleViewer(map, agencyTabContent, {});
+
+var tabNames=[];
+var tabEls={
+}
+var setTab=function(n, e){
+
+	tabNames.forEach(function(n){
+		page.removeClass(n);
+		tabEls[n].removeClass('active');
+	});
+
+	page.addClass(n);
+	tabEls[n].addClass('active');
+	if(tabNames.indexOf(n)<0){
+		tabNames.push(n);
+	}
+};
+
+var hideTab=function(n){
+	tabEls[n].addClass('hidden');
+}
+
+var showTab=function(n){
+	tabEls[n].removeClass('hidden');
+}
+
+
+
+var info=tabs.appendChild(new Element('li',{'html':'info', events:{click:function(){
+	setTab('info');
+}}}));
+var edit=tabs.appendChild(new Element('li',{'html':'edit', events:{click:function(){
+	setTab('edit');
+}}}));
+var agency=tabs.appendChild(new Element('li',{'html':'agency', events:{click:function(){
+	setTab('agency');
+}}}));
+
+tabEls={
+	info:info,
+	edit:edit,
+	agency:agency
+};
+
+setTab('info');
+
+var isAgency=function(marker){
+	return (marker.getLayer().getId()===2);
+}
+var agencyLayer=function(){
+	return map.getLayerManager().getLayer(2);
+}
+
+var displayAgencyFor=function(mapitem, userHasWriteAccess){
+
+	(new GetAttributeItemValueQuery(
+		mapitem.getId(), mapitem.getType(), 'serviceProviderAttributes', 'agency'
+	)).addEvent("success", function(result) {
+
+		//defualt numeric value is 0. but is mapped to an id. 
+		var agencyId=parseInt(result.value);
+		var agencyMapitem=null;
+		if(agencyId>0){
+			agencyMapitem=map.getLayerManager().filterMapitemById(agencyId, null, {layer:agencyLayer()});
+		}
+
+		if(agencyMapitem){
+			agencyTabViewController.open(new GeoliveTemplateModule(map, agencyMapitem, {template:"default", page:"AgencyDetail"}), mapitem);
+		}else{
+
+			if(userHasWriteAccess){
+				var wizardTemplate = (map.getDisplayController().getWizardTemplate('SetAgencyWizardTemplate'));
+				if ((typeof wizardTemplate) != 'function') {
+				    return false;
+				}
+
+				var wizard = wizardTemplate(mapitem, {});
+
+				var step = wizard.build(map, agencyTabViewController, {}); //'geolive' string is for css
+				step();
+			}else{
+
+
+
+				agencyTabViewController.open(new TemplateModule(map, {content:[new HTMLModule(map, 'No agency has been selected for this service provider')]}, {template:"default", page:"AgencyDetail"}), mapitem);
+			}
+
+		}
+
+	}).execute();
+
+
+}
 
 
 map.setItemEditFn(function(mapitem, options) {
 
-	 var me=this;
+	var me=this;
 
-        if (!(mapitem instanceof GeoliveMapItem)) {
-            throw new Error('MapFactory.MarkerWizard expects instance of GeoliveMapItem');
-        }
+	if (!(mapitem instanceof GeoliveMapItem)) {
+	    throw new Error('MapFactory.MarkerWizard expects instance of GeoliveMapItem');
+	}
 
 
 
-        var wizardTemplate = (map.getDisplayController().getWizardTemplate((options.wizardName || 'MapItemTemplate')));
-        if ((typeof wizardTemplate) != 'function') {
-            return false;
-        }
+	var wizardTemplate = (map.getDisplayController().getWizardTemplate(isAgency(mapitem)?'AgencyWizardTemplate':'ServiceProviderWizardTemplate'));
+	if ((typeof wizardTemplate) != 'function') {
+	    return false;
+	}
 
-        var wizard = wizardTemplate(mapitem, {});
+	var wizard = wizardTemplate(mapitem, {});
 
-        var step = wizard.build(map, sideBarViewController, {}); //'geolive' string is for css
-        step();
+	var step = wizard.build(map, editTabViewController, {}); //'geolive' string is for css
+	step();
 
-        return wizard;
-
+	return wizard;
 
 });
 
-
+var lastMapitem=null;
 map.setMarkerClickFn(function(mapitem) {
 
-    var me = this;
+    /* globals GeoliveTemplateModule */
+    if (!window.GeoliveTemplateModule) {
+        throw Error('Requires GeoliveTemplateModule class');
+    }
+
+    infoTabViewController.open(new GeoliveTemplateModule(map, mapitem,{template:"default", page:isAgency(mapitem)?"AgencyDetail":"ServiceProviderDetail"}), mapitem);
+    miniDetailViewController.open(new GeoliveTemplateModule(map, mapitem,{template:"default", page:"Detail"}), mapitem);
+    
+    hideTab('agency');
 
     GeoliveClient.authorize('write', mapitem, function(userHasWriteAccess) {
 
+    	if(lastMapitem){
+    		MapFactory.DisableMouseEditing(lastMapitem);
+    	}
+    	lastMapitem=mapitem;
+    	MapFactory.EnableMouseEditing(mapitem);
 
 
-	    if (userHasWriteAccess) {
-
-
-	    	map.editItem(mapitem, {});
-	    	show();
-
-	    } else {
-
-	    	/* globals GeoliveTemplateModule */
-		    if (!window.GeoliveTemplateModule) {
-		        throw Error('Requires GeoliveTemplateModule class');
-		    }
-
-		    sideBarViewController.open(new GeoliveTemplateModule(map, mapitem,{template:"default"}), mapitem);
-		    show();
+    	if(!isAgency(mapitem)){
+	    	showTab('agency');
+	    	displayAgencyFor(mapitem, userHasWriteAccess);
 	    }
 
+	    if (userHasWriteAccess) {
+	    	map.editItem(mapitem, {});
+	    	showTab('edit');
+	    	setTab('edit');
+	    }else{
+	    	hideTab('edit');
+			setTab('info');
+	    }
+	    	
+	    show();
+	    
 	});
-
-
-
-    
 
 });
