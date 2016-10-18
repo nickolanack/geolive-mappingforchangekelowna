@@ -137,9 +137,8 @@ var displayAgencyFor = function(mapitem, userHasWriteAccess) {
 				}
 
 				var wizard = wizardTemplate(mapitem, {});
+				wizard.buildAndShow(agencyTabViewController, {}); //'geolive' string is for css
 
-				var step = wizard.build(map, agencyTabViewController, {}); //'geolive' string is for css
-				step();
 			} else {
 
 
@@ -177,8 +176,8 @@ map.setItemEditFn(function(mapitem, options) {
 
 	var wizard = wizardTemplate(mapitem, {});
 
-	var step = wizard.build(map, editTabViewController, {}); //'geolive' string is for css
-	step();
+	wizard.buildAndShow(editTabViewController, {}); //'geolive' string is for css
+
 
 	return wizard;
 
