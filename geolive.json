@@ -85,7 +85,14 @@
         "name": "Custom Events",
         "instance": "CustomEvents",
         "parameters": {},
-        "attributes": "plugin.CustomEvents.14.attributes.json"
+        "events": [
+            {
+                "id": "1",
+                "description": "testing deploy",
+                "eventName": "myEvent",
+                "eventScript": "plugin.CustomEvents.14.0.eventScript.php"
+            }
+        ]
     },
     "plugin.15": {
         "name": "Pusher Message Server",
