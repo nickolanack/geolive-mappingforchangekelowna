@@ -99,6 +99,11 @@
         "instance": "PusherMessages",
         "parameters": "_PusherMessages.json"
     },
+    "plugin.16": {
+        "name": "Version Manager",
+        "instance": "VersionManager",
+        "parameters": {}
+    },
     "widget.1": {
         "name": "Google Controls",
         "instance": "GoogleControl",
@@ -302,15 +307,15 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 188,
-                            "y": 144
+                            "x": 189,
+                            "y": -43
                         },
                         "children": [
                             {
                                 "class": "Node",
                                 "_diagramState": {
-                                    "x": 390,
-                                    "y": 406
+                                    "x": 541,
+                                    "y": 639
                                 }
                             }
                         ],
@@ -615,7 +620,8 @@
                                                 },
                                                 "initSelectedScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.9.config.initSelectedScript.js",
                                                 "className": "",
-                                                "requireSelection": true
+                                                "requireSelection": true,
+                                                "allowMultipleSelection": false
                                             }
                                         },
                                         {
@@ -1558,7 +1564,8 @@
                                                 },
                                                 "initSelectedScript": "",
                                                 "className": "",
-                                                "requireSelection": true
+                                                "requireSelection": true,
+                                                "allowMultipleSelection": true
                                             }
                                         },
                                         {
@@ -2731,5 +2738,413 @@
         "name": "Url Variables Parser",
         "instance": "UrlVariablesBehavior",
         "parameters": {}
+    },
+    "widget.28": {
+        "name": "Custom Behavior Script",
+        "instance": "CustomBehaviorScript",
+        "parameters": {
+            "customScript": "widget.CustomBehaviorScript.28.customScript.js",
+            "widgetTitle": "Cluster Style",
+            "readAccess": "public"
+        }
+    },
+    "widget.29": {
+        "name": "Attr CSV Export",
+        "instance": "AttributesCSVExport",
+        "parameters": {
+            "downloadImage": [],
+            "uploadImage": [],
+            "controlColor": "rgb(232, 0, 233)",
+            "exportMetadata": {
+                "fields": {
+                    "item id": "mapitem.id",
+                    "item owner id": "mapitem.uid",
+                    "item owner name": {
+                        "field": "mapitem.uid",
+                        "formatter": "useridtoname"
+                    },
+                    "item owner email": {
+                        "field": "mapitem.uid",
+                        "formatter": "useridtoemail"
+                    },
+                    "layer id": "layer.id",
+                    "layer title": "layer.name",
+                    "title": "mapitem.name",
+                    "coordinates": {
+                        "field": "mapitem.coordinates",
+                        "formatter": "coordinates"
+                    },
+                    "description": {
+                        "field": "mapitem.description",
+                        "formatter": "htmltoplaintext"
+                    },
+                    "image count": {
+                        "field": "mapitem.description",
+                        "formatter": "countimages"
+                    },
+                    "url": {
+                        "field": "mapitem.id",
+                        "formatter": "idtourl"
+                    },
+                    "created date": "mapitem.creationDate",
+                    "last modification date": "mapitem.modificationDate",
+                    "last editor": {
+                        "field": "mapitem.id",
+                        "formatter": "itemeditors"
+                    },
+                    "edit count": {
+                        "field": "mapitem.id",
+                        "formatter": "itemeditcount"
+                    },
+                    "read access": "mapitem.readAccess",
+                    "item views": "mapitem.views",
+                    "Building Type": {
+                        "field": "attributes.1.buildingType",
+                        "formatter": "attributes.text"
+                    },
+                    "Agency": {
+                        "field": "attributes.1.agency",
+                        "formatter": "attributes.number"
+                    },
+                    "Building Contact": {
+                        "field": "attributes.1.buildingContact",
+                        "formatter": "attributes.text"
+                    },
+                    "Position of Contact": {
+                        "field": "attributes.1.positionOfContact",
+                        "formatter": "attributes.text"
+                    },
+                    "Phone Number": {
+                        "field": "attributes.1.phoneNumber",
+                        "formatter": "attributes.text"
+                    },
+                    "Email": {
+                        "field": "attributes.1.email",
+                        "formatter": "attributes.text"
+                    },
+                    "Has Waitlist": {
+                        "field": "attributes.1.hasWaitlist",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Estimated Wait Time": {
+                        "field": "attributes.1.estimatedWaitTime",
+                        "formatter": "attributes.number"
+                    },
+                    "Has Maximum Duration of Stay": {
+                        "field": "attributes.1.hasMaxDurationOfStay",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Maximum Duration of Stay": {
+                        "field": "attributes.1.maxDurationOfStay",
+                        "formatter": "attributes.number"
+                    },
+                    "Number of Dormitory Beds": {
+                        "field": "attributes.1.housingTypeDormitoryNumberOfBeds",
+                        "formatter": "attributes.number"
+                    },
+                    "Number of Shared Bedroom Beds": {
+                        "field": "attributes.1.housingTypeSharedBedroomNumberOfBeds",
+                        "formatter": "attributes.number"
+                    },
+                    "Number of Single Bedroom Beds": {
+                        "field": "attributes.1.housingTypeBedroomNumberOfBeds",
+                        "formatter": "attributes.number"
+                    },
+                    "Provides Case Management Services": {
+                        "field": "attributes.1.hasServiceCaseManagement",
+                        "formatter": "attributes.text"
+                    },
+                    "Provides Referrals to other Agencies": {
+                        "field": "attributes.1.hasServiceReferralsToOtherAgencies",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Provides Health\/Dental Care": {
+                        "field": "attributes.1.hasServiceHealthDentalCare",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Provides Meals": {
+                        "field": "attributes.1.hasServiceMeals",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Provides Showers": {
+                        "field": "attributes.1.hasServiceShowers",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Provides Storage": {
+                        "field": "attributes.1.hasServiceStorage",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Provides Clothing\/Household Goods": {
+                        "field": "attributes.1.hasServiceClothingHouseholdGoods",
+                        "formatter": "attributes.text"
+                    },
+                    "Other Services": {
+                        "field": "attributes.1.otherServices",
+                        "formatter": "attributes.text"
+                    },
+                    "Number of Studio\/Bachelor Units": {
+                        "field": "attributes.1.housingTypeStudioBachelorNumberOfUnits",
+                        "formatter": "attributes.number"
+                    },
+                    "Number of 1 Bedroom Units": {
+                        "field": "attributes.1.housingType1BedroomNumberOfUnits",
+                        "formatter": "attributes.number"
+                    },
+                    "Number of 2 Bedroom Units": {
+                        "field": "attributes.1.housingType2BedroomNumberOfUnits",
+                        "formatter": "attributes.number"
+                    },
+                    "Number of 3 Bedroom Units": {
+                        "field": "attributes.1.housingType3BedroomNumberOfUnits",
+                        "formatter": "attributes.number"
+                    },
+                    "Number of 4 Bedroom Units": {
+                        "field": "attributes.1.housingType4BedroomNumberOfUnits",
+                        "formatter": "attributes.number"
+                    },
+                    "Number of Other Type Bedroom Units": {
+                        "field": "attributes.1.housingTypeOtherBedroomNumberOfUnits",
+                        "formatter": "attributes.number"
+                    },
+                    "Description of Other Type Bedroom Units": {
+                        "field": "attributes.1.housingTypeOtherBedroomDescription",
+                        "formatter": "attributes.text"
+                    },
+                    "Housing is fully self contained (Bathroom\/Kitchen)": {
+                        "field": "attributes.1.housingHasBathroomKitchen",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Housing is fully furnished": {
+                        "field": "attributes.1.housingIsFurnished",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Number Beds in house with shared bedroom(s)": {
+                        "field": "attributes.1.housingTypeHouseSharedBedroomNumberOfBeds",
+                        "formatter": "attributes.number"
+                    },
+                    "Number of Beds in House with Individual Rooms": {
+                        "field": "attributes.1.housingTypeHouseIndividualBedroomNumberOfBeds",
+                        "formatter": "attributes.number"
+                    },
+                    "Number of Apartment Studio Units": {
+                        "field": "attributes.1.housingTypeApartmentStudioNumberOfUnits",
+                        "formatter": "attributes.number"
+                    },
+                    "Number of 1 Bedroom Apartment Units": {
+                        "field": "attributes.1.housingTypeApartmen1BedroomNumberOfUnits",
+                        "formatter": "attributes.number"
+                    },
+                    "Number of 2 Bedroom Apartment Units": {
+                        "field": "attributes.1.housingTypeApartmen2BedroomNumberOfUnits",
+                        "formatter": "attributes.number"
+                    },
+                    "Number of Other Units": {
+                        "field": "attributes.1.housingTypeOtherNumberOfUnits",
+                        "formatter": "attributes.number"
+                    },
+                    "Description of Other Type Houseing Units": {
+                        "field": "attributes.1.housingTypeOtherDescription",
+                        "formatter": "attributes.text"
+                    },
+                    "Is the Building Under RTA?": {
+                        "field": "attributes.1.isBuildingUnderRTA",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Requires Damage Deposit": {
+                        "field": "attributes.1.requiresDamageDeposit",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Damage Deposit Amount": {
+                        "field": "attributes.1.damageDepositAmount",
+                        "formatter": "attributes.number"
+                    },
+                    "Tenant Holds Lease": {
+                        "field": "attributes.1.tenantHoldsLease",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Number of Beds in Shared Accommodation House": {
+                        "field": "attributes.1.housingTypeHouseSharedAccommodationsNumberOfBeds",
+                        "formatter": "attributes.number"
+                    },
+                    "Number of Units in Secondary House Suite": {
+                        "field": "attributes.1.housingTypeSecondaryHouseSuiteNumberOfUnits",
+                        "formatter": "attributes.number"
+                    },
+                    "Number of Duplex Units": {
+                        "field": "attributes.1.housingTypeDuplexNumberOfUnits",
+                        "formatter": "attributes.number"
+                    },
+                    "Number of Fourplex Units": {
+                        "field": "attributes.1.housingTypeFourplexNumberOfUnits",
+                        "formatter": "attributes.number"
+                    },
+                    "Number of Townhouse Units": {
+                        "field": "attributes.1.housingTypeTownHouseNumberOfUnits",
+                        "formatter": "attributes.number"
+                    },
+                    "Provides Service to Males": {
+                        "field": "attributes.1.servesGenderMales",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Provides Service to Females": {
+                        "field": "attributes.1.servesGenderFemales",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Provides Service to Transgender": {
+                        "field": "attributes.1.servesGenderTransgender",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Provides Services to Demographic: 16 - 18": {
+                        "field": "attributes.1.servesAge16_18",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Provides Services to Demographic: 19+": {
+                        "field": "attributes.1.servesAge19Plus",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Provides Services to Demographic: 55+": {
+                        "field": "attributes.1.servesAge55Plus",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Provides Service To Other Demographic": {
+                        "field": "attributes.1.providesServiceToOtherDemographic",
+                        "formatter": "attributes.text"
+                    },
+                    "Can the key tenant or primary lease holder be a youth": {
+                        "field": "attributes.1.canYouthBeKeyTenantOrLeaseholder",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Primary Target Residents are Individuals": {
+                        "field": "attributes.1.primaryTargetResidentIndividuals",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Primary Target Residents are Families": {
+                        "field": "attributes.1.primaryTargetResidentFamilies",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Primary Target Residents are Individuals and Families": {
+                        "field": "attributes.1.primaryTargetResidentIndividualsAndFamilies",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Potential residents are required to live in Kelowna for a certain amount of time": {
+                        "field": "attributes.1.residentsAreRequiredToLiveInCity",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Building Accommodated Individuals with Disabilities": {
+                        "field": "attributes.1.buildingAccommodatesDisabilities",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Some Units Accommodate Individuals with Disabilities": {
+                        "field": "attributes.1.someUnitsAccommodateDisabilites",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Exclusively Serves Aboriginal Community": {
+                        "field": "attributes.1.exclusivelyServesAboriginalCommunity",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Monthly Cost of Stay": {
+                        "field": "attributes.1.MonthlyCostOfStay",
+                        "formatter": "attributes.number"
+                    },
+                    "The Units are RGI": {
+                        "field": "attributes.1.unitsAreRGI",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Monthly Cost Calculation": {
+                        "field": "attributes.1.notRGIMonthCalculation",
+                        "formatter": "attributes.text"
+                    },
+                    "Has Minimum Income Level": {
+                        "field": "attributes.1.hasMinimunIncomeLevel",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Has Maximum Income Level": {
+                        "field": "attributes.1.hasMaximumIncomeLevel",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Minimum Income Level": {
+                        "field": "attributes.1.minIncomeLevel",
+                        "formatter": "attributes.number"
+                    },
+                    "Maximum Income Level": {
+                        "field": "attributes.1.maximumIncomeLevel",
+                        "formatter": "attributes.number"
+                    },
+                    "Units Are Lower End of Market": {
+                        "field": "attributes.1.unitsAreLowerEndOfMarket",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Residents are Require to be on Income or Disability Assistance": {
+                        "field": "attributes.1.residentsRequireIncomeOrDisabilityAssistance",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Building Qualifies For Rental Assistance": {
+                        "field": "attributes.1.buildingQualifiesForRentalAssistance",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Building is Pet Friendly": {
+                        "field": "attributes.1.buildingIsPetFriendly",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Pet Restrictions": {
+                        "field": "attributes.1.petRestrictions",
+                        "formatter": "attributes.text"
+                    },
+                    "Smoking is Permitted in Building": {
+                        "field": "attributes.1.smokingIsPermittedInBuilding",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Smoking is Permitted in Units": {
+                        "field": "attributes.1.smokingIsPermittedInUnits",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Residents are required to abstain from alcohol and drugs": {
+                        "field": "attributes.1.drugsAndAlcoholAreProhibited",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Website": {
+                        "field": "attributes.2.website",
+                        "formatter": "attributes.text"
+                    },
+                    "Social Media": {
+                        "field": "attributes.2.socialMedia",
+                        "formatter": "attributes.text"
+                    },
+                    "Agency Contact Person": {
+                        "field": "attributes.2.agencyContactPerson",
+                        "formatter": "attributes.text"
+                    },
+                    "Position of Agency Contact": {
+                        "field": "attributes.2.positionOfAgencyContact",
+                        "formatter": "attributes.text"
+                    },
+                    "Contact Number": {
+                        "field": "attributes.2.contactNumber",
+                        "formatter": "attributes.text"
+                    },
+                    "Contact Email": {
+                        "field": "attributes.2.contactEmail",
+                        "formatter": "attributes.text"
+                    },
+                    "Office Hours": {
+                        "field": "attributes.2.officeHours",
+                        "formatter": "attributes.text"
+                    }
+                },
+                "order": {
+                    "layer id": "ASC",
+                    "item id": "ASC"
+                }
+            },
+            "showImport": false,
+            "tileIcon": [],
+            "exportEncoding": "UTF-8",
+            "importEncoding": "UTF-8",
+            "showImportEncoding": false,
+            "filename": "Geolive Export DATE[Y-m-d (H.i.s)]",
+            "widgetTitle": "",
+            "readAccess": "public",
+            "position": "RIGHT_BOTTOM"
+        }
     }
 }
