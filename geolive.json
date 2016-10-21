@@ -1067,7 +1067,7 @@
                                 "type": "WizardStepTitle",
                                 "config": {
                                     "className": "",
-                                    "text": "Agency Details"
+                                    "text": "<span style=\"\">Agency Details<\/span>"
                                 }
                             },
                             {
