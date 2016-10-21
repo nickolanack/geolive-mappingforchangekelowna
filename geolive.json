@@ -302,15 +302,15 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 109,
-                            "y": 189
+                            "x": 188,
+                            "y": 144
                         },
                         "children": [
                             {
                                 "class": "Node",
                                 "_diagramState": {
-                                    "x": 371,
-                                    "y": 268
+                                    "x": 390,
+                                    "y": 406
                                 }
                             }
                         ],
@@ -365,6 +365,1288 @@
                                                 "toolbarPosition": "bottom",
                                                 "textFormatScript": "",
                                                 "mediaIconTint": "rgb(143, 21, 64)"
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardTextAttribute",
+                                            "config": {
+                                                "attributeFields": [
+                                                    {
+                                                        "visibility": "public",
+                                                        "tableId": "1",
+                                                        "tableName": "serviceProviderAttributes",
+                                                        "tableSuffix": "_9632",
+                                                        "title": "buildingContact",
+                                                        "label": "Building Contact",
+                                                        "description": "",
+                                                        "fieldType": "text",
+                                                        "color": "rgb(undefined, undefined, undefined)",
+                                                        "searchability": "public",
+                                                        "editability": "registered",
+                                                        "fieldTextOptions": {
+                                                            "textType": "input",
+                                                            "inputOptions": {
+                                                                "buildAutocomplete": false,
+                                                                "requireModeration": false,
+                                                                "limitMaxChars": 0,
+                                                                "limitMaxWords": 0,
+                                                                "allowHtml": false,
+                                                                "allowMedia": true,
+                                                                "allowLinks": true
+                                                            },
+                                                            "listOptions": {
+                                                                "takeSugesstions": true,
+                                                                "buildTree": false,
+                                                                "iconize": false,
+                                                                "colorize": false
+                                                            }
+                                                        },
+                                                        "allowMultiple": false
+                                                    }
+                                                ],
+                                                "className": "",
+                                                "label": "{field.label}",
+                                                "message": "",
+                                                "lines": 1,
+                                                "maxChars": 0,
+                                                "mandatory": false,
+                                                "multiEntry": false,
+                                                "autocomplete": true,
+                                                "muliTemplate": "lines",
+                                                "multiMessage": "",
+                                                "formatter": "none",
+                                                "iconTint": "rgb(100, 149, 237)"
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardTextAttribute",
+                                            "config": {
+                                                "attributeFields": [
+                                                    {
+                                                        "visibility": "public",
+                                                        "tableId": "1",
+                                                        "tableName": "serviceProviderAttributes",
+                                                        "tableSuffix": "_9632",
+                                                        "title": "positionOfContact",
+                                                        "label": "Position of Contact",
+                                                        "description": "",
+                                                        "fieldType": "text",
+                                                        "color": "rgb(NaN, NaN, NaN)",
+                                                        "searchability": "public",
+                                                        "editability": "registered",
+                                                        "fieldTextOptions": {
+                                                            "textType": "input",
+                                                            "inputOptions": {
+                                                                "buildAutocomplete": false,
+                                                                "requireModeration": false,
+                                                                "limitMaxChars": 0,
+                                                                "limitMaxWords": 0,
+                                                                "allowHtml": false,
+                                                                "allowMedia": true,
+                                                                "allowLinks": true
+                                                            },
+                                                            "listOptions": {
+                                                                "takeSugesstions": true,
+                                                                "buildTree": false,
+                                                                "iconize": false,
+                                                                "colorize": false
+                                                            }
+                                                        },
+                                                        "allowMultiple": false
+                                                    }
+                                                ],
+                                                "className": "",
+                                                "label": "{field.label}",
+                                                "message": "",
+                                                "lines": 1,
+                                                "maxChars": 0,
+                                                "mandatory": false,
+                                                "multiEntry": false,
+                                                "autocomplete": true,
+                                                "muliTemplate": "lines",
+                                                "multiMessage": "",
+                                                "formatter": "none",
+                                                "iconTint": "rgb(100, 149, 237)"
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardTextAttribute",
+                                            "config": {
+                                                "attributeFields": [
+                                                    {
+                                                        "visibility": "public",
+                                                        "tableId": "1",
+                                                        "tableName": "serviceProviderAttributes",
+                                                        "tableSuffix": "_9632",
+                                                        "title": "email",
+                                                        "label": "Email",
+                                                        "description": "",
+                                                        "fieldType": "text",
+                                                        "color": "rgb(undefined, undefined, undefined)",
+                                                        "searchability": "public",
+                                                        "editability": "registered",
+                                                        "fieldTextOptions": {
+                                                            "textType": "input",
+                                                            "inputOptions": {
+                                                                "buildAutocomplete": false,
+                                                                "requireModeration": false,
+                                                                "limitMaxChars": 0,
+                                                                "limitMaxWords": 0,
+                                                                "allowHtml": false,
+                                                                "allowMedia": true,
+                                                                "allowLinks": true
+                                                            },
+                                                            "listOptions": {
+                                                                "takeSugesstions": true,
+                                                                "buildTree": false,
+                                                                "iconize": false,
+                                                                "colorize": false
+                                                            }
+                                                        },
+                                                        "allowMultiple": false
+                                                    }
+                                                ],
+                                                "className": "",
+                                                "label": "{field.label}",
+                                                "message": "",
+                                                "lines": 1,
+                                                "maxChars": 0,
+                                                "mandatory": false,
+                                                "multiEntry": false,
+                                                "autocomplete": true,
+                                                "muliTemplate": "lines",
+                                                "multiMessage": "",
+                                                "formatter": "none",
+                                                "iconTint": "rgb(100, 149, 237)"
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardTextAttribute",
+                                            "config": {
+                                                "attributeFields": [
+                                                    {
+                                                        "visibility": "public",
+                                                        "tableId": "1",
+                                                        "tableName": "serviceProviderAttributes",
+                                                        "tableSuffix": "_9632",
+                                                        "title": "phoneNumber",
+                                                        "label": "Phone Number",
+                                                        "description": "",
+                                                        "fieldType": "text",
+                                                        "color": "rgb(undefined, undefined, undefined)",
+                                                        "searchability": "public",
+                                                        "editability": "registered",
+                                                        "fieldTextOptions": {
+                                                            "textType": "input",
+                                                            "inputOptions": {
+                                                                "buildAutocomplete": false,
+                                                                "requireModeration": false,
+                                                                "limitMaxChars": 0,
+                                                                "limitMaxWords": 0,
+                                                                "allowHtml": false,
+                                                                "allowMedia": true,
+                                                                "allowLinks": true
+                                                            },
+                                                            "listOptions": {
+                                                                "takeSugesstions": true,
+                                                                "buildTree": false,
+                                                                "iconize": false,
+                                                                "colorize": false
+                                                            }
+                                                        },
+                                                        "allowMultiple": false
+                                                    }
+                                                ],
+                                                "className": "",
+                                                "label": "{field.label}",
+                                                "message": "",
+                                                "lines": 1,
+                                                "maxChars": 0,
+                                                "mandatory": false,
+                                                "multiEntry": false,
+                                                "autocomplete": true,
+                                                "muliTemplate": "lines",
+                                                "multiMessage": "",
+                                                "formatter": "none",
+                                                "iconTint": "rgb(100, 149, 237)"
+                                            }
+                                        },
+                                        {
+                                            "type": "WizardStepTitle",
+                                            "config": {
+                                                "className": "",
+                                                "text": "<div class=\"label\"><span class=\"lbl-txt\">Houseing Type<\/span><\/div>"
+                                            }
+                                        },
+                                        {
+                                            "type": "WizardIconizedScriptSelect",
+                                            "config": {
+                                                "icons": [
+                                                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_2wu_Xsa_QUt.png",
+                                                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/3sX_6Al_[G]_[ImAgE]_vIr.png",
+                                                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_9RQ_aTB_[ImAgE]_CEH.png",
+                                                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_gvc_[ImAgE]_Qsn_2dn.png"
+                                                ],
+                                                "iconsetMetadata": {
+                                                    "onSelectScripts": {
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/eBW_[ImAgE]_OJo_FWa_[G].png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/GHj_pH8_Baf_[G]_[ImAgE].png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_2wu_Xsa_QUt.png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/3sX_6Al_[G]_[ImAgE]_vIr.png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_9RQ_aTB_[ImAgE]_CEH.png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_gvc_[ImAgE]_Qsn_2dn.png": ""
+                                                    },
+                                                    "onSubmitScripts": {
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/eBW_[ImAgE]_OJo_FWa_[G].png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/GHj_pH8_Baf_[G]_[ImAgE].png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_2wu_Xsa_QUt.png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/3sX_6Al_[G]_[ImAgE]_vIr.png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_9RQ_aTB_[ImAgE]_CEH.png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_gvc_[ImAgE]_Qsn_2dn.png": ""
+                                                    },
+                                                    "onRenderScripts": {
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/eBW_[ImAgE]_OJo_FWa_[G].png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/GHj_pH8_Baf_[G]_[ImAgE].png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_2wu_Xsa_QUt.png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/3sX_6Al_[G]_[ImAgE]_vIr.png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_9RQ_aTB_[ImAgE]_CEH.png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_gvc_[ImAgE]_Qsn_2dn.png": ""
+                                                    }
+                                                },
+                                                "initSelectedScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.9.config.initSelectedScript.js",
+                                                "className": "",
+                                                "requireSelection": true
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardBooleanAttribute",
+                                            "config": {
+                                                "attributeFields": [
+                                                    {
+                                                        "visibility": "public",
+                                                        "tableId": "1",
+                                                        "tableName": "serviceProviderAttributes",
+                                                        "tableSuffix": "_9632",
+                                                        "title": "hasWaitlist",
+                                                        "label": "Has Waitlist",
+                                                        "description": "",
+                                                        "fieldType": "boolean",
+                                                        "color": "rgb(undefined, undefined, undefined)",
+                                                        "searchability": "public",
+                                                        "editability": "registered",
+                                                        "fieldBooleanOptions": {
+                                                            "trueIcon": false,
+                                                            "falseIcon": false,
+                                                            "hideFalse": true,
+                                                            "trueLabel": "",
+                                                            "falseLabel": "",
+                                                            "useFieldIcon": false
+                                                        },
+                                                        "allowMultiple": false
+                                                    }
+                                                ],
+                                                "presentationImagesTrueImage": [
+                                                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_7Bp_q52_[ImAgE]_x2s.png"
+                                                ],
+                                                "presentationImagesFalseImage": [],
+                                                "className": "",
+                                                "label": "Has Waitlist",
+                                                "showLabel": false,
+                                                "presentationStyle": "icons",
+                                                "presentationRadioTrueLabel": "Has Waitlist",
+                                                "presentationRadioFalseLabel": "No"
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardTextAttribute",
+                                            "config": {
+                                                "attributeFields": [
+                                                    {
+                                                        "visibility": "public",
+                                                        "tableId": "1",
+                                                        "tableName": "serviceProviderAttributes",
+                                                        "tableSuffix": "_9632",
+                                                        "title": "estimatedWaitTime",
+                                                        "label": "Estimated Wait Time",
+                                                        "description": "estimated wait time will be in minutes...",
+                                                        "fieldType": "number",
+                                                        "color": "rgb(undefined, undefined, undefined)",
+                                                        "searchability": "public",
+                                                        "editability": "registered",
+                                                        "fieldNumberOptions": {
+                                                            "precision": 0,
+                                                            "limitMinValue": "",
+                                                            "limitMaxValue": ""
+                                                        },
+                                                        "allowMultiple": false
+                                                    }
+                                                ],
+                                                "className": "",
+                                                "label": "{field.label}",
+                                                "message": "",
+                                                "lines": 1,
+                                                "maxChars": 0,
+                                                "mandatory": false,
+                                                "multiEntry": false,
+                                                "autocomplete": true,
+                                                "muliTemplate": "lines",
+                                                "multiMessage": "",
+                                                "formatter": "integer",
+                                                "iconTint": "rgb(100, 149, 237)"
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardBooleanAttribute",
+                                            "config": {
+                                                "attributeFields": [
+                                                    {
+                                                        "visibility": "public",
+                                                        "tableId": "1",
+                                                        "tableName": "serviceProviderAttributes",
+                                                        "tableSuffix": "_9632",
+                                                        "title": "hasMaxDurationOfStay",
+                                                        "label": "Has Maximum Duration of Stay",
+                                                        "description": "",
+                                                        "fieldType": "boolean",
+                                                        "color": "rgb(undefined, undefined, undefined)",
+                                                        "searchability": "public",
+                                                        "editability": "registered",
+                                                        "fieldBooleanOptions": {
+                                                            "trueIcon": false,
+                                                            "falseIcon": false,
+                                                            "hideFalse": true,
+                                                            "trueLabel": "",
+                                                            "falseLabel": "",
+                                                            "useFieldIcon": false
+                                                        },
+                                                        "allowMultiple": false
+                                                    }
+                                                ],
+                                                "presentationImagesTrueImage": [],
+                                                "presentationImagesFalseImage": [],
+                                                "className": "",
+                                                "label": "Has Maximum Duration Of Stay",
+                                                "showLabel": false,
+                                                "presentationStyle": "checkbox",
+                                                "presentationRadioTrueLabel": "Yes",
+                                                "presentationRadioFalseLabel": "No"
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardTextAttribute",
+                                            "config": {
+                                                "attributeFields": [
+                                                    {
+                                                        "visibility": "public",
+                                                        "tableId": "1",
+                                                        "tableName": "serviceProviderAttributes",
+                                                        "tableSuffix": "_9632",
+                                                        "title": "maxDurationOfStay",
+                                                        "label": "Maximum Duration of Stay",
+                                                        "description": "",
+                                                        "fieldType": "number",
+                                                        "color": "rgb(undefined, undefined, undefined)",
+                                                        "searchability": "public",
+                                                        "editability": "registered",
+                                                        "fieldNumberOptions": {
+                                                            "precision": 0,
+                                                            "limitMinValue": "",
+                                                            "limitMaxValue": ""
+                                                        },
+                                                        "allowMultiple": false
+                                                    }
+                                                ],
+                                                "className": "",
+                                                "label": "{field.label}",
+                                                "message": "",
+                                                "lines": 1,
+                                                "maxChars": 0,
+                                                "mandatory": false,
+                                                "multiEntry": false,
+                                                "autocomplete": true,
+                                                "muliTemplate": "lines",
+                                                "multiMessage": "",
+                                                "formatter": "none",
+                                                "iconTint": "rgb(100, 149, 237)"
+                                            }
+                                        },
+                                        {
+                                            "type": "WizardStepTitle",
+                                            "config": {
+                                                "className": "",
+                                                "text": "(Emergency Housing Beds)"
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardTextAttribute",
+                                            "config": {
+                                                "attributeFields": [
+                                                    {
+                                                        "visibility": "public",
+                                                        "tableId": "1",
+                                                        "tableName": "serviceProviderAttributes",
+                                                        "tableSuffix": "_9632",
+                                                        "title": "housingTypeDormitoryNumberOfBeds",
+                                                        "label": "Number of Dormitory Beds",
+                                                        "description": "",
+                                                        "fieldType": "number",
+                                                        "color": "rgb(NaN, NaN, NaN)",
+                                                        "searchability": "public",
+                                                        "editability": "registered",
+                                                        "fieldNumberOptions": {
+                                                            "precision": 0,
+                                                            "limitMinValue": "",
+                                                            "limitMaxValue": ""
+                                                        },
+                                                        "allowMultiple": false
+                                                    }
+                                                ],
+                                                "className": "",
+                                                "label": "{field.label}",
+                                                "message": "",
+                                                "lines": 1,
+                                                "maxChars": 0,
+                                                "mandatory": false,
+                                                "multiEntry": false,
+                                                "autocomplete": true,
+                                                "muliTemplate": "lines",
+                                                "multiMessage": "",
+                                                "formatter": "integer",
+                                                "iconTint": "rgb(100, 149, 237)"
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardTextAttribute",
+                                            "config": {
+                                                "attributeFields": [
+                                                    {
+                                                        "visibility": "public",
+                                                        "tableId": "1",
+                                                        "tableName": "serviceProviderAttributes",
+                                                        "tableSuffix": "_9632",
+                                                        "title": "housingTypeSharedBedroomNumberOfBeds",
+                                                        "label": "Number of Shared Bedroom Beds",
+                                                        "description": "",
+                                                        "fieldType": "number",
+                                                        "color": "rgb(NaN, NaN, NaN)",
+                                                        "searchability": "public",
+                                                        "editability": "registered",
+                                                        "fieldNumberOptions": {
+                                                            "precision": 0,
+                                                            "limitMinValue": "",
+                                                            "limitMaxValue": ""
+                                                        },
+                                                        "allowMultiple": false
+                                                    }
+                                                ],
+                                                "className": "",
+                                                "label": "{field.label}",
+                                                "message": "",
+                                                "lines": 1,
+                                                "maxChars": 0,
+                                                "mandatory": false,
+                                                "multiEntry": false,
+                                                "autocomplete": true,
+                                                "muliTemplate": "lines",
+                                                "multiMessage": "",
+                                                "formatter": "integer",
+                                                "iconTint": "rgb(100, 149, 237)"
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardTextAttribute",
+                                            "config": {
+                                                "attributeFields": [
+                                                    {
+                                                        "visibility": "public",
+                                                        "tableId": "1",
+                                                        "tableName": "serviceProviderAttributes",
+                                                        "tableSuffix": "_9632",
+                                                        "title": "housingTypeBedroomNumberOfBeds",
+                                                        "label": "Number of Single Bedroom Beds",
+                                                        "description": "",
+                                                        "fieldType": "number",
+                                                        "color": "rgb(NaN, NaN, NaN)",
+                                                        "searchability": "public",
+                                                        "editability": "registered",
+                                                        "fieldNumberOptions": {
+                                                            "precision": 0,
+                                                            "limitMinValue": "",
+                                                            "limitMaxValue": ""
+                                                        },
+                                                        "allowMultiple": false
+                                                    }
+                                                ],
+                                                "className": "",
+                                                "label": "{field.label}",
+                                                "message": "",
+                                                "lines": 1,
+                                                "maxChars": 0,
+                                                "mandatory": false,
+                                                "multiEntry": false,
+                                                "autocomplete": true,
+                                                "muliTemplate": "lines",
+                                                "multiMessage": "",
+                                                "formatter": "integer",
+                                                "iconTint": "rgb(100, 149, 237)"
+                                            }
+                                        },
+                                        {
+                                            "type": "WizardStepTitle",
+                                            "config": {
+                                                "className": "",
+                                                "text": "(Transitional Beds)"
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardTextAttribute",
+                                            "config": {
+                                                "attributeFields": [
+                                                    {
+                                                        "visibility": "public",
+                                                        "tableId": "1",
+                                                        "tableName": "serviceProviderAttributes",
+                                                        "tableSuffix": "_9632",
+                                                        "title": "housingTypeStudioBachelorNumberOfUnits",
+                                                        "label": "Number of Studio\/Bachelor Units",
+                                                        "description": "",
+                                                        "fieldType": "number",
+                                                        "color": "rgb(NaN, NaN, NaN)",
+                                                        "searchability": "public",
+                                                        "editability": "registered",
+                                                        "fieldNumberOptions": {
+                                                            "precision": 0,
+                                                            "limitMinValue": "",
+                                                            "limitMaxValue": ""
+                                                        },
+                                                        "allowMultiple": false
+                                                    }
+                                                ],
+                                                "className": "",
+                                                "label": "{field.label}",
+                                                "message": "",
+                                                "lines": 1,
+                                                "maxChars": 0,
+                                                "mandatory": false,
+                                                "multiEntry": false,
+                                                "autocomplete": true,
+                                                "muliTemplate": "lines",
+                                                "multiMessage": "",
+                                                "formatter": "integer",
+                                                "iconTint": "rgb(100, 149, 237)"
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardTextAttribute",
+                                            "config": {
+                                                "attributeFields": [
+                                                    {
+                                                        "visibility": "public",
+                                                        "tableId": "1",
+                                                        "tableName": "serviceProviderAttributes",
+                                                        "tableSuffix": "_9632",
+                                                        "title": "housingType1BedroomNumberOfUnits",
+                                                        "label": "Number of 1 Bedroom Units",
+                                                        "description": "",
+                                                        "fieldType": "number",
+                                                        "color": "rgb(NaN, NaN, NaN)",
+                                                        "searchability": "public",
+                                                        "editability": "registered",
+                                                        "fieldNumberOptions": {
+                                                            "precision": 0,
+                                                            "limitMinValue": "",
+                                                            "limitMaxValue": ""
+                                                        },
+                                                        "allowMultiple": false
+                                                    }
+                                                ],
+                                                "className": "",
+                                                "label": "{field.label}",
+                                                "message": "",
+                                                "lines": 1,
+                                                "maxChars": 0,
+                                                "mandatory": false,
+                                                "multiEntry": false,
+                                                "autocomplete": true,
+                                                "muliTemplate": "lines",
+                                                "multiMessage": "",
+                                                "formatter": "integer",
+                                                "iconTint": "rgb(100, 149, 237)"
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardTextAttribute",
+                                            "config": {
+                                                "attributeFields": [
+                                                    {
+                                                        "visibility": "public",
+                                                        "tableId": "1",
+                                                        "tableName": "serviceProviderAttributes",
+                                                        "tableSuffix": "_9632",
+                                                        "title": "housingType2BedroomNumberOfUnits",
+                                                        "label": "Number of 2 Bedroom Units",
+                                                        "description": "",
+                                                        "fieldType": "number",
+                                                        "color": "rgb(undefined, undefined, undefined)",
+                                                        "searchability": "public",
+                                                        "editability": "registered",
+                                                        "fieldNumberOptions": {
+                                                            "precision": 0,
+                                                            "limitMinValue": "",
+                                                            "limitMaxValue": ""
+                                                        },
+                                                        "allowMultiple": false
+                                                    }
+                                                ],
+                                                "className": "",
+                                                "label": "{field.label}",
+                                                "message": "",
+                                                "lines": 1,
+                                                "maxChars": 0,
+                                                "mandatory": false,
+                                                "multiEntry": false,
+                                                "autocomplete": true,
+                                                "muliTemplate": "lines",
+                                                "multiMessage": "",
+                                                "formatter": "none",
+                                                "iconTint": "rgb(100, 149, 237)"
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardTextAttribute",
+                                            "config": {
+                                                "attributeFields": [
+                                                    {
+                                                        "visibility": "public",
+                                                        "tableId": "1",
+                                                        "tableName": "serviceProviderAttributes",
+                                                        "tableSuffix": "_9632",
+                                                        "title": "housingType3BedroomNumberOfUnits",
+                                                        "label": "Number of 3 Bedroom Units",
+                                                        "description": "",
+                                                        "fieldType": "number",
+                                                        "color": "rgb(undefined, undefined, undefined)",
+                                                        "searchability": "public",
+                                                        "editability": "registered",
+                                                        "fieldNumberOptions": {
+                                                            "precision": 0,
+                                                            "limitMinValue": "",
+                                                            "limitMaxValue": ""
+                                                        },
+                                                        "allowMultiple": false
+                                                    }
+                                                ],
+                                                "className": "",
+                                                "label": "{field.label}",
+                                                "message": "",
+                                                "lines": 1,
+                                                "maxChars": 0,
+                                                "mandatory": false,
+                                                "multiEntry": false,
+                                                "autocomplete": true,
+                                                "muliTemplate": "lines",
+                                                "multiMessage": "",
+                                                "formatter": "none",
+                                                "iconTint": "rgb(100, 149, 237)"
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardTextAttribute",
+                                            "config": {
+                                                "attributeFields": [
+                                                    {
+                                                        "visibility": "public",
+                                                        "tableId": "1",
+                                                        "tableName": "serviceProviderAttributes",
+                                                        "tableSuffix": "_9632",
+                                                        "title": "housingType4BedroomNumberOfUnits",
+                                                        "label": "Number of 4 Bedroom Units",
+                                                        "description": "",
+                                                        "fieldType": "number",
+                                                        "color": "rgb(undefined, undefined, undefined)",
+                                                        "searchability": "public",
+                                                        "editability": "registered",
+                                                        "fieldNumberOptions": {
+                                                            "precision": 0,
+                                                            "limitMinValue": "",
+                                                            "limitMaxValue": ""
+                                                        },
+                                                        "allowMultiple": false
+                                                    }
+                                                ],
+                                                "className": "",
+                                                "label": "{field.label}",
+                                                "message": "",
+                                                "lines": 1,
+                                                "maxChars": 0,
+                                                "mandatory": false,
+                                                "multiEntry": false,
+                                                "autocomplete": true,
+                                                "muliTemplate": "lines",
+                                                "multiMessage": "",
+                                                "formatter": "none",
+                                                "iconTint": "rgb(100, 149, 237)"
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardTextAttribute",
+                                            "config": {
+                                                "attributeFields": [
+                                                    {
+                                                        "visibility": "public",
+                                                        "tableId": "1",
+                                                        "tableName": "serviceProviderAttributes",
+                                                        "tableSuffix": "_9632",
+                                                        "title": "housingTypeOtherBedroomNumberOfUnits",
+                                                        "label": "Number of Other Type Bedroom Units",
+                                                        "description": "",
+                                                        "fieldType": "number",
+                                                        "color": "rgb(NaN, NaN, NaN)",
+                                                        "searchability": "public",
+                                                        "editability": "registered",
+                                                        "fieldNumberOptions": {
+                                                            "precision": 0,
+                                                            "limitMinValue": "",
+                                                            "limitMaxValue": ""
+                                                        },
+                                                        "allowMultiple": false
+                                                    }
+                                                ],
+                                                "className": "",
+                                                "label": "{field.label}",
+                                                "message": "",
+                                                "lines": 1,
+                                                "maxChars": 0,
+                                                "mandatory": false,
+                                                "multiEntry": false,
+                                                "autocomplete": true,
+                                                "muliTemplate": "lines",
+                                                "multiMessage": "",
+                                                "formatter": "integer",
+                                                "iconTint": "rgb(100, 149, 237)"
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardTextAttribute",
+                                            "config": {
+                                                "attributeFields": [
+                                                    {
+                                                        "visibility": "public",
+                                                        "tableId": "1",
+                                                        "tableName": "serviceProviderAttributes",
+                                                        "tableSuffix": "_9632",
+                                                        "title": "housingTypeOtherBedroomDescription",
+                                                        "label": "Description of Other Type Bedroom Units",
+                                                        "description": "",
+                                                        "fieldType": "text",
+                                                        "color": "rgb(NaN, NaN, NaN)",
+                                                        "searchability": "public",
+                                                        "editability": "registered",
+                                                        "fieldTextOptions": {
+                                                            "textType": "input",
+                                                            "inputOptions": {
+                                                                "buildAutocomplete": false,
+                                                                "requireModeration": false,
+                                                                "limitMaxChars": 0,
+                                                                "limitMaxWords": 0,
+                                                                "allowHtml": false,
+                                                                "allowMedia": true,
+                                                                "allowLinks": true
+                                                            },
+                                                            "listOptions": {
+                                                                "takeSugesstions": true,
+                                                                "buildTree": false,
+                                                                "iconize": false,
+                                                                "colorize": false
+                                                            }
+                                                        },
+                                                        "allowMultiple": false
+                                                    }
+                                                ],
+                                                "className": "",
+                                                "label": "{field.label}",
+                                                "message": "",
+                                                "lines": 1,
+                                                "maxChars": 0,
+                                                "mandatory": false,
+                                                "multiEntry": false,
+                                                "autocomplete": true,
+                                                "muliTemplate": "lines",
+                                                "multiMessage": "",
+                                                "formatter": "none",
+                                                "iconTint": "rgb(100, 149, 237)"
+                                            }
+                                        },
+                                        {
+                                            "type": "WizardStepTitle",
+                                            "config": {
+                                                "className": "",
+                                                "text": "(Supportive)"
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardTextAttribute",
+                                            "config": {
+                                                "attributeFields": [
+                                                    {
+                                                        "visibility": "public",
+                                                        "tableId": "1",
+                                                        "tableName": "serviceProviderAttributes",
+                                                        "tableSuffix": "_9632",
+                                                        "title": "housingTypeHouseSharedBedroomNumberOfBeds",
+                                                        "label": "Number Beds in house with shared bedroom(s)",
+                                                        "description": "",
+                                                        "fieldType": "number",
+                                                        "color": "rgb(NaN, NaN, NaN)",
+                                                        "searchability": "public",
+                                                        "editability": "registered",
+                                                        "fieldNumberOptions": {
+                                                            "precision": 0,
+                                                            "limitMinValue": "",
+                                                            "limitMaxValue": ""
+                                                        },
+                                                        "allowMultiple": false
+                                                    }
+                                                ],
+                                                "className": "",
+                                                "label": "{field.label}",
+                                                "message": "",
+                                                "lines": 1,
+                                                "maxChars": 0,
+                                                "mandatory": false,
+                                                "multiEntry": false,
+                                                "autocomplete": true,
+                                                "muliTemplate": "lines",
+                                                "multiMessage": "",
+                                                "formatter": "integer",
+                                                "iconTint": "rgb(100, 149, 237)"
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardTextAttribute",
+                                            "config": {
+                                                "attributeFields": [
+                                                    {
+                                                        "visibility": "public",
+                                                        "tableId": "1",
+                                                        "tableName": "serviceProviderAttributes",
+                                                        "tableSuffix": "_9632",
+                                                        "title": "housingTypeHouseIndividualBedroomNumberOfBeds",
+                                                        "label": "Number of Beds in House with Individual Rooms",
+                                                        "description": "",
+                                                        "fieldType": "number",
+                                                        "color": "rgb(NaN, NaN, NaN)",
+                                                        "searchability": "public",
+                                                        "editability": "registered",
+                                                        "fieldNumberOptions": {
+                                                            "precision": 0,
+                                                            "limitMinValue": "",
+                                                            "limitMaxValue": ""
+                                                        },
+                                                        "allowMultiple": false
+                                                    }
+                                                ],
+                                                "className": "",
+                                                "label": "{field.label}",
+                                                "message": "",
+                                                "lines": 1,
+                                                "maxChars": 0,
+                                                "mandatory": false,
+                                                "multiEntry": false,
+                                                "autocomplete": true,
+                                                "muliTemplate": "lines",
+                                                "multiMessage": "",
+                                                "formatter": "integer",
+                                                "iconTint": "rgb(100, 149, 237)"
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardTextAttribute",
+                                            "config": {
+                                                "attributeFields": [
+                                                    {
+                                                        "visibility": "public",
+                                                        "tableId": "1",
+                                                        "tableName": "serviceProviderAttributes",
+                                                        "tableSuffix": "_9632",
+                                                        "title": "housingTypeApartmentStudioNumberOfUnits",
+                                                        "label": "Number of Apartment Studio Units",
+                                                        "description": "",
+                                                        "fieldType": "number",
+                                                        "color": "rgb(NaN, NaN, NaN)",
+                                                        "searchability": "public",
+                                                        "editability": "registered",
+                                                        "fieldNumberOptions": {
+                                                            "precision": 0,
+                                                            "limitMinValue": "",
+                                                            "limitMaxValue": ""
+                                                        },
+                                                        "allowMultiple": false
+                                                    }
+                                                ],
+                                                "className": "",
+                                                "label": "{field.label}",
+                                                "message": "",
+                                                "lines": 1,
+                                                "maxChars": 0,
+                                                "mandatory": false,
+                                                "multiEntry": false,
+                                                "autocomplete": true,
+                                                "muliTemplate": "lines",
+                                                "multiMessage": "",
+                                                "formatter": "none",
+                                                "iconTint": "rgb(100, 149, 237)"
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardTextAttribute",
+                                            "config": {
+                                                "attributeFields": [
+                                                    {
+                                                        "visibility": "public",
+                                                        "tableId": "1",
+                                                        "tableName": "serviceProviderAttributes",
+                                                        "tableSuffix": "_9632",
+                                                        "title": "housingTypeApartmen1BedroomNumberOfUnits",
+                                                        "label": "Number of 1 Bedroom Apartment Units",
+                                                        "description": "",
+                                                        "fieldType": "number",
+                                                        "color": "rgb(NaN, NaN, NaN)",
+                                                        "searchability": "public",
+                                                        "editability": "registered",
+                                                        "fieldNumberOptions": {
+                                                            "precision": 0,
+                                                            "limitMinValue": "",
+                                                            "limitMaxValue": ""
+                                                        },
+                                                        "allowMultiple": false
+                                                    }
+                                                ],
+                                                "className": "",
+                                                "label": "{field.label}",
+                                                "message": "",
+                                                "lines": 1,
+                                                "maxChars": 0,
+                                                "mandatory": false,
+                                                "multiEntry": false,
+                                                "autocomplete": true,
+                                                "muliTemplate": "lines",
+                                                "multiMessage": "",
+                                                "formatter": "none",
+                                                "iconTint": "rgb(100, 149, 237)"
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardTextAttribute",
+                                            "config": {
+                                                "attributeFields": [
+                                                    {
+                                                        "visibility": "public",
+                                                        "tableId": "1",
+                                                        "tableName": "serviceProviderAttributes",
+                                                        "tableSuffix": "_9632",
+                                                        "title": "housingTypeApartmen2BedroomNumberOfUnits",
+                                                        "label": "Number of 2 Bedroom Apartment Units",
+                                                        "description": "",
+                                                        "fieldType": "number",
+                                                        "color": "rgb(undefined, undefined, undefined)",
+                                                        "searchability": "public",
+                                                        "editability": "registered",
+                                                        "fieldNumberOptions": {
+                                                            "precision": 0,
+                                                            "limitMinValue": "",
+                                                            "limitMaxValue": ""
+                                                        },
+                                                        "allowMultiple": false
+                                                    }
+                                                ],
+                                                "className": "",
+                                                "label": "{field.label}",
+                                                "message": "",
+                                                "lines": 1,
+                                                "maxChars": 0,
+                                                "mandatory": false,
+                                                "multiEntry": false,
+                                                "autocomplete": true,
+                                                "muliTemplate": "lines",
+                                                "multiMessage": "",
+                                                "formatter": "none",
+                                                "iconTint": "rgb(100, 149, 237)"
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardTextAttribute",
+                                            "config": {
+                                                "attributeFields": [
+                                                    {
+                                                        "visibility": "public",
+                                                        "tableId": "1",
+                                                        "tableName": "serviceProviderAttributes",
+                                                        "tableSuffix": "_9632",
+                                                        "title": "housingTypeOtherNumberOfUnits",
+                                                        "label": "Number of Other Units",
+                                                        "description": "",
+                                                        "fieldType": "number",
+                                                        "color": "rgb(NaN, NaN, NaN)",
+                                                        "searchability": "public",
+                                                        "editability": "registered",
+                                                        "fieldNumberOptions": {
+                                                            "precision": 0,
+                                                            "limitMinValue": "",
+                                                            "limitMaxValue": ""
+                                                        },
+                                                        "allowMultiple": false
+                                                    }
+                                                ],
+                                                "className": "",
+                                                "label": "{field.label}",
+                                                "message": "",
+                                                "lines": 1,
+                                                "maxChars": 0,
+                                                "mandatory": false,
+                                                "multiEntry": false,
+                                                "autocomplete": true,
+                                                "muliTemplate": "lines",
+                                                "multiMessage": "",
+                                                "formatter": "none",
+                                                "iconTint": "rgb(100, 149, 237)"
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardTextAttribute",
+                                            "config": {
+                                                "attributeFields": [
+                                                    {
+                                                        "visibility": "public",
+                                                        "tableId": "1",
+                                                        "tableName": "serviceProviderAttributes",
+                                                        "tableSuffix": "_9632",
+                                                        "title": "housingTypeOtherDescription",
+                                                        "label": "Description of Other Type Houseing Units",
+                                                        "description": "",
+                                                        "fieldType": "number",
+                                                        "color": "rgb(NaN, NaN, NaN)",
+                                                        "searchability": "public",
+                                                        "editability": "registered",
+                                                        "fieldNumberOptions": {
+                                                            "precision": 0,
+                                                            "limitMinValue": "",
+                                                            "limitMaxValue": ""
+                                                        },
+                                                        "allowMultiple": false
+                                                    }
+                                                ],
+                                                "className": "",
+                                                "label": "{field.label}",
+                                                "message": "",
+                                                "lines": 1,
+                                                "maxChars": 0,
+                                                "mandatory": false,
+                                                "multiEntry": false,
+                                                "autocomplete": true,
+                                                "muliTemplate": "lines",
+                                                "multiMessage": "",
+                                                "formatter": "none",
+                                                "iconTint": "rgb(100, 149, 237)"
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardBooleanAttribute",
+                                            "config": {
+                                                "attributeFields": [
+                                                    {
+                                                        "visibility": "public",
+                                                        "tableId": "1",
+                                                        "tableName": "serviceProviderAttributes",
+                                                        "tableSuffix": "_9632",
+                                                        "title": "housingHasBathroomKitchen",
+                                                        "label": "Housing is fully self contained (Bathroom\/Kitchen)",
+                                                        "description": "",
+                                                        "fieldType": "boolean",
+                                                        "color": "rgb(NaN, NaN, NaN)",
+                                                        "searchability": "public",
+                                                        "editability": "registered",
+                                                        "fieldBooleanOptions": {
+                                                            "trueIcon": false,
+                                                            "falseIcon": false,
+                                                            "hideFalse": true,
+                                                            "trueLabel": "",
+                                                            "falseLabel": "",
+                                                            "useFieldIcon": false
+                                                        },
+                                                        "allowMultiple": false
+                                                    }
+                                                ],
+                                                "presentationImagesTrueImage": [],
+                                                "presentationImagesFalseImage": [],
+                                                "className": "",
+                                                "label": "Fully Self Contained (Kitchen\/Bathroom)",
+                                                "showLabel": false,
+                                                "presentationStyle": "checkbox",
+                                                "presentationRadioTrueLabel": "Yes",
+                                                "presentationRadioFalseLabel": "No"
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardBooleanAttribute",
+                                            "config": {
+                                                "attributeFields": [
+                                                    {
+                                                        "visibility": "public",
+                                                        "tableId": "1",
+                                                        "tableName": "serviceProviderAttributes",
+                                                        "tableSuffix": "_9632",
+                                                        "title": "housingIsFurnished",
+                                                        "label": "Housing is fully furnished",
+                                                        "description": "",
+                                                        "fieldType": "boolean",
+                                                        "color": "rgb(NaN, NaN, NaN)",
+                                                        "searchability": "public",
+                                                        "editability": "registered",
+                                                        "fieldBooleanOptions": {
+                                                            "trueIcon": false,
+                                                            "falseIcon": false,
+                                                            "hideFalse": true,
+                                                            "trueLabel": "",
+                                                            "falseLabel": "",
+                                                            "useFieldIcon": false
+                                                        },
+                                                        "allowMultiple": false
+                                                    }
+                                                ],
+                                                "presentationImagesTrueImage": [],
+                                                "presentationImagesFalseImage": [],
+                                                "className": "",
+                                                "label": "Is Furnished",
+                                                "showLabel": false,
+                                                "presentationStyle": "checkbox",
+                                                "presentationRadioTrueLabel": "Yes",
+                                                "presentationRadioFalseLabel": "No"
+                                            }
+                                        },
+                                        {
+                                            "type": "WizardStepTitle",
+                                            "config": {
+                                                "className": "",
+                                                "text": "<div class=\"label\"><span class=\"lbl-txt\">Services Available<\/span><\/div>"
+                                            }
+                                        },
+                                        {
+                                            "type": "WizardIconizedScriptSelect",
+                                            "config": {
+                                                "icons": [
+                                                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_9RQ_aTB_[ImAgE]_CEH.png",
+                                                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_gvc_[ImAgE]_Qsn_2dn.png",
+                                                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_2wu_Xsa_QUt.png"
+                                                ],
+                                                "iconsetMetadata": {
+                                                    "onSelectScripts": {
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_9RQ_aTB_[ImAgE]_CEH.png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_gvc_[ImAgE]_Qsn_2dn.png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_2wu_Xsa_QUt.png": ""
+                                                    },
+                                                    "onSubmitScripts": {
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_9RQ_aTB_[ImAgE]_CEH.png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_gvc_[ImAgE]_Qsn_2dn.png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_2wu_Xsa_QUt.png": ""
+                                                    },
+                                                    "onRenderScripts": {
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_9RQ_aTB_[ImAgE]_CEH.png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_gvc_[ImAgE]_Qsn_2dn.png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_2wu_Xsa_QUt.png": ""
+                                                    }
+                                                },
+                                                "initSelectedScript": "",
+                                                "className": "",
+                                                "requireSelection": true
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardTextAttribute",
+                                            "config": {
+                                                "attributeFields": [
+                                                    {
+                                                        "visibility": "public",
+                                                        "tableId": "1",
+                                                        "tableName": "serviceProviderAttributes",
+                                                        "tableSuffix": "_9632",
+                                                        "title": "otherServices",
+                                                        "label": "Other Services",
+                                                        "description": "",
+                                                        "fieldType": "text",
+                                                        "color": "rgb(undefined, undefined, undefined)",
+                                                        "searchability": "public",
+                                                        "editability": "registered",
+                                                        "fieldTextOptions": {
+                                                            "textType": "options",
+                                                            "inputOptions": {
+                                                                "buildAutocomplete": false,
+                                                                "requireModeration": false,
+                                                                "limitMaxChars": 0,
+                                                                "limitMaxWords": 0,
+                                                                "allowHtml": false,
+                                                                "allowMedia": true,
+                                                                "allowLinks": true
+                                                            },
+                                                            "listOptions": {
+                                                                "takeSugesstions": true,
+                                                                "buildTree": false,
+                                                                "iconize": false,
+                                                                "colorize": false
+                                                            }
+                                                        },
+                                                        "allowMultiple": true
+                                                    }
+                                                ],
+                                                "className": "",
+                                                "label": "{field.label}",
+                                                "message": "",
+                                                "lines": 1,
+                                                "maxChars": 0,
+                                                "mandatory": false,
+                                                "multiEntry": true,
+                                                "autocomplete": true,
+                                                "muliTemplate": "lines",
+                                                "multiMessage": "",
+                                                "formatter": "none",
+                                                "iconTint": "rgb(100, 149, 237)"
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardBooleanAttribute",
+                                            "config": {
+                                                "attributeFields": [
+                                                    {
+                                                        "visibility": "public",
+                                                        "tableId": "1",
+                                                        "tableName": "serviceProviderAttributes",
+                                                        "tableSuffix": "_9632",
+                                                        "title": "isBuildingUnderRTA",
+                                                        "label": "Is the Building Under RTA?",
+                                                        "description": "",
+                                                        "fieldType": "boolean",
+                                                        "color": "rgb(undefined, undefined, undefined)",
+                                                        "searchability": "public",
+                                                        "editability": "registered",
+                                                        "fieldBooleanOptions": {
+                                                            "trueIcon": false,
+                                                            "falseIcon": false,
+                                                            "hideFalse": true,
+                                                            "trueLabel": "",
+                                                            "falseLabel": "",
+                                                            "useFieldIcon": false
+                                                        },
+                                                        "allowMultiple": false
+                                                    }
+                                                ],
+                                                "presentationImagesTrueImage": [],
+                                                "presentationImagesFalseImage": [],
+                                                "className": "",
+                                                "label": "Is Building Under RTA?",
+                                                "showLabel": false,
+                                                "presentationStyle": "radio",
+                                                "presentationRadioTrueLabel": "Yes",
+                                                "presentationRadioFalseLabel": "No"
                                             }
                                         }
                                     ]
@@ -492,8 +1774,8 @@
                                 "type": "DefaultDescription",
                                 "config": {
                                     "className": "",
-                                    "imageWidth": 300,
-                                    "imageHeight": 240,
+                                    "imageWidth": 250,
+                                    "imageHeight": 200,
                                     "multiImageWidth": 100,
                                     "multiImageHeight": 75,
                                     "portraitImageWidth": 75,
@@ -508,9 +1790,152 @@
                                     "showDocuments": true,
                                     "showLinks": true,
                                     "showExternalContent": true,
-                                    "embedPortrait": true,
+                                    "embedPortrait": false,
                                     "preferLocalContent": true,
                                     "portraitClip": true
+                                }
+                            },
+                            {
+                                "type": "plugin.Attributes.TextAttributes",
+                                "config": {
+                                    "attributeFieldArray": [
+                                        {
+                                            "visibility": "public",
+                                            "tableId": "1",
+                                            "tableName": "serviceProviderAttributes",
+                                            "tableSuffix": "_9632",
+                                            "title": "buildingType",
+                                            "label": "Building Type",
+                                            "description": "",
+                                            "fieldType": "text",
+                                            "color": "rgb(NaN, NaN, NaN)",
+                                            "searchability": "public",
+                                            "editability": "registered",
+                                            "fieldTextOptions": {
+                                                "textType": "options",
+                                                "inputOptions": {
+                                                    "buildAutocomplete": true,
+                                                    "requireModeration": false,
+                                                    "limitMaxChars": 0,
+                                                    "limitMaxWords": 0,
+                                                    "allowHtml": false,
+                                                    "allowMedia": true,
+                                                    "allowLinks": true
+                                                },
+                                                "listOptions": {
+                                                    "takeSugesstions": true,
+                                                    "buildTree": false,
+                                                    "iconize": false,
+                                                    "colorize": false
+                                                }
+                                            },
+                                            "allowMultiple": false
+                                        },
+                                        {
+                                            "visibility": "public",
+                                            "tableId": "1",
+                                            "tableName": "serviceProviderAttributes",
+                                            "tableSuffix": "_9632",
+                                            "title": "buildingContact",
+                                            "label": "Building Contact",
+                                            "description": "",
+                                            "fieldType": "text",
+                                            "color": "rgb(undefined, undefined, undefined)",
+                                            "searchability": "public",
+                                            "editability": "registered",
+                                            "fieldTextOptions": {
+                                                "textType": "input",
+                                                "inputOptions": {
+                                                    "buildAutocomplete": false,
+                                                    "requireModeration": false,
+                                                    "limitMaxChars": 0,
+                                                    "limitMaxWords": 0,
+                                                    "allowHtml": false,
+                                                    "allowMedia": true,
+                                                    "allowLinks": true
+                                                },
+                                                "listOptions": {
+                                                    "takeSugesstions": true,
+                                                    "buildTree": false,
+                                                    "iconize": false,
+                                                    "colorize": false
+                                                }
+                                            },
+                                            "allowMultiple": false
+                                        },
+                                        {
+                                            "visibility": "public",
+                                            "tableId": "1",
+                                            "tableName": "serviceProviderAttributes",
+                                            "tableSuffix": "_9632",
+                                            "title": "phoneNumber",
+                                            "label": "Phone Number",
+                                            "description": "",
+                                            "fieldType": "text",
+                                            "color": "rgb(undefined, undefined, undefined)",
+                                            "searchability": "public",
+                                            "editability": "registered",
+                                            "fieldTextOptions": {
+                                                "textType": "input",
+                                                "inputOptions": {
+                                                    "buildAutocomplete": false,
+                                                    "requireModeration": false,
+                                                    "limitMaxChars": 0,
+                                                    "limitMaxWords": 0,
+                                                    "allowHtml": false,
+                                                    "allowMedia": true,
+                                                    "allowLinks": true
+                                                },
+                                                "listOptions": {
+                                                    "takeSugesstions": true,
+                                                    "buildTree": false,
+                                                    "iconize": false,
+                                                    "colorize": false
+                                                }
+                                            },
+                                            "allowMultiple": false
+                                        },
+                                        {
+                                            "visibility": "public",
+                                            "tableId": "1",
+                                            "tableName": "serviceProviderAttributes",
+                                            "tableSuffix": "_9632",
+                                            "title": "email",
+                                            "label": "Email",
+                                            "description": "",
+                                            "fieldType": "text",
+                                            "color": "rgb(undefined, undefined, undefined)",
+                                            "searchability": "public",
+                                            "editability": "registered",
+                                            "fieldTextOptions": {
+                                                "textType": "input",
+                                                "inputOptions": {
+                                                    "buildAutocomplete": false,
+                                                    "requireModeration": false,
+                                                    "limitMaxChars": 0,
+                                                    "limitMaxWords": 0,
+                                                    "allowHtml": false,
+                                                    "allowMedia": true,
+                                                    "allowLinks": true
+                                                },
+                                                "listOptions": {
+                                                    "takeSugesstions": true,
+                                                    "buildTree": false,
+                                                    "iconize": false,
+                                                    "colorize": false
+                                                }
+                                            },
+                                            "allowMultiple": false
+                                        }
+                                    ],
+                                    "className": "",
+                                    "maxHeight": 0,
+                                    "maxWidth": 0,
+                                    "showLabels": true,
+                                    "showTitle": false,
+                                    "title": "",
+                                    "formatValueElement": "",
+                                    "formatContainerElement": ""
                                 }
                             }
                         ]
@@ -559,8 +1984,8 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 147,
-                            "y": 88
+                            "x": 157,
+                            "y": 98
                         },
                         "children": [
                             {
@@ -621,7 +2046,7 @@
                                                 "showExpandInput": true,
                                                 "toolbarPosition": "bottom",
                                                 "textFormatScript": "",
-                                                "mediaIconTint": "rgb(100, 149, 237)"
+                                                "mediaIconTint": "rgb(113, 3, 3)"
                                             }
                                         },
                                         {
@@ -1074,8 +2499,8 @@
                                 "type": "DefaultDescription",
                                 "config": {
                                     "className": "",
-                                    "imageWidth": 300,
-                                    "imageHeight": 240,
+                                    "imageWidth": 250,
+                                    "imageHeight": 200,
                                     "multiImageWidth": 100,
                                     "multiImageHeight": 75,
                                     "portraitImageWidth": 75,
@@ -1090,7 +2515,7 @@
                                     "showDocuments": true,
                                     "showLinks": true,
                                     "showExternalContent": true,
-                                    "embedPortrait": true,
+                                    "embedPortrait": false,
                                     "preferLocalContent": true,
                                     "portraitClip": true
                                 }
@@ -1098,7 +2523,7 @@
                             {
                                 "type": "WizardScriptElement",
                                 "config": {
-                                    "script": "var button=new Element('button',{html:\"show all services for this agency\"});\nreturn button;"
+                                    "script": "var button=new Element('button',{html:\"show all services for this agency\", 'class':'btn'});\nreturn button;"
                                 }
                             }
                         ]
@@ -1301,5 +2726,10 @@
             "widgetTitle": "Detail",
             "readAccess": "public"
         }
+    },
+    "widget.27": {
+        "name": "Url Variables Parser",
+        "instance": "UrlVariablesBehavior",
+        "parameters": {}
     }
 }

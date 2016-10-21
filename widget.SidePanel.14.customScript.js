@@ -184,7 +184,7 @@ map.setItemEditFn(function(mapitem, options) {
 });
 
 var lastMapitem = null;
-map.setMarkerClickFn(function(mapitem) {
+map.setMapitemSelectFn(function(mapitem) {
 
 	/* globals GeoliveTemplateModule */
 	if (!window.GeoliveTemplateModule) {

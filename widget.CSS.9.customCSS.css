@@ -9,3 +9,15 @@
     box-shadow: 0 0 4px rgba(0,0,0,0.5);
     background-color: #fafafa;
 }
+
+.icn-s-lst li {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+.icn-s-lst li>img {
+    top: 8px;
+    left: 8px;
+    height: 34px;
+}
