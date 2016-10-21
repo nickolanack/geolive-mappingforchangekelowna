@@ -307,15 +307,15 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 189,
-                            "y": -43
+                            "x": 194,
+                            "y": -28
                         },
                         "children": [
                             {
                                 "class": "Node",
                                 "_diagramState": {
-                                    "x": 541,
-                                    "y": 639
+                                    "x": 526,
+                                    "y": 634
                                 }
                             }
                         ],
@@ -330,7 +330,8 @@
                                             "type": "WizardStepTitle",
                                             "config": {
                                                 "className": "",
-                                                "text": "Service Provider Details"
+                                                "text": "Service Provider Details",
+                                                "identifier": "htmlLabel"
                                             }
                                         },
                                         {
@@ -580,7 +581,8 @@
                                             "type": "WizardStepTitle",
                                             "config": {
                                                 "className": "",
-                                                "text": "<div class=\"label\"><span class=\"lbl-txt\">Houseing Type<\/span><\/div>"
+                                                "text": "<div class=\"label\"><span class=\"lbl-txt\">Houseing Type<\/span><\/div>",
+                                                "identifier": "htmlLabel"
                                             }
                                         },
                                         {
@@ -596,10 +598,10 @@
                                                     "onSelectScripts": {
                                                         "components\/com_geolive\/users_files\/user_files_994\/Uploads\/eBW_[ImAgE]_OJo_FWa_[G].png": "",
                                                         "components\/com_geolive\/users_files\/user_files_994\/Uploads\/GHj_pH8_Baf_[G]_[ImAgE].png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_2wu_Xsa_QUt.png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/3sX_6Al_[G]_[ImAgE]_vIr.png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_9RQ_aTB_[ImAgE]_CEH.png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_gvc_[ImAgE]_Qsn_2dn.png": ""
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_2wu_Xsa_QUt.png": "showHousingType('emergency');",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/3sX_6Al_[G]_[ImAgE]_vIr.png": "showHousingType('transitional');",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_9RQ_aTB_[ImAgE]_CEH.png": "showHousingType('nonprofit');",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_gvc_[ImAgE]_Qsn_2dn.png": "showHousingType('rental');"
                                                     },
                                                     "onSubmitScripts": {
                                                         "components\/com_geolive\/users_files\/user_files_994\/Uploads\/eBW_[ImAgE]_OJo_FWa_[G].png": "",
@@ -621,7 +623,8 @@
                                                 "initSelectedScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.9.config.initSelectedScript.js",
                                                 "className": "",
                                                 "requireSelection": true,
-                                                "allowMultipleSelection": false
+                                                "allowMultipleSelection": false,
+                                                "initializationScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.9.config.initializationScript.js"
                                             }
                                         },
                                         {
@@ -780,7 +783,8 @@
                                             "type": "WizardStepTitle",
                                             "config": {
                                                 "className": "",
-                                                "text": "(Emergency Housing Beds)"
+                                                "text": "(Emergency Housing Beds)",
+                                                "identifier": "htmlLabel"
                                             }
                                         },
                                         {
@@ -901,7 +905,8 @@
                                             "type": "WizardStepTitle",
                                             "config": {
                                                 "className": "",
-                                                "text": "(Transitional Beds)"
+                                                "text": "(Transitional Beds)",
+                                                "identifier": "htmlLabel"
                                             }
                                         },
                                         {
@@ -1187,7 +1192,8 @@
                                             "type": "WizardStepTitle",
                                             "config": {
                                                 "className": "",
-                                                "text": "(Supportive)"
+                                                "text": "(Supportive)",
+                                                "identifier": "htmlLabel"
                                             }
                                         },
                                         {
@@ -1534,7 +1540,8 @@
                                             "type": "WizardStepTitle",
                                             "config": {
                                                 "className": "",
-                                                "text": "<div class=\"label\"><span class=\"lbl-txt\">Services Available<\/span><\/div>"
+                                                "text": "<div class=\"label\"><span class=\"lbl-txt\">Services Available<\/span><\/div>",
+                                                "identifier": "htmlLabel"
                                             }
                                         },
                                         {
@@ -1565,7 +1572,8 @@
                                                 "initSelectedScript": "",
                                                 "className": "",
                                                 "requireSelection": true,
-                                                "allowMultipleSelection": true
+                                                "allowMultipleSelection": true,
+                                                "initializationScript": ""
                                             }
                                         },
                                         {
