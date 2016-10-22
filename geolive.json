@@ -307,15 +307,15 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 194,
-                            "y": -28
+                            "x": 179,
+                            "y": 39
                         },
                         "children": [
                             {
                                 "class": "Node",
                                 "_diagramState": {
-                                    "x": 526,
-                                    "y": 634
+                                    "x": 451,
+                                    "y": 641
                                 }
                             }
                         ],
@@ -589,10 +589,11 @@
                                             "type": "WizardIconizedScriptSelect",
                                             "config": {
                                                 "icons": [
-                                                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_2wu_Xsa_QUt.png",
-                                                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/3sX_6Al_[G]_[ImAgE]_vIr.png",
-                                                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_9RQ_aTB_[ImAgE]_CEH.png",
-                                                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_gvc_[ImAgE]_Qsn_2dn.png"
+                                                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/fik_Qih_[ImAgE]_[G]_7qp.png",
+                                                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_Pts_qTq_2cO.png",
+                                                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_eI5_Wj9_9fx_[G].png",
+                                                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/YdL_[G]_5ID_t0q_[ImAgE].png",
+                                                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_W0M_lWp_zQJ_[G].png"
                                                 ],
                                                 "iconsetMetadata": {
                                                     "onSelectScripts": {
@@ -601,7 +602,12 @@
                                                         "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_2wu_Xsa_QUt.png": "showHousingType('emergency');",
                                                         "components\/com_geolive\/users_files\/user_files_994\/Uploads\/3sX_6Al_[G]_[ImAgE]_vIr.png": "showHousingType('transitional');",
                                                         "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_9RQ_aTB_[ImAgE]_CEH.png": "showHousingType('nonprofit');",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_gvc_[ImAgE]_Qsn_2dn.png": "showHousingType('rental');"
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_gvc_[ImAgE]_Qsn_2dn.png": "showHousingType('rental');",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/fik_Qih_[ImAgE]_[G]_7qp.png": "showHousingType('emergency');",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/YdL_[G]_5ID_t0q_[ImAgE].png": "showHousingType('nonprofit');",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_Pts_qTq_2cO.png": "showHousingType('transitional');",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_W0M_lWp_zQJ_[G].png": "showHousingType('rental');",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_eI5_Wj9_9fx_[G].png": "showHousingType('supportive');"
                                                     },
                                                     "onSubmitScripts": {
                                                         "components\/com_geolive\/users_files\/user_files_994\/Uploads\/eBW_[ImAgE]_OJo_FWa_[G].png": "",
@@ -609,7 +615,12 @@
                                                         "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_2wu_Xsa_QUt.png": "",
                                                         "components\/com_geolive\/users_files\/user_files_994\/Uploads\/3sX_6Al_[G]_[ImAgE]_vIr.png": "",
                                                         "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_9RQ_aTB_[ImAgE]_CEH.png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_gvc_[ImAgE]_Qsn_2dn.png": ""
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_gvc_[ImAgE]_Qsn_2dn.png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/fik_Qih_[ImAgE]_[G]_7qp.png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/YdL_[G]_5ID_t0q_[ImAgE].png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_Pts_qTq_2cO.png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_W0M_lWp_zQJ_[G].png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_eI5_Wj9_9fx_[G].png": ""
                                                     },
                                                     "onRenderScripts": {
                                                         "components\/com_geolive\/users_files\/user_files_994\/Uploads\/eBW_[ImAgE]_OJo_FWa_[G].png": "",
@@ -617,7 +628,12 @@
                                                         "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_2wu_Xsa_QUt.png": "",
                                                         "components\/com_geolive\/users_files\/user_files_994\/Uploads\/3sX_6Al_[G]_[ImAgE]_vIr.png": "",
                                                         "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_9RQ_aTB_[ImAgE]_CEH.png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_gvc_[ImAgE]_Qsn_2dn.png": ""
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_gvc_[ImAgE]_Qsn_2dn.png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/fik_Qih_[ImAgE]_[G]_7qp.png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/YdL_[G]_5ID_t0q_[ImAgE].png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_Pts_qTq_2cO.png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_W0M_lWp_zQJ_[G].png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_eI5_Wj9_9fx_[G].png": ""
                                                     }
                                                 },
                                                 "initSelectedScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.9.config.initSelectedScript.js",
@@ -1281,6 +1297,44 @@
                                                         "tableId": "1",
                                                         "tableName": "serviceProviderAttributes",
                                                         "tableSuffix": "_9632",
+                                                        "title": "housingTypeSecondaryHouseSuiteNumberOfUnits",
+                                                        "label": "Number of Units in Secondary House Suite",
+                                                        "description": "",
+                                                        "fieldType": "number",
+                                                        "color": "rgb(NaN, NaN, NaN)",
+                                                        "searchability": "public",
+                                                        "editability": "registered",
+                                                        "fieldNumberOptions": {
+                                                            "precision": 0,
+                                                            "limitMinValue": "",
+                                                            "limitMaxValue": ""
+                                                        },
+                                                        "allowMultiple": false
+                                                    }
+                                                ],
+                                                "className": "",
+                                                "label": "{field.label}",
+                                                "message": "",
+                                                "lines": 1,
+                                                "maxChars": 0,
+                                                "mandatory": false,
+                                                "multiEntry": false,
+                                                "autocomplete": true,
+                                                "muliTemplate": "lines",
+                                                "multiMessage": "",
+                                                "formatter": "integer",
+                                                "iconTint": "rgb(100, 149, 237)"
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardTextAttribute",
+                                            "config": {
+                                                "attributeFields": [
+                                                    {
+                                                        "visibility": "public",
+                                                        "tableId": "1",
+                                                        "tableName": "serviceProviderAttributes",
+                                                        "tableSuffix": "_9632",
                                                         "title": "housingTypeApartmentStudioNumberOfUnits",
                                                         "label": "Number of Apartment Studio Units",
                                                         "description": "",
@@ -1383,6 +1437,120 @@
                                                 "muliTemplate": "lines",
                                                 "multiMessage": "",
                                                 "formatter": "none",
+                                                "iconTint": "rgb(100, 149, 237)"
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardTextAttribute",
+                                            "config": {
+                                                "attributeFields": [
+                                                    {
+                                                        "visibility": "public",
+                                                        "tableId": "1",
+                                                        "tableName": "serviceProviderAttributes",
+                                                        "tableSuffix": "_9632",
+                                                        "title": "housingTypeDuplexNumberOfUnits",
+                                                        "label": "Number of Duplex Units",
+                                                        "description": "",
+                                                        "fieldType": "number",
+                                                        "color": "rgb(NaN, NaN, NaN)",
+                                                        "searchability": "public",
+                                                        "editability": "registered",
+                                                        "fieldNumberOptions": {
+                                                            "precision": 0,
+                                                            "limitMinValue": "",
+                                                            "limitMaxValue": ""
+                                                        },
+                                                        "allowMultiple": false
+                                                    }
+                                                ],
+                                                "className": "",
+                                                "label": "{field.label}",
+                                                "message": "",
+                                                "lines": 1,
+                                                "maxChars": 0,
+                                                "mandatory": false,
+                                                "multiEntry": false,
+                                                "autocomplete": true,
+                                                "muliTemplate": "lines",
+                                                "multiMessage": "",
+                                                "formatter": "integer",
+                                                "iconTint": "rgb(100, 149, 237)"
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardTextAttribute",
+                                            "config": {
+                                                "attributeFields": [
+                                                    {
+                                                        "visibility": "public",
+                                                        "tableId": "1",
+                                                        "tableName": "serviceProviderAttributes",
+                                                        "tableSuffix": "_9632",
+                                                        "title": "housingTypeFourplexNumberOfUnits",
+                                                        "label": "Number of Fourplex Units",
+                                                        "description": "",
+                                                        "fieldType": "number",
+                                                        "color": "rgb(NaN, NaN, NaN)",
+                                                        "searchability": "public",
+                                                        "editability": "registered",
+                                                        "fieldNumberOptions": {
+                                                            "precision": 0,
+                                                            "limitMinValue": "",
+                                                            "limitMaxValue": ""
+                                                        },
+                                                        "allowMultiple": false
+                                                    }
+                                                ],
+                                                "className": "",
+                                                "label": "{field.label}",
+                                                "message": "",
+                                                "lines": 1,
+                                                "maxChars": 0,
+                                                "mandatory": false,
+                                                "multiEntry": false,
+                                                "autocomplete": true,
+                                                "muliTemplate": "lines",
+                                                "multiMessage": "",
+                                                "formatter": "integer",
+                                                "iconTint": "rgb(100, 149, 237)"
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardTextAttribute",
+                                            "config": {
+                                                "attributeFields": [
+                                                    {
+                                                        "visibility": "public",
+                                                        "tableId": "1",
+                                                        "tableName": "serviceProviderAttributes",
+                                                        "tableSuffix": "_9632",
+                                                        "title": "housingTypeTownHouseNumberOfUnits",
+                                                        "label": "Number of Townhouse Units",
+                                                        "description": "",
+                                                        "fieldType": "number",
+                                                        "color": "rgb(undefined, undefined, undefined)",
+                                                        "searchability": "public",
+                                                        "editability": "registered",
+                                                        "fieldNumberOptions": {
+                                                            "precision": 0,
+                                                            "limitMinValue": "",
+                                                            "limitMaxValue": ""
+                                                        },
+                                                        "allowMultiple": false
+                                                    }
+                                                ],
+                                                "className": "",
+                                                "label": "{field.label}",
+                                                "message": "",
+                                                "lines": 1,
+                                                "maxChars": 0,
+                                                "mandatory": false,
+                                                "multiEntry": false,
+                                                "autocomplete": true,
+                                                "muliTemplate": "lines",
+                                                "multiMessage": "",
+                                                "formatter": "integer",
                                                 "iconTint": "rgb(100, 149, 237)"
                                             }
                                         },
@@ -1779,7 +1947,8 @@
                                 "type": "WizardStepTitle",
                                 "config": {
                                     "className": "",
-                                    "text": "Service Provider Details"
+                                    "text": "Service Provider Details",
+                                    "identifier": "htmlLabel"
                                 }
                             },
                             {
@@ -1789,7 +1958,7 @@
                                 "type": "DefaultDescription",
                                 "config": {
                                     "className": "",
-                                    "imageWidth": 250,
+                                    "imageWidth": 351,
                                     "imageHeight": 200,
                                     "multiImageWidth": 100,
                                     "multiImageHeight": 75,
@@ -2507,14 +2676,15 @@
                                 "type": "WizardStepTitle",
                                 "config": {
                                     "className": "",
-                                    "text": "<span style=\"\">Agency Details<\/span>"
+                                    "text": "<span style=\"\">Agency Details<\/span>",
+                                    "identifier": "htmlLabel"
                                 }
                             },
                             {
                                 "type": "DefaultDescription",
                                 "config": {
                                     "className": "",
-                                    "imageWidth": 250,
+                                    "imageWidth": 351,
                                     "imageHeight": 200,
                                     "multiImageWidth": 100,
                                     "multiImageHeight": 75,
@@ -2538,7 +2708,8 @@
                             {
                                 "type": "WizardScriptElement",
                                 "config": {
-                                    "script": "var button=new Element('button',{html:\"show all services for this agency\", 'class':'btn'});\nreturn button;"
+                                    "script": "var button=new Element('button',{html:\"show all services for this agency\", 'class':'btn'});\nreturn button;",
+                                    "identifier": "customScriptElement"
                                 }
                             }
                         ]
