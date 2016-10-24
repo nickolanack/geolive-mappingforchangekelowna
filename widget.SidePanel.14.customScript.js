@@ -104,6 +104,12 @@ setTab('info');
 var isAgency = function(marker) {
 	return (marker.getLayer().getId() === 2);
 }
+var isService = function(marker) {
+	return (marker.getLayer().getId() === 1);
+}
+var isDaily = function(marker) {
+	return (marker.getLayer().getId() === 5);
+}
 var agencyLayer = function() {
 	return map.getLayerManager().getLayer(2);
 }
@@ -169,7 +175,7 @@ map.setItemEditFn(function(mapitem, options) {
 
 
 
-	var wizardTemplate = (map.getDisplayController().getWizardTemplate(isAgency(mapitem) ? 'AgencyWizardTemplate' : 'ServiceProviderWizardTemplate'));
+	var wizardTemplate = (map.getDisplayController().getWizardTemplate(isAgency(mapitem) ? 'AgencyWizardTemplate' : (isService(mapitem) ? 'ServiceProviderWizardTemplate' : 'DailyWizardTemplate')));
 	if ((typeof wizardTemplate) != 'function') {
 		return false;
 	}
@@ -193,7 +199,7 @@ map.setMapitemSelectFn(function(mapitem) {
 
 	infoTabViewController.open(new GeoliveTemplateModule(mapitem, {
 		template: "default",
-		page: isAgency(mapitem) ? "AgencyDetail" : "ServiceProviderDetail"
+		page: isAgency(mapitem) ? "AgencyDetail" : (isService(mapitem) ? "ServiceProviderDetail" : "DailyDetail")
 	}), mapitem);
 	miniDetailViewController.open(new GeoliveTemplateModule(mapitem, {
 		template: "default",

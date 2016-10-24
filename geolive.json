@@ -307,8 +307,8 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 199,
-                            "y": 59
+                            "x": 209,
+                            "y": 69
                         },
                         "children": [
                             {
@@ -1657,12 +1657,14 @@
                                                         "allowMultiple": false
                                                     }
                                                 ],
-                                                "presentationImagesTrueImage": [],
+                                                "presentationImagesTrueImage": [
+                                                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/F4_[G]_FDj_uPD_[ImAgE].png"
+                                                ],
                                                 "presentationImagesFalseImage": [],
                                                 "className": "",
                                                 "label": "Fully Self Contained (Kitchen\/Bathroom)",
                                                 "showLabel": false,
-                                                "presentationStyle": "checkbox",
+                                                "presentationStyle": "icons",
                                                 "presentationRadioTrueLabel": "Yes",
                                                 "presentationRadioFalseLabel": "No"
                                             }
@@ -1941,7 +1943,8 @@
         "parameters": {
             "markerIconset": [
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/jji_qic_[ImAgE]_fpd_[G].png",
-                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/MMT_92i_[ImAgE]_k3H_[G].png"
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/MMT_92i_[ImAgE]_k3H_[G].png",
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/QYb_Mu7_Hgp_[ImAgE]_[G].png"
             ],
             "layerMap": [],
             "tipMap": [],
@@ -1949,10 +1952,17 @@
             "iconsetMetadata": {
                 "layerMap": {
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/jji_qic_[ImAgE]_fpd_[G].png": 1,
-                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/MMT_92i_[ImAgE]_k3H_[G].png": 2
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/MMT_92i_[ImAgE]_k3H_[G].png": 2,
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/QYb_Mu7_Hgp_[ImAgE]_[G].png": 5
                 },
                 "renderSettings": {
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/jji_qic_[ImAgE]_fpd_[G].png": {
+                        "anchor": [
+                            "50.0%",
+                            "100.0%"
+                        ]
+                    },
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/MMT_92i_[ImAgE]_k3H_[G].png": {
                         "anchor": [
                             "50.0%",
                             "100.0%"
@@ -1961,7 +1971,9 @@
                 }
             },
             "widgetTitle": "",
-            "readAccess": "public"
+            "readAccess": "public",
+            "_raw_layerMap": null,
+            "_raw_tipMap": null
         }
     },
     "widget.18": {
@@ -3405,6 +3417,233 @@
         "parameters": {
             "customCSS": "widget.CSS.32.customCSS.css",
             "widgetTitle": "Legend",
+            "readAccess": "public"
+        }
+    },
+    "widget.34": {
+        "name": "Custom Behavior Script",
+        "instance": "CustomBehaviorScript",
+        "parameters": {
+            "customScript": "widget.CustomBehaviorScript.34.customScript.js",
+            "widgetTitle": "Marker Services Hover",
+            "readAccess": "public"
+        }
+    },
+    "widget.35": {
+        "name": "Draggable Marker Tile",
+        "instance": "MarkerTile",
+        "parameters": {
+            "customScript": "",
+            "controlColor": "rgb(48,84,107)",
+            "markerIconset": [
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/QYb_Mu7_Hgp_[ImAgE]_[G].png"
+            ],
+            "markerSize": 32,
+            "hoverTip": "",
+            "className": "",
+            "wizardName": "MapItemTemplate",
+            "guestLoginDrag": true,
+            "onDragEndScript": "widget.MarkerTile.35.onDragEndScript.js",
+            "profileIcon": null,
+            "formatTipScript": "",
+            "widgetTitle": "",
+            "readAccess": "public",
+            "position": "RIGHT_CENTER"
+        }
+    },
+    "widget.36": {
+        "name": "Marker Wizard",
+        "instance": "WizardBuilder",
+        "parameters": {
+            "metadata": {
+                "class": "DescisionNode",
+                "_diagramState": {
+                    "x": -50,
+                    "y": 152
+                },
+                "children": [
+                    {
+                        "class": "Node",
+                        "_diagramState": {
+                            "x": -39,
+                            "y": 214
+                        }
+                    },
+                    {
+                        "title": "Default Wizard Step One",
+                        "class": "AttributesTableNode",
+                        "fields": [
+                            []
+                        ],
+                        "_diagramState": {
+                            "x": 130,
+                            "y": 75
+                        },
+                        "children": [
+                            {
+                                "class": "Node",
+                                "_diagramState": {
+                                    "x": 509,
+                                    "y": 300
+                                }
+                            }
+                        ],
+                        "builderMetadata": {
+                            "positions": {
+                                "title": {
+                                    "modules": [
+                                        {
+                                            "type": "WizardSteps",
+                                            "config": {
+                                                "iconValue": "",
+                                                "className": "",
+                                                "manualValue": "1",
+                                                "width": 399,
+                                                "height": 420,
+                                                "labelMethod": "auto",
+                                                "elasticity": true,
+                                                "minHeight": 284,
+                                                "minWidth": 400,
+                                                "showSteps": true
+                                            }
+                                        }
+                                    ]
+                                },
+                                "content": {
+                                    "modules": [
+                                        {
+                                            "type": "WizardTitleField",
+                                            "config": {
+                                                "label": "Title",
+                                                "message": "add a title",
+                                                "className": "",
+                                                "maxChars": 0,
+                                                "textFormatScript": ""
+                                            }
+                                        },
+                                        {
+                                            "type": "WizardDescriptionField",
+                                            "config": {
+                                                "label": "Description",
+                                                "message": "add a description",
+                                                "lines": 4,
+                                                "mandatory": true,
+                                                "showAudios": true,
+                                                "showImages": true,
+                                                "showDocuments": true,
+                                                "showVideos": true,
+                                                "className": "",
+                                                "maxChars": 0,
+                                                "showExpandInput": true,
+                                                "toolbarPosition": "bottom",
+                                                "textFormatScript": "",
+                                                "mediaIconTint": "rgb(100, 149, 237)"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "footer": {
+                                    "modules": [
+                                        {
+                                            "type": "WizardButtons",
+                                            "config": {
+                                                "className": "",
+                                                "reduceOpacity": false,
+                                                "onCompleteScript": "widget.WizardBuilder.36.metadata.children.1.builderMetadata.positions.footer.modules.0.config.onCompleteScript.js",
+                                                "labelForCancel": "cancel",
+                                                "labelForSubmit": "Save",
+                                                "labelForNext": "next",
+                                                "labelForPrevious": "previous",
+                                                "showCancel": false
+                                            }
+                                        }
+                                    ]
+                                },
+                                "menu": {
+                                    "modules": []
+                                }
+                            },
+                            "positionList": [
+                                "title",
+                                "content",
+                                "footer",
+                                "menu"
+                            ]
+                        }
+                    }
+                ]
+            },
+            "beforeSubmitScript": "",
+            "onCreateScript": "",
+            "onUpdateScript": "",
+            "onSaveScript": "",
+            "templateName": "DailyWizardTemplate",
+            "widgetTitle": "DailyWizardTemplate",
+            "readAccess": "public"
+        }
+    },
+    "widget.37": {
+        "name": "Info-Window",
+        "instance": "InfoWindowBuilder",
+        "parameters": {
+            "metadata": {
+                "positions": {
+                    "title": {
+                        "modules": [
+                            {
+                                "type": "DefaultTitle",
+                                "config": {
+                                    "className": "",
+                                    "maxChars": 0
+                                }
+                            }
+                        ]
+                    },
+                    "content": {
+                        "modules": [
+                            {
+                                "type": "DefaultDescription",
+                                "config": {
+                                    "className": "",
+                                    "imageWidth": 300,
+                                    "imageHeight": 240,
+                                    "multiImageWidth": 100,
+                                    "multiImageHeight": 75,
+                                    "portraitImageWidth": 75,
+                                    "portraitImageHeight": 100,
+                                    "autoArrange": true,
+                                    "oneLine": true,
+                                    "maxChars": 0,
+                                    "maxWidth": 0,
+                                    "showAudios": true,
+                                    "showVideos": true,
+                                    "showImages": true,
+                                    "showDocuments": true,
+                                    "showLinks": true,
+                                    "showExternalContent": true,
+                                    "embedPortrait": true,
+                                    "preferLocalContent": true,
+                                    "portraitClip": true
+                                }
+                            }
+                        ]
+                    },
+                    "footer": {
+                        "modules": []
+                    },
+                    "menu": {
+                        "modules": []
+                    }
+                },
+                "positionList": [
+                    "title",
+                    "content",
+                    "footer",
+                    "menu"
+                ]
+            },
+            "templateName": "DailyDetail",
+            "widgetTitle": "DailyDetail",
             "readAccess": "public"
         }
     }
