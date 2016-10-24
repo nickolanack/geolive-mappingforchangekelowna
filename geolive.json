@@ -3334,5 +3334,38 @@
             "widgetTitle": "Poly Behavior",
             "readAccess": "public"
         }
+    },
+    "widget.31": {
+        "name": "Legend",
+        "instance": "Legend",
+        "parameters": {
+            "position": "LEFT_CENTER",
+            "style": "GeoliveLegend.css",
+            "useIconSet": false,
+            "draggableIcons": false,
+            "startMinimized": true,
+            "showToggle": false,
+            "guestLoginDrag": true,
+            "legendParams": [],
+            "editableLayerScript": "widget.Legend.31.editableLayerScript.js",
+            "formatLayerScript": "",
+            "formatLayerPopoverScript": "",
+            "formatLegendScript": "",
+            "onDragEndScript": "widget.Legend.31.onDragEndScript.js",
+            "iconSize": 30,
+            "defaultIcon": "DEFAULT",
+            "showEditLayerButtons": true,
+            "widgetTitle": "",
+            "readAccess": "public"
+        }
+    },
+    "widget.32": {
+        "name": "Custom CSS",
+        "instance": "CSS",
+        "parameters": {
+            "customCSS": "widget.CSS.32.customCSS.css",
+            "widgetTitle": "Legend",
+            "readAccess": "public"
+        }
     }
 }
