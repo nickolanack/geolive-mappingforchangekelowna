@@ -17,9 +17,6 @@
 .LegendArea .legend_layer_title {
     display: none;
 }
-span.LegendLayerLight {
-    display: none;
-}
 
 .GeoliveLegend .LegendArea{
     background-color: transparent;
@@ -30,10 +27,21 @@ span.LegendLayerLight {
     margin-bottom: 25px;
 }
 
-.hide-textbox textarea {
-    display: none;
+
+div.LegendArea div.LegendLayer span.LegendLayerLight{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    content: "";
+    background-image: url(https://mobiledemo.geolive.ca/components/com_geolive/users_files/user_files_400/Uploads/1G1_[ImAgE]_jt_WSY_[G].png?thumb=%3E31x%3E31);
+    background-size: 100%;
+    top: -27px;
+    left: -10px;
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
 }
 
-.resource-tile .tileButtonContainer {
-    background-color: yellow;
+.LegendLayer.layer-1, .LegendLayer.layer-2{
+    display: none;
 }
