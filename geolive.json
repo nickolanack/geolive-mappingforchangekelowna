@@ -129,7 +129,7 @@
     },
     "widget.2": {
         "name": "Tile Buttons",
-        "instance": "DiscussionMenu",
+        "instance": "TileButtons",
         "parameters": {
             "sections": [
                 "fullscreen",
@@ -166,7 +166,7 @@
             "readAccess": "public",
             "subControlColor": "rgb(143, 21, 64)",
             "guestLoginDrag": true,
-            "onDragEndScript": "widget.DiscussionMenu.2.onDragEndScript.js",
+            "onDragEndScript": "widget.TileButtons.2.onDragEndScript.js",
             "useTipIconsetLayerTitle": false,
             "formatTipScript": "",
             "profileIcon": null,
@@ -3646,5 +3646,35 @@
             "widgetTitle": "DailyDetail",
             "readAccess": "public"
         }
+    },
+    "widget.39": {
+        "name": "Tile Buttons",
+        "instance": "TileButtons",
+        "parameters": {}
+    },
+    "widget.40": {
+        "name": "Tile Buttons",
+        "instance": "TileButtons",
+        "parameters": {}
+    },
+    "widget.41": {
+        "name": "Tile Buttons",
+        "instance": "TileButtons",
+        "parameters": {}
+    },
+    "widget.42": {
+        "name": "Tile Buttons",
+        "instance": "TileButtons",
+        "parameters": {}
+    },
+    "widget.43": {
+        "name": "Tile Buttons",
+        "instance": "TileButtons",
+        "parameters": {}
+    },
+    "widget.44": {
+        "name": "Tile Buttons",
+        "instance": "TileButtons",
+        "parameters": {}
     }
 }

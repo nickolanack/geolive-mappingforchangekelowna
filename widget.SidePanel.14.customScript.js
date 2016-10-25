@@ -197,10 +197,21 @@ map.setMapitemSelectFn(function(mapitem) {
 		throw Error('Requires GeoliveTemplateModule class');
 	}
 
-	infoTabViewController.open(new GeoliveTemplateModule(mapitem, {
-		template: "default",
-		page: isAgency(mapitem) ? "AgencyDetail" : (isService(mapitem) ? "ServiceProviderDetail" : "DailyDetail")
-	}), mapitem);
+	if (mapitem.getId() > 1) {
+
+
+		infoTabViewController.open(new GeoliveTemplateModule(mapitem, {
+			template: "default",
+			page: isAgency(mapitem) ? "AgencyDetail" : (isService(mapitem) ? "ServiceProviderDetail" : "DailyDetail")
+		}), mapitem);
+
+		showTab('info');
+	} else {
+
+		hideTab('info');
+
+	}
+
 	miniDetailViewController.open(new GeoliveTemplateModule(mapitem, {
 		template: "default",
 		page: "Detail"
@@ -217,7 +228,7 @@ map.setMapitemSelectFn(function(mapitem) {
 		MapFactory.EnableMouseEditing(mapitem);
 
 
-		if (!isAgency(mapitem)) {
+		if (isService(mapitem)) {
 			showTab('agency');
 			displayAgencyFor(mapitem, userHasWriteAccess);
 		}
