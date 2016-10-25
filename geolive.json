@@ -3647,34 +3647,39 @@
             "readAccess": "public"
         }
     },
-    "widget.39": {
-        "name": "Tile Buttons",
-        "instance": "TileButtons",
-        "parameters": {}
-    },
-    "widget.40": {
-        "name": "Tile Buttons",
-        "instance": "TileButtons",
-        "parameters": {}
-    },
-    "widget.41": {
-        "name": "Tile Buttons",
-        "instance": "TileButtons",
-        "parameters": {}
-    },
-    "widget.42": {
-        "name": "Tile Buttons",
-        "instance": "TileButtons",
-        "parameters": {}
-    },
-    "widget.43": {
-        "name": "Tile Buttons",
-        "instance": "TileButtons",
-        "parameters": {}
-    },
-    "widget.44": {
-        "name": "Tile Buttons",
-        "instance": "TileButtons",
-        "parameters": {}
+    "widget.46": {
+        "name": "Reuseable Module Group",
+        "instance": "ReusableModuleGroup",
+        "parameters": {
+            "metadata": {
+                "positions": {
+                    "content": {
+                        "modules": [
+                            {
+                                "type": "WizardTitleField",
+                                "config": {
+                                    "label": "Title",
+                                    "message": "add a title",
+                                    "className": "",
+                                    "maxChars": 0,
+                                    "textFormatScript": ""
+                                }
+                            }
+                        ]
+                    }
+                },
+                "positionList": [
+                    "content"
+                ]
+            },
+            "reuseIdentifier": "SomeModulesList",
+            "contentPosition": "content",
+            "contentTypes": [
+                "*",
+                ""
+            ],
+            "widgetTitle": "",
+            "readAccess": "public"
+        }
     }
 }
