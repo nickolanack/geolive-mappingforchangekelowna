@@ -3476,15 +3476,15 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 130,
-                            "y": 75
+                            "x": 160,
+                            "y": 105
                         },
                         "children": [
                             {
                                 "class": "Node",
                                 "_diagramState": {
-                                    "x": 509,
-                                    "y": 300
+                                    "x": 524,
+                                    "y": 279
                                 }
                             }
                         ],
@@ -3512,32 +3512,9 @@
                                 "content": {
                                     "modules": [
                                         {
-                                            "type": "WizardTitleField",
+                                            "type": "ReusableArray",
                                             "config": {
-                                                "label": "Title",
-                                                "message": "add a title",
-                                                "className": "",
-                                                "maxChars": 0,
-                                                "textFormatScript": ""
-                                            }
-                                        },
-                                        {
-                                            "type": "WizardDescriptionField",
-                                            "config": {
-                                                "label": "Description",
-                                                "message": "add a description",
-                                                "lines": 4,
-                                                "mandatory": true,
-                                                "showAudios": true,
-                                                "showImages": true,
-                                                "showDocuments": true,
-                                                "showVideos": true,
-                                                "className": "",
-                                                "maxChars": 0,
-                                                "showExpandInput": true,
-                                                "toolbarPosition": "bottom",
-                                                "textFormatScript": "",
-                                                "mediaIconTint": "rgb(100, 149, 237)"
+                                                "widgetId": "46"
                                             }
                                         }
                                     ]
@@ -3664,6 +3641,35 @@
                                     "maxChars": 0,
                                     "textFormatScript": ""
                                 }
+                            },
+                            {
+                                "type": "WizardGeocodeAddress",
+                                "config": {
+                                    "label": "Location",
+                                    "message": "set the location",
+                                    "className": "",
+                                    "maxChars": 0,
+                                    "textFormatScript": ""
+                                }
+                            },
+                            {
+                                "type": "WizardDescriptionField",
+                                "config": {
+                                    "label": "Description",
+                                    "message": "add a description",
+                                    "lines": 3,
+                                    "mandatory": false,
+                                    "showAudios": true,
+                                    "showImages": true,
+                                    "showDocuments": true,
+                                    "showVideos": true,
+                                    "className": "",
+                                    "maxChars": 0,
+                                    "showExpandInput": true,
+                                    "toolbarPosition": "bottom",
+                                    "textFormatScript": "",
+                                    "mediaIconTint": "rgb(100, 149, 237)"
+                                }
                             }
                         ]
                     }
@@ -3675,10 +3681,12 @@
             "reuseIdentifier": "SomeModulesList",
             "contentPosition": "content",
             "contentTypes": [
-                "*",
+                "wizard",
+                "wizard.mapitem",
+                "array",
                 ""
             ],
-            "widgetTitle": "",
+            "widgetTitle": "Generic Wizard Fields",
             "readAccess": "public"
         }
     }
