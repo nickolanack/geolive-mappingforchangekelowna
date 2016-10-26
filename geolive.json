@@ -307,15 +307,15 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 209,
-                            "y": 69
+                            "x": 219,
+                            "y": 79
                         },
                         "children": [
                             {
                                 "class": "Node",
                                 "_diagramState": {
-                                    "x": 451,
-                                    "y": 641
+                                    "x": 583,
+                                    "y": 776
                                 }
                             }
                         ],
@@ -335,42 +335,9 @@
                                             }
                                         },
                                         {
-                                            "type": "WizardTitleField",
+                                            "type": "ReusableArray",
                                             "config": {
-                                                "label": "Name",
-                                                "message": "add a title",
-                                                "className": "",
-                                                "maxChars": 0,
-                                                "textFormatScript": ""
-                                            }
-                                        },
-                                        {
-                                            "type": "WizardGeocodeAddress",
-                                            "config": {
-                                                "label": "Location",
-                                                "message": "set the location",
-                                                "className": "",
-                                                "maxChars": 0,
-                                                "textFormatScript": ""
-                                            }
-                                        },
-                                        {
-                                            "type": "WizardDescriptionField",
-                                            "config": {
-                                                "label": "Description",
-                                                "message": "add a description",
-                                                "lines": 3,
-                                                "mandatory": false,
-                                                "showAudios": true,
-                                                "showImages": true,
-                                                "showDocuments": true,
-                                                "showVideos": true,
-                                                "className": "",
-                                                "maxChars": 0,
-                                                "showExpandInput": true,
-                                                "toolbarPosition": "bottom",
-                                                "textFormatScript": "",
-                                                "mediaIconTint": "rgb(143, 21, 64)"
+                                                "widgetId": "46"
                                             }
                                         },
                                         {
@@ -636,11 +603,11 @@
                                                         "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_eI5_Wj9_9fx_[G].png": ""
                                                     }
                                                 },
-                                                "initSelectedScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.9.config.initSelectedScript.js",
+                                                "initSelectedScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.7.config.initSelectedScript.js",
                                                 "className": "",
                                                 "requireSelection": true,
                                                 "allowMultipleSelection": false,
-                                                "initializationScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.9.config.initializationScript.js"
+                                                "initializationScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.7.config.initializationScript.js"
                                             }
                                         },
                                         {
@@ -2220,15 +2187,15 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 157,
-                            "y": 98
+                            "x": 167,
+                            "y": 108
                         },
                         "children": [
                             {
                                 "class": "Node",
                                 "_diagramState": {
-                                    "x": 489,
-                                    "y": 314
+                                    "x": 531,
+                                    "y": 393
                                 }
                             }
                         ],
@@ -2243,46 +2210,14 @@
                                             "type": "WizardStepTitle",
                                             "config": {
                                                 "className": "",
-                                                "text": "Agency Details"
+                                                "text": "Agency Details",
+                                                "identifier": "htmlLabel"
                                             }
                                         },
                                         {
-                                            "type": "WizardTitleField",
+                                            "type": "ReusableArray",
                                             "config": {
-                                                "label": "Name",
-                                                "message": "add a title",
-                                                "className": "",
-                                                "maxChars": 0,
-                                                "textFormatScript": ""
-                                            }
-                                        },
-                                        {
-                                            "type": "WizardGeocodeAddress",
-                                            "config": {
-                                                "label": "Location",
-                                                "message": "set the location",
-                                                "className": "",
-                                                "maxChars": 0,
-                                                "textFormatScript": ""
-                                            }
-                                        },
-                                        {
-                                            "type": "WizardDescriptionField",
-                                            "config": {
-                                                "label": "Description",
-                                                "message": "add a description",
-                                                "lines": 4,
-                                                "mandatory": true,
-                                                "showAudios": true,
-                                                "showImages": true,
-                                                "showDocuments": true,
-                                                "showVideos": true,
-                                                "className": "",
-                                                "maxChars": 0,
-                                                "showExpandInput": true,
-                                                "toolbarPosition": "bottom",
-                                                "textFormatScript": "",
-                                                "mediaIconTint": "rgb(113, 3, 3)"
+                                                "widgetId": "46"
                                             }
                                         },
                                         {
@@ -3476,15 +3411,15 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 160,
-                            "y": 105
+                            "x": 180,
+                            "y": 125
                         },
                         "children": [
                             {
                                 "class": "Node",
                                 "_diagramState": {
-                                    "x": 524,
-                                    "y": 279
+                                    "x": 544,
+                                    "y": 299
                                 }
                             }
                         ],
