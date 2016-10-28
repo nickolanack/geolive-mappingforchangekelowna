@@ -307,8 +307,8 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 71,
-                            "y": 139
+                            "x": 81,
+                            "y": 149
                         },
                         "children": [
                             {
@@ -1733,7 +1733,7 @@
                                                 "initializationScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.36.config.initializationScript.js",
                                                 "onSelectScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.36.config.onSelectScript.js",
                                                 "onDeselectScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.36.config.onDeselectScript.js",
-                                                "onRenderSelectableScript": "",
+                                                "onRenderSelectableScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.36.config.onRenderSelectableScript.js",
                                                 "onSubmitWizardWithSelectedScript": ""
                                             }
                                         },
@@ -3617,11 +3617,11 @@
                                     "initSelectedScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.1.config.initSelectedScript.js",
                                     "className": "",
                                     "requireSelection": true,
-                                    "allowMultipleSelection": true,
+                                    "allowMultipleSelection": false,
                                     "initializationScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.1.config.initializationScript.js",
                                     "onSelectScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.1.config.onSelectScript.js",
                                     "onDeselectScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.1.config.onDeselectScript.js",
-                                    "onRenderSelectableScript": "",
+                                    "onRenderSelectableScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.1.config.onRenderSelectableScript.js",
                                     "onSubmitWizardWithSelectedScript": ""
                                 }
                             },
@@ -3793,11 +3793,11 @@
                                     "initSelectedScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.6.config.initSelectedScript.js",
                                     "className": "",
                                     "requireSelection": true,
-                                    "allowMultipleSelection": true,
+                                    "allowMultipleSelection": false,
                                     "initializationScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.6.config.initializationScript.js",
                                     "onSelectScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.6.config.onSelectScript.js",
                                     "onDeselectScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.6.config.onDeselectScript.js",
-                                    "onRenderSelectableScript": "",
+                                    "onRenderSelectableScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.6.config.onRenderSelectableScript.js",
                                     "onSubmitWizardWithSelectedScript": ""
                                 }
                             },
