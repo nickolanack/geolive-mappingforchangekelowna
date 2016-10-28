@@ -3585,7 +3585,7 @@
                                 "type": "WizardStepTitle",
                                 "config": {
                                     "className": "",
-                                    "text": "Gender Served",
+                                    "text": "<div class=\"label\"><span class=\"lbl-txt\">Gender Served<\/span><\/div>",
                                     "identifier": "htmlLabel"
                                 }
                             },
@@ -3617,7 +3617,7 @@
                                     "initSelectedScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.1.config.initSelectedScript.js",
                                     "className": "",
                                     "requireSelection": true,
-                                    "allowMultipleSelection": false,
+                                    "allowMultipleSelection": true,
                                     "initializationScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.1.config.initializationScript.js",
                                     "onSelectScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.1.config.onSelectScript.js",
                                     "onDeselectScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.1.config.onDeselectScript.js",
@@ -3762,6 +3762,14 @@
                                 }
                             },
                             {
+                                "type": "WizardStepTitle",
+                                "config": {
+                                    "className": "",
+                                    "text": "<div class=\"label\"><span class=\"lbl-txt\">Primary Target Resident<\/span><\/div>",
+                                    "identifier": "htmlLabel"
+                                }
+                            },
+                            {
                                 "type": "WizardIconizedScriptSelect",
                                 "config": {
                                     "icons": [
@@ -3782,13 +3790,13 @@
                                             "components\/com_geolive\/users_files\/user_files_994\/Uploads\/RF8_U7a_[G]_StY_[ImAgE].png": ""
                                         }
                                     },
-                                    "initSelectedScript": "",
+                                    "initSelectedScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.6.config.initSelectedScript.js",
                                     "className": "",
                                     "requireSelection": true,
                                     "allowMultipleSelection": true,
-                                    "initializationScript": "",
-                                    "onSelectScript": "",
-                                    "onDeselectScript": "",
+                                    "initializationScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.6.config.initializationScript.js",
+                                    "onSelectScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.6.config.onSelectScript.js",
+                                    "onDeselectScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.6.config.onDeselectScript.js",
                                     "onRenderSelectableScript": "",
                                     "onSubmitWizardWithSelectedScript": ""
                                 }
