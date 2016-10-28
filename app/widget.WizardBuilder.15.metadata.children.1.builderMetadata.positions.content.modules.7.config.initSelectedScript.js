@@ -4,9 +4,9 @@ AttributeWizardModuleUtilities.QueryFieldValue(object, {
                             item:mapItem.getId(),
                             type:mapItem.getType(),
                             table:"serviceProviderAttributes",
-                            field:"housingTypeDormitoryNumberOfBeds"
+                            field:"buildingType"
 
                         },function(value){
-callback(0);
+callback((["emergency", "transitional", "supportive", "nonprofit", "rental"]).indexOf(value));
 });
 

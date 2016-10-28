@@ -307,8 +307,8 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 232,
-                            "y": 91
+                            "x": 282,
+                            "y": 141
                         },
                         "children": [
                             {
@@ -607,7 +607,8 @@
                                                 "className": "",
                                                 "requireSelection": true,
                                                 "allowMultipleSelection": false,
-                                                "initializationScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.7.config.initializationScript.js"
+                                                "initializationScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.7.config.initializationScript.js",
+                                                "onSubmitWizardWithSelectedScript": ""
                                             }
                                         },
                                         {
@@ -763,14 +764,6 @@
                                             }
                                         },
                                         {
-                                            "type": "WizardStepTitle",
-                                            "config": {
-                                                "className": "",
-                                                "text": "(Emergency Housing Beds)",
-                                                "identifier": "htmlLabel"
-                                            }
-                                        },
-                                        {
                                             "type": "plugin.Attributes.WizardTextAttribute",
                                             "config": {
                                                 "attributeFields": [
@@ -882,14 +875,6 @@
                                                 "multiMessage": "",
                                                 "formatter": "integer",
                                                 "iconTint": "rgb(100, 149, 237)"
-                                            }
-                                        },
-                                        {
-                                            "type": "WizardStepTitle",
-                                            "config": {
-                                                "className": "",
-                                                "text": "(Transitional Beds)",
-                                                "identifier": "htmlLabel"
                                             }
                                         },
                                         {
@@ -1169,14 +1154,6 @@
                                                 "multiMessage": "",
                                                 "formatter": "none",
                                                 "iconTint": "rgb(100, 149, 237)"
-                                            }
-                                        },
-                                        {
-                                            "type": "WizardStepTitle",
-                                            "config": {
-                                                "className": "",
-                                                "text": "(Supportive)",
-                                                "identifier": "htmlLabel"
                                             }
                                         },
                                         {
@@ -1749,8 +1726,9 @@
                                                 "initSelectedScript": "",
                                                 "className": "",
                                                 "requireSelection": true,
-                                                "allowMultipleSelection": false,
-                                                "initializationScript": ""
+                                                "allowMultipleSelection": true,
+                                                "initializationScript": "",
+                                                "onSubmitWizardWithSelectedScript": ""
                                             }
                                         },
                                         {
@@ -3626,25 +3604,8 @@
                                     "className": "",
                                     "requireSelection": true,
                                     "allowMultipleSelection": false,
-                                    "initializationScript": ""
-                                }
-                            },
-                            {
-                                "type": "plugin.Attributes.WizardTextAttribute",
-                                "config": {
-                                    "attributeFields": [],
-                                    "className": "",
-                                    "label": "{field.label}",
-                                    "message": "",
-                                    "lines": 1,
-                                    "maxChars": 0,
-                                    "mandatory": false,
-                                    "multiEntry": false,
-                                    "autocomplete": true,
-                                    "muliTemplate": "lines",
-                                    "multiMessage": "",
-                                    "formatter": "none",
-                                    "iconTint": "rgb(100, 149, 237)"
+                                    "initializationScript": "",
+                                    "onSubmitWizardWithSelectedScript": ""
                                 }
                             },
                             {
@@ -3656,76 +3617,43 @@
                                             "tableId": "1",
                                             "tableName": "serviceProviderAttributes",
                                             "tableSuffix": "_9632",
-                                            "title": "servesAge16_18",
-                                            "label": "Provides Services to Demographic: 16 - 18",
+                                            "title": "demographicServed",
+                                            "label": "Demographic Served",
                                             "description": "",
-                                            "fieldType": "boolean",
+                                            "fieldType": "text",
                                             "color": "rgb(undefined, undefined, undefined)",
                                             "searchability": "public",
                                             "editability": "registered",
-                                            "fieldBooleanOptions": {
-                                                "trueIcon": false,
-                                                "falseIcon": false,
-                                                "hideFalse": true,
-                                                "trueLabel": "",
-                                                "falseLabel": "",
-                                                "useFieldIcon": false
-                                            },
-                                            "allowMultiple": false
-                                        },
-                                        {
-                                            "visibility": "public",
-                                            "tableId": "1",
-                                            "tableName": "serviceProviderAttributes",
-                                            "tableSuffix": "_9632",
-                                            "title": "servesAge19Plus",
-                                            "label": "Provides Services to Demographic: 19+",
-                                            "description": "",
-                                            "fieldType": "boolean",
-                                            "color": "rgb(NaN, NaN, NaN)",
-                                            "searchability": "public",
-                                            "editability": "registered",
-                                            "fieldBooleanOptions": {
-                                                "trueIcon": false,
-                                                "falseIcon": false,
-                                                "hideFalse": true,
-                                                "trueLabel": "",
-                                                "falseLabel": "",
-                                                "useFieldIcon": false
-                                            },
-                                            "allowMultiple": false
-                                        },
-                                        {
-                                            "visibility": "public",
-                                            "tableId": "1",
-                                            "tableName": "serviceProviderAttributes",
-                                            "tableSuffix": "_9632",
-                                            "title": "servesAge55Plus",
-                                            "label": "Provides Services to Demographic: 55+",
-                                            "description": "",
-                                            "fieldType": "boolean",
-                                            "color": "rgb(undefined, undefined, undefined)",
-                                            "searchability": "public",
-                                            "editability": "registered",
-                                            "fieldBooleanOptions": {
-                                                "trueIcon": false,
-                                                "falseIcon": false,
-                                                "hideFalse": true,
-                                                "trueLabel": "",
-                                                "falseLabel": "",
-                                                "useFieldIcon": false
+                                            "fieldTextOptions": {
+                                                "textType": "options",
+                                                "inputOptions": {
+                                                    "buildAutocomplete": true,
+                                                    "requireModeration": false,
+                                                    "limitMaxChars": 0,
+                                                    "limitMaxWords": 0,
+                                                    "allowHtml": false,
+                                                    "allowMedia": true,
+                                                    "allowLinks": true
+                                                },
+                                                "listOptions": {
+                                                    "takeSugesstions": true,
+                                                    "buildTree": false,
+                                                    "iconize": false,
+                                                    "colorize": false
+                                                }
                                             },
                                             "allowMultiple": false
                                         }
                                     ],
                                     "className": "",
-                                    "label": "",
+                                    "label": "{field.label}",
                                     "showLabel": false,
+                                    "showAddWord": false,
                                     "fontColor": "rgb(0, 0, 0)",
                                     "hoverColor": "rgb(143, 188, 143)",
                                     "selectedColor": "rgb(143, 188, 143)",
                                     "shuffleTags": false,
-                                    "tags": "[[1,  \"16 -18\"], [1, \"19+\"], [1, \"55+\"]]"
+                                    "tags": "[]"
                                 }
                             },
                             {
@@ -3841,7 +3769,8 @@
                                     "className": "",
                                     "requireSelection": true,
                                     "allowMultipleSelection": true,
-                                    "initializationScript": ""
+                                    "initializationScript": "",
+                                    "onSubmitWizardWithSelectedScript": ""
                                 }
                             },
                             {
@@ -4772,6 +4701,7 @@
                                     "className": "",
                                     "label": "Describe the level of tolerance related to illegal and legal (i.e. alcohol or prescription drugs) substances.",
                                     "showLabel": false,
+                                    "showAddWord": false,
                                     "fontColor": "rgb(0, 0, 0)",
                                     "hoverColor": "rgb(143, 188, 143)",
                                     "selectedColor": "rgb(143, 188, 143)",
@@ -4819,6 +4749,7 @@
                                     "className": "",
                                     "label": "Describe the level of tolerance related to illegal and legal (i.e. alcohol or prescription drugs) substances.",
                                     "showLabel": false,
+                                    "showAddWord": false,
                                     "fontColor": "rgb(0, 0, 0)",
                                     "hoverColor": "rgb(143, 188, 143)",
                                     "selectedColor": "rgb(143, 188, 143)",
@@ -5013,13 +4944,14 @@
                                         }
                                     ],
                                     "className": "",
-                                    "label": "Support Required",
+                                    "label": "{field.label}",
                                     "showLabel": false,
+                                    "showAddWord": false,
                                     "fontColor": "rgb(0, 0, 0)",
                                     "hoverColor": "rgb(143, 188, 143)",
                                     "selectedColor": "rgb(143, 188, 143)",
                                     "shuffleTags": false,
-                                    "tags": "[[1,  \"tag one\"], [1, \"tag two\"]]"
+                                    "tags": ""
                                 }
                             }
                         ]
