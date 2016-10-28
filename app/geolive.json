@@ -307,8 +307,8 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 282,
-                            "y": 141
+                            "x": 292,
+                            "y": 151
                         },
                         "children": [
                             {
@@ -1726,8 +1726,8 @@
                                                 "initSelectedScript": "",
                                                 "className": "",
                                                 "requireSelection": true,
-                                                "allowMultipleSelection": true,
-                                                "initializationScript": "",
+                                                "allowMultipleSelection": false,
+                                                "initializationScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.36.config.initializationScript.js",
                                                 "onSubmitWizardWithSelectedScript": ""
                                             }
                                         },
