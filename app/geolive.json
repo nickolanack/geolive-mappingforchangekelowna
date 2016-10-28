@@ -307,15 +307,15 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 302,
-                            "y": 161
+                            "x": 208,
+                            "y": 131
                         },
                         "children": [
                             {
                                 "class": "Node",
                                 "_diagramState": {
-                                    "x": 526,
-                                    "y": 693
+                                    "x": 552,
+                                    "y": 848
                                 }
                             }
                         ],
@@ -608,6 +608,9 @@
                                                 "requireSelection": true,
                                                 "allowMultipleSelection": false,
                                                 "initializationScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.7.config.initializationScript.js",
+                                                "onSelectScript": "",
+                                                "onDeselectScript": "",
+                                                "onRenderSelectableScript": "",
                                                 "onSubmitWizardWithSelectedScript": ""
                                             }
                                         },
@@ -1726,8 +1729,11 @@
                                                 "initSelectedScript": "",
                                                 "className": "",
                                                 "requireSelection": true,
-                                                "allowMultipleSelection": false,
+                                                "allowMultipleSelection": true,
                                                 "initializationScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.36.config.initializationScript.js",
+                                                "onSelectScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.36.config.onSelectScript.js",
+                                                "onDeselectScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.36.config.onDeselectScript.js",
+                                                "onRenderSelectableScript": "",
                                                 "onSubmitWizardWithSelectedScript": ""
                                             }
                                         },
