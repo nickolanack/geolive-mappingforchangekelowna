@@ -3614,13 +3614,13 @@
                                             "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_zBj_[ImAgE]_kQr_5oA.png": ""
                                         }
                                     },
-                                    "initSelectedScript": "",
+                                    "initSelectedScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.1.config.initSelectedScript.js",
                                     "className": "",
                                     "requireSelection": true,
                                     "allowMultipleSelection": false,
                                     "initializationScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.1.config.initializationScript.js",
-                                    "onSelectScript": "",
-                                    "onDeselectScript": "",
+                                    "onSelectScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.1.config.onSelectScript.js",
+                                    "onDeselectScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.1.config.onDeselectScript.js",
                                     "onRenderSelectableScript": "",
                                     "onSubmitWizardWithSelectedScript": ""
                                 }
