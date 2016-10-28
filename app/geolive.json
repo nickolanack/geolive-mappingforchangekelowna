@@ -3582,6 +3582,14 @@
                     "content": {
                         "modules": [
                             {
+                                "type": "WizardStepTitle",
+                                "config": {
+                                    "className": "",
+                                    "text": "Gender Served",
+                                    "identifier": "htmlLabel"
+                                }
+                            },
+                            {
                                 "type": "WizardIconizedScriptSelect",
                                 "config": {
                                     "icons": [
@@ -3610,7 +3618,10 @@
                                     "className": "",
                                     "requireSelection": true,
                                     "allowMultipleSelection": false,
-                                    "initializationScript": "",
+                                    "initializationScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.1.config.initializationScript.js",
+                                    "onSelectScript": "",
+                                    "onDeselectScript": "",
+                                    "onRenderSelectableScript": "",
                                     "onSubmitWizardWithSelectedScript": ""
                                 }
                             },
@@ -3776,6 +3787,9 @@
                                     "requireSelection": true,
                                     "allowMultipleSelection": true,
                                     "initializationScript": "",
+                                    "onSelectScript": "",
+                                    "onDeselectScript": "",
+                                    "onRenderSelectableScript": "",
                                     "onSubmitWizardWithSelectedScript": ""
                                 }
                             },

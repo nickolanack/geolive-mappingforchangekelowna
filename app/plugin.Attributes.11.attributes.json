@@ -2034,6 +2034,38 @@
                         }
                     },
                     "allowMultiple": false
+                },
+                {
+                    "visibility": "public",
+                    "tableId": "1",
+                    "tableName": "serviceProviderAttributes",
+                    "tableSuffix": "_9632",
+                    "title": "genderServed",
+                    "label": "Gender Served",
+                    "description": "",
+                    "fieldType": "text",
+                    "color": "rgb(undefined, undefined, undefined)",
+                    "searchability": "public",
+                    "editability": "registered",
+                    "fieldTextOptions": {
+                        "textType": "options",
+                        "inputOptions": {
+                            "buildAutocomplete": true,
+                            "requireModeration": false,
+                            "limitMaxChars": 0,
+                            "limitMaxWords": 0,
+                            "allowHtml": false,
+                            "allowMedia": true,
+                            "allowLinks": true
+                        },
+                        "listOptions": {
+                            "takeSugesstions": true,
+                            "buildTree": false,
+                            "iconize": false,
+                            "colorize": false
+                        }
+                    },
+                    "allowMultiple": true
                 }
             ]
         }
