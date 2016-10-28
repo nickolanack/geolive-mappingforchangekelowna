@@ -1,14 +1,14 @@
 AttributeWizardModuleUtilities.QueryFieldValue(object, {
 
-                            item:mapItem.getId(),
-                            type:mapItem.getType(),
-                            table:"serviceProviderAttributes",
-                            field:"servicesProvided"
+	item: mapItem.getId(),
+	type: mapItem.getType(),
+	table: "serviceProviderAttributes",
+	field: "servicesProvided"
 
-                        },function(values){
+}, function(values) {
 
-callback(values.map(function(a){
-return servicesArray.indexOf(a);
-}));
+	callback(values.map(function(a) {
+		return valuesArray.indexOf(a);
+	}));
 
 });

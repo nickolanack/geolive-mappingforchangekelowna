@@ -1,4 +1,4 @@
-var servicesArray = [
+var valuesArray = [
 
 	"Case Management",
 	"Referrals to other Agencies",
@@ -15,11 +15,11 @@ WizardHelper.addModuleDataAggregateFunctionForStep(stepIndex, position, moduleIn
 	attributes.servicesProvided = object.values;
 });
 
-var addService = function(nameOrIndex) {
+var addValue = function(nameOrIndex) {
 
 	var name = nameOrIndex;
 	if ((typeof nameOrIndex) === 'number') {
-		name = servicesArray[nameOrIndex];
+		name = valuesArray[nameOrIndex];
 	}
 
 	if (!object.values) {
@@ -34,11 +34,11 @@ var addService = function(nameOrIndex) {
 }
 
 
-var removeService = function(nameOrIndex) {
+var removeValue = function(nameOrIndex) {
 
 	var name = nameOrIndex;
 	if ((typeof nameOrIndex) === 'number') {
-		name = servicesArray[nameOrIndex];
+		name = valuesArray[nameOrIndex];
 	}
 
 	if (!object.values) {

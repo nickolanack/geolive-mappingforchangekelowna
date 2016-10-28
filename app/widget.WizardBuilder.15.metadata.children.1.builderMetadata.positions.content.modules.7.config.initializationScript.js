@@ -1,15 +1,26 @@
+var valuesArray = [
+
+  'emergency',
+  'transitional',
+  'supportive',
+  'nonprofit',
+  'rental'
+
+];
+
+
 
 WizardHelper.declareAggregateFunctionObjectForStep(stepIndex, position, moduleIndex, "Attribute_serviceProviderAttributes_Object");
-WizardHelper.addModuleDataAggregateFunctionForStep(stepIndex, position, moduleIndex,  function(object, Attribute_serviceProviderAttributes_Object){
+WizardHelper.addModuleDataAggregateFunctionForStep(stepIndex, position, moduleIndex, function(object, Attribute_serviceProviderAttributes_Object) {
 
-			    		            	Attribute_serviceProviderAttributes_Object.buildingType=object.value;
-			    		            });
-			    		            
-			    		            
+  Attribute_serviceProviderAttributes_Object.buildingType = object.value;
+});
 
-var setHousingType=function(type){
-showHousingType(type);
-object.value=type;
+
+
+var setHousingType = function(type) {
+  showHousingType(type);
+  object.value = type;
 };
 
 var showHousingType = function(type) {
@@ -69,6 +80,7 @@ var showHousingType = function(type) {
   ];
 
   var hide = ([]).concat(emergencyHouseing, transitionalHousing, supportiveHousing, nonpHousing, rentalHousing);
+
 
   var typeMap = {
     'emergency': emergencyHouseing,
