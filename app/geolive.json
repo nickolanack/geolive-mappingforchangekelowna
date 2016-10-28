@@ -289,15 +289,15 @@
             "metadata": {
                 "class": "DescisionNode",
                 "_diagramState": {
-                    "x": -156,
-                    "y": 307
+                    "x": -209,
+                    "y": 507
                 },
                 "children": [
                     {
                         "class": "Node",
                         "_diagramState": {
-                            "x": -145,
-                            "y": 369
+                            "x": -199,
+                            "y": 567
                         }
                     },
                     {
@@ -307,8 +307,8 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 208,
-                            "y": 131
+                            "x": 238,
+                            "y": 161
                         },
                         "children": [
                             {
@@ -1726,7 +1726,7 @@
                                                         "components\/com_geolive\/users_files\/user_files_994\/Uploads\/Id4_[G]_Emk_HMJ_[ImAgE].png": ""
                                                     }
                                                 },
-                                                "initSelectedScript": "",
+                                                "initSelectedScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.36.config.initSelectedScript.js",
                                                 "className": "",
                                                 "requireSelection": true,
                                                 "allowMultipleSelection": true,
