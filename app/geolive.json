@@ -307,8 +307,8 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 81,
-                            "y": 149
+                            "x": 91,
+                            "y": 159
                         },
                         "children": [
                             {
@@ -1729,7 +1729,7 @@
                                                 "initSelectedScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.36.config.initSelectedScript.js",
                                                 "className": "",
                                                 "requireSelection": true,
-                                                "allowMultipleSelection": false,
+                                                "allowMultipleSelection": true,
                                                 "initializationScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.36.config.initializationScript.js",
                                                 "onSelectScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.36.config.onSelectScript.js",
                                                 "onDeselectScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.36.config.onDeselectScript.js",
@@ -3617,7 +3617,7 @@
                                     "initSelectedScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.1.config.initSelectedScript.js",
                                     "className": "",
                                     "requireSelection": true,
-                                    "allowMultipleSelection": false,
+                                    "allowMultipleSelection": true,
                                     "initializationScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.1.config.initializationScript.js",
                                     "onSelectScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.1.config.onSelectScript.js",
                                     "onDeselectScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.1.config.onDeselectScript.js",
@@ -3793,7 +3793,7 @@
                                     "initSelectedScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.6.config.initSelectedScript.js",
                                     "className": "",
                                     "requireSelection": true,
-                                    "allowMultipleSelection": false,
+                                    "allowMultipleSelection": true,
                                     "initializationScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.6.config.initializationScript.js",
                                     "onSelectScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.6.config.onSelectScript.js",
                                     "onDeselectScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.6.config.onDeselectScript.js",
@@ -5113,5 +5113,10 @@
             "widgetTitle": "",
             "readAccess": "public"
         }
+    },
+    "widget.55": {
+        "name": "Attribute Search Drop",
+        "instance": "AttributesSearchDropMarker",
+        "parameters": {}
     }
 }
