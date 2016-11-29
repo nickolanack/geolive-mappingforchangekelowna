@@ -2151,6 +2151,14 @@
                                     "formatValueElement": "",
                                     "formatContainerElement": ""
                                 }
+                            },
+                            {
+                                "type": "StreetView",
+                                "config": {
+                                    "className": "",
+                                    "showEmpty": false,
+                                    "displayImage": true
+                                }
                             }
                         ]
                     },
@@ -2166,7 +2174,8 @@
                     "content",
                     "footer",
                     "menu"
-                ]
+                ],
+                "_diagramState": []
             },
             "templateName": "ServiceProviderDetail",
             "widgetTitle": "ServiceProviderDetail",
@@ -2706,7 +2715,7 @@
                             {
                                 "type": "WizardScriptElement",
                                 "config": {
-                                    "script": "var button=new Element('button',{html:\"show all services for this agency\", 'class':'btn'});\nreturn button;",
+                                    "script": "var button=new Element('button',{html:\"show all services for this agency\", 'class':'btn'});\n\nbutton.addEvent('click',function(){\nvar filterManager=geolive.getContentFilterManager()\n filterManager.search(\n\t\t\t\t\t\t\tAttributeFilter.JoinFilter(\"serviceProviderAttributes\",[\n                                   {\n                                \t   field:\"agency\",\n                                \t   comparator:\"equalTo\",\n                                \t   value:mapItem.getId()\n                                   }])\n                                   \/\/ {}, optional filter options.\n                                   \/\/ optional callback \/\/if null calls filterManager.filter\n\t\t\t\t\t);\n\t\t\t\t\t\/\/let the world know.\n\t\t\t\t\tfilterManager.propagateFilterState(me, \"agency\", mapItem.getId());\n\n});\nreturn button;",
                                     "identifier": "customScriptElement"
                                 }
                             }
@@ -2724,7 +2733,8 @@
                     "content",
                     "footer",
                     "menu"
-                ]
+                ],
+                "_diagramState": []
             },
             "templateName": "AgencyDetail",
             "widgetTitle": "AgencyDetail",
@@ -2866,7 +2876,8 @@
                             {
                                 "type": "WizardScriptElement",
                                 "config": {
-                                    "script": "return new Asset.image(item.getIcon());"
+                                    "script": "return new Asset.image(item.getIcon());",
+                                    "identifier": "customScriptElement"
                                 }
                             },
                             {
@@ -2884,14 +2895,17 @@
                     "footer": {
                         "modules": [
                             {
-                                "type": "StreetView",
+                                "type": "DefaultEdit",
                                 "config": {
                                     "className": "",
-                                    "showEmpty": true
+                                    "dragConfirmMessage": "save new position",
+                                    "dragConfirm": false,
+                                    "geocodeMove": true,
+                                    "templateName": "MapItemTemplate",
+                                    "showEdit": false,
+                                    "showMove": false,
+                                    "showDelete": true
                                 }
-                            },
-                            {
-                                "type": "MapItemLink"
                             }
                         ]
                     },
@@ -2904,7 +2918,8 @@
                     "content",
                     "footer",
                     "menu"
-                ]
+                ],
+                "_diagramState": []
             },
             "templateName": "Detail",
             "widgetTitle": "Detail",
@@ -3026,6 +3041,10 @@
                     "Number of Single Bedroom Beds": {
                         "field": "attributes.1.housingTypeBedroomNumberOfBeds",
                         "formatter": "attributes.number"
+                    },
+                    "Services Provided": {
+                        "field": "attributes.1.servicesProvided",
+                        "formatter": "attributes.text"
                     },
                     "Provides Case Management Services": {
                         "field": "attributes.1.hasServiceCaseManagement",
@@ -3275,9 +3294,57 @@
                         "field": "attributes.1.smokingIsPermittedInUnits",
                         "formatter": "attributes.boolean"
                     },
+                    "Accommodations For Smoking": {
+                        "field": "attributes.1.accommodationsForSmoking",
+                        "formatter": "attributes.text"
+                    },
                     "Residents are required to abstain from alcohol and drugs": {
                         "field": "attributes.1.drugsAndAlcoholAreProhibited",
                         "formatter": "attributes.boolean"
+                    },
+                    "Level of Drugs and Alcohol Tolerence": {
+                        "field": "attributes.1.levelOfTolerence",
+                        "formatter": "attributes.text"
+                    },
+                    "Clean Time Requirement": {
+                        "field": "attributes.1.cleanTimeRequirement",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Length of Clean Time": {
+                        "field": "attributes.1.lengthOfCleanTime",
+                        "formatter": "attributes.number"
+                    },
+                    "Treatment\/Detox Required First": {
+                        "field": "attributes.1.treatmentDetoxRequiredFirst",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Residents Require Professional Support for Eligibility": {
+                        "field": "attributes.1.residentsRequireProfessionalSupport",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Supports Required For Eligibility": {
+                        "field": "attributes.1.supportsRequired",
+                        "formatter": "attributes.text"
+                    },
+                    "Referrals are Made Directly": {
+                        "field": "attributes.1.referralsMadeDirectly",
+                        "formatter": "attributes.boolean"
+                    },
+                    "Referrals Form": {
+                        "field": "attributes.1.referralsForm",
+                        "formatter": "attributes.text"
+                    },
+                    "Demographic Served": {
+                        "field": "attributes.1.demographicServed",
+                        "formatter": "attributes.text"
+                    },
+                    "Gender Served": {
+                        "field": "attributes.1.genderServed",
+                        "formatter": "attributes.text"
+                    },
+                    "Primary Target Resident": {
+                        "field": "attributes.1.primaryTargetResident",
+                        "formatter": "attributes.text"
                     },
                     "Website": {
                         "field": "attributes.2.website",
@@ -3964,7 +4031,7 @@
                 "wizard.mapitem",
                 ""
             ],
-            "widgetTitle": "Population Served",
+            "widgetTitle": "Form - Population Served",
             "readAccess": "public"
         }
     },
@@ -4030,7 +4097,7 @@
                 "array",
                 ""
             ],
-            "widgetTitle": "Title Address Description",
+            "widgetTitle": "Form - Title Address Description",
             "readAccess": "public"
         }
     },
@@ -4452,7 +4519,7 @@
                 "wizard.mapitem",
                 ""
             ],
-            "widgetTitle": "Income Level - Cost - Subsidies",
+            "widgetTitle": "Form - Income Level - Cost - Subsidies",
             "readAccess": "public"
         }
     },
@@ -4997,7 +5064,7 @@
                 "wizard.mapitem",
                 ""
             ],
-            "widgetTitle": "Other Restrictions",
+            "widgetTitle": "Form - Other Restrictions",
             "readAccess": "public"
         }
     },
@@ -5110,13 +5177,69 @@
             "contentTypes": [
                 ""
             ],
-            "widgetTitle": "",
+            "widgetTitle": "Form - Referrals",
             "readAccess": "public"
         }
     },
     "widget.55": {
         "name": "Attribute Search Drop",
         "instance": "AttributesSearchDropMarker",
+        "parameters": {}
+    },
+    "widget.56": {
+        "name": "Cluster Behavior",
+        "instance": "ClusterBehaviors",
+        "parameters": {}
+    },
+    "widget.57": {
+        "name": "Reuseable Module Group",
+        "instance": "ReusableModuleGroup",
+        "parameters": {
+            "metadata": [],
+            "reuseIdentifier": "SomeModulesList",
+            "contentPosition": "content",
+            "contentTypes": [
+                "infowindow",
+                "infowindow.mapitem",
+                ""
+            ],
+            "widgetTitle": "Info",
+            "readAccess": "public"
+        }
+    },
+    "widget.58": {
+        "name": "Map Layers Widget",
+        "instance": "Layers",
+        "parameters": {}
+    },
+    "widget.59": {
+        "name": "Search Engine Optimization Helper",
+        "instance": "SearchEngineOptimizationHelper",
+        "parameters": {}
+    },
+    "widget.60": {
+        "name": "No Javascript Helper",
+        "instance": "NoJavascriptHelper",
+        "parameters": {}
+    },
+    "widget.61": {
+        "name": "Login Behavior",
+        "instance": "LoginWizard",
+        "parameters": {}
+    },
+    "widget.62": {
+        "name": "Session Behavior",
+        "instance": "Session",
+        "parameters": {}
+    },
+    "widget.63": {
+        "name": "Google Controls",
+        "instance": "GoogleControl",
+        "parameters": {}
+    },
+    "widget.64": {
+        "name": "Tile Buttons",
+        "instance": "TileButtons",
         "parameters": {}
     }
 }
