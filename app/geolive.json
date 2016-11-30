@@ -104,6 +104,19 @@
         "instance": "VersionManager",
         "parameters": {}
     },
+    "plugin.17": {
+        "name": "Email",
+        "instance": "Email",
+        "parameters": {
+            "useSmtp": true,
+            "fromEmail": "test",
+            "fromEmailName": "test",
+            "smtpHost": "test",
+            "username": "test",
+            "password": "XXXX-XXXX",
+            "port": "587"
+        }
+    },
     "widget.1": {
         "name": "Google Controls",
         "instance": "GoogleControl",
