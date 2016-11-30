@@ -112,7 +112,7 @@
             "fromEmail": "test",
             "fromEmailName": "test",
             "smtpHost": "test",
-            "username": "test",
+            "username": "XXXX-XXXX",
             "password": "XXXX-XXXX",
             "port": "587"
         }
