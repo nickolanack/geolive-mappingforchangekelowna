@@ -109,9 +109,9 @@
         "instance": "Email",
         "parameters": {
             "useSmtp": true,
-            "fromEmail": "test",
-            "fromEmailName": "test",
-            "smtpHost": "test",
+            "fromEmail": "geolivemap.ca+bcwf@gmail.com",
+            "fromEmailName": "Mapping For Change",
+            "smtpHost": "smtp.gmail.com",
             "username": "XXXX-XXXX",
             "password": "XXXX-XXXX",
             "port": "587"
@@ -254,7 +254,7 @@
             "widgetTitle": "",
             "readAccess": "public",
             "position": "LEFT_CENTER",
-            "customScript": ""
+            "customScript": "widget.SidePanel.13.customScript.js"
         }
     },
     "widget.14": {
@@ -2891,6 +2891,15 @@
             },
             "templateName": "Detail",
             "widgetTitle": "Detail",
+            "readAccess": "public"
+        }
+    },
+    "widget.65": {
+        "name": "Custom CSS",
+        "instance": "CSS",
+        "parameters": {
+            "customCSS": "widget.CSS.65.customCSS.css",
+            "widgetTitle": "Left Sidebar",
             "readAccess": "public"
         }
     },
