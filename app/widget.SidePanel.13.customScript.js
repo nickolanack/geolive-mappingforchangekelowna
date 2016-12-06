@@ -43,7 +43,10 @@ var getAttributeFilterParameters=function(field, table){
     return {
       listTemplate:function(values){
 
-        //Rendering an icon selection ui instead of 
+        //Rendering an icon selection ui instead of <ul><li>...
+        
+        //defined in global behavior widget.
+        var attributes=window.attributeValueList[field]||values;
 
         var me=this; //bound to Attributes filter object
 
@@ -54,8 +57,8 @@ var getAttributeFilterParameters=function(field, table){
         });
 
         iconSelection.addEvent('loadIcon', function(icon, i, asset){
-          me._addMouseEventsForFilterItem(asset, values[i]);
-          new UIPopover(asset, {title:values[i], anchor:UIPopover.AnchorTo(['bottom'])});
+          me._addMouseEventsForFilterItem(asset, attributes[i]);
+          new UIPopover(asset, {title:attributes[i], anchor:UIPopover.AnchorTo(['bottom'])});
         });
 
 

@@ -5321,7 +5321,7 @@
         "instance": "CustomBehaviorScript",
         "parameters": {
             "customScript": "widget.CustomBehaviorScript.66.customScript.js",
-            "widgetTitle": "",
+            "widgetTitle": "Attribute fields and order",
             "readAccess": "public"
         }
     }
