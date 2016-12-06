@@ -1,3 +1,6 @@
+// the following arrays are used by attribute filters and wizard forms (icon selections)
+// to override the default sort order, and reduce duplicated code
+
 window.attributeValueList = {
 	buildingType: [
 
@@ -8,19 +11,33 @@ window.attributeValueList = {
 		'rental'
 
 	],
-        servicesProvided:[
+	servicesProvided: [
 
-	"Case Management",
-	"Referrals to other Agencies",
-	"Health/Dental Care",
-	"Meals",
-	"Showers",
-	"Storage",
-	"Clothing, Household Goods"
+		"Case Management",
+		"Referrals to other Agencies",
+		"Health/Dental Care",
+		"Meals",
+		"Showers",
+		"Storage",
+		"Clothing, Household Goods"
 
-]
+	],
+	genderServed: [
+
+		"Male",
+		"Female",
+		"Transgender",
 
 
-}
+	],
+	primaryTargetResident: [
 
-window.prefferedAttributeOrder=window.attributeValueList
+		"Indiviuals",
+		"Families"
+
+	]
+
+
+};
+
+window.prefferedAttributeOrder = window.attributeValueList;

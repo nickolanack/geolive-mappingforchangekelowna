@@ -29,12 +29,58 @@ var getAttributeFilterParameters=function(field, table){
  
 //TODO: use global icons sets instead of duplicating icons here, and in wizard forms
 
+   <?php 
+   IncludeCSS(Core::PluginDir() . '/Timeline/Widgets/Timeline/css/timeline.css');
+    IncludeJS(Core::ViewerDir() . DS . 'Controls' . DS . 'UIRangeSlider.js');
+?>
+    var rangeFilters={
+    estimatedWaitTime:{},
+    MonthlyCostOfStay:{},
+    maxDurationOfStay:{}
+ 
+
+  }
+ 
   var iconizeFilters={
 
     buildingType:window["BuildingTypeIcons"],
     servicesProvided:window["ServicesProvidedIcons"],
     genderServed:window["GenderServedIcons"],
     primaryTargetResident:window["PrimaryTargetResidentIcons"]
+  }
+
+
+ if(rangeFilters[field]||field.indexOf('NumberOf')>=0){
+
+
+    return {
+
+      listTemplate:function(values){
+
+        var me=this; //bound to Attributes filter object
+        var div=new Element('div', {"class":"timeline-container"});
+        var rangeSelection=new UIRangeSlider(div, {
+
+          spanValueFormatter:function(label, state){
+            return state;
+          },
+          minValueFormatter:function(label, state){
+            return state[0];
+          },
+          maxValueFormatter:function(label, state){
+            return state[1];
+          }
+
+          
+        });
+
+
+        return div;
+
+      }
+
+    }
+
   }
 
 
@@ -90,7 +136,7 @@ echo $module->display($targetInstance->getJSObjectName(), $targetInstance->getJS
        "genderServed", 
        "demographicServed"
     ),
-  "fieldBlackList"=>array("email"),
+  "fieldBlackList"=>array("email", "phoneNumber", "positionOfContact", "hasService*"),
   "tableBlackList"=>array("agencyAttributes"),
   "moduleOptionsScript"=>'
     

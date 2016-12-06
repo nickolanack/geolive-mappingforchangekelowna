@@ -11,3 +11,9 @@
 .SideBarWidget.left {
     padding-top: 50px;
 }
+
+.timeline-container {
+    width: 300px;
+    margin-top: 60px;
+    position: relative;
+}
