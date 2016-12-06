@@ -41,7 +41,3 @@ div.LegendArea div.LegendLayer span.LegendLayerLight{
     background-color: transparent;
     box-shadow: none;
 }
-
-.LegendLayer.layer-1, .LegendLayer.layer-2, .LegendLayer.layer-5{
-    display: none;
-}

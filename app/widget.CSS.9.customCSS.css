@@ -39,3 +39,11 @@
       .delete-menu:hover {
         background: #eee;
       }
+
+.geolive_mediaMap_container{
+overflow:hidden;
+}
+
+.SideBarWidget {
+    overflow-y: scroll;
+}

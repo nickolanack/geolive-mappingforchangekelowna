@@ -37,13 +37,23 @@
             "JSInlineObfuscationEnabled": false,
             "CSSFileObfuscationEnabled": true,
             "CSSInlineObfuscationEnabled": true,
-            "PHPDebugEnabled": false,
+            "PHPDebugEnabled": true,
             "JSDebugEnabled": false,
             "CachingEnabled": false,
             "ExternalizeWidgetScripts": true,
             "PrettyPrintJson": true,
             "JSCacheObfuscationEnabled": true,
-            "phase": "production"
+            "phase": "production",
+            "ForceHTTPS": false,
+            "allowProxiesFrom": [
+                "*",
+                ""
+            ],
+            "sandboxDomains": [
+                "*.z.geolive.ca",
+                "*.s22.ok.ubc.ca",
+                ""
+            ]
         }
     },
     "plugin.8": {
@@ -3398,7 +3408,8 @@
             "defaultIcon": "DEFAULT",
             "showEditLayerButtons": true,
             "widgetTitle": "",
-            "readAccess": "public"
+            "readAccess": "public",
+            "shouldShowLayerScript": "widget.Legend.31.shouldShowLayerScript.js"
         }
     },
     "widget.32": {
