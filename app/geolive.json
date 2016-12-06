@@ -330,8 +330,8 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 101,
-                            "y": 169
+                            "x": 111,
+                            "y": 179
                         },
                         "children": [
                             {
@@ -1781,14 +1781,14 @@
                                                 "initSelectedScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.36.config.initSelectedScript.js",
                                                 "className": "",
                                                 "requireSelection": true,
-                                                "allowMultipleSelection": true,
+                                                "allowMultipleSelection": false,
                                                 "initializationScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.36.config.initializationScript.js",
                                                 "onSelectScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.36.config.onSelectScript.js",
                                                 "onDeselectScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.36.config.onDeselectScript.js",
                                                 "onRenderSelectableScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.36.config.onRenderSelectableScript.js",
                                                 "onSubmitWizardWithSelectedScript": "",
-                                                "exposeIconset": false,
-                                                "iconsetName": "Some-Iconset-Name"
+                                                "exposeIconset": true,
+                                                "iconsetName": "ServicesProvidedIcons"
                                             }
                                         },
                                         {

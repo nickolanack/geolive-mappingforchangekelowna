@@ -31,13 +31,8 @@ var getAttributeFilterParameters=function(field, table){
 
   var iconizeFilters={
 
-    buildingType:[
-      "components/com_geolive/users_files/user_files_994/Uploads/fik_Qih_[ImAgE]_[G]_7qp.png",
-      "components/com_geolive/users_files/user_files_994/Uploads/[G]_[ImAgE]_Pts_qTq_2cO.png",
-      "components/com_geolive/users_files/user_files_994/Uploads/[ImAgE]_eI5_Wj9_9fx_[G].png",
-      "components/com_geolive/users_files/user_files_994/Uploads/YdL_[G]_5ID_t0q_[ImAgE].png",
-      "components/com_geolive/users_files/user_files_994/Uploads/[ImAgE]_W0M_lWp_zQJ_[G].png"
-    ]
+    buildingType:window["BuildingTypeIcons"],
+    servicesProvided:window["ServicesProvidedIcons"]
 
 
   }
