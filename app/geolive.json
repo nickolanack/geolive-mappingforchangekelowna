@@ -330,8 +330,8 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 91,
-                            "y": 159
+                            "x": 101,
+                            "y": 169
                         },
                         "children": [
                             {
@@ -411,7 +411,8 @@
                                                 "muliTemplate": "lines",
                                                 "multiMessage": "",
                                                 "formatter": "none",
-                                                "iconTint": "rgb(100, 149, 237)"
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": ""
                                             }
                                         },
                                         {
@@ -462,7 +463,8 @@
                                                 "muliTemplate": "lines",
                                                 "multiMessage": "",
                                                 "formatter": "none",
-                                                "iconTint": "rgb(100, 149, 237)"
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": ""
                                             }
                                         },
                                         {
@@ -513,7 +515,8 @@
                                                 "muliTemplate": "lines",
                                                 "multiMessage": "",
                                                 "formatter": "none",
-                                                "iconTint": "rgb(100, 149, 237)"
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": ""
                                             }
                                         },
                                         {
@@ -564,7 +567,8 @@
                                                 "muliTemplate": "lines",
                                                 "multiMessage": "",
                                                 "formatter": "none",
-                                                "iconTint": "rgb(100, 149, 237)"
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": ""
                                             }
                                         },
                                         {
@@ -634,7 +638,9 @@
                                                 "onSelectScript": "",
                                                 "onDeselectScript": "",
                                                 "onRenderSelectableScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.7.config.onRenderSelectableScript.js",
-                                                "onSubmitWizardWithSelectedScript": ""
+                                                "onSubmitWizardWithSelectedScript": "",
+                                                "exposeIconset": true,
+                                                "iconsetName": "BuildingTypeIcons"
                                             }
                                         },
                                         {
@@ -711,7 +717,8 @@
                                                 "muliTemplate": "lines",
                                                 "multiMessage": "",
                                                 "formatter": "integer",
-                                                "iconTint": "rgb(100, 149, 237)"
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": ""
                                             }
                                         },
                                         {
@@ -786,7 +793,8 @@
                                                 "muliTemplate": "lines",
                                                 "multiMessage": "",
                                                 "formatter": "none",
-                                                "iconTint": "rgb(100, 149, 237)"
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": ""
                                             }
                                         },
                                         {
@@ -824,7 +832,8 @@
                                                 "muliTemplate": "lines",
                                                 "multiMessage": "",
                                                 "formatter": "integer",
-                                                "iconTint": "rgb(100, 149, 237)"
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": ""
                                             }
                                         },
                                         {
@@ -862,7 +871,8 @@
                                                 "muliTemplate": "lines",
                                                 "multiMessage": "",
                                                 "formatter": "integer",
-                                                "iconTint": "rgb(100, 149, 237)"
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": ""
                                             }
                                         },
                                         {
@@ -900,7 +910,8 @@
                                                 "muliTemplate": "lines",
                                                 "multiMessage": "",
                                                 "formatter": "integer",
-                                                "iconTint": "rgb(100, 149, 237)"
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": ""
                                             }
                                         },
                                         {
@@ -938,7 +949,8 @@
                                                 "muliTemplate": "lines",
                                                 "multiMessage": "",
                                                 "formatter": "integer",
-                                                "iconTint": "rgb(100, 149, 237)"
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": ""
                                             }
                                         },
                                         {
@@ -976,7 +988,8 @@
                                                 "muliTemplate": "lines",
                                                 "multiMessage": "",
                                                 "formatter": "integer",
-                                                "iconTint": "rgb(100, 149, 237)"
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": ""
                                             }
                                         },
                                         {
@@ -1014,7 +1027,8 @@
                                                 "muliTemplate": "lines",
                                                 "multiMessage": "",
                                                 "formatter": "none",
-                                                "iconTint": "rgb(100, 149, 237)"
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": ""
                                             }
                                         },
                                         {
@@ -1052,7 +1066,8 @@
                                                 "muliTemplate": "lines",
                                                 "multiMessage": "",
                                                 "formatter": "none",
-                                                "iconTint": "rgb(100, 149, 237)"
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": ""
                                             }
                                         },
                                         {
@@ -1090,7 +1105,8 @@
                                                 "muliTemplate": "lines",
                                                 "multiMessage": "",
                                                 "formatter": "none",
-                                                "iconTint": "rgb(100, 149, 237)"
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": ""
                                             }
                                         },
                                         {
@@ -1128,7 +1144,8 @@
                                                 "muliTemplate": "lines",
                                                 "multiMessage": "",
                                                 "formatter": "integer",
-                                                "iconTint": "rgb(100, 149, 237)"
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": ""
                                             }
                                         },
                                         {
@@ -1179,7 +1196,8 @@
                                                 "muliTemplate": "lines",
                                                 "multiMessage": "",
                                                 "formatter": "none",
-                                                "iconTint": "rgb(100, 149, 237)"
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": ""
                                             }
                                         },
                                         {
@@ -1217,7 +1235,8 @@
                                                 "muliTemplate": "lines",
                                                 "multiMessage": "",
                                                 "formatter": "integer",
-                                                "iconTint": "rgb(100, 149, 237)"
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": ""
                                             }
                                         },
                                         {
@@ -1255,7 +1274,8 @@
                                                 "muliTemplate": "lines",
                                                 "multiMessage": "",
                                                 "formatter": "integer",
-                                                "iconTint": "rgb(100, 149, 237)"
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": ""
                                             }
                                         },
                                         {
@@ -1293,7 +1313,8 @@
                                                 "muliTemplate": "lines",
                                                 "multiMessage": "",
                                                 "formatter": "integer",
-                                                "iconTint": "rgb(100, 149, 237)"
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": ""
                                             }
                                         },
                                         {
@@ -1331,7 +1352,8 @@
                                                 "muliTemplate": "lines",
                                                 "multiMessage": "",
                                                 "formatter": "none",
-                                                "iconTint": "rgb(100, 149, 237)"
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": ""
                                             }
                                         },
                                         {
@@ -1369,7 +1391,8 @@
                                                 "muliTemplate": "lines",
                                                 "multiMessage": "",
                                                 "formatter": "none",
-                                                "iconTint": "rgb(100, 149, 237)"
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": ""
                                             }
                                         },
                                         {
@@ -1407,7 +1430,8 @@
                                                 "muliTemplate": "lines",
                                                 "multiMessage": "",
                                                 "formatter": "none",
-                                                "iconTint": "rgb(100, 149, 237)"
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": ""
                                             }
                                         },
                                         {
@@ -1445,7 +1469,8 @@
                                                 "muliTemplate": "lines",
                                                 "multiMessage": "",
                                                 "formatter": "integer",
-                                                "iconTint": "rgb(100, 149, 237)"
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": ""
                                             }
                                         },
                                         {
@@ -1483,7 +1508,8 @@
                                                 "muliTemplate": "lines",
                                                 "multiMessage": "",
                                                 "formatter": "integer",
-                                                "iconTint": "rgb(100, 149, 237)"
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": ""
                                             }
                                         },
                                         {
@@ -1521,7 +1547,8 @@
                                                 "muliTemplate": "lines",
                                                 "multiMessage": "",
                                                 "formatter": "integer",
-                                                "iconTint": "rgb(100, 149, 237)"
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": ""
                                             }
                                         },
                                         {
@@ -1559,7 +1586,8 @@
                                                 "muliTemplate": "lines",
                                                 "multiMessage": "",
                                                 "formatter": "none",
-                                                "iconTint": "rgb(100, 149, 237)"
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": ""
                                             }
                                         },
                                         {
@@ -1597,7 +1625,8 @@
                                                 "muliTemplate": "lines",
                                                 "multiMessage": "",
                                                 "formatter": "none",
-                                                "iconTint": "rgb(100, 149, 237)"
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": ""
                                             }
                                         },
                                         {
@@ -1757,7 +1786,9 @@
                                                 "onSelectScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.36.config.onSelectScript.js",
                                                 "onDeselectScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.36.config.onDeselectScript.js",
                                                 "onRenderSelectableScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.36.config.onRenderSelectableScript.js",
-                                                "onSubmitWizardWithSelectedScript": ""
+                                                "onSubmitWizardWithSelectedScript": "",
+                                                "exposeIconset": false,
+                                                "iconsetName": "Some-Iconset-Name"
                                             }
                                         },
                                         {
@@ -1808,7 +1839,8 @@
                                                 "muliTemplate": "lines",
                                                 "multiMessage": "",
                                                 "formatter": "none",
-                                                "iconTint": "rgb(100, 149, 237)"
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": ""
                                             }
                                         },
                                         {
