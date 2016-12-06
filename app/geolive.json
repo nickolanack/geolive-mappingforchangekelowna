@@ -5315,5 +5315,10 @@
         "name": "Tile Buttons",
         "instance": "TileButtons",
         "parameters": {}
+    },
+    "widget.66": {
+        "name": "Custom Behavior Script",
+        "instance": "CustomBehaviorScript",
+        "parameters": {}
     }
 }

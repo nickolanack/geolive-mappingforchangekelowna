@@ -55,6 +55,7 @@ var getAttributeFilterParameters=function(field, table){
 
         iconSelection.addEvent('loadIcon', function(icon, i, asset){
           me._addMouseEventsForFilterItem(asset, values[i]);
+          new UIPopover(asset, {title:values[i], anchor:UIPopover.AnchorTo(['bottom'])});
         });
 
 
