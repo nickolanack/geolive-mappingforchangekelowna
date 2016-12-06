@@ -330,8 +330,8 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 111,
-                            "y": 179
+                            "x": 121,
+                            "y": 189
                         },
                         "children": [
                             {
@@ -1781,7 +1781,7 @@
                                                 "initSelectedScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.36.config.initSelectedScript.js",
                                                 "className": "",
                                                 "requireSelection": true,
-                                                "allowMultipleSelection": false,
+                                                "allowMultipleSelection": true,
                                                 "initializationScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.36.config.initializationScript.js",
                                                 "onSelectScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.36.config.onSelectScript.js",
                                                 "onDeselectScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.36.config.onDeselectScript.js",
@@ -3705,11 +3705,14 @@
                                     "className": "",
                                     "requireSelection": true,
                                     "allowMultipleSelection": true,
+                                    "allowEmptySelection": false,
                                     "initializationScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.1.config.initializationScript.js",
                                     "onSelectScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.1.config.onSelectScript.js",
                                     "onDeselectScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.1.config.onDeselectScript.js",
                                     "onRenderSelectableScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.1.config.onRenderSelectableScript.js",
-                                    "onSubmitWizardWithSelectedScript": ""
+                                    "onSubmitWizardWithSelectedScript": "",
+                                    "exposeIconset": true,
+                                    "iconsetName": "GenderServedIcons"
                                 }
                             },
                             {
@@ -3808,7 +3811,8 @@
                                     "muliTemplate": "lines",
                                     "multiMessage": "",
                                     "formatter": "none",
-                                    "iconTint": "rgb(100, 149, 237)"
+                                    "iconTint": "rgb(100, 149, 237)",
+                                    "onRenderTextFieldScript": ""
                                 }
                             },
                             {
@@ -3881,11 +3885,14 @@
                                     "className": "",
                                     "requireSelection": true,
                                     "allowMultipleSelection": true,
+                                    "allowEmptySelection": false,
                                     "initializationScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.6.config.initializationScript.js",
                                     "onSelectScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.6.config.onSelectScript.js",
                                     "onDeselectScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.6.config.onDeselectScript.js",
                                     "onRenderSelectableScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.6.config.onRenderSelectableScript.js",
-                                    "onSubmitWizardWithSelectedScript": ""
+                                    "onSubmitWizardWithSelectedScript": "",
+                                    "exposeIconset": true,
+                                    "iconsetName": "PrimaryTargetResidentIcons"
                                 }
                             },
                             {

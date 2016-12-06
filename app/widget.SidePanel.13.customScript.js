@@ -32,9 +32,9 @@ var getAttributeFilterParameters=function(field, table){
   var iconizeFilters={
 
     buildingType:window["BuildingTypeIcons"],
-    servicesProvided:window["ServicesProvidedIcons"]
-
-
+    servicesProvided:window["ServicesProvidedIcons"],
+    genderServed:window["GenderServedIcons"],
+    primaryTargetResident:window["PrimaryTargetResidentIcons"]
   }
 
 
