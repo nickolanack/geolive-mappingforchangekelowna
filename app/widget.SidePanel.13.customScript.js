@@ -60,6 +60,11 @@ var getAttributeFilterParameters=function(field, table){
         var div=new Element('div', {"class":"timeline-container"});
 
         var range=[Math.min.apply(null, values.map(function(a){return parseInt(a);})), Math.max.apply(null, values.map(function(a){return parseInt(a);}))];
+   
+       if(range[0]===range[1]){
+            range[1]=100;
+        }
+
         if(range[0]===range[1]){
              return UIAttributeFilterControl.DefaultFilterListTemplate.bind(me)(values);
         }
@@ -73,10 +78,10 @@ var getAttributeFilterParameters=function(field, table){
             return state;
           },
           minValueFormatter:function(label, state){
-            return Math.round(state[0]*10)/10.0;
+            return Math.round(state[0]);
           },
           maxValueFormatter:function(label, state){
-            return Math.round(state[1]*10)/10.0;
+            return Math.round(state[1]);
           }
 
           
@@ -106,7 +111,8 @@ var getAttributeFilterParameters=function(field, table){
 
         var div=new Element('div');
         var iconSelection=new UIIconizedSelectionControl(div, {
-
+         allowMultipleSelection: true,
+	allowEmptySelection: true,
           icons: iconizeFilters[field],
         });
 
