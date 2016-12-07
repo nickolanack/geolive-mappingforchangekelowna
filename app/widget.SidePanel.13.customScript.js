@@ -2,7 +2,6 @@ var layersFilterContent = container.appendChild(new Element('div', {
 	'class': 'filter layer-filter'
 }));
 var housingTypesFilterContent = container.appendChild(new Element('div', {
-	'class': 'filter housing-filter'
 }));
 var servicesTypesFilterContent = container.appendChild(new Element('div', {
 	'class': 'filter services-filter'
@@ -59,16 +58,25 @@ var getAttributeFilterParameters=function(field, table){
 
         var me=this; //bound to Attributes filter object
         var div=new Element('div', {"class":"timeline-container"});
-        var rangeSelection=new UIRangeSlider(div, {
 
+        var range=[Math.min.apply(null, values.map(function(a){return parseInt(a);})), Math.max.apply(null, values.map(function(a){return parseInt(a);}))];
+        if(range[0]===range[1]){
+             return UIAttributeFilterControl.DefaultFilterListTemplate.bind(me)(values);
+        }
+
+   
+        var rangeSelection=new UIRangeSlider(div, {
+         
+          range:range,
+          state:range.slice(0),
           spanValueFormatter:function(label, state){
             return state;
           },
           minValueFormatter:function(label, state){
-            return state[0];
+            return Math.round(state[0]*10)/10.0;
           },
           maxValueFormatter:function(label, state){
-            return state[1];
+            return Math.round(state[1]*10)/10.0;
           }
 
           

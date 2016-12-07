@@ -1,4 +1,4 @@
-.SideBarWidget.left>.filter {
+.SideBarWidget.left>.filter, .SideBarWidget.left .attribute-filter {
     display: block;
     padding: 10px;
     background: rgba(0,0,0,0.05);
