@@ -330,8 +330,8 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 121,
-                            "y": 189
+                            "x": 131,
+                            "y": 199
                         },
                         "children": [
                             {
@@ -597,11 +597,11 @@
                                                         "components\/com_geolive\/users_files\/user_files_994\/Uploads\/3sX_6Al_[G]_[ImAgE]_vIr.png": "showHousingType('transitional');",
                                                         "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_9RQ_aTB_[ImAgE]_CEH.png": "showHousingType('nonprofit');",
                                                         "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_gvc_[ImAgE]_Qsn_2dn.png": "showHousingType('rental');",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/fik_Qih_[ImAgE]_[G]_7qp.png": "setHousingType('emergency');",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/YdL_[G]_5ID_t0q_[ImAgE].png": "setHousingType('nonprofit');",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_Pts_qTq_2cO.png": "setHousingType('transitional');",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_W0M_lWp_zQJ_[G].png": "setHousingType('rental');",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_eI5_Wj9_9fx_[G].png": "setHousingType('supportive');"
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/fik_Qih_[ImAgE]_[G]_7qp.png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/YdL_[G]_5ID_t0q_[ImAgE].png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_Pts_qTq_2cO.png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_W0M_lWp_zQJ_[G].png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_eI5_Wj9_9fx_[G].png": ""
                                                     },
                                                     "onSubmitScripts": {
                                                         "components\/com_geolive\/users_files\/user_files_994\/Uploads\/eBW_[ImAgE]_OJo_FWa_[G].png": "",
@@ -633,10 +633,11 @@
                                                 "initSelectedScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.7.config.initSelectedScript.js",
                                                 "className": "",
                                                 "requireSelection": true,
-                                                "allowMultipleSelection": false,
+                                                "allowMultipleSelection": true,
+                                                "allowEmptySelection": false,
                                                 "initializationScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.7.config.initializationScript.js",
-                                                "onSelectScript": "",
-                                                "onDeselectScript": "",
+                                                "onSelectScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.7.config.onSelectScript.js",
+                                                "onDeselectScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.7.config.onDeselectScript.js",
                                                 "onRenderSelectableScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.7.config.onRenderSelectableScript.js",
                                                 "onSubmitWizardWithSelectedScript": "",
                                                 "exposeIconset": true,
@@ -1782,6 +1783,7 @@
                                                 "className": "",
                                                 "requireSelection": true,
                                                 "allowMultipleSelection": true,
+                                                "allowEmptySelection": false,
                                                 "initializationScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.36.config.initializationScript.js",
                                                 "onSelectScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.36.config.onSelectScript.js",
                                                 "onDeselectScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.36.config.onDeselectScript.js",

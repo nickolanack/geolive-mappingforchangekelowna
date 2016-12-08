@@ -6,7 +6,11 @@ AttributeWizardModuleUtilities.QueryFieldValue(object, {
                             table:"serviceProviderAttributes",
                             field:"buildingType"
 
-                        },function(value){
-callback((["emergency", "transitional", "supportive", "nonprofit", "rental"]).indexOf(value));
+                        },function(values) {
+
+	callback(values.map(function(a) {
+		return valuesArray.indexOf(a);
+	}));
+
 });
 
