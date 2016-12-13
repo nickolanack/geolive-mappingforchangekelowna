@@ -60,7 +60,7 @@ var setHousingType = function(type) {
   object.value = type;
 };
 
-var showHousingType = function(type) {
+var showHousingType = function(types) {
 
 
   var emergencyHouseing = [
@@ -116,7 +116,7 @@ var showHousingType = function(type) {
 
   ];
 
-  var hide = ([]).concat(emergencyHouseing, transitionalHousing, supportiveHousing, nonpHousing, rentalHousing);
+  //var hide = ([]).concat(emergencyHouseing, transitionalHousing, supportiveHousing, nonpHousing, rentalHousing);
 
 
   var typeMap = {
@@ -126,8 +126,14 @@ var showHousingType = function(type) {
     'nonprofit': nonpHousing,
     'rental': rentalHousing
   };
+  var hide = [([]).concat(emergencyHouseing, transitionalHousing, supportiveHousing, nonpHousing, rentalHousing)];
+  var map = [];
 
-  var map = typeMap[type];
+  types.forEach(function(type){
+
+    map=map.concat(typeMap[type]);
+
+  });
 
   moduleGroup.forEach(function(object, i) {
     var module = object._module;

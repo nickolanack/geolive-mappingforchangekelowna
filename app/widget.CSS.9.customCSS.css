@@ -44,6 +44,6 @@
 overflow:hidden;
 }
 
-.SideBarWidget {
+.SideBarWidget>.content {
     overflow-y: scroll;
 }
