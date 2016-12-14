@@ -180,10 +180,14 @@ map.setItemEditFn(function(mapitem, options) {
 		return false;
 	}
 
-	var wizard = wizardTemplate(mapitem, {});
 
-	wizard.buildAndShow(editTabViewController, {}); //'geolive' string is for css
+      var wizard = wizardTemplate(mapitem, {});
+		wizard.buildAndShow(editTabViewController, {}); //'geolive' string is for css
+		wizard.addEvent('complete',function(){
 
+			map.editItem(mapitem,{});
+
+		});
 
 	return wizard;
 

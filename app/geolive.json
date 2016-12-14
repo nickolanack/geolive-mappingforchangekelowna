@@ -1945,7 +1945,7 @@
             "beforeSubmitScript": "",
             "onCreateScript": "",
             "onUpdateScript": "",
-            "onSaveScript": "",
+            "onSaveScript": "widget.WizardBuilder.15.onSaveScript.js",
             "templateName": "ServiceProviderWizardTemplate",
             "widgetTitle": "ServiceProviderWizardTemplate",
             "readAccess": "public"
@@ -2976,7 +2976,7 @@
             "exportEncoding": "UTF-8",
             "importEncoding": "UTF-8",
             "showImportEncoding": false,
-            "filename": "Geolive Export DATE[Y-m-d (H.i.s)]",
+            "filename": "Service-Providers",
             "widgetTitle": "",
             "readAccess": "public",
             "position": "RIGHT_BOTTOM",
@@ -2984,6 +2984,11 @@
             "tileHoverTip": "Download Service Provider Data",
             "filterFieldsScript": "widget.AttributesCSVExport.29.filterFieldsScript.js"
         }
+    },
+    "widget.67": {
+        "name": "Attr Filter Builder",
+        "instance": "AttributesFilterBuilder",
+        "parameters": {}
     },
     "widget.30": {
         "name": "Custom Behavior Script",

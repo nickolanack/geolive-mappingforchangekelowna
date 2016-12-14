@@ -57,7 +57,7 @@ var getAttributeFilterParameters = function(field, table) {
           var me = this;
           fieldMetadata = me.getFieldMetadata();
 
-          return AttributeFilter.InsersectFilter(fieldMetadata.tableName, 
+          return map.getContentFilterManager().makeFilter(fieldMetadata.tableName, 
               [
                 {
                   field: fieldMetadata.title,
@@ -151,7 +151,7 @@ var getAttributeFilterParameters = function(field, table) {
           var me = this;
           fieldMetadata = me.getFieldMetadata();
 
-          return AttributeFilter.JoinFilter(fieldMetadata.tableName, values.map(function(v) {
+          return map.getContentFilterManager().makeFilter(fieldMetadata.tableName, values.map(function(v) {
               return {
                 field: fieldMetadata.title,
                 comparator: 'equalTo',
