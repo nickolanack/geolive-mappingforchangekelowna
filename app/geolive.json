@@ -119,13 +119,20 @@
         "instance": "Email",
         "parameters": {
             "useSmtp": true,
-            "fromEmail": "geolivemap.ca+bcwf@gmail.com",
+            "fromEmail": "geolivemap.ca+isearch@gmail.com",
             "fromEmailName": "Mapping For Change",
             "smtpHost": "smtp.gmail.com",
             "username": "XXXX-XXXX",
             "password": "XXXX-XXXX",
-            "port": "587"
+            "port": "587",
+            "recieveMail": false,
+            "recieveMailSecretToken": "XXXX-XXXX"
         }
+    },
+    "plugin.18": {
+        "name": "API",
+        "instance": "API",
+        "parameters": {}
     },
     "widget.1": {
         "name": "Google Controls",
@@ -173,7 +180,7 @@
             "direction": "auto",
             "markerSize": 32,
             "tileSize": 50,
-            "showToolTips": false,
+            "showToolTips": true,
             "fullscreenTip": false,
             "homeTip": false,
             "markerTip": false,
@@ -192,6 +199,10 @@
             "onDragEndScript": "widget.TileButtons.2.onDragEndScript.js",
             "useTipIconsetLayerTitle": false,
             "formatTipScript": "",
+            "showLogoutProfile": true,
+            "displayMapSave": "1",
+            "onDisplayTileScript": "",
+            "onProfileClickScript": "widget.TileButtons.2.onProfileClickScript.js",
             "profileIcon": null,
             "_raw_layerMap": null,
             "_raw_tipMap": null
@@ -2990,6 +3001,128 @@
         "instance": "AttributesFilterBuilder",
         "parameters": {}
     },
+    "widget.69": {
+        "name": "Login Wizard Builder",
+        "instance": "LoginWizardBuilder",
+        "parameters": {
+            "metadata": {
+                "class": "DescisionNode",
+                "_diagramState": {
+                    "x": -169,
+                    "y": 158
+                },
+                "children": [
+                    {
+                        "class": "Node",
+                        "_diagramState": {
+                            "x": -159,
+                            "y": 218
+                        }
+                    },
+                    {
+                        "title": "New Empty Step",
+                        "class": "AttributesTableNode",
+                        "fields": [
+                            []
+                        ],
+                        "_diagramState": {
+                            "x": 27,
+                            "y": 127
+                        },
+                        "children": [
+                            {
+                                "class": "Node",
+                                "_diagramState": {
+                                    "x": 381,
+                                    "y": 291
+                                }
+                            }
+                        ],
+                        "builderMetadata": {
+                            "positions": {
+                                "title": {
+                                    "modules": [
+                                        {
+                                            "type": "WizardSteps",
+                                            "config": {
+                                                "iconValue": [],
+                                                "className": "",
+                                                "manualValue": "1",
+                                                "width": 460,
+                                                "height": 250,
+                                                "labelMethod": "auto",
+                                                "elasticity": false,
+                                                "minHeight": 200,
+                                                "minWidth": 400,
+                                                "showSteps": false
+                                            }
+                                        }
+                                    ]
+                                },
+                                "content": {
+                                    "modules": [
+                                        {
+                                            "type": "WizardLogin",
+                                            "config": {
+                                                "className": "",
+                                                "showCancel": true,
+                                                "labelForCancel": "cancel",
+                                                "labelForSubmit": "Login"
+                                            }
+                                        },
+                                        {
+                                            "type": "WizardStepTitle",
+                                            "config": {
+                                                "className": "",
+                                                "text": "<ul class=\"unstyled\">\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t<a href=\"\/component\/users\/?view=registration\">\n\t\t\t\t\tCreate an account <span class=\"icon-arrow-right\"><\/span><\/a>\n\t\t\t\t<\/li>\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t<a href=\"\/component\/users\/?view=remind\">\n\t\t\t\t\tForgot your username?<\/a>\n\t\t\t\t<\/li>\n\t\t\t\t<li>\n\t\t\t\t\t<a href=\"\/component\/users\/?view=reset\">\n\t\t\t\t\tForgot your password?<\/a>\n\t\t\t\t<\/li>\n\t\t\t<\/ul>",
+                                                "identifier": "htmlLabel"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "footer": {
+                                    "modules": [
+                                        {
+                                            "type": "WizardButtons",
+                                            "config": {
+                                                "className": "WizardFooter",
+                                                "reduceOpacity": false,
+                                                "onCompleteScript": "widget.LoginWizardBuilder.69.metadata.children.1.builderMetadata.positions.footer.modules.0.config.onCompleteScript.js",
+                                                "labelForCancel": "cancel",
+                                                "labelForSubmit": "submit",
+                                                "labelForNext": "next",
+                                                "labelForPrevious": "previous",
+                                                "showCancel": true
+                                            }
+                                        }
+                                    ]
+                                },
+                                "menu": {
+                                    "modules": []
+                                }
+                            },
+                            "positionList": [
+                                "title",
+                                "content",
+                                "footer",
+                                "menu"
+                            ],
+                            "_diagramState": {
+                                "minimized": false
+                            }
+                        }
+                    }
+                ]
+            },
+            "beforeSubmitScript": "",
+            "onCreateScript": "",
+            "onUpdateScript": "",
+            "onSaveScript": "",
+            "templateName": "MapItemTemplate",
+            "widgetTitle": "",
+            "readAccess": "guest"
+        }
+    },
     "widget.30": {
         "name": "Custom Behavior Script",
         "instance": "CustomBehaviorScript",
@@ -4902,6 +5035,115 @@
         "parameters": {
             "customScript": "widget.CustomBehaviorScript.66.customScript.js",
             "widgetTitle": "Attribute fields and order",
+            "readAccess": "public"
+        }
+    },
+    "widget.68": {
+        "name": "User Wizard Builder",
+        "instance": "UserWizardBuilder",
+        "parameters": {
+            "metadata": {
+                "class": "DescisionNode",
+                "_diagramState": {
+                    "x": -131,
+                    "y": 186
+                },
+                "children": [
+                    {
+                        "class": "Node",
+                        "_diagramState": {
+                            "x": -121,
+                            "y": 246
+                        }
+                    },
+                    {
+                        "title": "New Empty Step",
+                        "class": "AttributesTableNode",
+                        "fields": [
+                            []
+                        ],
+                        "_diagramState": {
+                            "x": 136,
+                            "y": 113
+                        },
+                        "children": [
+                            {
+                                "class": "Node",
+                                "_diagramState": {
+                                    "x": 500,
+                                    "y": 287
+                                }
+                            }
+                        ],
+                        "builderMetadata": {
+                            "positions": {
+                                "title": {
+                                    "modules": [
+                                        {
+                                            "type": "WizardSteps",
+                                            "config": {
+                                                "iconValue": [],
+                                                "className": "",
+                                                "manualValue": "1",
+                                                "width": 610,
+                                                "height": 302,
+                                                "labelMethod": "auto",
+                                                "elasticity": false,
+                                                "minHeight": 200,
+                                                "minWidth": 400,
+                                                "showSteps": false
+                                            }
+                                        }
+                                    ]
+                                },
+                                "content": {
+                                    "modules": [
+                                        {
+                                            "type": "WizardStepTitle",
+                                            "config": {
+                                                "className": "",
+                                                "text": "<h2>Manage Authorizations<\/h2>\n<p>You can manage your own moderator groups, by creating custom tokens that users can use to log into your account with reduced access.  These tokens can be used instead of your normal login password, and will allow users to create update and remove items on your behalf. You can revoke access at anytime<\/p>",
+                                                "identifier": "htmlLabel"
+                                            }
+                                        },
+                                        {
+                                            "type": "WizardScriptElement",
+                                            "config": {
+                                                "script": "",
+                                                "identifier": "customScriptElement"
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Users.AuthTokens"
+                                        }
+                                    ]
+                                },
+                                "footer": {
+                                    "modules": []
+                                },
+                                "menu": {
+                                    "modules": []
+                                }
+                            },
+                            "positionList": [
+                                "title",
+                                "content",
+                                "footer",
+                                "menu"
+                            ],
+                            "_diagramState": {
+                                "minimized": false
+                            }
+                        }
+                    }
+                ]
+            },
+            "beforeSubmitScript": "",
+            "onCreateScript": "",
+            "onUpdateScript": "",
+            "onSaveScript": "",
+            "templateName": "UserAuthWizard",
+            "widgetTitle": "Moderator Groups",
             "readAccess": "public"
         }
     }
