@@ -120,7 +120,7 @@
         "parameters": {
             "useSmtp": true,
             "fromEmail": "geolivemap.ca+isearch@gmail.com",
-            "fromEmailName": "Mapping For Change",
+            "fromEmailName": "iSearch Kelowna",
             "smtpHost": "smtp.gmail.com",
             "username": "XXXX-XXXX",
             "password": "XXXX-XXXX",
