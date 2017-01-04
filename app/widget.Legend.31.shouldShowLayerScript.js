@@ -1,1 +1,0 @@
-return id==4;
