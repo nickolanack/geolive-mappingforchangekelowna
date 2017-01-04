@@ -114,6 +114,57 @@
         "instance": "VersionManager",
         "parameters": {}
     },
+    "plugin.19": {
+        "name": "Email Ownership",
+        "instance": "EmailOwnership",
+        "parameters": {
+            "emailNotificationTemplate": "<div style=\"text-align: left\">\r\n\t<h2>Welcome [NAME].<\/h2>\r\n\t<p>\r\n\t\tYou have been invited as an item author for: <b>[MARKERTITLE]<\/b> at iSearch Kelowna; if you register and log in using this\r\n\t\temail address ([EMAIL]), then you will be able to make changes to this item.\r\n\t<\/p>\r\n\tThe following is a preview of the details of your project as it\r\n\tcurrently appears on the website:\r\n\t<p>\r\n\t\t<i>[MARKERCONTENT]<\/i>\r\n\t<\/p>\r\n\t<p>Please visit the map and register at <a href=\"[SITEURL]\">[SITEURL]<\/a>. Once you\r\n\t\tregister you can edit details and include\r\n\t\tmedia such as video or photos. If you have any difficulties using the\r\n\t\tmap or editing your project, please feel to contact us at\r\n\t\t[HELPEMAIL].<\/p>\r\n\t<p>\r\n\t\tThank you. <small>[FROMNAME] - [FROMEMAIL]<\/small>\r\n\t<\/p>\r\n<\/div>",
+            "fromEmailName": "iSearch Kelowna",
+            "fromEmail": "geolivemap.ca+isearch@gmail.com",
+            "helpEmail": "geolivemap.ca+isearch@gmail.com",
+            "siteUrl": "https:\/\/mappingforchangekelowna.geolive.ca",
+            "siteName": "iSearch - Kelowna",
+            "emailAttribute": [
+                {
+                    "visibility": "public",
+                    "tableId": "1",
+                    "tableName": "serviceProviderAttributes",
+                    "tableSuffix": "_9632",
+                    "title": "email",
+                    "label": "Email",
+                    "description": "",
+                    "fieldType": "text",
+                    "color": "rgb(undefined, undefined, undefined)",
+                    "searchability": "public",
+                    "editability": "registered",
+                    "fieldTextOptions": {
+                        "textType": "input",
+                        "inputOptions": {
+                            "buildAutocomplete": false,
+                            "requireModeration": false,
+                            "limitMaxChars": 0,
+                            "limitMaxWords": 0,
+                            "allowHtml": false,
+                            "allowMedia": true,
+                            "allowLinks": true
+                        },
+                        "listOptions": {
+                            "takeSugesstions": true,
+                            "buildTree": false,
+                            "iconize": false,
+                            "colorize": false
+                        }
+                    },
+                    "allowMultiple": false
+                }
+            ],
+            "nameAttribute": [],
+            "enableEmailer": true,
+            "createAccount": true,
+            "debugEmailAddresses": "nickblackwell82@gmail.com",
+            "moderatorEmailAddresses": "nickblackwell82@gmail.com"
+        }
+    },
     "plugin.17": {
         "name": "Email",
         "instance": "Email",
