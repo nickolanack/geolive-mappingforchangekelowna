@@ -1,0 +1,34 @@
+.SideBarWidget.left>.filter, .SideBarWidget.left .attribute-filter {
+    display: block;
+    padding: 10px;
+    background: rgba(0,0,0,0.05);
+    margin: 10px;
+    margin-top: 0;
+    border-radius: 4px;
+    min-height: 30px;
+}
+
+.SideBarWidget.left {
+    padding-top: 50px;
+}
+
+.timeline-container {
+    width: 300px;
+    margin-top: 60px;
+    position: relative;
+}
+
+
+
+.timeline-container .ui-ctrl-handle > span:after {
+    color: #8f1540;
+    text-shadow: none;
+}
+
+.timeline-container .slider, .timeline-container .slider:after{
+      background-color: #8f1540;
+}
+
+.timeline-container .atMinimumSpan .slider:after {
+    background-color: #8f1540;
+}
