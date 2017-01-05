@@ -2080,15 +2080,7 @@
             "metadata": {
                 "positions": {
                     "title": {
-                        "modules": [
-                            {
-                                "type": "DefaultTitle",
-                                "config": {
-                                    "className": "",
-                                    "maxChars": 0
-                                }
-                            }
-                        ]
+                        "modules": []
                     },
                     "content": {
                         "modules": [
@@ -3878,7 +3870,8 @@
                 },
                 "positionList": [
                     "content"
-                ]
+                ],
+                "_diagramState": []
             },
             "reuseIdentifier": "SomeModulesList",
             "contentPosition": "content",
@@ -4994,6 +4987,14 @@
                                 "type": "GeolocationTags"
                             },
                             {
+                                "type": "StreetView",
+                                "config": {
+                                    "className": "",
+                                    "showEmpty": false,
+                                    "displayImage": true
+                                }
+                            },
+                            {
                                 "type": "DefaultDescription",
                                 "config": {
                                     "className": "",
@@ -5016,14 +5017,6 @@
                                     "embedPortrait": false,
                                     "preferLocalContent": true,
                                     "portraitClip": true
-                                }
-                            },
-                            {
-                                "type": "StreetView",
-                                "config": {
-                                    "className": "",
-                                    "showEmpty": false,
-                                    "displayImage": true
                                 }
                             }
                         ]
