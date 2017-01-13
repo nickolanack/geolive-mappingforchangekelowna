@@ -99,8 +99,8 @@
             {
                 "id": "1",
                 "description": "testing deploy",
-                "eventName": "myEvent",
-                "eventScript": "<?php\r\n\r\necho 'Hello World'"
+                "eventName": "onEmailOwnershipAssignment",
+                "eventScript": "plugin.CustomEvents.14.0.eventScript.php"
             }
         ]
     },
@@ -156,6 +156,38 @@
                         }
                     },
                     "allowMultiple": false
+                },
+                {
+                    "visibility": "public",
+                    "tableId": "2",
+                    "tableName": "agencyAttributes",
+                    "tableSuffix": "_1888",
+                    "title": "contactEmail",
+                    "label": "Contact Email",
+                    "description": "",
+                    "fieldType": "text",
+                    "color": "rgb(undefined, undefined, undefined)",
+                    "searchability": "public",
+                    "editability": "registered",
+                    "fieldTextOptions": {
+                        "textType": "input",
+                        "inputOptions": {
+                            "buildAutocomplete": false,
+                            "requireModeration": false,
+                            "limitMaxChars": 0,
+                            "limitMaxWords": 0,
+                            "allowHtml": false,
+                            "allowMedia": true,
+                            "allowLinks": true
+                        },
+                        "listOptions": {
+                            "takeSugesstions": true,
+                            "buildTree": false,
+                            "iconize": false,
+                            "colorize": false
+                        }
+                    },
+                    "allowMultiple": false
                 }
             ],
             "nameAttribute": [],
@@ -183,6 +215,11 @@
     "plugin.18": {
         "name": "API",
         "instance": "API",
+        "parameters": {}
+    },
+    "plugin.21": {
+        "name": "Events",
+        "instance": "Events",
         "parameters": {}
     },
     "widget.1": {
@@ -2992,6 +3029,15 @@
             "readAccess": "public"
         }
     },
+    "widget.71": {
+        "name": "Users Item Filter",
+        "instance": "UsersItemFilter",
+        "parameters": {
+            "widgetTitle": "",
+            "readAccess": "registered",
+            "position": "RIGHT_CENTER"
+        }
+    },
     "widget.65": {
         "name": "Custom CSS",
         "instance": "CSS",
@@ -3069,8 +3115,8 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 27,
-                            "y": 127
+                            "x": 37,
+                            "y": 137
                         },
                         "children": [
                             {
@@ -3110,7 +3156,9 @@
                                                 "className": "",
                                                 "showCancel": true,
                                                 "labelForCancel": "cancel",
-                                                "labelForSubmit": "Login"
+                                                "labelForSubmit": "Login",
+                                                "labelForUsername": "XXXX-XXXX",
+                                                "labelForPassword": "XXXX-XXXX"
                                             }
                                         },
                                         {
@@ -3124,21 +3172,7 @@
                                     ]
                                 },
                                 "footer": {
-                                    "modules": [
-                                        {
-                                            "type": "WizardButtons",
-                                            "config": {
-                                                "className": "WizardFooter",
-                                                "reduceOpacity": false,
-                                                "onCompleteScript": "defaultBehaviorFn();",
-                                                "labelForCancel": "cancel",
-                                                "labelForSubmit": "submit",
-                                                "labelForNext": "next",
-                                                "labelForPrevious": "previous",
-                                                "showCancel": true
-                                            }
-                                        }
-                                    ]
+                                    "modules": []
                                 },
                                 "menu": {
                                     "modules": []
@@ -3164,6 +3198,15 @@
             "templateName": "MapItemTemplate",
             "widgetTitle": "",
             "readAccess": "guest"
+        }
+    },
+    "widget.73": {
+        "name": "Custom Behavior Script",
+        "instance": "CustomBehaviorScript",
+        "parameters": {
+            "customScript": "widget.CustomBehaviorScript.73.customScript.js",
+            "widgetTitle": "",
+            "readAccess": "registered"
         }
     },
     "widget.30": {
