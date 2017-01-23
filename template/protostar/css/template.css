@@ -3248,9 +3248,9 @@ input[type="submit"].btn.btn-mini {
 
 
 a.brand:before {
-    background-image: url("../logo.jpg");
+    background-image: url("../logo.png");
     content: "";
-    width: 85px;
+    width: 213px;
     height: 45px;
     position: relative;
     background-size: auto 100%;
@@ -7005,6 +7005,7 @@ body.site.fluid {
 	font-size: 40px;
 	line-height: 48px;
 	font-weight: bold;
+	display: none;
 }
 .brand {
 	color: #004466;
