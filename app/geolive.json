@@ -27,7 +27,13 @@
     "plugin.6": {
         "name": "Maps",
         "instance": "Maps",
-        "parameters": {}
+        "parameters": {
+            "enableLayerSyncronization": true,
+            "onlyShowMarkersInIconset": false,
+            "tileCachePath": "",
+            "googleMapsServerApiKey": "XXXX-XXXX",
+            "layerDisplayFilterScript": ""
+        }
     },
     "plugin.7": {
         "name": "System Parameters",
@@ -3207,6 +3213,15 @@
             "customScript": "widget.CustomBehaviorScript.73.customScript.js",
             "widgetTitle": "",
             "readAccess": "registered"
+        }
+    },
+    "widget.74": {
+        "name": "Custom Content",
+        "instance": "CustomContent",
+        "parameters": {
+            "customScript": "widget.CustomContent.74.customScript.js",
+            "widgetTitle": "Front Page Display",
+            "readAccess": "public"
         }
     },
     "widget.30": {
