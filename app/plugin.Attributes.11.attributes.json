@@ -72,10 +72,10 @@
                     "tableName": "serviceProviderAttributes",
                     "tableSuffix": "_9632",
                     "title": "buildingContact",
-                    "label": "Building Contact",
+                    "label": "Contact Person",
                     "description": "",
                     "fieldType": "text",
-                    "color": "rgb(undefined, undefined, undefined)",
+                    "color": "rgb(NaN, NaN, NaN)",
                     "searchability": "public",
                     "editability": "registered",
                     "fieldTextOptions": {

@@ -3360,8 +3360,8 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 47,
-                            "y": 308
+                            "x": 77,
+                            "y": 338
                         },
                         "children": [
                             {
@@ -3395,6 +3395,20 @@
                                 },
                                 "content": {
                                     "modules": [
+                                        {
+                                            "type": "WizardStepTitle",
+                                            "config": {
+                                                "className": "",
+                                                "text": "<div class=\"label\"><span class=\"lbl-txt\">Daily Service Details<\/span><\/div>",
+                                                "identifier": "htmlLabel"
+                                            }
+                                        },
+                                        {
+                                            "type": "ReusableArray",
+                                            "config": {
+                                                "widgetId": "46"
+                                            }
+                                        },
                                         {
                                             "type": "ReusableArray",
                                             "config": {
@@ -3446,24 +3460,18 @@
                                                         "components\/com_geolive\/users_files\/user_files_994\/Uploads\/EhZ_[ImAgE]_LXe_[G]_3oF.png": ""
                                                     }
                                                 },
-                                                "initSelectedScript": "widget.WizardBuilder.36.metadata.children.1.builderMetadata.positions.content.modules.2.config.initSelectedScript.js",
+                                                "initSelectedScript": "widget.WizardBuilder.36.metadata.children.1.builderMetadata.positions.content.modules.4.config.initSelectedScript.js",
                                                 "className": "",
                                                 "requireSelection": true,
-                                                "allowMultipleSelection": false,
+                                                "allowMultipleSelection": true,
                                                 "allowEmptySelection": false,
-                                                "initializationScript": "widget.WizardBuilder.36.metadata.children.1.builderMetadata.positions.content.modules.2.config.initializationScript.js",
+                                                "initializationScript": "widget.WizardBuilder.36.metadata.children.1.builderMetadata.positions.content.modules.4.config.initializationScript.js",
                                                 "onSelectScript": "",
                                                 "onDeselectScript": "",
-                                                "onRenderSelectableScript": "widget.WizardBuilder.36.metadata.children.1.builderMetadata.positions.content.modules.2.config.onRenderSelectableScript.js",
+                                                "onRenderSelectableScript": "widget.WizardBuilder.36.metadata.children.1.builderMetadata.positions.content.modules.4.config.onRenderSelectableScript.js",
                                                 "onSubmitWizardWithSelectedScript": "",
-                                                "exposeIconset": true,
+                                                "exposeIconset": false,
                                                 "iconsetName": "Daily-Services-Iconset"
-                                            }
-                                        },
-                                        {
-                                            "type": "ReusableArray",
-                                            "config": {
-                                                "widgetId": "46"
                                             }
                                         }
                                     ]
@@ -3989,7 +3997,7 @@
                             {
                                 "type": "WizardTitleField",
                                 "config": {
-                                    "label": "Title",
+                                    "label": "Title or Name",
                                     "message": "add a title",
                                     "className": "",
                                     "maxChars": 0,
