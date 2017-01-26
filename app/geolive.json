@@ -1934,7 +1934,7 @@
                                 "type": "WizardStepTitle",
                                 "config": {
                                     "className": "",
-                                    "text": "Service Provider Details",
+                                    "text": "<div class=\"label\"><span class=\"lbl-txt\">Service Provider Details<\/span><\/div>",
                                     "identifier": "htmlLabel"
                                 }
                             },
@@ -2560,7 +2560,7 @@
             "beforeSubmitScript": "",
             "onCreateScript": "",
             "onUpdateScript": "",
-            "onSaveScript": "",
+            "onSaveScript": "widget.WizardBuilder.21.onSaveScript.js",
             "templateName": "AgencyWizardTemplate",
             "widgetTitle": "AgencyWizardTemplate",
             "readAccess": "public"
@@ -2594,15 +2594,7 @@
             "metadata": {
                 "positions": {
                     "title": {
-                        "modules": [
-                            {
-                                "type": "DefaultTitle",
-                                "config": {
-                                    "className": "",
-                                    "maxChars": 0
-                                }
-                            }
-                        ]
+                        "modules": []
                     },
                     "content": {
                         "modules": [
@@ -2610,7 +2602,7 @@
                                 "type": "WizardStepTitle",
                                 "config": {
                                     "className": "",
-                                    "text": "<span style=\"\">Agency Details<\/span>",
+                                    "text": "<div class=\"label\"><span class=\"lbl-txt\">Agency Details<\/span><\/div>",
                                     "identifier": "htmlLabel"
                                 }
                             },
@@ -2771,7 +2763,7 @@
             "beforeSubmitScript": "",
             "onCreateScript": "",
             "onUpdateScript": "",
-            "onSaveScript": "",
+            "onSaveScript": "widget.WizardBuilder.25.onSaveScript.js",
             "templateName": "SetAgencyWizardTemplate",
             "widgetTitle": "SetAgencyWizardTemplate",
             "readAccess": "public"
@@ -3513,7 +3505,7 @@
             "beforeSubmitScript": "",
             "onCreateScript": "",
             "onUpdateScript": "",
-            "onSaveScript": "",
+            "onSaveScript": "widget.WizardBuilder.36.onSaveScript.js",
             "templateName": "DailyWizardTemplate",
             "widgetTitle": "DailyWizardTemplate",
             "readAccess": "public"
@@ -3526,41 +3518,22 @@
             "metadata": {
                 "positions": {
                     "title": {
-                        "modules": [
-                            {
-                                "type": "DefaultTitle",
-                                "config": {
-                                    "className": "",
-                                    "maxChars": 0
-                                }
-                            }
-                        ]
+                        "modules": []
                     },
                     "content": {
                         "modules": [
                             {
-                                "type": "DefaultDescription",
+                                "type": "WizardStepTitle",
                                 "config": {
                                     "className": "",
-                                    "imageWidth": 300,
-                                    "imageHeight": 240,
-                                    "multiImageWidth": 100,
-                                    "multiImageHeight": 75,
-                                    "portraitImageWidth": 75,
-                                    "portraitImageHeight": 100,
-                                    "autoArrange": true,
-                                    "oneLine": true,
-                                    "maxChars": 0,
-                                    "maxWidth": 0,
-                                    "showAudios": true,
-                                    "showVideos": true,
-                                    "showImages": true,
-                                    "showDocuments": true,
-                                    "showLinks": true,
-                                    "showExternalContent": true,
-                                    "embedPortrait": true,
-                                    "preferLocalContent": true,
-                                    "portraitClip": true
+                                    "text": "<div class=\"label\"><span class=\"lbl-txt\">Daily Service Details<\/span><\/div>",
+                                    "identifier": "htmlLabel"
+                                }
+                            },
+                            {
+                                "type": "ReusableArray",
+                                "config": {
+                                    "widgetId": "57"
                                 }
                             }
                         ]
@@ -3577,7 +3550,8 @@
                     "content",
                     "footer",
                     "menu"
-                ]
+                ],
+                "_diagramState": []
             },
             "templateName": "DailyDetail",
             "widgetTitle": "DailyDetail",
