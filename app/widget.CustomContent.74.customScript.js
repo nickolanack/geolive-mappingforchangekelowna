@@ -1,6 +1,6 @@
 <section>
 <h1>Search Services</h1>
-<div class="search-area"><div id="search-container"></div><img src="templates/protostar/front.png" /></div>
+<div class="search-area"><div id="search-container"></div></div>
 </section>
 
 <?php
