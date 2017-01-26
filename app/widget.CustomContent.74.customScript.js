@@ -1,1 +1,43 @@
-<a href="map" ><h3>View the Kelowna Services Map</h3><img src="templates/protostar/front.png" /><a>
+<section>
+<h1>Search Services</h1>
+<div class="search-area"><div id="search-container"></div><img src="templates/protostar/front.png" /></div>
+</section>
+
+<?php
+
+Core::Widgets();
+Widget::GetWidget(80)->display(); //CSS
+Widget::GetWidget(79)->display(); //Search Bar
+
+
+
+
+Core::LoadPlugin('Maps');
+?>
+<section>
+<h1>Amazing Organizations</h1>
+<?php
+MapController::IterateLayersMapitems(2, function($mapitem){
+
+	Scaffold('article.mapitem',
+            array(
+                'item'        => $mapitem,
+                'heading'     => 2,
+                'link'        => SefUrlFrom(
+                    Core::HTML()->urlToCurrentView(
+                        array(
+                            'mapitem' => $mapitem->getId(),
+                        ))),
+                'schema'      => array(
+                    'link' => 'itemprop="map"',
+                ),
+                'afterHeader' => '<hr/>',
+            ), Core::Get('Maps')->getScaffoldsPath());
+
+
+
+
+}, $authorize = 'user', $filters = array());
+
+?>
+</section>

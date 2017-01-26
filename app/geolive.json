@@ -1891,26 +1891,20 @@
         "instance": "IconSet",
         "parameters": {
             "markerIconset": [
-                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/UdH_[ImAgE]_[G]_eOp_ttg.png",
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_cai_qou_wau_[G].png",
-                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_fIR_hWi_8e5.png"
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_fIR_hWi_8e5.png",
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/MXD_bna_[ImAgE]_4ND_[G].png"
             ],
             "layerMap": [],
             "tipMap": [],
             "filterLayerMappedIcons": true,
             "iconsetMetadata": {
                 "layerMap": {
-                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/UdH_[ImAgE]_[G]_eOp_ttg.png": 2,
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_cai_qou_wau_[G].png": 1,
-                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_fIR_hWi_8e5.png": 5
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_fIR_hWi_8e5.png": 5,
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/MXD_bna_[ImAgE]_4ND_[G].png": 2
                 },
                 "renderSettings": {
-                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/UdH_[ImAgE]_[G]_eOp_ttg.png": {
-                        "anchor": [
-                            "50.0%",
-                            "100.0%"
-                        ]
-                    },
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_cai_qou_wau_[G].png": {
                         "anchor": [
                             "50.0%",
@@ -1926,9 +1920,7 @@
                 }
             },
             "widgetTitle": "",
-            "readAccess": "public",
-            "_raw_layerMap": null,
-            "_raw_tipMap": null
+            "readAccess": "public"
         }
     },
     "widget.18": {
@@ -2601,7 +2593,7 @@
             "customScript": "",
             "controlColor": "rgb(48,84,107)",
             "markerIconset": [
-                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/UdH_[ImAgE]_[G]_eOp_ttg.png"
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/MXD_bna_[ImAgE]_4ND_[G].png"
             ],
             "markerSize": 32,
             "hoverTip": "Add an Agency",
@@ -2612,7 +2604,8 @@
             "formatTipScript": "",
             "widgetTitle": "",
             "readAccess": "public",
-            "position": "RIGHT_CENTER"
+            "position": "RIGHT_CENTER",
+            "profileIcon": null
         }
     },
     "widget.24": {
@@ -5193,6 +5186,15 @@
             "readAccess": "public"
         }
     },
+    "widget.79": {
+        "name": "Search",
+        "instance": "Search",
+        "parameters": {
+            "widgetTitle": "Front End Search",
+            "readAccess": "public",
+            "position": ""
+        }
+    },
     "widget.78": {
         "name": "Reuseable Module Group",
         "instance": "ReusableModuleGroup",
@@ -5378,6 +5380,15 @@
         "name": "Tile Buttons",
         "instance": "TileButtons",
         "parameters": {}
+    },
+    "widget.80": {
+        "name": "Custom CSS",
+        "instance": "CSS",
+        "parameters": {
+            "customCSS": "widget.CSS.80.customCSS.css",
+            "widgetTitle": "Front Page Css",
+            "readAccess": "public"
+        }
     },
     "widget.66": {
         "name": "Custom Behavior Script",
