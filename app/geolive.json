@@ -228,6 +228,11 @@
         "instance": "Events",
         "parameters": {}
     },
+    "plugin.22": {
+        "name": "Search Plugin",
+        "instance": "Search",
+        "parameters": {}
+    },
     "widget.1": {
         "name": "Google Controls",
         "instance": "GoogleControl",
