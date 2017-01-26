@@ -185,8 +185,8 @@ map.setItemEditFn(function(mapitem, options) {
 		wizard.buildAndShow(editTabViewController, {}); //'geolive' string is for css
 		wizard.addEvent('complete',function(){
 
-			map.editItem(mapitem,{});
-
+			//map.editItem(mapitem,{});
+                        hide();
 		});
 
 	return wizard;

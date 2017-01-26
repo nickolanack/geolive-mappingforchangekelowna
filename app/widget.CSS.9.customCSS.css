@@ -47,3 +47,7 @@ overflow:hidden;
 .SideBarWidget>.content {
     overflow-y: scroll;
 }
+
+.hideTextArea .text-input, .hideTextArea .video, .hideTextArea .audio, .hideTextArea .document {
+    display: none;
+}

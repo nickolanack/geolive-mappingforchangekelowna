@@ -440,8 +440,8 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 181,
-                            "y": 249
+                            "x": 211,
+                            "y": 279
                         },
                         "children": [
                             {
@@ -465,6 +465,12 @@
                                                 "className": "",
                                                 "text": "<div class=\"label\"><span class=\"lbl-txt\">Service Provider Details<\/span><\/div>",
                                                 "identifier": "htmlLabel"
+                                            }
+                                        },
+                                        {
+                                            "type": "ReusableArray",
+                                            "config": {
+                                                "widgetId": "78"
                                             }
                                         },
                                         {
@@ -538,15 +544,15 @@
                                                         "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_eI5_Wj9_9fx_[G].png": ""
                                                     }
                                                 },
-                                                "initSelectedScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.4.config.initSelectedScript.js",
+                                                "initSelectedScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.5.config.initSelectedScript.js",
                                                 "className": "",
                                                 "requireSelection": true,
                                                 "allowMultipleSelection": true,
                                                 "allowEmptySelection": false,
-                                                "initializationScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.4.config.initializationScript.js",
-                                                "onSelectScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.4.config.onSelectScript.js",
-                                                "onDeselectScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.4.config.onDeselectScript.js",
-                                                "onRenderSelectableScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.4.config.onRenderSelectableScript.js",
+                                                "initializationScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.5.config.initializationScript.js",
+                                                "onSelectScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.5.config.onSelectScript.js",
+                                                "onDeselectScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.5.config.onDeselectScript.js",
+                                                "onRenderSelectableScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.5.config.onRenderSelectableScript.js",
                                                 "onSubmitWizardWithSelectedScript": "",
                                                 "exposeIconset": true,
                                                 "iconsetName": "BuildingTypeIcons"
@@ -1687,15 +1693,15 @@
                                                         "components\/com_geolive\/users_files\/user_files_994\/Uploads\/Id4_[G]_Emk_HMJ_[ImAgE].png": ""
                                                     }
                                                 },
-                                                "initSelectedScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.33.config.initSelectedScript.js",
+                                                "initSelectedScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.34.config.initSelectedScript.js",
                                                 "className": "",
                                                 "requireSelection": true,
                                                 "allowMultipleSelection": true,
                                                 "allowEmptySelection": false,
-                                                "initializationScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.33.config.initializationScript.js",
+                                                "initializationScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.34.config.initializationScript.js",
                                                 "onSelectScript": "addValue(i);",
                                                 "onDeselectScript": "removeValue(i);",
-                                                "onRenderSelectableScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.33.config.onRenderSelectableScript.js",
+                                                "onRenderSelectableScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.34.config.onRenderSelectableScript.js",
                                                 "onSubmitWizardWithSelectedScript": "",
                                                 "exposeIconset": true,
                                                 "iconsetName": "ServicesProvidedIcons"
@@ -1866,10 +1872,10 @@
             "customScript": "",
             "controlColor": "rgb(48,84,107)",
             "markerIconset": [
-                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/jji_qic_[ImAgE]_fpd_[G].png"
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_cai_qou_wau_[G].png"
             ],
             "markerSize": 32,
-            "hoverTip": "This will not be visible!",
+            "hoverTip": "Add a Service Provider",
             "className": "",
             "wizardName": "MapItemTemplate",
             "guestLoginDrag": true,
@@ -1885,27 +1891,33 @@
         "instance": "IconSet",
         "parameters": {
             "markerIconset": [
-                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/jji_qic_[ImAgE]_fpd_[G].png",
-                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/MMT_92i_[ImAgE]_k3H_[G].png",
-                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/QYb_Mu7_Hgp_[ImAgE]_[G].png"
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/UdH_[ImAgE]_[G]_eOp_ttg.png",
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_cai_qou_wau_[G].png",
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_fIR_hWi_8e5.png"
             ],
             "layerMap": [],
             "tipMap": [],
             "filterLayerMappedIcons": true,
             "iconsetMetadata": {
                 "layerMap": {
-                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/jji_qic_[ImAgE]_fpd_[G].png": 1,
-                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/MMT_92i_[ImAgE]_k3H_[G].png": 2,
-                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/QYb_Mu7_Hgp_[ImAgE]_[G].png": 5
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/UdH_[ImAgE]_[G]_eOp_ttg.png": 2,
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_cai_qou_wau_[G].png": 1,
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_fIR_hWi_8e5.png": 5
                 },
                 "renderSettings": {
-                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/jji_qic_[ImAgE]_fpd_[G].png": {
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/UdH_[ImAgE]_[G]_eOp_ttg.png": {
                         "anchor": [
                             "50.0%",
                             "100.0%"
                         ]
                     },
-                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/MMT_92i_[ImAgE]_k3H_[G].png": {
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_cai_qou_wau_[G].png": {
+                        "anchor": [
+                            "50.0%",
+                            "100.0%"
+                        ]
+                    },
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_fIR_hWi_8e5.png": {
                         "anchor": [
                             "50.0%",
                             "100.0%"
@@ -2134,15 +2146,15 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 167,
-                            "y": 108
+                            "x": 177,
+                            "y": 118
                         },
                         "children": [
                             {
                                 "class": "Node",
                                 "_diagramState": {
-                                    "x": 531,
-                                    "y": 393
+                                    "x": 541,
+                                    "y": 369
                                 }
                             }
                         ],
@@ -2159,6 +2171,12 @@
                                                 "className": "",
                                                 "text": "Agency Details",
                                                 "identifier": "htmlLabel"
+                                            }
+                                        },
+                                        {
+                                            "type": "ReusableArray",
+                                            "config": {
+                                                "widgetId": "78"
                                             }
                                         },
                                         {
@@ -2215,7 +2233,8 @@
                                                 "muliTemplate": "lines",
                                                 "multiMessage": "",
                                                 "formatter": "none",
-                                                "iconTint": "rgb(100, 149, 237)"
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": ""
                                             }
                                         },
                                         {
@@ -2266,7 +2285,8 @@
                                                 "muliTemplate": "lines",
                                                 "multiMessage": "",
                                                 "formatter": "none",
-                                                "iconTint": "rgb(100, 149, 237)"
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": ""
                                             }
                                         },
                                         {
@@ -2317,7 +2337,8 @@
                                                 "muliTemplate": "lines",
                                                 "multiMessage": "",
                                                 "formatter": "none",
-                                                "iconTint": "rgb(100, 149, 237)"
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": ""
                                             }
                                         },
                                         {
@@ -2368,7 +2389,8 @@
                                                 "muliTemplate": "lines",
                                                 "multiMessage": "",
                                                 "formatter": "none",
-                                                "iconTint": "rgb(100, 149, 237)"
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": ""
                                             }
                                         },
                                         {
@@ -2419,7 +2441,8 @@
                                                 "muliTemplate": "lines",
                                                 "multiMessage": "",
                                                 "formatter": "none",
-                                                "iconTint": "rgb(100, 149, 237)"
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": ""
                                             }
                                         },
                                         {
@@ -2470,7 +2493,8 @@
                                                 "muliTemplate": "lines",
                                                 "multiMessage": "",
                                                 "formatter": "none",
-                                                "iconTint": "rgb(100, 149, 237)"
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": ""
                                             }
                                         },
                                         {
@@ -2521,7 +2545,8 @@
                                                 "muliTemplate": "lines",
                                                 "multiMessage": "",
                                                 "formatter": "none",
-                                                "iconTint": "rgb(100, 149, 237)"
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": ""
                                             }
                                         }
                                     ]
@@ -2552,7 +2577,10 @@
                                 "content",
                                 "footer",
                                 "menu"
-                            ]
+                            ],
+                            "_diagramState": {
+                                "minimized": false
+                            }
                         }
                     }
                 ]
@@ -2573,10 +2601,10 @@
             "customScript": "",
             "controlColor": "rgb(48,84,107)",
             "markerIconset": [
-                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/MMT_92i_[ImAgE]_k3H_[G].png"
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/UdH_[ImAgE]_[G]_eOp_ttg.png"
             ],
             "markerSize": 32,
-            "hoverTip": "Not going to be visible",
+            "hoverTip": "Add an Agency",
             "className": "",
             "wizardName": "MapItemTemplate",
             "guestLoginDrag": true,
@@ -3312,19 +3340,19 @@
             "customScript": "",
             "controlColor": "rgb(48,84,107)",
             "markerIconset": [
-                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/QYb_Mu7_Hgp_[ImAgE]_[G].png"
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_fIR_hWi_8e5.png"
             ],
             "markerSize": 32,
-            "hoverTip": "",
+            "hoverTip": "Add a Daily Service",
             "className": "",
             "wizardName": "MapItemTemplate",
             "guestLoginDrag": true,
             "onDragEndScript": "defaultBehaviorFn();",
-            "profileIcon": null,
             "formatTipScript": "",
             "widgetTitle": "",
             "readAccess": "public",
-            "position": "RIGHT_CENTER"
+            "position": "RIGHT_CENTER",
+            "profileIcon": null
         }
     },
     "widget.36": {
@@ -3352,8 +3380,8 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 77,
-                            "y": 338
+                            "x": 97,
+                            "y": 358
                         },
                         "children": [
                             {
@@ -3393,6 +3421,12 @@
                                                 "className": "",
                                                 "text": "<div class=\"label\"><span class=\"lbl-txt\">Daily Service Details<\/span><\/div>",
                                                 "identifier": "htmlLabel"
+                                            }
+                                        },
+                                        {
+                                            "type": "ReusableArray",
+                                            "config": {
+                                                "widgetId": "78"
                                             }
                                         },
                                         {
@@ -3452,15 +3486,15 @@
                                                         "components\/com_geolive\/users_files\/user_files_994\/Uploads\/EhZ_[ImAgE]_LXe_[G]_3oF.png": ""
                                                     }
                                                 },
-                                                "initSelectedScript": "widget.WizardBuilder.36.metadata.children.1.builderMetadata.positions.content.modules.4.config.initSelectedScript.js",
+                                                "initSelectedScript": "widget.WizardBuilder.36.metadata.children.1.builderMetadata.positions.content.modules.5.config.initSelectedScript.js",
                                                 "className": "",
                                                 "requireSelection": true,
                                                 "allowMultipleSelection": true,
                                                 "allowEmptySelection": false,
-                                                "initializationScript": "widget.WizardBuilder.36.metadata.children.1.builderMetadata.positions.content.modules.4.config.initializationScript.js",
-                                                "onSelectScript": "",
-                                                "onDeselectScript": "",
-                                                "onRenderSelectableScript": "widget.WizardBuilder.36.metadata.children.1.builderMetadata.positions.content.modules.4.config.onRenderSelectableScript.js",
+                                                "initializationScript": "widget.WizardBuilder.36.metadata.children.1.builderMetadata.positions.content.modules.5.config.initializationScript.js",
+                                                "onSelectScript": "addValue(i);",
+                                                "onDeselectScript": "removeValue(i);",
+                                                "onRenderSelectableScript": "widget.WizardBuilder.36.metadata.children.1.builderMetadata.positions.content.modules.5.config.onRenderSelectableScript.js",
                                                 "onSubmitWizardWithSelectedScript": "",
                                                 "exposeIconset": false,
                                                 "iconsetName": "Daily-Services-Iconset"
@@ -4005,6 +4039,58 @@
                                     "toolbarPosition": "bottom",
                                     "textFormatScript": "",
                                     "mediaIconTint": "rgb(100, 149, 237)"
+                                }
+                            },
+                            {
+                                "type": "plugin.Attributes.WizardTextAttribute",
+                                "config": {
+                                    "attributeFields": [
+                                        {
+                                            "visibility": "public",
+                                            "tableId": "1",
+                                            "tableName": "serviceProviderAttributes",
+                                            "tableSuffix": "_9632",
+                                            "title": "keywords",
+                                            "label": "Search Keywords",
+                                            "description": "",
+                                            "fieldType": "text",
+                                            "color": "rgb(undefined, undefined, undefined)",
+                                            "searchability": "public",
+                                            "editability": "registered",
+                                            "fieldTextOptions": {
+                                                "textType": "input",
+                                                "inputOptions": {
+                                                    "buildAutocomplete": false,
+                                                    "requireModeration": false,
+                                                    "limitMaxChars": 0,
+                                                    "limitMaxWords": 0,
+                                                    "allowHtml": false,
+                                                    "allowMedia": true,
+                                                    "allowLinks": true
+                                                },
+                                                "listOptions": {
+                                                    "takeSugesstions": true,
+                                                    "buildTree": false,
+                                                    "iconize": false,
+                                                    "colorize": false
+                                                }
+                                            },
+                                            "allowMultiple": false
+                                        }
+                                    ],
+                                    "className": "",
+                                    "label": "Search Keywords",
+                                    "message": "",
+                                    "lines": 2,
+                                    "maxChars": 0,
+                                    "mandatory": false,
+                                    "multiEntry": false,
+                                    "autocomplete": true,
+                                    "muliTemplate": "lines",
+                                    "multiMessage": "",
+                                    "formatter": "none",
+                                    "iconTint": "rgb(100, 149, 237)",
+                                    "onRenderTextFieldScript": ""
                                 }
                             }
                         ]
@@ -5104,6 +5190,84 @@
                 ""
             ],
             "widgetTitle": "Form - Referrals",
+            "readAccess": "public"
+        }
+    },
+    "widget.78": {
+        "name": "Reuseable Module Group",
+        "instance": "ReusableModuleGroup",
+        "parameters": {
+            "metadata": {
+                "positions": {
+                    "content": {
+                        "modules": [
+                            {
+                                "type": "plugin.Attributes.WizardDescriptionAttribute",
+                                "config": {
+                                    "attributeFields": [
+                                        {
+                                            "visibility": "public",
+                                            "tableId": "1",
+                                            "tableName": "serviceProviderAttributes",
+                                            "tableSuffix": "_9632",
+                                            "title": "logo",
+                                            "label": "Logo",
+                                            "description": "",
+                                            "fieldType": "text",
+                                            "color": "rgb(undefined, undefined, undefined)",
+                                            "searchability": "public",
+                                            "editability": "registered",
+                                            "fieldTextOptions": {
+                                                "textType": "input",
+                                                "inputOptions": {
+                                                    "buildAutocomplete": false,
+                                                    "requireModeration": false,
+                                                    "limitMaxChars": 0,
+                                                    "limitMaxWords": 0,
+                                                    "allowHtml": false,
+                                                    "allowMedia": true,
+                                                    "allowLinks": true
+                                                },
+                                                "listOptions": {
+                                                    "takeSugesstions": true,
+                                                    "buildTree": false,
+                                                    "iconize": false,
+                                                    "colorize": false
+                                                }
+                                            },
+                                            "allowMultiple": false
+                                        }
+                                    ],
+                                    "label": "Logo",
+                                    "message": "add a description",
+                                    "lines": 3,
+                                    "mandatory": false,
+                                    "showAudios": false,
+                                    "showImages": true,
+                                    "showDocuments": false,
+                                    "showVideos": false,
+                                    "className": "hideTextArea",
+                                    "maxChars": 0,
+                                    "showExpandInput": false,
+                                    "toolbarPosition": "top",
+                                    "textFormatScript": ""
+                                }
+                            }
+                        ]
+                    }
+                },
+                "positionList": [
+                    "content"
+                ],
+                "_diagramState": []
+            },
+            "reuseIdentifier": "SomeModulesList",
+            "contentPosition": "content",
+            "contentTypes": [
+                "wizard.attribute",
+                ""
+            ],
+            "widgetTitle": "Logo",
             "readAccess": "public"
         }
     },
