@@ -440,8 +440,8 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 171,
-                            "y": 239
+                            "x": 181,
+                            "y": 249
                         },
                         "children": [
                             {
@@ -474,211 +474,9 @@
                                             }
                                         },
                                         {
-                                            "type": "plugin.Attributes.WizardTextAttribute",
+                                            "type": "ReusableArray",
                                             "config": {
-                                                "attributeFields": [
-                                                    {
-                                                        "visibility": "public",
-                                                        "tableId": "1",
-                                                        "tableName": "serviceProviderAttributes",
-                                                        "tableSuffix": "_9632",
-                                                        "title": "buildingContact",
-                                                        "label": "Building Contact",
-                                                        "description": "",
-                                                        "fieldType": "text",
-                                                        "color": "rgb(undefined, undefined, undefined)",
-                                                        "searchability": "public",
-                                                        "editability": "registered",
-                                                        "fieldTextOptions": {
-                                                            "textType": "input",
-                                                            "inputOptions": {
-                                                                "buildAutocomplete": false,
-                                                                "requireModeration": false,
-                                                                "limitMaxChars": 0,
-                                                                "limitMaxWords": 0,
-                                                                "allowHtml": false,
-                                                                "allowMedia": true,
-                                                                "allowLinks": true
-                                                            },
-                                                            "listOptions": {
-                                                                "takeSugesstions": true,
-                                                                "buildTree": false,
-                                                                "iconize": false,
-                                                                "colorize": false
-                                                            }
-                                                        },
-                                                        "allowMultiple": false
-                                                    }
-                                                ],
-                                                "className": "",
-                                                "label": "{field.label}",
-                                                "message": "",
-                                                "lines": 1,
-                                                "maxChars": 0,
-                                                "mandatory": false,
-                                                "multiEntry": false,
-                                                "autocomplete": true,
-                                                "muliTemplate": "lines",
-                                                "multiMessage": "",
-                                                "formatter": "none",
-                                                "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": ""
-                                            }
-                                        },
-                                        {
-                                            "type": "plugin.Attributes.WizardTextAttribute",
-                                            "config": {
-                                                "attributeFields": [
-                                                    {
-                                                        "visibility": "public",
-                                                        "tableId": "1",
-                                                        "tableName": "serviceProviderAttributes",
-                                                        "tableSuffix": "_9632",
-                                                        "title": "positionOfContact",
-                                                        "label": "Position of Contact",
-                                                        "description": "",
-                                                        "fieldType": "text",
-                                                        "color": "rgb(NaN, NaN, NaN)",
-                                                        "searchability": "public",
-                                                        "editability": "registered",
-                                                        "fieldTextOptions": {
-                                                            "textType": "input",
-                                                            "inputOptions": {
-                                                                "buildAutocomplete": false,
-                                                                "requireModeration": false,
-                                                                "limitMaxChars": 0,
-                                                                "limitMaxWords": 0,
-                                                                "allowHtml": false,
-                                                                "allowMedia": true,
-                                                                "allowLinks": true
-                                                            },
-                                                            "listOptions": {
-                                                                "takeSugesstions": true,
-                                                                "buildTree": false,
-                                                                "iconize": false,
-                                                                "colorize": false
-                                                            }
-                                                        },
-                                                        "allowMultiple": false
-                                                    }
-                                                ],
-                                                "className": "",
-                                                "label": "{field.label}",
-                                                "message": "",
-                                                "lines": 1,
-                                                "maxChars": 0,
-                                                "mandatory": false,
-                                                "multiEntry": false,
-                                                "autocomplete": true,
-                                                "muliTemplate": "lines",
-                                                "multiMessage": "",
-                                                "formatter": "none",
-                                                "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": ""
-                                            }
-                                        },
-                                        {
-                                            "type": "plugin.Attributes.WizardTextAttribute",
-                                            "config": {
-                                                "attributeFields": [
-                                                    {
-                                                        "visibility": "public",
-                                                        "tableId": "1",
-                                                        "tableName": "serviceProviderAttributes",
-                                                        "tableSuffix": "_9632",
-                                                        "title": "email",
-                                                        "label": "Email",
-                                                        "description": "",
-                                                        "fieldType": "text",
-                                                        "color": "rgb(undefined, undefined, undefined)",
-                                                        "searchability": "public",
-                                                        "editability": "registered",
-                                                        "fieldTextOptions": {
-                                                            "textType": "input",
-                                                            "inputOptions": {
-                                                                "buildAutocomplete": false,
-                                                                "requireModeration": false,
-                                                                "limitMaxChars": 0,
-                                                                "limitMaxWords": 0,
-                                                                "allowHtml": false,
-                                                                "allowMedia": true,
-                                                                "allowLinks": true
-                                                            },
-                                                            "listOptions": {
-                                                                "takeSugesstions": true,
-                                                                "buildTree": false,
-                                                                "iconize": false,
-                                                                "colorize": false
-                                                            }
-                                                        },
-                                                        "allowMultiple": false
-                                                    }
-                                                ],
-                                                "className": "",
-                                                "label": "{field.label}",
-                                                "message": "",
-                                                "lines": 1,
-                                                "maxChars": 0,
-                                                "mandatory": false,
-                                                "multiEntry": false,
-                                                "autocomplete": true,
-                                                "muliTemplate": "lines",
-                                                "multiMessage": "",
-                                                "formatter": "none",
-                                                "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": ""
-                                            }
-                                        },
-                                        {
-                                            "type": "plugin.Attributes.WizardTextAttribute",
-                                            "config": {
-                                                "attributeFields": [
-                                                    {
-                                                        "visibility": "public",
-                                                        "tableId": "1",
-                                                        "tableName": "serviceProviderAttributes",
-                                                        "tableSuffix": "_9632",
-                                                        "title": "phoneNumber",
-                                                        "label": "Phone Number",
-                                                        "description": "",
-                                                        "fieldType": "text",
-                                                        "color": "rgb(undefined, undefined, undefined)",
-                                                        "searchability": "public",
-                                                        "editability": "registered",
-                                                        "fieldTextOptions": {
-                                                            "textType": "input",
-                                                            "inputOptions": {
-                                                                "buildAutocomplete": false,
-                                                                "requireModeration": false,
-                                                                "limitMaxChars": 0,
-                                                                "limitMaxWords": 0,
-                                                                "allowHtml": false,
-                                                                "allowMedia": true,
-                                                                "allowLinks": true
-                                                            },
-                                                            "listOptions": {
-                                                                "takeSugesstions": true,
-                                                                "buildTree": false,
-                                                                "iconize": false,
-                                                                "colorize": false
-                                                            }
-                                                        },
-                                                        "allowMultiple": false
-                                                    }
-                                                ],
-                                                "className": "",
-                                                "label": "{field.label}",
-                                                "message": "",
-                                                "lines": 1,
-                                                "maxChars": 0,
-                                                "mandatory": false,
-                                                "multiEntry": false,
-                                                "autocomplete": true,
-                                                "muliTemplate": "lines",
-                                                "multiMessage": "",
-                                                "formatter": "none",
-                                                "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": ""
+                                                "widgetId": "76"
                                             }
                                         },
                                         {
@@ -740,15 +538,15 @@
                                                         "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_eI5_Wj9_9fx_[G].png": ""
                                                     }
                                                 },
-                                                "initSelectedScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.7.config.initSelectedScript.js",
+                                                "initSelectedScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.4.config.initSelectedScript.js",
                                                 "className": "",
                                                 "requireSelection": true,
                                                 "allowMultipleSelection": true,
                                                 "allowEmptySelection": false,
-                                                "initializationScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.7.config.initializationScript.js",
-                                                "onSelectScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.7.config.onSelectScript.js",
-                                                "onDeselectScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.7.config.onDeselectScript.js",
-                                                "onRenderSelectableScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.7.config.onRenderSelectableScript.js",
+                                                "initializationScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.4.config.initializationScript.js",
+                                                "onSelectScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.4.config.onSelectScript.js",
+                                                "onDeselectScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.4.config.onDeselectScript.js",
+                                                "onRenderSelectableScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.4.config.onRenderSelectableScript.js",
                                                 "onSubmitWizardWithSelectedScript": "",
                                                 "exposeIconset": true,
                                                 "iconsetName": "BuildingTypeIcons"
@@ -1889,15 +1687,15 @@
                                                         "components\/com_geolive\/users_files\/user_files_994\/Uploads\/Id4_[G]_Emk_HMJ_[ImAgE].png": ""
                                                     }
                                                 },
-                                                "initSelectedScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.36.config.initSelectedScript.js",
+                                                "initSelectedScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.33.config.initSelectedScript.js",
                                                 "className": "",
                                                 "requireSelection": true,
                                                 "allowMultipleSelection": true,
                                                 "allowEmptySelection": false,
-                                                "initializationScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.36.config.initializationScript.js",
+                                                "initializationScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.33.config.initializationScript.js",
                                                 "onSelectScript": "addValue(i);",
                                                 "onDeselectScript": "removeValue(i);",
-                                                "onRenderSelectableScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.36.config.onRenderSelectableScript.js",
+                                                "onRenderSelectableScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.33.config.onRenderSelectableScript.js",
                                                 "onSubmitWizardWithSelectedScript": "",
                                                 "exposeIconset": true,
                                                 "iconsetName": "ServicesProvidedIcons"
@@ -3229,6 +3027,240 @@
             "readAccess": "public"
         }
     },
+    "widget.76": {
+        "name": "Reuseable Module Group",
+        "instance": "ReusableModuleGroup",
+        "parameters": {
+            "metadata": {
+                "positions": {
+                    "content": {
+                        "modules": [
+                            {
+                                "type": "plugin.Attributes.WizardTextAttribute",
+                                "config": {
+                                    "attributeFields": [
+                                        {
+                                            "visibility": "public",
+                                            "tableId": "1",
+                                            "tableName": "serviceProviderAttributes",
+                                            "tableSuffix": "_9632",
+                                            "title": "buildingContact",
+                                            "label": "Building Contact",
+                                            "description": "",
+                                            "fieldType": "text",
+                                            "color": "rgb(undefined, undefined, undefined)",
+                                            "searchability": "public",
+                                            "editability": "registered",
+                                            "fieldTextOptions": {
+                                                "textType": "input",
+                                                "inputOptions": {
+                                                    "buildAutocomplete": false,
+                                                    "requireModeration": false,
+                                                    "limitMaxChars": 0,
+                                                    "limitMaxWords": 0,
+                                                    "allowHtml": false,
+                                                    "allowMedia": true,
+                                                    "allowLinks": true
+                                                },
+                                                "listOptions": {
+                                                    "takeSugesstions": true,
+                                                    "buildTree": false,
+                                                    "iconize": false,
+                                                    "colorize": false
+                                                }
+                                            },
+                                            "allowMultiple": false
+                                        }
+                                    ],
+                                    "className": "",
+                                    "label": "{field.label}",
+                                    "message": "",
+                                    "lines": 1,
+                                    "maxChars": 0,
+                                    "mandatory": false,
+                                    "multiEntry": false,
+                                    "autocomplete": true,
+                                    "muliTemplate": "lines",
+                                    "multiMessage": "",
+                                    "formatter": "none",
+                                    "iconTint": "rgb(100, 149, 237)",
+                                    "onRenderTextFieldScript": ""
+                                }
+                            },
+                            {
+                                "type": "plugin.Attributes.WizardTextAttribute",
+                                "config": {
+                                    "attributeFields": [
+                                        {
+                                            "visibility": "public",
+                                            "tableId": "1",
+                                            "tableName": "serviceProviderAttributes",
+                                            "tableSuffix": "_9632",
+                                            "title": "positionOfContact",
+                                            "label": "Position of Contact",
+                                            "description": "",
+                                            "fieldType": "text",
+                                            "color": "rgb(NaN, NaN, NaN)",
+                                            "searchability": "public",
+                                            "editability": "registered",
+                                            "fieldTextOptions": {
+                                                "textType": "input",
+                                                "inputOptions": {
+                                                    "buildAutocomplete": false,
+                                                    "requireModeration": false,
+                                                    "limitMaxChars": 0,
+                                                    "limitMaxWords": 0,
+                                                    "allowHtml": false,
+                                                    "allowMedia": true,
+                                                    "allowLinks": true
+                                                },
+                                                "listOptions": {
+                                                    "takeSugesstions": true,
+                                                    "buildTree": false,
+                                                    "iconize": false,
+                                                    "colorize": false
+                                                }
+                                            },
+                                            "allowMultiple": false
+                                        }
+                                    ],
+                                    "className": "",
+                                    "label": "{field.label}",
+                                    "message": "",
+                                    "lines": 1,
+                                    "maxChars": 0,
+                                    "mandatory": false,
+                                    "multiEntry": false,
+                                    "autocomplete": true,
+                                    "muliTemplate": "lines",
+                                    "multiMessage": "",
+                                    "formatter": "none",
+                                    "iconTint": "rgb(100, 149, 237)",
+                                    "onRenderTextFieldScript": ""
+                                }
+                            },
+                            {
+                                "type": "plugin.Attributes.WizardTextAttribute",
+                                "config": {
+                                    "attributeFields": [
+                                        {
+                                            "visibility": "public",
+                                            "tableId": "1",
+                                            "tableName": "serviceProviderAttributes",
+                                            "tableSuffix": "_9632",
+                                            "title": "phoneNumber",
+                                            "label": "Phone Number",
+                                            "description": "",
+                                            "fieldType": "text",
+                                            "color": "rgb(undefined, undefined, undefined)",
+                                            "searchability": "public",
+                                            "editability": "registered",
+                                            "fieldTextOptions": {
+                                                "textType": "input",
+                                                "inputOptions": {
+                                                    "buildAutocomplete": false,
+                                                    "requireModeration": false,
+                                                    "limitMaxChars": 0,
+                                                    "limitMaxWords": 0,
+                                                    "allowHtml": false,
+                                                    "allowMedia": true,
+                                                    "allowLinks": true
+                                                },
+                                                "listOptions": {
+                                                    "takeSugesstions": true,
+                                                    "buildTree": false,
+                                                    "iconize": false,
+                                                    "colorize": false
+                                                }
+                                            },
+                                            "allowMultiple": false
+                                        }
+                                    ],
+                                    "className": "",
+                                    "label": "{field.label}",
+                                    "message": "",
+                                    "lines": 1,
+                                    "maxChars": 0,
+                                    "mandatory": false,
+                                    "multiEntry": false,
+                                    "autocomplete": true,
+                                    "muliTemplate": "lines",
+                                    "multiMessage": "",
+                                    "formatter": "none",
+                                    "iconTint": "rgb(100, 149, 237)",
+                                    "onRenderTextFieldScript": ""
+                                }
+                            },
+                            {
+                                "type": "plugin.Attributes.WizardTextAttribute",
+                                "config": {
+                                    "attributeFields": [
+                                        {
+                                            "visibility": "public",
+                                            "tableId": "1",
+                                            "tableName": "serviceProviderAttributes",
+                                            "tableSuffix": "_9632",
+                                            "title": "email",
+                                            "label": "Email",
+                                            "description": "",
+                                            "fieldType": "text",
+                                            "color": "rgb(undefined, undefined, undefined)",
+                                            "searchability": "public",
+                                            "editability": "registered",
+                                            "fieldTextOptions": {
+                                                "textType": "input",
+                                                "inputOptions": {
+                                                    "buildAutocomplete": false,
+                                                    "requireModeration": false,
+                                                    "limitMaxChars": 0,
+                                                    "limitMaxWords": 0,
+                                                    "allowHtml": false,
+                                                    "allowMedia": true,
+                                                    "allowLinks": true
+                                                },
+                                                "listOptions": {
+                                                    "takeSugesstions": true,
+                                                    "buildTree": false,
+                                                    "iconize": false,
+                                                    "colorize": false
+                                                }
+                                            },
+                                            "allowMultiple": false
+                                        }
+                                    ],
+                                    "className": "",
+                                    "label": "{field.label}",
+                                    "message": "",
+                                    "lines": 1,
+                                    "maxChars": 0,
+                                    "mandatory": false,
+                                    "multiEntry": false,
+                                    "autocomplete": true,
+                                    "muliTemplate": "lines",
+                                    "multiMessage": "",
+                                    "formatter": "none",
+                                    "iconTint": "rgb(100, 149, 237)",
+                                    "onRenderTextFieldScript": ""
+                                }
+                            }
+                        ]
+                    }
+                },
+                "positionList": [
+                    "content"
+                ],
+                "_diagramState": []
+            },
+            "reuseIdentifier": "SomeModulesList",
+            "contentPosition": "content",
+            "contentTypes": [
+                "wizard.attribute",
+                ""
+            ],
+            "widgetTitle": "Contact Info",
+            "readAccess": "public"
+        }
+    },
     "widget.30": {
         "name": "Custom Behavior Script",
         "instance": "CustomBehaviorScript",
@@ -3328,8 +3360,8 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": -23,
-                            "y": 238
+                            "x": 47,
+                            "y": 308
                         },
                         "children": [
                             {
@@ -3363,6 +3395,71 @@
                                 },
                                 "content": {
                                     "modules": [
+                                        {
+                                            "type": "ReusableArray",
+                                            "config": {
+                                                "widgetId": "76"
+                                            }
+                                        },
+                                        {
+                                            "type": "WizardStepTitle",
+                                            "config": {
+                                                "className": "",
+                                                "text": "<div class=\"label\"><span class=\"lbl-txt\">Services Provided<\/span><\/div>",
+                                                "identifier": "htmlLabel"
+                                            }
+                                        },
+                                        {
+                                            "type": "WizardIconizedScriptSelect",
+                                            "config": {
+                                                "icons": [
+                                                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/dBm_[ImAgE]_[G]_G1R_QEQ.png",
+                                                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/AET_[G]_[ImAgE]_6cq_oEM.png",
+                                                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_blz_[G]_6D_3kQ.png",
+                                                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_BZY_[G]_aIu_ld.png",
+                                                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/OZn_cee_[ImAgE]_327_[G].png",
+                                                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/EhZ_[ImAgE]_LXe_[G]_3oF.png"
+                                                ],
+                                                "iconsetMetadata": {
+                                                    "onSelectScripts": {
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/dBm_[ImAgE]_[G]_G1R_QEQ.png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/AET_[G]_[ImAgE]_6cq_oEM.png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_blz_[G]_6D_3kQ.png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_BZY_[G]_aIu_ld.png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/OZn_cee_[ImAgE]_327_[G].png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/EhZ_[ImAgE]_LXe_[G]_3oF.png": ""
+                                                    },
+                                                    "onSubmitScripts": {
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/dBm_[ImAgE]_[G]_G1R_QEQ.png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/AET_[G]_[ImAgE]_6cq_oEM.png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_blz_[G]_6D_3kQ.png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_BZY_[G]_aIu_ld.png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/OZn_cee_[ImAgE]_327_[G].png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/EhZ_[ImAgE]_LXe_[G]_3oF.png": ""
+                                                    },
+                                                    "onRenderScripts": {
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/dBm_[ImAgE]_[G]_G1R_QEQ.png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/AET_[G]_[ImAgE]_6cq_oEM.png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_blz_[G]_6D_3kQ.png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_BZY_[G]_aIu_ld.png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/OZn_cee_[ImAgE]_327_[G].png": "",
+                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/EhZ_[ImAgE]_LXe_[G]_3oF.png": ""
+                                                    }
+                                                },
+                                                "initSelectedScript": "widget.WizardBuilder.36.metadata.children.1.builderMetadata.positions.content.modules.2.config.initSelectedScript.js",
+                                                "className": "",
+                                                "requireSelection": true,
+                                                "allowMultipleSelection": false,
+                                                "allowEmptySelection": false,
+                                                "initializationScript": "widget.WizardBuilder.36.metadata.children.1.builderMetadata.positions.content.modules.2.config.initializationScript.js",
+                                                "onSelectScript": "",
+                                                "onDeselectScript": "",
+                                                "onRenderSelectableScript": "widget.WizardBuilder.36.metadata.children.1.builderMetadata.positions.content.modules.2.config.onRenderSelectableScript.js",
+                                                "onSubmitWizardWithSelectedScript": "",
+                                                "exposeIconset": true,
+                                                "iconsetName": "Daily-Services-Iconset"
+                                            }
+                                        },
                                         {
                                             "type": "ReusableArray",
                                             "config": {
