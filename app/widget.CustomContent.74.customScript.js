@@ -17,7 +17,14 @@ Core::LoadPlugin('Maps');
 <section>
 <h1>Amazing Organizations</h1>
 <?php
-MapController::IterateLayersMapitems(2, function($mapitem){
+Core::LoadPlugin('Attributes');
+
+$aMeta=AttributesTable::GetMetadata('agencyAttributes');
+$sMeta=AttributesTable::GetMetadata('serviceProviderAttributes');
+
+
+
+MapController::IterateLayersMapitems(2, function($mapitem)use($aMeta, $sMeta){
 
 	$articleId=Scaffold('article.mapitem',
             array(
@@ -33,6 +40,27 @@ MapController::IterateLayersMapitems(2, function($mapitem){
                     'link' => 'itemprop="map"',
                 ),
                 'afterHeader' => '<hr/>',
+
+                'content'=>function()use($mapitem, $aMeta, $sMeta){
+
+                    //die(print_r(array($aMeta, $sMeta),true));
+
+                    
+                    $website=AttributesRecord::GetFields($mapitem->getId(), $mapitem->getType(), array('website'), $aMeta)['website'];
+                    if(!empty($website)){
+
+                        if(strpos('http', $website)!==0){
+                            $website='http://'.$website;
+                        }
+                        echo '<a class="agancy-website" href="'.$website.'" target="_blank">website</a>';
+                    }
+                    echo str_replace('img', 'img class="agancy-logo"', AttributesRecord::GetFields($mapitem->getId(), $mapitem->getType(), array('logo'), $sMeta))['logo'];
+                    
+
+
+                }
+
+
             ), Core::Get('Maps')->getScaffoldsPath());
 
 

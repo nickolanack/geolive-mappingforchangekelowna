@@ -5192,7 +5192,12 @@
         "parameters": {
             "widgetTitle": "Front End Search",
             "readAccess": "public",
-            "position": ""
+            "position": "",
+            "searchModules": [
+                {
+                    "type": "plugin.Maps.MapitemSearch"
+                }
+            ]
         }
     },
     "widget.78": {
