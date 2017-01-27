@@ -15,14 +15,14 @@ input.search-input {
 }
 
 div.search-bar-content {
-    position: absolute;
+    position: relative;
     top: 100px;
-    left: 100px;
     width: calc( 100% - 200px );
     padding: 50px;
     background: rgba(0,0,0,0.3);
     border-radius: 7px;
     box-sizing: border-box;
+    max-width: 1000px;
 }
 
 article {
@@ -125,6 +125,11 @@ a.agancy-website {
 .search-result-list li {
    border-top: 1px solid rgba(0,0,0,0.1);
     padding: 10px;
+    cursor:pointer;
+}
+
+.search-result-list li:hover {
+    background-color: rgba(0,0,0,0.03);
 }
 .search-result-list li:first-child{
     border-top:none;
