@@ -5386,7 +5386,7 @@
         "instance": "CSS",
         "parameters": {
             "customCSS": "widget.CSS.80.customCSS.css",
-            "widgetTitle": "Front Page Css",
+            "widgetTitle": "Front Page CSS",
             "readAccess": "public"
         }
     },

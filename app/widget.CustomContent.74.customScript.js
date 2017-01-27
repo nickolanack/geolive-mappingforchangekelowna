@@ -19,15 +19,16 @@ Core::LoadPlugin('Maps');
 <?php
 MapController::IterateLayersMapitems(2, function($mapitem){
 
-	Scaffold('article.mapitem',
+	$articleId=Scaffold('article.mapitem',
             array(
                 'item'        => $mapitem,
                 'heading'     => 2,
-                'link'        => SefUrlFrom(
+                'link'        => 'map'.SefUrlFrom(
                     Core::HTML()->urlToCurrentView(
                         array(
                             'mapitem' => $mapitem->getId(),
                         ))),
+                'linkTitle'=>'go to the map',
                 'schema'      => array(
                     'link' => 'itemprop="map"',
                 ),
