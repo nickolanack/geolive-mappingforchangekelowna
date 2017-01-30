@@ -1,7 +1,8 @@
 var valuesArray = [
 
-	"Indiviuals",
-	"Families"
+	"Individuals",
+	"Families",
+         "Couples"
 
 ];
 var fieldName='primaryTargetResident';

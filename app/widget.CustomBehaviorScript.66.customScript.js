@@ -32,8 +32,9 @@ window.attributeValueList = {
 	],
 	primaryTargetResident: [
 
-		"Indiviuals",
-		"Families"
+		"Individuals",
+		"Families",
+                "Couples"
 
 	]
 

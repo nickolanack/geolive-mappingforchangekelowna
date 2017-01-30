@@ -28,19 +28,53 @@ div.search-bar-content {
     max-width: 1000px;
 }
 
+.organizations article {
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    border-radius: 3px;
+    height: 200px;
+  overflow: hidden;
+}
 article {
     display: inline-block;
     width: 350px;
-    height: 200px;
-    overflow: hidden;
+  
     margin: 20px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.3);
-    border-radius: 3px;
     padding: 5px 20px;
     text-align: left;
     position: relative;
     padding-bottom: 50px;
 }
+
+.explore .article-images a {
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 120px;
+    position: initial;
+    height: 120px;
+    overflow: hidden;
+    display: inline-block;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.explore .article-images {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: -120px;
+    margin: 0;
+    left: 0;
+}
+
+.explore article {
+    position: relative;
+    margin-top: 150px;
+    vertical-align: top;
+}
+
+
 article time, article .author {
     display: none;
 }
@@ -61,7 +95,6 @@ section h1 {
 section {
     margin: 20px;
     text-align: center;
-    margin-top: 100px;
 }
 
 span.article-images {
@@ -69,7 +102,12 @@ span.article-images {
     margin: 0 10px 10px 0;
 }
 
-.article-content {
+.explore .article-content {
+    font-size: 16px;
+    font-weight: 100;
+    font-family: '',sans-serif;
+}
+.organizations .article-content {
     overflow: hidden;
     height: 110px;
     width: 210px;
@@ -136,4 +174,23 @@ a.agancy-website {
 }
 .search-result-list li:first-child{
     border-top:none;
+}
+
+section.search {
+    margin-top: 0;
+}
+
+section.search>h1 {
+    display: none;
+}
+
+.explore article:hover .article-images a {
+    background-color: cornflowerblue;
+}
+
+.explore article.fav-1:hover .article-images a {
+    background-color: #ff9300;
+}
+.explore article.fav-2:hover .article-images a {
+    background-color: #34c56a;
 }

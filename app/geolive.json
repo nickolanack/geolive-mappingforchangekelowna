@@ -517,8 +517,8 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 211,
-                            "y": 279
+                            "x": 221,
+                            "y": 289
                         },
                         "children": [
                             {
@@ -566,7 +566,7 @@
                                             "type": "WizardStepTitle",
                                             "config": {
                                                 "className": "",
-                                                "text": "<div class=\"label\"><span class=\"lbl-txt\">Houseing Type<\/span><\/div>",
+                                                "text": "<div class=\"label\"><span class=\"lbl-txt\">Housing Type<\/span><\/div>",
                                                 "identifier": "htmlLabel"
                                             }
                                         },
@@ -3893,7 +3893,7 @@
                                     "onDeselectScript": "removeValue(i);",
                                     "onRenderSelectableScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.6.config.onRenderSelectableScript.js",
                                     "onSubmitWizardWithSelectedScript": "",
-                                    "exposeIconset": true,
+                                    "exposeIconset": false,
                                     "iconsetName": "PrimaryTargetResidentIcons"
                                 }
                             },
@@ -5594,6 +5594,15 @@
             "onSaveScript": "",
             "templateName": "UserAuthWizard",
             "widgetTitle": "Moderator Groups",
+            "readAccess": "public"
+        }
+    },
+    "widget.81": {
+        "name": "Custom Content",
+        "instance": "CustomContent",
+        "parameters": {
+            "customScript": "widget.CustomContent.81.customScript.js",
+            "widgetTitle": "Explore Services",
             "readAccess": "public"
         }
     }

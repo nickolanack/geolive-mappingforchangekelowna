@@ -1,4 +1,4 @@
-<section>
+<section class="search">
 <h1>Search Services</h1>
 <div class="search-area"><div id="search-container"></div></div>
 </section>
@@ -14,7 +14,18 @@ Widget::GetWidget(79)->display(); //Search Bar
 
 Core::LoadPlugin('Maps');
 ?>
-<section>
+
+
+<section class="explore">
+<h1>Explore Homelessness Services</h1>
+
+<?php
+Widget::GetWidget(81)->display(); 
+?>
+</section>
+
+
+<section class="organizations">
 <h1>Amazing Organizations</h1>
 <?php
 Core::LoadPlugin('Attributes');
