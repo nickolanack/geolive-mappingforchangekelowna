@@ -30,7 +30,7 @@ HtmlBlock('article',
                 'afterHeader' => '<hr/>',
                 'title'=>'Do you need family housing?',
                 'text'=>'Click on the button above if you have a child and need to access housing.',
-                 'link'=>'/map/layer-1',
+                 'link'=>'/map/filter-primary-target-resident-equal-to-families',
                  'linkTitle'=>'',  'images'=>array('https://isearchkelowna.ca/components/com_geolive/users_files/user_files_994/Uploads/RF8_U7a_[G]_StY_[ImAgE].png')
 
 
@@ -45,7 +45,7 @@ HtmlBlock('article',
                 'afterHeader' => '<hr/>',
                  'title'=>'Would you like a hot shower?',
                 'text'=>'Click on the button above to find out where to drop-in for a hot shower in Kelowna?',
-                 'link'=>'/map/layer-1',
+                 'link'=>'/map/filter-services-provided-equal-to-showers',
                  'linkTitle'=>'',  
 
 'images'=>array('https://isearchkelowna.ca/components/com_geolive/users_files/user_files_994/Uploads/QbA_[G]_[ImAgE]_eWR_rXc.png')

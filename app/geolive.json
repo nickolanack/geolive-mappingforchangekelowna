@@ -310,6 +310,23 @@
             ]
         }
     },
+    "plugin.24": {
+        "name": "Email Moderate",
+        "instance": "EmailModerate",
+        "parameters": {
+            "moderator": [
+                "nickblackwell82@gmail.com",
+                ""
+            ],
+            "enableEmails": true,
+            "fromEmailName": "Geolive Notifications",
+            "fromEmail": "admin@geolive.ca",
+            "siteUrl": "https:\/\/isearchkelowna.ca",
+            "siteName": "iSearch - Kelowna",
+            "formatEmailScript": "return $message;",
+            "formatVariablesScript": "return $variables;"
+        }
+    },
     "widget.1": {
         "name": "Google Controls",
         "instance": "GoogleControl",
