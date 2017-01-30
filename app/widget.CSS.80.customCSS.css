@@ -1,11 +1,14 @@
 div#search-container {
     position: relative;
+    height: 100%;
 }
 
 .search-area {
-    background-image: url(templates/protostar/front.png);
-    height: 350px;
+    background-image: url(templates/protostar/banner.png);
+    height: 600px;
     background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
 }
 
 input.search-input {
@@ -16,7 +19,7 @@ input.search-input {
 
 div.search-bar-content {
     position: relative;
-    top: 100px;
+    top: calc( 50% - 75px );
     width: calc( 100% - 200px );
     padding: 50px;
     background: rgba(0,0,0,0.3);
