@@ -338,7 +338,7 @@
             "showZoomControl": true,
             "zoomControl": "SMALL",
             "zoomControlPosition": "LEFT_TOP",
-            "showMapTypeControl": true,
+            "showMapTypeControl": false,
             "mapType": "HORIZONTAL_BAR",
             "mapTypePosition": "TOP_RIGHT",
             "showMapScaleControl": true,
@@ -2181,7 +2181,7 @@
                                     "showLabels": true,
                                     "showTitle": false,
                                     "title": "",
-                                    "formatValueElement": "",
+                                    "formatValueElement": "console.log('WOOP');\nconsole.log('WOOP');\nconsole.log('WOOP');\nconsole.log('WOOP');",
                                     "formatContainerElement": ""
                                 }
                             }
@@ -2730,7 +2730,7 @@
                             {
                                 "type": "WizardScriptElement",
                                 "config": {
-                                    "script": "var button=new Element('button',{html:\"show all services for this agency\", 'class':'btn'});\n\nbutton.addEvent('click',function(){\nvar filterManager=geolive.getContentFilterManager()\n filterManager.search(\n\t\t\t\t\t\t\tAttributeFilter.JoinFilter(\"serviceProviderAttributes\",[\n                                   {\n                                \t   field:\"agency\",\n                                \t   comparator:\"equalTo\",\n                                \t   value:mapItem.getId()\n                                   }])\n                                   \/\/ {}, optional filter options.\n                                   \/\/ optional callback \/\/if null calls filterManager.filter\n\t\t\t\t\t);\n\t\t\t\t\t\/\/let the world know.\n\t\t\t\t\tfilterManager.propagateFilterState(me, \"agency\", mapItem.getId());\n\n});\nreturn button;",
+                                    "script": "var button=new Element('button',{html:\"Show all services for this agency\", 'class':'btn agency-filter-btn'});\n\nbutton.addEvent('click',function(){\nvar filterManager=geolive.getContentFilterManager()\n filterManager.search(\n\t\t\t\t\t\t\tAttributeFilter.JoinFilter(\"serviceProviderAttributes\",[\n                                   {\n                                \t   field:\"agency\",\n                                \t   comparator:\"equalTo\",\n                                \t   value:mapItem.getId()\n                                   }])\n                                   \/\/ {}, optional filter options.\n                                   \/\/ optional callback \/\/if null calls filterManager.filter\n\t\t\t\t\t);\n\t\t\t\t\t\/\/let the world know.\n\t\t\t\t\tfilterManager.propagateFilterState(me, \"agency\", mapItem.getId());\n\n});\nreturn button;",
                                     "identifier": "customScriptElement"
                                 }
                             }
@@ -2963,7 +2963,7 @@
         "instance": "CSS",
         "parameters": {
             "customCSS": "widget.CSS.65.customCSS.css",
-            "widgetTitle": "Left Sidebar",
+            "widgetTitle": "Sidebars",
             "readAccess": "public"
         }
     },

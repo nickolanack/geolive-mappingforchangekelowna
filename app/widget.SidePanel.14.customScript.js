@@ -165,6 +165,8 @@ var displayAgencyFor = function(mapitem, userHasWriteAccess) {
 }
 
 
+
+
 map.setItemEditFn(function(mapitem, options) {
 
 	var me = this;
@@ -194,12 +196,22 @@ map.setItemEditFn(function(mapitem, options) {
 });
 
 var lastMapitem = null;
+var className=null;
 map.setMapitemSelectFn(function(mapitem) {
 
 	/* globals GeoliveTemplateModule */
 	if (!window.GeoliveTemplateModule) {
 		throw Error('Requires GeoliveTemplateModule class');
 	}
+
+
+	var newClass='layer-'+mapitem.getLayer().getId();
+	if(className){
+		container.removeClass(className);
+	}
+	className=newClass;
+	container.addClass(newClass);
+
 
 	if (mapitem.getId() > 1) {
 

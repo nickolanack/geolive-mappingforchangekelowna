@@ -55,3 +55,39 @@
 .SideBarWidget.right .sidebar-content>* {
     background-color: transparent;
 }
+
+.SideBarWidget.right .content.layer-1 {
+    background-color: #d9eaf5;
+}
+.SideBarWidget.right .content.layer-5 {
+    background-color: #f3dcc4;
+}
+.SideBarWidget.right .content.layer-2 {
+background-color: #fff6df;
+}
+
+.StreetViewModule {
+    margin-top: 30px;
+}
+
+.SideBarWidget>.toggle-button {
+    width: 60px;
+    height: 60px;
+}
+
+
+.SideBarWidget {
+    min-width: 60px;
+}
+
+.SideBarWidget.right>.toggle-button {
+    left: -60px;
+}
+
+.SideBarWidget.right {
+    min-width: 0;
+}
+
+.agency-filter-btn {
+    margin-top: 20px;
+}
