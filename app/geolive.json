@@ -2909,7 +2909,11 @@
                         ]
                     },
                     "content": {
-                        "modules": []
+                        "modules": [
+                            {
+                                "type": "GeolocationTags"
+                            }
+                        ]
                     },
                     "footer": {
                         "modules": [
@@ -5397,9 +5401,6 @@
                 "positions": {
                     "content": {
                         "modules": [
-                            {
-                                "type": "GeolocationTags"
-                            },
                             {
                                 "type": "StreetView",
                                 "config": {

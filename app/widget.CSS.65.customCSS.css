@@ -32,3 +32,26 @@
 .timeline-container .atMinimumSpan .slider:after {
     background-color: #8f1540;
 }
+
+
+
+.SideBarWidget.right .infotab-content {
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 100;
+    font-family: '',sans-serif;
+}
+
+.SideBarWidget.right .infotab-content .Attribute_Item{
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.AttributesContainer .TextAttribute_Title, .SideBarWidget.right .infotab-content .lbl-txt {
+    color: #30546B;
+    font-weight: bold;
+}
+
+.SideBarWidget.right .sidebar-content>* {
+    background-color: transparent;
+}
