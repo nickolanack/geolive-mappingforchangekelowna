@@ -194,3 +194,23 @@ section.search>h1 {
 .explore article.fav-2:hover .article-images a {
     background-color: #34c56a;
 }
+@media only screen and (max-width: 1300px) {
+     .search-area {
+        height:500px;
+     }
+}
+@media only screen and (max-width: 1000px) {
+     .search-area {
+        height:400px;
+     }
+}
+@media only screen and (max-width: 700px) {
+     .search-area {
+        height:300px;
+     }
+}
+@media only screen and (max-width: 500px) {
+     .search-area {
+        height:200px;
+     }
+}

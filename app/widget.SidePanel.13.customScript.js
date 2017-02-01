@@ -226,12 +226,20 @@ echo $module->display($targetInstance->getJSObjectName(), $targetInstance->getJS
     "preferredSortOrder"=>array(
         "buildingType", 
         "servicesProvided", 
-        "otherServices",
+       
        "primaryTargetResident", 
        "genderServed", 
-       "demographicServed"
+       "demographicServed",
+       "otherServices"
     ),
-  "fieldBlackList"=>array("email", "phoneNumber", "positionOfContact", "hasService*"),
+  "fieldBlackList"=>array(
+        "email",
+        "phoneNumber",
+        "positionOfContact", 
+        "hasService*",
+        "housingType*",
+        "serves*"
+   ),
   "tableBlackList"=>array("agencyAttributes"),
   "moduleOptionsScript"=>'
     
