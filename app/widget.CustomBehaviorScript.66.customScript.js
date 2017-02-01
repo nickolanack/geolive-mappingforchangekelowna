@@ -42,3 +42,12 @@ window.attributeValueList = {
 };
 
 window.prefferedAttributeOrder = window.attributeValueList;
+
+window.attributeIconSets= {
+
+	  buildingType: window["BuildingTypeIcons"],
+	  servicesProvided: window["ServicesProvidedIcons"],
+	  genderServed: window["GenderServedIcons"],
+	  primaryTargetResident: window["PrimaryTargetResidentIcons"]
+
+};

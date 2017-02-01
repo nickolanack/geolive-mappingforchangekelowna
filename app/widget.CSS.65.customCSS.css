@@ -91,3 +91,20 @@ background-color: #fff6df;
 .agency-filter-btn {
     margin-top: 20px;
 }
+
+
+
+
+span.Attribute_Item>img {
+    width: 32px;
+    height: 32px;
+    background: white;
+    padding: 5px;
+    border-radius: 100%;
+    border: 3px solid black;
+    margin: 5px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+span.Attribute_Item>img:hover {
+    background-color: cornflowerblue;
+}

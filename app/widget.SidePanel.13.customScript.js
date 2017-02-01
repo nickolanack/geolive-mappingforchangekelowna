@@ -47,6 +47,9 @@ var getAttributeFilterParameters = function(field, table) {
       primaryTargetResident: window["PrimaryTargetResidentIcons"]
     }
 
+    
+
+
 
     if (rangeFilters[field] || field.indexOf('NumberOf') >= 0) {
 
@@ -179,7 +182,7 @@ var getAttributeFilterParameters = function(field, table) {
 
             iconSelection.addEvent('loadIcon', function(icon, i, asset) {
               new UIPopover(asset, {
-                title: attributes[i],
+                title: attributes[i].capitalize(),
                 anchor: UIPopover.AnchorTo(['bottom'])
               });
             }); 
