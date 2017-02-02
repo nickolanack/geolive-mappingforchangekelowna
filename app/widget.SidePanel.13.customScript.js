@@ -1,7 +1,8 @@
 var layersFilterContent = container.appendChild(new Element('div', {
   'class': 'filter layer-filter'
 }));
-var housingTypesFilterContent = container.appendChild(new Element('div', {}));
+var attributesFilterContent = container.appendChild(new Element('div', {}));
+var attributesFilterContentAlt = gutter.appendChild(new Element('div', {}));
 var servicesTypesFilterContent = container.appendChild(new Element('div', {
   'class': 'filter services-filter'
 }));
@@ -221,26 +222,24 @@ var getAttributeFilterParameters = function(field, table) {
 
 
     var attributesMod = <?php
-$module = Module::LoadModule('plugin.Attributes.AttributeFilterGroup', array());
-echo $module->display($targetInstance->getJSObjectName(), $targetInstance->getJSObjectName(), 'map', array(
-    "preferredSortOrder"=>array(
+
+
+
+    $whiteList=array(
         "buildingType", 
         "servicesProvided", 
-       
-       "primaryTargetResident", 
-       "genderServed", 
-       "demographicServed",
-       "otherServices"
-    ),
-  "fieldBlackList"=>array(
-        "email",
-        "phoneNumber",
-        "positionOfContact", 
-        "hasService*",
-        "housingType*",
-        "serves*"
-   ),
-  "tableBlackList"=>array("agencyAttributes"),
+        "primaryTargetResident", 
+        "genderServed", 
+        "demographicServed",
+        "otherServices"
+    );
+
+
+$module = Module::LoadModule('plugin.Attributes.AttributeFilterGroup', array());
+echo $module->display($targetInstance->getJSObjectName(), $targetInstance->getJSObjectName(), 'map', array(
+    "preferredSortOrder"=>$whiteList,
+    "fieldWhiteList"=>$whiteList,
+
   "moduleOptionsScript"=>'
     
        return getAttributeFilterParameters(field, table);
@@ -248,4 +247,5 @@ echo $module->display($targetInstance->getJSObjectName(), $targetInstance->getJS
   '
 ));
 ?>;
-    attributesMod.load(null, housingTypesFilterContent, null);
+    attributesMod.load(null, attributesFilterContent, null);
+    attributesMod.load(null, attributesFilterContentAlt, null);

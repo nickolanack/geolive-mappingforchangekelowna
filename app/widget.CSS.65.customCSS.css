@@ -108,3 +108,7 @@ span.Attribute_Item>img {
 span.Attribute_Item>img:hover {
     background-color: cornflowerblue;
 }
+
+.SideBarWidget>.gutter {
+   display:none;
+}
