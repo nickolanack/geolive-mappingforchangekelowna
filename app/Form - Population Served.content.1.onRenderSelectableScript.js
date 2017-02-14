@@ -1,1 +1,0 @@
-new UIPopover(asset, {title:valuesArray[i],anchor:UIPopover.AnchorTo(['bottom'])});
