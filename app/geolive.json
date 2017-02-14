@@ -4132,7 +4132,8 @@
                                     "multiMessage": "",
                                     "formatter": "none",
                                     "iconTint": "rgb(100, 149, 237)",
-                                    "onRenderTextFieldScript": ""
+                                    "onRenderTextFieldScript": "",
+                                    "formatValueScript": ""
                                 }
                             },
                             {

@@ -1,11 +1,6 @@
-var valuesArray = [
-
-	"Male",
-	"Female",
-	"Transgender",
+var valuesArray = window.attributeValueList.genderServed;
 
 
-];
 var fieldName='genderServed';
 WizardHelper.declareAggregateFunctionObjectForStep(stepIndex, position, moduleIndex, "Attribute_serviceProviderAttributes_Object");
 WizardHelper.addModuleDataAggregateFunctionForStep(stepIndex, position, moduleIndex, function(object, attributes) {
