@@ -533,7 +533,7 @@
         "name": "Custom Behavior Script",
         "instance": "CustomBehaviorScript",
         "parameters": {
-            "customScript": "widget.CustomBehaviorScript.8.customScript.js",
+            "customScript": "Custom Map Style.customScript.js",
             "widgetTitle": "Custom Map Style",
             "readAccess": "public"
         }
@@ -542,7 +542,7 @@
         "name": "Custom CSS",
         "instance": "CSS",
         "parameters": {
-            "customCSS": "widget.CSS.9.customCSS.css",
+            "customCSS": "map css.customCSS.css",
             "widgetTitle": "map css",
             "readAccess": "public"
         }
@@ -734,15 +734,15 @@
                                                         "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_eI5_Wj9_9fx_[G].png": ""
                                                     }
                                                 },
-                                                "initSelectedScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.5.config.initSelectedScript.js",
+                                                "initSelectedScript": "ServiceProviderWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.5.config.initSelectedScript.js",
                                                 "className": "",
                                                 "requireSelection": true,
                                                 "allowMultipleSelection": true,
                                                 "allowEmptySelection": false,
-                                                "initializationScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.5.config.initializationScript.js",
-                                                "onSelectScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.5.config.onSelectScript.js",
-                                                "onDeselectScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.5.config.onDeselectScript.js",
-                                                "onRenderSelectableScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.5.config.onRenderSelectableScript.js",
+                                                "initializationScript": "ServiceProviderWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.5.config.initializationScript.js",
+                                                "onSelectScript": "ServiceProviderWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.5.config.onSelectScript.js",
+                                                "onDeselectScript": "ServiceProviderWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.5.config.onDeselectScript.js",
+                                                "onRenderSelectableScript": "ServiceProviderWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.5.config.onRenderSelectableScript.js",
                                                 "onSubmitWizardWithSelectedScript": "",
                                                 "exposeIconset": true,
                                                 "iconsetName": "BuildingTypeIcons"
@@ -798,7 +798,7 @@
                                                         "tableSuffix": "_9632",
                                                         "title": "estimatedWaitTime",
                                                         "label": "Estimated Wait Time",
-                                                        "description": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.7.config.attributeFields.0.description.js",
+                                                        "description": "ServiceProviderWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.7.config.attributeFields.0.description.js",
                                                         "fieldType": "number",
                                                         "color": "rgb(undefined, undefined, undefined)",
                                                         "searchability": "public",
@@ -1906,15 +1906,15 @@
                                                         "components\/com_geolive\/users_files\/user_files_994\/Uploads\/Id4_[G]_Emk_HMJ_[ImAgE].png": ""
                                                     }
                                                 },
-                                                "initSelectedScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.34.config.initSelectedScript.js",
+                                                "initSelectedScript": "ServiceProviderWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.34.config.initSelectedScript.js",
                                                 "className": "",
                                                 "requireSelection": true,
                                                 "allowMultipleSelection": true,
                                                 "allowEmptySelection": false,
-                                                "initializationScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.34.config.initializationScript.js",
+                                                "initializationScript": "ServiceProviderWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.34.config.initializationScript.js",
                                                 "onSelectScript": "addValue(i);",
                                                 "onDeselectScript": "removeValue(i);",
-                                                "onRenderSelectableScript": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.34.config.onRenderSelectableScript.js",
+                                                "onRenderSelectableScript": "ServiceProviderWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.34.config.onRenderSelectableScript.js",
                                                 "onSubmitWizardWithSelectedScript": "",
                                                 "exposeIconset": true,
                                                 "iconsetName": "ServicesProvidedIcons"
@@ -2073,7 +2073,7 @@
             "beforeSubmitScript": "",
             "onCreateScript": "",
             "onUpdateScript": "",
-            "onSaveScript": "widget.WizardBuilder.15.onSaveScript.js",
+            "onSaveScript": "ServiceProviderWizardTemplate.onSaveScript.js",
             "templateName": "ServiceProviderWizardTemplate",
             "widgetTitle": "ServiceProviderWizardTemplate",
             "readAccess": "public"
@@ -2971,7 +2971,7 @@
             "beforeSubmitScript": "",
             "onCreateScript": "",
             "onUpdateScript": "",
-            "onSaveScript": "widget.WizardBuilder.21.onSaveScript.js",
+            "onSaveScript": "AgencyWizardTemplate.onSaveScript.js",
             "templateName": "AgencyWizardTemplate",
             "widgetTitle": "AgencyWizardTemplate",
             "readAccess": "public"
@@ -3021,7 +3021,7 @@
                             {
                                 "type": "WizardScriptElement",
                                 "config": {
-                                    "script": "widget.InfoWindowBuilder.24.metadata.positions.content.modules.1.config.script.js",
+                                    "script": "AgencyDetail.metadata.positions.content.modules.1.config.script.js",
                                     "identifier": "customScriptElement"
                                 }
                             },
@@ -3133,7 +3133,7 @@
                                                 "multiMessage": "",
                                                 "formatter": "none",
                                                 "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": "widget.WizardBuilder.25.metadata.children.1.builderMetadata.positions.content.modules.0.config.onRenderTextFieldScript.js"
+                                                "onRenderTextFieldScript": "SetAgencyWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.0.config.onRenderTextFieldScript.js"
                                             }
                                         }
                                     ]
@@ -3175,7 +3175,7 @@
             "beforeSubmitScript": "",
             "onCreateScript": "",
             "onUpdateScript": "",
-            "onSaveScript": "widget.WizardBuilder.25.onSaveScript.js",
+            "onSaveScript": "SetAgencyWizardTemplate.onSaveScript.js",
             "templateName": "SetAgencyWizardTemplate",
             "widgetTitle": "SetAgencyWizardTemplate",
             "readAccess": "public"
@@ -3192,7 +3192,7 @@
                             {
                                 "type": "WizardScriptElement",
                                 "config": {
-                                    "script": "widget.InfoWindowBuilder.26.metadata.positions.title.modules.0.config.script.js",
+                                    "script": "Detail.metadata.positions.title.modules.0.config.script.js",
                                     "identifier": "customScriptElement"
                                 }
                             },
@@ -3259,7 +3259,7 @@
         "name": "Custom CSS",
         "instance": "CSS",
         "parameters": {
-            "customCSS": "widget.CSS.65.customCSS.css",
+            "customCSS": "Sidebars.customCSS.css",
             "widgetTitle": "Sidebars",
             "readAccess": "public"
         }
@@ -3273,7 +3273,7 @@
         "name": "Custom Behavior Script",
         "instance": "CustomBehaviorScript",
         "parameters": {
-            "customScript": "widget.CustomBehaviorScript.28.customScript.js",
+            "customScript": "Cluster Style.customScript.js",
             "widgetTitle": "Cluster Style",
             "readAccess": "public"
         }
@@ -3430,7 +3430,7 @@
         "name": "Custom Content",
         "instance": "CustomContent",
         "parameters": {
-            "customScript": "widget.CustomContent.74.customScript.js",
+            "customScript": "Front Page Display.customScript.js",
             "widgetTitle": "Front Page Display",
             "readAccess": "public"
         }
@@ -3673,7 +3673,7 @@
         "name": "Custom Behavior Script",
         "instance": "CustomBehaviorScript",
         "parameters": {
-            "customScript": "widget.CustomBehaviorScript.30.customScript.js",
+            "customScript": "Poly Behavior.customScript.js",
             "widgetTitle": "Poly Behavior",
             "readAccess": "public"
         }
@@ -3707,7 +3707,7 @@
         "name": "Custom CSS",
         "instance": "CSS",
         "parameters": {
-            "customCSS": "widget.CSS.32.customCSS.css",
+            "customCSS": "Legend.customCSS.css",
             "widgetTitle": "Legend",
             "readAccess": "public"
         }
@@ -3716,7 +3716,7 @@
         "name": "Custom Behavior Script",
         "instance": "CustomBehaviorScript",
         "parameters": {
-            "customScript": "widget.CustomBehaviorScript.34.customScript.js",
+            "customScript": "Marker Services Hover.customScript.js",
             "widgetTitle": "Marker Services Hover",
             "readAccess": "public"
         }
@@ -3874,15 +3874,15 @@
                                                         "components\/com_geolive\/users_files\/user_files_994\/Uploads\/EhZ_[ImAgE]_LXe_[G]_3oF.png": ""
                                                     }
                                                 },
-                                                "initSelectedScript": "widget.WizardBuilder.36.metadata.children.1.builderMetadata.positions.content.modules.5.config.initSelectedScript.js",
+                                                "initSelectedScript": "DailyWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.5.config.initSelectedScript.js",
                                                 "className": "",
                                                 "requireSelection": true,
                                                 "allowMultipleSelection": true,
                                                 "allowEmptySelection": false,
-                                                "initializationScript": "widget.WizardBuilder.36.metadata.children.1.builderMetadata.positions.content.modules.5.config.initializationScript.js",
+                                                "initializationScript": "DailyWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.5.config.initializationScript.js",
                                                 "onSelectScript": "addValue(i);",
                                                 "onDeselectScript": "removeValue(i);",
-                                                "onRenderSelectableScript": "widget.WizardBuilder.36.metadata.children.1.builderMetadata.positions.content.modules.5.config.onRenderSelectableScript.js",
+                                                "onRenderSelectableScript": "DailyWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.5.config.onRenderSelectableScript.js",
                                                 "onSubmitWizardWithSelectedScript": "",
                                                 "exposeIconset": false,
                                                 "iconsetName": "Daily-Services-Iconset"
@@ -3927,7 +3927,7 @@
             "beforeSubmitScript": "",
             "onCreateScript": "",
             "onUpdateScript": "",
-            "onSaveScript": "widget.WizardBuilder.36.onSaveScript.js",
+            "onSaveScript": "DailyWizardTemplate.onSaveScript.js",
             "templateName": "DailyWizardTemplate",
             "widgetTitle": "DailyWizardTemplate",
             "readAccess": "public"
@@ -4021,15 +4021,15 @@
                                             "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_zBj_[ImAgE]_kQr_5oA.png": ""
                                         }
                                     },
-                                    "initSelectedScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.1.config.initSelectedScript.js",
+                                    "initSelectedScript": "Form - Population Served.metadata.positions.content.modules.1.config.initSelectedScript.js",
                                     "className": "",
                                     "requireSelection": true,
                                     "allowMultipleSelection": true,
                                     "allowEmptySelection": false,
-                                    "initializationScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.1.config.initializationScript.js",
+                                    "initializationScript": "Form - Population Served.metadata.positions.content.modules.1.config.initializationScript.js",
                                     "onSelectScript": "addValue(i);",
                                     "onDeselectScript": "removeValue(i);",
-                                    "onRenderSelectableScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.1.config.onRenderSelectableScript.js",
+                                    "onRenderSelectableScript": "Form - Population Served.metadata.positions.content.modules.1.config.onRenderSelectableScript.js",
                                     "onSubmitWizardWithSelectedScript": "",
                                     "exposeIconset": true,
                                     "iconsetName": "GenderServedIcons"
@@ -4202,15 +4202,15 @@
                                             "components\/com_geolive\/users_files\/user_files_994\/Uploads\/RF8_U7a_[G]_StY_[ImAgE].png": ""
                                         }
                                     },
-                                    "initSelectedScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.6.config.initSelectedScript.js",
+                                    "initSelectedScript": "Form - Population Served.metadata.positions.content.modules.6.config.initSelectedScript.js",
                                     "className": "",
                                     "requireSelection": true,
                                     "allowMultipleSelection": true,
                                     "allowEmptySelection": false,
-                                    "initializationScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.6.config.initializationScript.js",
+                                    "initializationScript": "Form - Population Served.metadata.positions.content.modules.6.config.initializationScript.js",
                                     "onSelectScript": "addValue(i);",
                                     "onDeselectScript": "removeValue(i);",
-                                    "onRenderSelectableScript": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.6.config.onRenderSelectableScript.js",
+                                    "onRenderSelectableScript": "Form - Population Served.metadata.positions.content.modules.6.config.onRenderSelectableScript.js",
                                     "onSubmitWizardWithSelectedScript": "",
                                     "exposeIconset": true,
                                     "iconsetName": "PrimaryTargetResidentIcons"
@@ -4227,7 +4227,7 @@
                                             "tableSuffix": "_9632",
                                             "title": "residentsAreRequiredToLiveInCity",
                                             "label": "Potential residents are required to live in Kelowna for a certain amount of time",
-                                            "description": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.7.config.attributeFields.0.description.js",
+                                            "description": "Form - Population Served.metadata.positions.content.modules.7.config.attributeFields.0.description.js",
                                             "fieldType": "boolean",
                                             "color": "rgb(undefined, undefined, undefined)",
                                             "searchability": "public",
@@ -5600,7 +5600,7 @@
                     "type": "plugin.Attributes.AttributesMetadataSearch"
                 }
             ],
-            "onSelectItemScript": "widget.Search.79.onSelectItemScript.js"
+            "onSelectItemScript": "Front End Search.onSelectItemScript.js"
         }
     },
     "widget.78": {
@@ -5790,7 +5790,7 @@
         "name": "Custom CSS",
         "instance": "CSS",
         "parameters": {
-            "customCSS": "widget.CSS.80.customCSS.css",
+            "customCSS": "Front Page CSS.customCSS.css",
             "widgetTitle": "Front Page CSS",
             "readAccess": "public"
         }
@@ -5799,7 +5799,7 @@
         "name": "Custom Behavior Script",
         "instance": "CustomBehaviorScript",
         "parameters": {
-            "customScript": "widget.CustomBehaviorScript.66.customScript.js",
+            "customScript": "Attribute fields and order.customScript.js",
             "widgetTitle": "Attribute fields and order",
             "readAccess": "public"
         }
@@ -5917,7 +5917,7 @@
         "name": "Custom Content",
         "instance": "CustomContent",
         "parameters": {
-            "customScript": "widget.CustomContent.81.customScript.js",
+            "customScript": "Explore Services.customScript.js",
             "widgetTitle": "Explore Services",
             "readAccess": "public"
         }

@@ -1,0 +1,218 @@
+div#search-container {
+    position: relative;
+    height: 100%;
+}
+
+.search-area {
+    background-image: url(templates/protostar/banner.png);
+    height: 300px;
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+input.search-input {
+    height: 38px;
+    left: -1px;
+    width: calc( 100% - 125px );
+}
+
+div.search-bar-content {
+    position: relative;
+    top: calc( 50% - 75px );
+    width: calc( 100% - 200px );
+    padding: 50px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 7px;
+    box-sizing: border-box;
+    max-width: 1000px;
+}
+.organizations{
+display:none;
+}
+.organizations article {
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    border-radius: 3px;
+    height: 200px;
+  overflow: hidden;
+}
+article {
+    display: inline-block;
+    width: 350px;
+  
+    margin: 20px;
+    padding: 5px 20px;
+    text-align: left;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.explore .article-images a {
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 120px;
+    position: initial;
+    height: 120px;
+    overflow: hidden;
+    display: inline-block;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.explore .article-images {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: -120px;
+    margin: 0;
+    left: 0;
+}
+
+.explore article {
+    position: relative;
+    margin-top: 150px;
+    vertical-align: top;
+}
+
+
+article time, article .author {
+    display: none;
+}
+
+article h2 {
+    font-weight: 100;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+    overflow: hidden;
+}
+
+section h1 {
+    font-weight: 100;
+    text-align: left;
+}
+
+section {
+    margin: 20px;
+    text-align: center;
+}
+
+span.article-images {
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.explore .article-content {
+    font-size: 16px;
+    font-weight: 100;
+    font-family: '',sans-serif;
+}
+.organizations .article-content {
+    overflow: hidden;
+    height: 110px;
+    width: 210px;
+    text-overflow: ellipsis;
+}
+
+article a {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 10px;
+}
+
+img.agancy-logo {
+    position: absolute;
+    bottom: 6px;
+    right: 12px;
+    max-height: 49px;
+    z-index: -1;
+    opacity: 0.3;
+    max-width: 150px;
+}
+
+a.agancy-website {
+    bottom: 6px;
+}
+
+
+.search-result-list.hybrid {
+    padding: 10px;
+    padding-top: 0;
+    box-sizing: border-box;
+    text-align: left;
+    position:relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.search-result-list:before{
+    content:"";
+    position:absolute;
+    width: calc( 100% - 20px );
+    height: calc( 100% - 10px );
+    background-color:white;
+    box-shadow:0 0 5px rgba(0,0,0,0.5);
+    box-sizing: border-box;
+    z-index: 0;
+    border-radius: 0 0 5px 5px;
+}
+
+.search-result-list ul {
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+
+.search-result-list li {
+   border-top: 1px solid rgba(0,0,0,0.1);
+    padding: 10px;
+    cursor:pointer;
+}
+
+.search-result-list li:hover {
+    background-color: rgba(0,0,0,0.03);
+}
+.search-result-list li:first-child{
+    border-top:none;
+}
+
+section.search {
+    margin-top: 0;
+}
+
+section.search>h1 {
+    display: none;
+}
+
+.explore article:hover .article-images a {
+    background-color: cornflowerblue;
+}
+
+.explore article.fav-1:hover .article-images a {
+    background-color: #ff9300;
+}
+.explore article.fav-2:hover .article-images a {
+    background-color: #34c56a;
+}
+@media only screen and (max-width: 1300px) {
+     .search-area {
+        height:300px;
+     }
+}
+@media only screen and (max-width: 1000px) {
+     .search-area {
+        height:300px;
+     }
+}
+@media only screen and (max-width: 700px) {
+     .search-area {
+        height:300px;
+     }
+}
+@media only screen and (max-width: 500px) {
+     .search-area {
+        height:200px;
+     }
+}
