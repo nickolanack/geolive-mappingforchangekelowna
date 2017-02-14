@@ -1,13 +1,4 @@
-var valuesArray = [
-
-  'emergency',
-  'transitional',
-  'supportive',
-  'nonprofit',
-  'rental'
-
-];
-
+var valuesArray = window.attributeValueList.buildingType
 
 
 WizardHelper.declareAggregateFunctionObjectForStep(stepIndex, position, moduleIndex, "Attribute_serviceProviderAttributes_Object");
