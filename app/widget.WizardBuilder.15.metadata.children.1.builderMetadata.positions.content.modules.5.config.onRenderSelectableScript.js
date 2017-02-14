@@ -1,1 +1,1 @@
-new UIPopover(asset, {title:valuesArray[i],anchor:UIPopover.AnchorTo(['bottom'])});
+new UIPopover(asset, {title:valuesArray[i].capitalize(),anchor:UIPopover.AnchorTo(['bottom'])});

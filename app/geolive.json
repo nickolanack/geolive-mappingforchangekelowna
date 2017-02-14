@@ -534,8 +534,8 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 221,
-                            "y": 289
+                            "x": 231,
+                            "y": 299
                         },
                         "children": [
                             {
@@ -727,7 +727,8 @@
                                                 "multiMessage": "",
                                                 "formatter": "integer",
                                                 "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": ""
+                                                "onRenderTextFieldScript": "",
+                                                "formatValueScript": ""
                                             }
                                         },
                                         {
@@ -803,7 +804,8 @@
                                                 "multiMessage": "",
                                                 "formatter": "none",
                                                 "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": ""
+                                                "onRenderTextFieldScript": "",
+                                                "formatValueScript": ""
                                             }
                                         },
                                         {
@@ -842,7 +844,8 @@
                                                 "multiMessage": "",
                                                 "formatter": "integer",
                                                 "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": ""
+                                                "onRenderTextFieldScript": "",
+                                                "formatValueScript": ""
                                             }
                                         },
                                         {
@@ -881,7 +884,8 @@
                                                 "multiMessage": "",
                                                 "formatter": "integer",
                                                 "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": ""
+                                                "onRenderTextFieldScript": "",
+                                                "formatValueScript": ""
                                             }
                                         },
                                         {
@@ -920,7 +924,8 @@
                                                 "multiMessage": "",
                                                 "formatter": "integer",
                                                 "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": ""
+                                                "onRenderTextFieldScript": "",
+                                                "formatValueScript": ""
                                             }
                                         },
                                         {
@@ -959,7 +964,8 @@
                                                 "multiMessage": "",
                                                 "formatter": "integer",
                                                 "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": ""
+                                                "onRenderTextFieldScript": "",
+                                                "formatValueScript": ""
                                             }
                                         },
                                         {
@@ -998,7 +1004,8 @@
                                                 "multiMessage": "",
                                                 "formatter": "integer",
                                                 "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": ""
+                                                "onRenderTextFieldScript": "",
+                                                "formatValueScript": ""
                                             }
                                         },
                                         {
@@ -1037,7 +1044,8 @@
                                                 "multiMessage": "",
                                                 "formatter": "none",
                                                 "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": ""
+                                                "onRenderTextFieldScript": "",
+                                                "formatValueScript": ""
                                             }
                                         },
                                         {
@@ -1076,7 +1084,8 @@
                                                 "multiMessage": "",
                                                 "formatter": "none",
                                                 "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": ""
+                                                "onRenderTextFieldScript": "",
+                                                "formatValueScript": ""
                                             }
                                         },
                                         {
@@ -1115,7 +1124,8 @@
                                                 "multiMessage": "",
                                                 "formatter": "none",
                                                 "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": ""
+                                                "onRenderTextFieldScript": "",
+                                                "formatValueScript": ""
                                             }
                                         },
                                         {
@@ -1154,7 +1164,8 @@
                                                 "multiMessage": "",
                                                 "formatter": "integer",
                                                 "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": ""
+                                                "onRenderTextFieldScript": "",
+                                                "formatValueScript": ""
                                             }
                                         },
                                         {
@@ -1206,7 +1217,8 @@
                                                 "multiMessage": "",
                                                 "formatter": "none",
                                                 "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": ""
+                                                "onRenderTextFieldScript": "",
+                                                "formatValueScript": ""
                                             }
                                         },
                                         {
@@ -1245,7 +1257,8 @@
                                                 "multiMessage": "",
                                                 "formatter": "integer",
                                                 "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": ""
+                                                "onRenderTextFieldScript": "",
+                                                "formatValueScript": ""
                                             }
                                         },
                                         {
@@ -1284,7 +1297,8 @@
                                                 "multiMessage": "",
                                                 "formatter": "integer",
                                                 "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": ""
+                                                "onRenderTextFieldScript": "",
+                                                "formatValueScript": ""
                                             }
                                         },
                                         {
@@ -1323,7 +1337,8 @@
                                                 "multiMessage": "",
                                                 "formatter": "integer",
                                                 "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": ""
+                                                "onRenderTextFieldScript": "",
+                                                "formatValueScript": ""
                                             }
                                         },
                                         {
@@ -1362,7 +1377,8 @@
                                                 "multiMessage": "",
                                                 "formatter": "none",
                                                 "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": ""
+                                                "onRenderTextFieldScript": "",
+                                                "formatValueScript": ""
                                             }
                                         },
                                         {
@@ -1401,7 +1417,8 @@
                                                 "multiMessage": "",
                                                 "formatter": "none",
                                                 "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": ""
+                                                "onRenderTextFieldScript": "",
+                                                "formatValueScript": ""
                                             }
                                         },
                                         {
@@ -1440,7 +1457,8 @@
                                                 "multiMessage": "",
                                                 "formatter": "none",
                                                 "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": ""
+                                                "onRenderTextFieldScript": "",
+                                                "formatValueScript": ""
                                             }
                                         },
                                         {
@@ -1479,7 +1497,8 @@
                                                 "multiMessage": "",
                                                 "formatter": "integer",
                                                 "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": ""
+                                                "onRenderTextFieldScript": "",
+                                                "formatValueScript": ""
                                             }
                                         },
                                         {
@@ -1518,7 +1537,8 @@
                                                 "multiMessage": "",
                                                 "formatter": "integer",
                                                 "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": ""
+                                                "onRenderTextFieldScript": "",
+                                                "formatValueScript": ""
                                             }
                                         },
                                         {
@@ -1557,7 +1577,8 @@
                                                 "multiMessage": "",
                                                 "formatter": "integer",
                                                 "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": ""
+                                                "onRenderTextFieldScript": "",
+                                                "formatValueScript": ""
                                             }
                                         },
                                         {
@@ -1596,7 +1617,8 @@
                                                 "multiMessage": "",
                                                 "formatter": "none",
                                                 "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": ""
+                                                "onRenderTextFieldScript": "",
+                                                "formatValueScript": ""
                                             }
                                         },
                                         {
@@ -1635,7 +1657,8 @@
                                                 "multiMessage": "",
                                                 "formatter": "none",
                                                 "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": ""
+                                                "onRenderTextFieldScript": "",
+                                                "formatValueScript": ""
                                             }
                                         },
                                         {
@@ -1850,7 +1873,8 @@
                                                 "multiMessage": "",
                                                 "formatter": "none",
                                                 "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": ""
+                                                "onRenderTextFieldScript": "",
+                                                "formatValueScript": ""
                                             }
                                         },
                                         {
@@ -2018,7 +2042,7 @@
         }
     },
     "widget.18": {
-        "name": "Info-Window",
+        "name": "Detail View",
         "instance": "InfoWindowBuilder",
         "parameters": {
             "metadata": {
@@ -2880,7 +2904,7 @@
         }
     },
     "widget.24": {
-        "name": "Info-Window",
+        "name": "Detail View",
         "instance": "InfoWindowBuilder",
         "parameters": {
             "metadata": {
@@ -3062,7 +3086,7 @@
         }
     },
     "widget.26": {
-        "name": "Info-Window",
+        "name": "Detail View",
         "instance": "InfoWindowBuilder",
         "parameters": {
             "metadata": {
@@ -3814,7 +3838,7 @@
         }
     },
     "widget.37": {
-        "name": "Info-Window",
+        "name": "Detail View",
         "instance": "InfoWindowBuilder",
         "parameters": {
             "metadata": {
@@ -5684,7 +5708,7 @@
         }
     },
     "widget.68": {
-        "name": "User Wizard Builder",
+        "name": "Form View",
         "instance": "UserWizardBuilder",
         "parameters": {
             "metadata": {

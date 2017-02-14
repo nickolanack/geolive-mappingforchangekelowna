@@ -5,7 +5,7 @@ div#search-container {
 
 .search-area {
     background-image: url(templates/protostar/banner.png);
-    height: 600px;
+    height: 300px;
     background-position: center;
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -198,12 +198,12 @@ section.search>h1 {
 }
 @media only screen and (max-width: 1300px) {
      .search-area {
-        height:500px;
+        height:300px;
      }
 }
 @media only screen and (max-width: 1000px) {
      .search-area {
-        height:400px;
+        height:300px;
      }
 }
 @media only screen and (max-width: 700px) {
