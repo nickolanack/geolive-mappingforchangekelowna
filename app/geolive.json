@@ -702,7 +702,7 @@
                                                         "tableSuffix": "_9632",
                                                         "title": "estimatedWaitTime",
                                                         "label": "Estimated Wait Time",
-                                                        "description": "estimated wait time will be in minutes...",
+                                                        "description": "widget.WizardBuilder.15.metadata.children.1.builderMetadata.positions.content.modules.7.config.attributeFields.0.description.js",
                                                         "fieldType": "number",
                                                         "color": "rgb(undefined, undefined, undefined)",
                                                         "searchability": "public",
@@ -2197,6 +2197,7 @@
                                     "maxHeight": 0,
                                     "maxWidth": 300,
                                     "showLabels": true,
+                                    "showEmpty": false,
                                     "showTitle": false,
                                     "title": "Icons",
                                     "formatValueElement": "try{\nvar formattedValues=value.map(function(v){return attributeIconSets[field][attributeValueList[field].indexOf(v)]});\nconsole.log(formattedValues);\nelement.innerHTML='';\n    formattedValues.map(function(url){ return new Asset.image(url); }).forEach(function(image, i){\n        element.appendChild(image);\n       map.getContentFilterManager().addFilterBehavior(image, value[i], fieldMeta);\n\n        new UIPopover(image, {\n                title: value[i].capitalize(),\n                anchor: UIPopover.AnchorTo(['bottom'])\n              });\n\n    });\n}catch(e){\n console.error(e);\n}",
@@ -2209,12 +2210,6 @@
                                     "className": "",
                                     "text": "<div class=\"label\"><span class=\"lbl-txt\">Service Provider Details<\/span><\/div>",
                                     "identifier": "htmlLabel"
-                                }
-                            },
-                            {
-                                "type": "ReusableArray",
-                                "config": {
-                                    "widgetId": "57"
                                 }
                             },
                             {
@@ -2354,10 +2349,17 @@
                                     "maxHeight": 0,
                                     "maxWidth": 0,
                                     "showLabels": true,
+                                    "showEmpty": false,
                                     "showTitle": false,
                                     "title": "",
                                     "formatValueElement": "console.log('WOOP');\nconsole.log('WOOP');\nconsole.log('WOOP');\nconsole.log('WOOP');",
                                     "formatContainerElement": ""
+                                }
+                            },
+                            {
+                                "type": "ReusableArray",
+                                "config": {
+                                    "widgetId": "57"
                                 }
                             }
                         ]
@@ -2897,16 +2899,16 @@
                                 }
                             },
                             {
-                                "type": "ReusableArray",
+                                "type": "WizardScriptElement",
                                 "config": {
-                                    "widgetId": "57"
+                                    "script": "widget.InfoWindowBuilder.24.metadata.positions.content.modules.1.config.script.js",
+                                    "identifier": "customScriptElement"
                                 }
                             },
                             {
-                                "type": "WizardScriptElement",
+                                "type": "ReusableArray",
                                 "config": {
-                                    "script": "var button=new Element('button',{html:\"Show all services for this agency\", 'class':'btn agency-filter-btn'});\n\nbutton.addEvent('click',function(){\nvar filterManager=geolive.getContentFilterManager()\n filterManager.search(\n\t\t\t\t\t\t\tAttributeFilter.JoinFilter(\"serviceProviderAttributes\",[\n                                   {\n                                \t   field:\"agency\",\n                                \t   comparator:\"equalTo\",\n                                \t   value:mapItem.getId()\n                                   }])\n                                   \/\/ {}, optional filter options.\n                                   \/\/ optional callback \/\/if null calls filterManager.filter\n\t\t\t\t\t);\n\t\t\t\t\t\/\/let the world know.\n\t\t\t\t\tfilterManager.propagateFilterState(me, \"agency\", mapItem.getId());\n\n});\nreturn button;",
-                                    "identifier": "customScriptElement"
+                                    "widgetId": "57"
                                 }
                             }
                         ]
@@ -3070,7 +3072,7 @@
                             {
                                 "type": "WizardScriptElement",
                                 "config": {
-                                    "script": "return new Asset.image(item.getIcon());",
+                                    "script": "widget.InfoWindowBuilder.26.metadata.positions.title.modules.0.config.script.js",
                                     "identifier": "customScriptElement"
                                 }
                             },
@@ -4104,7 +4106,7 @@
                                             "tableSuffix": "_9632",
                                             "title": "residentsAreRequiredToLiveInCity",
                                             "label": "Potential residents are required to live in Kelowna for a certain amount of time",
-                                            "description": "Are potential residents required to live in Kelowna for a certain amount of time to be eligible?",
+                                            "description": "widget.ReusableModuleGroup.51.metadata.positions.content.modules.7.config.attributeFields.0.description.js",
                                             "fieldType": "boolean",
                                             "color": "rgb(undefined, undefined, undefined)",
                                             "searchability": "public",
@@ -5577,14 +5579,6 @@
                     "content": {
                         "modules": [
                             {
-                                "type": "StreetView",
-                                "config": {
-                                    "className": "",
-                                    "showEmpty": false,
-                                    "displayImage": true
-                                }
-                            },
-                            {
                                 "type": "DefaultDescription",
                                 "config": {
                                     "className": "",
@@ -5607,6 +5601,14 @@
                                     "embedPortrait": false,
                                     "preferLocalContent": true,
                                     "portraitClip": true
+                                }
+                            },
+                            {
+                                "type": "StreetView",
+                                "config": {
+                                    "className": "",
+                                    "showEmpty": false,
+                                    "displayImage": true
                                 }
                             }
                         ]

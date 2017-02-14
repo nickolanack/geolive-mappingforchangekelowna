@@ -112,3 +112,8 @@ span.Attribute_Item>img:hover {
 .SideBarWidget>.gutter {
    display:none;
 }
+
+.StreetViewModule img {
+    width: 100%;
+    height: auto;
+}
