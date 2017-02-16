@@ -1,0 +1,1 @@
+Are potential residents required to live in Kelowna for a certain amount of time to be eligible?

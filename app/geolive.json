@@ -561,20 +561,20 @@
         "name": "Side Panel",
         "instance": "SidePanel",
         "parameters": {
-            "widgetTitle": "",
+            "widgetTitle": "Left Panel - Filters",
             "readAccess": "public",
             "position": "LEFT_CENTER",
-            "customScript": "widget.SidePanel.13.customScript.js"
+            "customScript": "Left Panel - Filters.customScript.js"
         }
     },
     "widget.14": {
         "name": "Side Panel",
         "instance": "SidePanel",
         "parameters": {
-            "widgetTitle": "",
+            "widgetTitle": "Right Panel - Detail",
             "readAccess": "public",
             "position": "RIGHT_CENTER",
-            "customScript": "widget.SidePanel.14.customScript.js"
+            "customScript": "Right Panel - Detail.customScript.js"
         }
     },
     "widget.11": {

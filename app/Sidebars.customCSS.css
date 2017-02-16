@@ -117,3 +117,46 @@ span.Attribute_Item>img:hover {
     width: 100%;
     height: auto;
 }
+
+
+.SideBarWidget.left ul.filter-values {
+    list-style: none;
+    margin: 0;
+}
+
+.SideBarWidget.left ul.filter-values li {
+    display: inline-block;
+    white-space: nowrap;
+    padding: 2px 5px;
+    margin: 2px 5px;
+    background: rgba(255,255,255,0.1);
+    max-width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0,0,0,0.01);
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.SideBarWidget.left ul.filter-values li:hover {
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0,0,0, 0.2);
+    border-color: rgba(0,0,0,0.3);
+}
+
+.SideBarWidget.left ul.filter-values li.selected {
+    background-color:cornflowerblue;
+    border-color:rgba(0,0,0,0.4);
+    
+}
+.icn-s-lst li::before, .icn-s-lst li::before {
+    background: rgba(255,255,255,0.2);
+}
+.icn-s-lst li:hover::before{
+    background: white;
+}
+
+.icn-s-lst li:hover.selected::before {
+    background: cornflowerblue;
+}
