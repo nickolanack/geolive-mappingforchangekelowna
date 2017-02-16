@@ -1,13 +1,4 @@
-var valuesArray = [
-
-	"Meals",
-	"Harm Reduction",
-	"Health/Dental Care",
-	"Clothing, Household Goods",
-	"Hygiene",
-	"Storage"
-
-];
+var valuesArray = window.attributeValueList.dropinServicesProvided
 
 WizardHelper.declareAggregateFunctionObjectForStep(stepIndex, position, moduleIndex, "Attribute_serviceProviderAttributes_Object");
 WizardHelper.addModuleDataAggregateFunctionForStep(stepIndex, position, moduleIndex, function(object, attributes) {

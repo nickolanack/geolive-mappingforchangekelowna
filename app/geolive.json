@@ -3768,8 +3768,8 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 97,
-                            "y": 358
+                            "x": 127,
+                            "y": 388
                         },
                         "children": [
                             {
@@ -3884,8 +3884,8 @@
                                                 "onDeselectScript": "removeValue(i);",
                                                 "onRenderSelectableScript": "DailyWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.5.config.onRenderSelectableScript.js",
                                                 "onSubmitWizardWithSelectedScript": "",
-                                                "exposeIconset": false,
-                                                "iconsetName": "Daily-Services-Iconset"
+                                                "exposeIconset": true,
+                                                "iconsetName": "DailyServicesIconset"
                                             }
                                         }
                                     ]

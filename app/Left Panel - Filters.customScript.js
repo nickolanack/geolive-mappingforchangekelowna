@@ -48,8 +48,15 @@ var getAttributeFilterParameters = function(field, table) {
       primaryTargetResident: window["PrimaryTargetResidentIcons"]
     }
 
-    
+    var attributeList=window.attributeValueList;
 
+    
+     attributeList.dropinServicesProvided.forEach(function(name, index){
+        if(attributeList.servicesProvided.indexOf(name)<0){
+          attributeList.servicesProvided.push(name);
+          iconizeFilters.servicesProvided.push(window["DailyServicesIconset"][index]);
+        }
+     });
 
 
     if (rangeFilters[field] || field.indexOf('NumberOf') >= 0) {
@@ -169,7 +176,7 @@ var getAttributeFilterParameters = function(field, table) {
           //Rendering an icon selection ui instead of <ul><li>...
 
           //defined in global behavior widget.
-          var attributes = window.attributeValueList[field] || values;
+          var attributes =attributeList[field] || values;
 
           var me = this; //bound to Attributes filter object
 

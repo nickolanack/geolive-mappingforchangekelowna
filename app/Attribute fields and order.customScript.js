@@ -22,6 +22,16 @@ window.attributeValueList = {
 		"Clothing, Household Goods"
 
 	],
+	dropinServicesProvided: [
+
+		"Meals",
+		"Harm Reduction",
+		"Health/Dental Care",
+		"Clothing, Household Goods",
+		"Hygiene",
+		"Storage"
+
+	],
 	genderServed: [
 
 		"Male",
