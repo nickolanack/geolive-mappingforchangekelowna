@@ -7,7 +7,7 @@ window.attributeValueList = {
 		'emergency',
 		'transitional',
 		'supportive',
-		'nonprofit',
+		'low income rental',
 		'rental'
 
 	],
@@ -44,7 +44,7 @@ window.attributeValueList = {
 
 		"Individuals",
 		"Families",
-                "Couples"
+        "Couples"
 
 	]
 

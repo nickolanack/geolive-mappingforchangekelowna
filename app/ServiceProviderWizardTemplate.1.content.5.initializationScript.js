@@ -114,7 +114,7 @@ var showHousingType = function(types) {
     'emergency': emergencyHouseing,
     'transitional': transitionalHousing,
     'supportive': supportiveHousing,
-    'nonprofit': nonpHousing,
+    'low income rental': nonpHousing,
     'rental': rentalHousing
   };
   var hide = [([]).concat(emergencyHouseing, transitionalHousing, supportiveHousing, nonpHousing, rentalHousing)];
