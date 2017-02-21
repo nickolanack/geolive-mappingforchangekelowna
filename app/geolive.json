@@ -5921,6 +5921,15 @@
             "readAccess": "public"
         }
     },
+    "widget.84": {
+        "name": "Custom Content",
+        "instance": "CustomContent",
+        "parameters": {
+            "customScript": "Quick Start.customScript.js",
+            "widgetTitle": "Quick Start",
+            "readAccess": "public"
+        }
+    },
     "widget.82": {
         "name": "Custom Tile Control Script",
         "instance": "CustomTileControlScript",
@@ -5934,6 +5943,15 @@
             "widgetTitle": "",
             "readAccess": "public",
             "position": "RIGHT_CENTER"
+        }
+    },
+    "widget.83": {
+        "name": "Custom Content",
+        "instance": "CustomContent",
+        "parameters": {
+            "customScript": "Front Intro.customScript.js",
+            "widgetTitle": "Front Intro",
+            "readAccess": "public"
         }
     }
 }

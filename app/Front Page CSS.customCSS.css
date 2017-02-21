@@ -216,3 +216,8 @@ section.search>h1 {
         height:200px;
      }
 }
+
+
+.intro p, .quickstart p {
+    text-align: left;
+}

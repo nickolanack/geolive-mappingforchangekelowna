@@ -1,12 +1,23 @@
-<section class="search">
+<?php
+Core::Widgets();
+Widget::GetWidget(80)->display(); //CSS
+
+
+//Intro
+Widget::GetWidget(83)->display(); 
+
+
+//Quick start
+Widget::GetWidget(84)->display(); 
+
+?>
+<section class="search" style="display:none;">
 <h1>Search Services</h1>
 <div class="search-area"><div id="search-container"></div></div>
 </section>
 
 <?php
 
-Core::Widgets();
-Widget::GetWidget(80)->display(); //CSS
 Widget::GetWidget(79)->display(); //Search Bar
 
 
@@ -16,16 +27,16 @@ Core::LoadPlugin('Maps');
 ?>
 
 
-<section class="explore">
+<section class="explore" style="display:none;">
 <h1>Explore Homelessness Services</h1>
 
 <?php
-Widget::GetWidget(81)->display(); 
+Widget::GetWidget(81)->display(); //Search
 ?>
 </section>
 
 
-<section class="organizations">
+<section class="organizations" style="display:none;">
 <h1>Amazing Organizations</h1>
 <?php
 Core::LoadPlugin('Attributes');
