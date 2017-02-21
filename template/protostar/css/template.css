@@ -3250,13 +3250,29 @@ input[type="submit"].btn.btn-mini {
 a.brand:before {
     background-image: url("../logo.png");
     content: "";
-    width: 213px;
-    height: 45px;
+    width: 358px;
+    height: 76px;
     position: relative;
     background-size: auto 100%;
     display: inline-block;
-    top: 6px;
+    top: 10px;
+    left:20px;
+
 }
+
+
+
+
+a.brand.pull-left {
+    height: 30px;
+}
+
+@media ( max-width : 1100px) {
+	  a.brand.pull-left {
+	    height: 100px;
+	}
+
+ }
 
 .navbar .brand:hover,
 .navbar .brand:focus {
@@ -7506,24 +7522,4 @@ body.modal-open {
 	display: inline;
 }
 
-
-
-ul.nav.menu {
-    text-align: right;
-}
-
-li.btn {
-    padding: 10px;
-    border-radius: 2px;
-    margin: 3px;
-}
-
-li.btn.current.active {
-    background-color: ghostwhite;
-}
-
-
-li.btn.active>a {
-    color: darkgray;
-}
 

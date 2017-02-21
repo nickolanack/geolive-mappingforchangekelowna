@@ -55,7 +55,7 @@ h3#pushmenu-message{
 }
 
 
-.menu.nav > li {
+main .menu.nav > li {
     display: inline-block;
     font-size: 26px;
     font-family: '', sans-serif;
@@ -64,18 +64,18 @@ h3#pushmenu-message{
     position: relative;
 }
 
-.menu.nav > li a {
+main .menu.nav > li a {
     color: #333;
     padding: 5px 10px;
     border-radius: 3px;
 }
 
-.menu.nav > li.current.active a {
+main .menu.nav > li.current.active a {
     color: #b2494c;
 }
 
 
-li ul.nav-child {
+main li ul.nav-child {
     display: none;
     position: absolute;
     left: 0;
@@ -86,11 +86,11 @@ li ul.nav-child {
     box-sizing: border-box;
 }
 
-li:hover ul.nav-child, li.hover ul.nav-child {
+main li:hover ul.nav-child, li.hover ul.nav-child {
     display: inline-block;
 }
 
-.menu.nav > li>ul.nav-child>li>a {
+main .menu.nav > li>ul.nav-child>li>a {
     padding: 10px;
     box-shadow: 0 0 3px rgba(0,0,0,0.3);
     background: white;
@@ -102,11 +102,11 @@ li:hover ul.nav-child, li.hover ul.nav-child {
     font-family: '', sans-serif;
     font-weight: 100;
 }
-.menu.nav > li>ul.nav-child>li>a:hover {
+main .menu.nav > li>ul.nav-child>li>a:hover {
     background-color: #f5f5f5;
 }
 
-ul.nav-child:before {
+main ul.nav-child:before {
     width: 0;
     height: 0;
     border-left: 10px solid transparent;
@@ -117,4 +117,26 @@ ul.nav-child:before {
     top: 2px;
     left: calc(50% - 11px);
     z-index: -1;
+}
+
+
+
+
+main ul.nav.menu {
+    text-align: right;
+}
+
+main li.btn {
+    padding: 10px;
+    border-radius: 2px;
+    margin: 3px;
+}
+
+main li.btn.current.active {
+    background-color: ghostwhite;
+}
+
+
+main li.btn.active>a {
+    color: darkgray;
 }
