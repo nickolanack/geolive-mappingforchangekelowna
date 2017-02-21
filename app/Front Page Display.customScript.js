@@ -2,9 +2,29 @@
 Core::Widgets();
 Widget::GetWidget(80)->display(); //CSS
 
+$editButtonForWidget=function($widget){
+
+    $args=$widget->modalViewParamsForForm();
+    $args['url']='/administrator/'.$args['url'];
+    $args['className']='small';
+    $args['title']='Edit '.$widget->getParameter('widgetTitle', 'Content');
+  
+    if(Auth('memberof', 'special', 'group')){
+        echo '<div>';
+        UI('button', $args); 
+        echo '</div>';
+    }
+
+};
+
 
 //Intro
-Widget::GetWidget(83)->display(); 
+$introWidget=Widget::GetWidget(83);
+$editButtonForWidget($introWidget);
+$introWidget->display();
+
+
+
 
 
 //Quick start
