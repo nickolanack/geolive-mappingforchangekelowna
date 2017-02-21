@@ -5953,5 +5953,14 @@
             "widgetTitle": "Front Intro",
             "readAccess": "public"
         }
+    },
+    "widget.85": {
+        "name": "Custom Content",
+        "instance": "CustomContent",
+        "parameters": {
+            "customScript": "Agency Cards.customScript.js",
+            "widgetTitle": "Agency Cards",
+            "readAccess": "public"
+        }
     }
 }
