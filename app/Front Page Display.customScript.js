@@ -1,5 +1,8 @@
 <?php
-Core::Widgets();
+
+//Edit this
+UI('widget.button.form', $this);
+
 
 //CSS
 HtmlBlock('widget', 80);
