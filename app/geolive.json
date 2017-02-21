@@ -5954,12 +5954,21 @@
             "readAccess": "public"
         }
     },
+    "widget.86": {
+        "name": "Custom Content",
+        "instance": "CustomContent",
+        "parameters": {
+            "customScript": "Search Container.customScript.js",
+            "widgetTitle": "Search Container",
+            "readAccess": "public"
+        }
+    },
     "widget.85": {
         "name": "Custom Content",
         "instance": "CustomContent",
         "parameters": {
-            "customScript": "Agency Cards.customScript.js",
-            "widgetTitle": "Agency Cards",
+            "customScript": "SEO Agency Cards.customScript.js",
+            "widgetTitle": "SEO Agency Cards",
             "readAccess": "public"
         }
     }

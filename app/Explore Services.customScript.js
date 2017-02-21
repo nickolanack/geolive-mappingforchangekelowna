@@ -1,3 +1,6 @@
+<section class="explore" style="display:none;">
+<h1>Explore Homelessness Services</h1>
+
 <?php
 
 
@@ -58,3 +61,5 @@ HtmlBlock('article',
 
 
 ?>
+
+</section>
