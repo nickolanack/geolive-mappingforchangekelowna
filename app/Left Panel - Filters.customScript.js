@@ -1,28 +1,8 @@
-var layersFilterContent = container.appendChild(new Element('div', {
-  'class': 'filter layer-filter'
-}));
 var attributesFilterContent = container.appendChild(new Element('div', {}));
 var attributesFilterContentAlt = gutter.appendChild(new Element('div', {}));
 var servicesTypesFilterContent = container.appendChild(new Element('div', {
   'class': 'filter services-filter'
 }));
-
-var layersMod = <?php
-Core::Modules();
-$module = Module::LoadModule('LayerLegend', array());
-echo $module->display($targetInstance->getJSObjectName(), $targetInstance->getJSObjectName(), 'map', array(
-   "iconSize"=>32,
-   "shouldShowLayerScript"=>'
-  
-        return id!=4; //red zone layer id (its already displayed in bottom left legend).
-
-   '
-
-
-));
-?>;
-layersMod.load(null, layersFilterContent, null);
-
 
 var getAttributeFilterParameters = function(field, table) {
 

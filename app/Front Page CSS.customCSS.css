@@ -50,9 +50,9 @@ article {
 .explore .article-images a {
     border: 1px solid black;
     border-radius: 100%;
-    width: 120px;
+    width: 90px;
     position: initial;
-    height: 120px;
+    height: 90px;
     overflow: hidden;
     display: inline-block;
     padding: 20px;

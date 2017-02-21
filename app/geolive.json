@@ -630,8 +630,8 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 241,
-                            "y": 309
+                            "x": 251,
+                            "y": 319
                         },
                         "children": [
                             {
@@ -2096,8 +2096,9 @@
             "onDragEndScript": "defaultBehaviorFn();",
             "formatTipScript": "",
             "widgetTitle": "",
-            "readAccess": "public",
-            "position": "RIGHT_CENTER"
+            "readAccess": "registered",
+            "position": "RIGHT_CENTER",
+            "profileIcon": null
         }
     },
     "widget.17": {
@@ -2994,9 +2995,8 @@
             "onDragEndScript": "defaultBehaviorFn();",
             "formatTipScript": "",
             "widgetTitle": "",
-            "readAccess": "public",
-            "position": "RIGHT_CENTER",
-            "profileIcon": null
+            "readAccess": "registered",
+            "position": "RIGHT_CENTER"
         }
     },
     "widget.24": {
@@ -3700,7 +3700,7 @@
             "showEditLayerButtons": true,
             "widgetTitle": "",
             "readAccess": "public",
-            "shouldShowLayerScript": "return id==4;"
+            "shouldShowLayerScript": "return true; \/\/ id==4;"
         }
     },
     "widget.32": {
@@ -3738,9 +3738,8 @@
             "onDragEndScript": "defaultBehaviorFn();",
             "formatTipScript": "",
             "widgetTitle": "",
-            "readAccess": "public",
-            "position": "RIGHT_CENTER",
-            "profileIcon": null
+            "readAccess": "registered",
+            "position": "RIGHT_CENTER"
         }
     },
     "widget.36": {

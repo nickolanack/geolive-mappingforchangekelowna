@@ -44,7 +44,7 @@ window.attributeValueList = {
 
 		"Individuals",
 		"Families",
-        "Couples"
+                "Couples"
 
 	]
 
