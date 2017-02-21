@@ -3294,12 +3294,12 @@
             "importEncoding": "UTF-8",
             "showImportEncoding": false,
             "filename": "Service-Providers",
-            "widgetTitle": "",
+            "widgetTitle": "CSV Export",
             "readAccess": "registered",
             "position": "RIGHT_BOTTOM",
-            "filterRowScript": "widget.AttributesCSVExport.29.filterRowScript.js",
+            "filterRowScript": "CSV Export.filterRowScript.js",
             "tileHoverTip": "Download Service Provider Data",
-            "filterFieldsScript": "widget.AttributesCSVExport.29.filterFieldsScript.js"
+            "filterFieldsScript": "CSV Export.filterFieldsScript.js"
         }
     },
     "widget.67": {
