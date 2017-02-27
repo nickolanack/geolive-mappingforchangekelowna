@@ -10,9 +10,16 @@
 <select class="attributeFilter" data-attribute-field="primaryTargetResident" data-attribute-table="serviceProviderAttributes"></select>
 <select class="attributeFilter" data-attribute-field="genderServed" data-attribute-table="serviceProviderAttributes"></select>
 <select class="attributeFilter" data-attribute-field="demographicServed" data-attribute-table="serviceProviderAttributes"></select>
+<label>Items that match all fields<input id="join-intersect" type="radio" name="join" value="intersect"  checked="true" /></label>
+<label>Items that match any field<input type="radio" name="join" value="join" / ></label>
   </form></p>
 </section>
-
+<section class="housing-results empty">
+<h3><span id="housing-results">0 Results </span>for your search<h3>
+<h4 >you searched <span id="housing-query">...</span><h4>
+<p></p>
+</section>
+  
 <?php
 
 // /{"filters":{"join":"join","table":"serviceProviderAttributes","set":"*","filters":[{"field":"buildingType","comparator":"equalTo","value":"emergency"}]},"mapId":1,"plugin":"Attributes"}
@@ -40,7 +47,7 @@ window.addEvent("load",function(){
 
           var filters=[];
 
-          selects.slice(0,1).forEach(function(el){
+          selects.forEach(function(el){
 
               if(el.value&&el.value!==""){
 
@@ -51,14 +58,17 @@ window.addEvent("load",function(){
           });
 
           
-
+          var join=$("join-intersect").checked?"intersect":"join"
           var searchQuery=new FilterSearchQuery({
-            filters:{"join":"join","table":"serviceProviderAttributes","set":"*","filters":filters},
+            filters:{"join":join,"table":"serviceProviderAttributes","set":"*","filters":filters},
             mapId:1
           });
-          searchQuery.addEvent("onSuccess",function(result){
+          searchQuery.addEvent("onSuccess",function(response){
 
-            console.log(result);
+            var results=response.results;
+            console.log(results);
+           $("housing-results").innerHTML=results.countMatches+"Results";
+           $("housing-query").innerHTML=results.link.description
 
           });
           searchQuery.execute();
@@ -77,6 +87,7 @@ window.addEvent("load",function(){
             }).addEvent("onSuccess", function(distinct) {
                
                   el.appendChild(new Element("option", {value:"", html:distinct.label, disabled:true}));
+                  el.appendChild(new Element("option", {value:"", html:""}));
                   distinct.values.filter(function(value){
                        return !!(value&&value!="");
                   }).forEach(function(value){
