@@ -402,6 +402,38 @@
                         }
                     },
                     "allowMultiple": true
+                },
+                {
+                    "visibility": "public",
+                    "tableId": "1",
+                    "tableName": "serviceProviderAttributes",
+                    "tableSuffix": "_9632",
+                    "title": "otherServices",
+                    "label": "Other Services",
+                    "description": "",
+                    "fieldType": "text",
+                    "color": "rgb(undefined, undefined, undefined)",
+                    "searchability": "public",
+                    "editability": "registered",
+                    "fieldTextOptions": {
+                        "textType": "options",
+                        "inputOptions": {
+                            "buildAutocomplete": false,
+                            "requireModeration": false,
+                            "limitMaxChars": 0,
+                            "limitMaxWords": 0,
+                            "allowHtml": false,
+                            "allowMedia": true,
+                            "allowLinks": true
+                        },
+                        "listOptions": {
+                            "takeSugesstions": true,
+                            "buildTree": false,
+                            "iconize": false,
+                            "colorize": false
+                        }
+                    },
+                    "allowMultiple": true
                 }
             ]
         }
@@ -630,8 +662,8 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 251,
-                            "y": 319
+                            "x": 271,
+                            "y": 339
                         },
                         "children": [
                             {
@@ -649,6 +681,19 @@
                                 },
                                 "content": {
                                     "modules": [
+                                        {
+                                            "type": "WizardButtons",
+                                            "config": {
+                                                "className": "",
+                                                "reduceOpacity": false,
+                                                "onCompleteScript": "defaultBehaviorFn();",
+                                                "labelForCancel": "cancel",
+                                                "labelForSubmit": "Save",
+                                                "labelForNext": "next",
+                                                "labelForPrevious": "previous",
+                                                "showCancel": false
+                                            }
+                                        },
                                         {
                                             "type": "WizardStepTitle",
                                             "config": {
@@ -734,15 +779,15 @@
                                                         "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_eI5_Wj9_9fx_[G].png": ""
                                                     }
                                                 },
-                                                "initSelectedScript": "ServiceProviderWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.5.config.initSelectedScript.js",
+                                                "initSelectedScript": "ServiceProviderWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.6.config.initSelectedScript.js",
                                                 "className": "",
                                                 "requireSelection": true,
                                                 "allowMultipleSelection": true,
                                                 "allowEmptySelection": false,
-                                                "initializationScript": "ServiceProviderWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.5.config.initializationScript.js",
-                                                "onSelectScript": "ServiceProviderWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.5.config.onSelectScript.js",
-                                                "onDeselectScript": "ServiceProviderWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.5.config.onDeselectScript.js",
-                                                "onRenderSelectableScript": "ServiceProviderWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.5.config.onRenderSelectableScript.js",
+                                                "initializationScript": "ServiceProviderWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.6.config.initializationScript.js",
+                                                "onSelectScript": "ServiceProviderWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.6.config.onSelectScript.js",
+                                                "onDeselectScript": "ServiceProviderWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.6.config.onDeselectScript.js",
+                                                "onRenderSelectableScript": "ServiceProviderWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.6.config.onRenderSelectableScript.js",
                                                 "onSubmitWizardWithSelectedScript": "",
                                                 "exposeIconset": true,
                                                 "iconsetName": "BuildingTypeIcons"
@@ -798,7 +843,7 @@
                                                         "tableSuffix": "_9632",
                                                         "title": "estimatedWaitTime",
                                                         "label": "Estimated Wait Time",
-                                                        "description": "ServiceProviderWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.7.config.attributeFields.0.description.js",
+                                                        "description": "ServiceProviderWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.8.config.attributeFields.0.description.js",
                                                         "fieldType": "number",
                                                         "color": "rgb(undefined, undefined, undefined)",
                                                         "searchability": "public",
@@ -1906,15 +1951,15 @@
                                                         "components\/com_geolive\/users_files\/user_files_994\/Uploads\/Id4_[G]_Emk_HMJ_[ImAgE].png": ""
                                                     }
                                                 },
-                                                "initSelectedScript": "ServiceProviderWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.34.config.initSelectedScript.js",
+                                                "initSelectedScript": "ServiceProviderWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.35.config.initSelectedScript.js",
                                                 "className": "",
                                                 "requireSelection": true,
                                                 "allowMultipleSelection": true,
                                                 "allowEmptySelection": false,
-                                                "initializationScript": "ServiceProviderWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.34.config.initializationScript.js",
+                                                "initializationScript": "ServiceProviderWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.35.config.initializationScript.js",
                                                 "onSelectScript": "addValue(i);",
                                                 "onDeselectScript": "removeValue(i);",
-                                                "onRenderSelectableScript": "ServiceProviderWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.34.config.onRenderSelectableScript.js",
+                                                "onRenderSelectableScript": "ServiceProviderWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.35.config.onRenderSelectableScript.js",
                                                 "onSubmitWizardWithSelectedScript": "",
                                                 "exposeIconset": true,
                                                 "iconsetName": "ServicesProvidedIcons"
@@ -2530,8 +2575,8 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 177,
-                            "y": 118
+                            "x": 187,
+                            "y": 128
                         },
                         "children": [
                             {
@@ -2549,6 +2594,19 @@
                                 },
                                 "content": {
                                     "modules": [
+                                        {
+                                            "type": "WizardButtons",
+                                            "config": {
+                                                "className": "",
+                                                "reduceOpacity": false,
+                                                "onCompleteScript": "defaultBehaviorFn();",
+                                                "labelForCancel": "cancel",
+                                                "labelForSubmit": "Save",
+                                                "labelForNext": "next",
+                                                "labelForPrevious": "previous",
+                                                "showCancel": false
+                                            }
+                                        },
                                         {
                                             "type": "WizardStepTitle",
                                             "config": {
@@ -2618,7 +2676,8 @@
                                                 "multiMessage": "",
                                                 "formatter": "none",
                                                 "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": ""
+                                                "onRenderTextFieldScript": "",
+                                                "formatValueScript": ""
                                             }
                                         },
                                         {
@@ -2670,7 +2729,8 @@
                                                 "multiMessage": "",
                                                 "formatter": "none",
                                                 "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": ""
+                                                "onRenderTextFieldScript": "",
+                                                "formatValueScript": ""
                                             }
                                         },
                                         {
@@ -2722,7 +2782,8 @@
                                                 "multiMessage": "",
                                                 "formatter": "none",
                                                 "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": ""
+                                                "onRenderTextFieldScript": "",
+                                                "formatValueScript": ""
                                             }
                                         },
                                         {
@@ -2774,7 +2835,8 @@
                                                 "multiMessage": "",
                                                 "formatter": "none",
                                                 "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": ""
+                                                "onRenderTextFieldScript": "",
+                                                "formatValueScript": ""
                                             }
                                         },
                                         {
@@ -2826,7 +2888,8 @@
                                                 "multiMessage": "",
                                                 "formatter": "none",
                                                 "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": ""
+                                                "onRenderTextFieldScript": "",
+                                                "formatValueScript": ""
                                             }
                                         },
                                         {
@@ -2878,7 +2941,8 @@
                                                 "multiMessage": "",
                                                 "formatter": "none",
                                                 "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": ""
+                                                "onRenderTextFieldScript": "",
+                                                "formatValueScript": ""
                                             }
                                         },
                                         {
@@ -2930,7 +2994,8 @@
                                                 "multiMessage": "",
                                                 "formatter": "none",
                                                 "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": ""
+                                                "onRenderTextFieldScript": "",
+                                                "formatValueScript": ""
                                             }
                                         }
                                     ]
@@ -3305,7 +3370,12 @@
     "widget.67": {
         "name": "Attr Filter Builder",
         "instance": "AttributesFilterBuilder",
-        "parameters": {}
+        "parameters": {
+            "urlPrefix": "\/map\/",
+            "widgetTitle": "",
+            "readAccess": "public",
+            "position": "RIGHT_CENTER"
+        }
     },
     "widget.69": {
         "name": "Login Wizard Builder",
@@ -3767,8 +3837,8 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 127,
-                            "y": 388
+                            "x": 147,
+                            "y": 408
                         },
                         "children": [
                             {
@@ -3802,6 +3872,19 @@
                                 },
                                 "content": {
                                     "modules": [
+                                        {
+                                            "type": "WizardButtons",
+                                            "config": {
+                                                "className": "",
+                                                "reduceOpacity": false,
+                                                "onCompleteScript": "defaultBehaviorFn();",
+                                                "labelForCancel": "cancel",
+                                                "labelForSubmit": "Save",
+                                                "labelForNext": "next",
+                                                "labelForPrevious": "previous",
+                                                "showCancel": false
+                                            }
+                                        },
                                         {
                                             "type": "WizardStepTitle",
                                             "config": {
@@ -3873,15 +3956,15 @@
                                                         "components\/com_geolive\/users_files\/user_files_994\/Uploads\/EhZ_[ImAgE]_LXe_[G]_3oF.png": ""
                                                     }
                                                 },
-                                                "initSelectedScript": "DailyWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.5.config.initSelectedScript.js",
+                                                "initSelectedScript": "DailyWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.6.config.initSelectedScript.js",
                                                 "className": "",
                                                 "requireSelection": true,
                                                 "allowMultipleSelection": true,
                                                 "allowEmptySelection": false,
-                                                "initializationScript": "DailyWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.5.config.initializationScript.js",
+                                                "initializationScript": "DailyWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.6.config.initializationScript.js",
                                                 "onSelectScript": "addValue(i);",
                                                 "onDeselectScript": "removeValue(i);",
-                                                "onRenderSelectableScript": "DailyWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.5.config.onRenderSelectableScript.js",
+                                                "onRenderSelectableScript": "DailyWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.6.config.onRenderSelectableScript.js",
                                                 "onSubmitWizardWithSelectedScript": "",
                                                 "exposeIconset": true,
                                                 "iconsetName": "DailyServicesIconset"
@@ -5918,6 +6001,24 @@
         "parameters": {
             "customScript": "Explore Services.customScript.js",
             "widgetTitle": "Explore Services",
+            "readAccess": "public"
+        }
+    },
+    "widget.88": {
+        "name": "Custom Content",
+        "instance": "CustomContent",
+        "parameters": {
+            "customScript": "Selection Housing Search.customScript.js",
+            "widgetTitle": "Selection Housing Search",
+            "readAccess": "public"
+        }
+    },
+    "widget.89": {
+        "name": "Custom Content",
+        "instance": "CustomContent",
+        "parameters": {
+            "customScript": "",
+            "widgetTitle": "Drop in Services Search",
             "readAccess": "public"
         }
     },
