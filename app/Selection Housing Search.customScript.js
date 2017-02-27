@@ -117,7 +117,7 @@ window.addEvent("load",function(){
 
           });
 
-          
+
           
           if(filters.length){
 
@@ -125,6 +125,15 @@ window.addEvent("load",function(){
             setSearchedFor("...")
 
             var join=$("join-intersect").checked?"intersect":"join"
+
+            if(window.GeoliveMapInstances){
+
+              var filter=GeoliveMapInstances[0].getContentFilterManager();
+              filter.search({"join":join,"table":"serviceProviderAttributes","set":"*","filters":filters});
+              return;
+            }
+
+            
             var searchQuery=new FilterSearchQuery({
               filters:{"join":join,"table":"serviceProviderAttributes","set":"*","filters":filters},
               mapId:1
