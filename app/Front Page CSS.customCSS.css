@@ -342,3 +342,10 @@ section#housing-results-section:after {
     z-index: -1;
     opacity: 0.3;
 }
+
+.quickstart article {
+    width: inherit;
+    margin: 0;
+    padding: 0;
+    color: #8f1540;
+}

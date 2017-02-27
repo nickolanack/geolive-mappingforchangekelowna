@@ -51,3 +51,43 @@ overflow:hidden;
 .hideTextArea .text-input, .hideTextArea .video, .hideTextArea .audio, .hideTextArea .document {
     display: none;
 }
+
+
+#housing-search-form>* {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#housing-search-form>label {
+    margin-left: 20px;
+}
+
+section.housing-search h2 {
+    display: none;
+}
+
+label {}
+
+.housing-search-area>label {
+    display: inline;
+    margin-left: 20px;
+}
+
+.housing-search-area {
+    margin-bottom: 20px;
+}
+
+.housing-search-area input[type="radio"] {
+    vertical-align: middle;
+    margin: 0;
+    margin-bottom: 2px;
+    margin-left: 10px;
+}
+
+form#housing-search-form {
+    margin-bottom: 0;
+}
+
+section#housing-results-section {
+    display: none;
+}
