@@ -6017,7 +6017,7 @@
         "name": "Custom Content",
         "instance": "CustomContent",
         "parameters": {
-            "customScript": "",
+            "customScript": "Drop in Services Search.customScript.js",
             "widgetTitle": "Drop in Services Search",
             "readAccess": "public"
         }
