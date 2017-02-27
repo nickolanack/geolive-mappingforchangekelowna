@@ -3,6 +3,14 @@
     float: right;
 }
 
+section.intro p {
+    font-size: 30px;
+    line-height: 36px;
+    max-width: 800px;
+    display: inline-block;
+    margin-right: 400px;
+}
+
 div#search-container {
     position: relative;
     height: 100%;
@@ -98,7 +106,7 @@ section h1 {
 }
 
 section {
-    margin: 20px;
+    margin: 50px;
     text-align: center;
 }
 
@@ -199,6 +207,13 @@ section.search>h1 {
 .explore article.fav-2:hover .article-images a {
     background-color: #34c56a;
 }
+.explore article.fav-5:hover .article-images a {
+    background-color: #a89be8;
+}
+
+.explore article.fav-4:hover .article-images a {
+    background-color: #b38c7e;
+}
 @media only screen and (max-width: 1300px) {
      .search-area {
         height:300px;
@@ -232,6 +247,9 @@ section.search>h1 {
     background: white;
     box-shadow: 0 0 5px rgba(0,0,0,0.3);
     border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
 }
 
 .housing-results button.btn.btn-primary {
@@ -261,6 +279,8 @@ section.housing-results {
     width: 100%;
     margin: 10px 0;
     box-sizing: border-box;
+    z-index: 1;
+    position: relative;
 }
 
 section.housing-results.empty {
@@ -286,7 +306,46 @@ html:after {
 }
 
 .drop-in-services article {
-    max-width: 130px;
+        max-width: 150px;
     margin-left: 0;
     margin-right: 0;
+    padding: 0;
+    text-align: center;
+}
+.drop-in-services article h2 {
+    font-size: 14px;
+    overflow: visible;
+}
+
+.housing-search-area:before {
+    content: "";
+    width: 100%;
+    background-color: whitesmoke;
+    height: 65px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.housing-search-area>h2 {margin-bottom: 25px;font-weight: 100;}
+
+section#housing-results-section:after {
+    background-image: url(https://maps.googleapis.com/maps/api/staticmap?center=Kelowna,BC&zoom=13&size=1200x300&maptype=roadmap);
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+.quickstart article {
+    width: inherit;
+    margin: 0;
+    padding: 0;
+    color: #8f1540;
 }
