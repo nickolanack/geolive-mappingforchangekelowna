@@ -6072,5 +6072,23 @@
             "widgetTitle": "SEO Agency Cards",
             "readAccess": "public"
         }
+    },
+    "widget.90": {
+        "name": "Custom Content",
+        "instance": "CustomContent",
+        "parameters": {
+            "customScript": "Housing Definitions.customScript.js",
+            "widgetTitle": "Housing Definitions",
+            "readAccess": "public"
+        }
+    },
+    "widget.91": {
+        "name": "Custom Content",
+        "instance": "CustomContent",
+        "parameters": {
+            "customScript": "Disclaimer.customScript.js",
+            "widgetTitle": "Disclaimer",
+            "readAccess": "public"
+        }
     }
 }
