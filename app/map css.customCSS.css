@@ -91,3 +91,18 @@ form#housing-search-form {
 section#housing-results-section {
     display: none;
 }
+
+html:after {
+    background-image: url(https://isearchkelowna.ca/templates/protostar/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    content: "";
+    width: 100%;
+    top: 0;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.1;
+    /*max-height: 500px;*/
+    border-bottom: 1px solid black;
+}

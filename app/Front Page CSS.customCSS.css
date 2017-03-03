@@ -22,6 +22,7 @@ div#search-container {
     background-position: center;
     background-size: 100% auto;
     background-repeat: no-repeat;
+
 }
 
 input.search-input {
@@ -288,9 +289,9 @@ section.housing-results.empty {
 }
 
 html:after {
-    background-image: url(templates/protostar/banner.png);
+    background-image: url(https://isearchkelowna.ca/templates/protostar/banner.png);
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
     position: absolute;
     content: "";
     width: 100%;
@@ -299,20 +300,33 @@ html:after {
     z-index: -1;
     opacity: 0.2;
     max-height: 500px;
+border-bottom: 1px solid black;
 }
 
 .housing-search-area>label {
     display: inline-block;
 }
 
-.drop-in-services article {
+.drop-in-services article, .housing-types article {
         max-width: 150px;
     margin-left: 0;
     margin-right: 0;
     padding: 0;
     text-align: center;
 }
-.drop-in-services article h2 {
+
+.housing-types article {
+    max-width: 200px;
+    margin-right: 45px;
+    margin-left: 20px;
+}
+
+.housing-types .width-helper {
+    max-width: 1000px;
+    display: inline-block;
+}
+
+.drop-in-services article h2, .housing-types article h2 {
     font-size: 14px;
     overflow: visible;
 }
@@ -348,4 +362,25 @@ section#housing-results-section:after {
     margin: 0;
     padding: 0;
     color: #8f1540;
+}
+
+section.explore.drop-in-services, section.explore.housing-types {
+    position: relative;
+    padding: 50px;
+}
+
+section.explore.drop-in-services:after, section.explore.housing-types:after {
+    content: "";
+    background-color: whitesmoke;
+    width: 150%;
+    left: -25%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+section.quickstart {
+    margin-top: 200px;
 }
