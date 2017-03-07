@@ -1,0 +1,9 @@
+.item-page {
+    margin-top: 150px;
+}
+
+html:after {
+
+    max-height: 200px;
+    background-position: center;
+}

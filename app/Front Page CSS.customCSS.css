@@ -1,14 +1,19 @@
 .edit-widget-btns {
     display: table;
     float: right;
+    height: 0;
+    z-index: 1;
+    position: relative;
 }
 
 section.intro p {
-    font-size: 30px;
+   font-size: 30px;
     line-height: 36px;
     max-width: 800px;
     display: inline-block;
-    margin-right: 400px;
+    min-width: 400px;
+    text-align: center;
+    margin-top: 60px;
 }
 
 div#search-container {
@@ -77,7 +82,7 @@ article {
     text-align: center;
     width: 100%;
     position: absolute;
-    top: -120px;
+    top: -100px;
     margin: 0;
     left: 0;
 }
@@ -116,7 +121,7 @@ span.article-images {
     margin: 0 10px 10px 0;
 }
 
-.explore .article-content {
+section .article-content, section>p,  section>.width-helper>p {
     font-size: 16px;
     font-weight: 100;
     font-family: '',sans-serif;
@@ -239,18 +244,19 @@ section.search>h1 {
 
 .intro p, .quickstart p {
     text-align: left;
+    font-family: '',sans-serif;
 }
 
 .housing-search .housing-search-area{
-       display: inline-block;
+      display: inline-block;
     text-align: left;
     padding: 15px;
     background: white;
-    box-shadow: 0 0 5px rgba(0,0,0,0.3);
     border-radius: 5px;
     position: relative;
     z-index: 1;
     overflow: hidden;
+max-width: 700px;
 }
 
 .housing-results button.btn.btn-primary {
@@ -299,7 +305,6 @@ html:after {
     height: 100%;
     z-index: -1;
     opacity: 0.2;
-    max-height: 500px;
 border-bottom: 1px solid black;
 }
 
@@ -316,14 +321,18 @@ border-bottom: 1px solid black;
 }
 
 .housing-types article {
+
     max-width: 200px;
-    margin-right: 45px;
+    margin-right: 0px;
     margin-left: 20px;
+    text-align: left;
 }
 
-.housing-types .width-helper {
-    max-width: 1000px;
+ .width-helper {
+    max-width: 700px;
     display: inline-block;
+    text-align: left;
+
 }
 
 .drop-in-services article h2, .housing-types article h2 {
@@ -331,17 +340,6 @@ border-bottom: 1px solid black;
     overflow: visible;
 }
 
-.housing-search-area:before {
-    content: "";
-    width: 100%;
-    background-color: whitesmoke;
-    height: 65px;
-    top: 0;
-    left: 0;
-    position: absolute;
-    z-index: -1;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-}
 
 .housing-search-area>h2 {margin-bottom: 25px;font-weight: 100;}
 
@@ -357,11 +355,25 @@ section#housing-results-section:after {
     opacity: 0.3;
 }
 
+section.housing-search {
+    margin-top: 10px;
+}
+section.quickstart{
+ margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 100;
+}
 .quickstart article {
     width: inherit;
     margin: 0;
     padding: 0;
-    color: #8f1540;
+    max-width: 550px;
+}
+
+.quickstart article h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
 }
 
 section.explore.drop-in-services, section.explore.housing-types {
@@ -369,7 +381,7 @@ section.explore.drop-in-services, section.explore.housing-types {
     padding: 50px;
 }
 
-section.explore.drop-in-services:after, section.explore.housing-types:after {
+section.explore.drop-in-services:after{
     content: "";
     background-color: whitesmoke;
     width: 150%;
@@ -381,6 +393,65 @@ section.explore.drop-in-services:after, section.explore.housing-types:after {
     border: 1px solid rgba(0,0,0,0.1);
 }
 
-section.quickstart {
-    margin-top: 200px;
+
+
+.explore article header>h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.housing-types article header>hr {
+    margin: 10px 0px;
+}
+
+
+button#housing-search-goto-map {
+    background-color: steelblue;
+}
+
+section h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.explore.drop-in-services article header>h2 {
+    font-size: 25px;
+}
+
+.red-zone article {
+    max-width: 300px;
+    text-align: left;
+}
+
+section.explore.housing-types, section.quickstart  {
+   padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+.no-circles .article-images a {
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+}
+.no-circles article:hover .article-images a{
+background-color:transparent;
+}
+.bigger-icons .article-images a {
+    width: 230px;
+    height: 150px;
+}
+
+.bigger-icons .article-images a>img {
+    max-height: 100%;
+    width: auto;
+}
+
+.bigger-icons .article-images {
+    top: -120px;
+    left: -15px;
 }

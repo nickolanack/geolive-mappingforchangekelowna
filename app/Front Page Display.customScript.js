@@ -1,16 +1,18 @@
 <?php
 
 //Edit this
-UI('widget.button.form', $this);
+UI('widget.button.graph', $this);
 
 
 //CSS
 HtmlBlock('widget', 80);
-
+HtmlBlock('widget', 93);
 
 //Intro
 HtmlBlock('widget', 83);
 
+//Quick start icon articles
+HtmlBlock('widget', 94);
 
 //Quick start
 HtmlBlock('widget', 84);
@@ -46,5 +48,5 @@ HtmlBlock('widget', 85);
 //Agencies
 HtmlBlock('widget', 91);
 
-
+HtmlBlock('widget', 99);
 ?>

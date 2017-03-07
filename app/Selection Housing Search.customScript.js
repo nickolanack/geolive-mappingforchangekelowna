@@ -1,7 +1,9 @@
-<section class="housing-search">
+<section class="housing-search"><a name="GetStarted"></a>
+
+
      <p><div class="housing-search-area" >
 
-     <h2>Search For Housing Services</h2>
+     
 
      <form id="housing-search-form" action="/map">
 

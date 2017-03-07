@@ -1,5 +1,5 @@
 <section class="explore drop-in-services">
-<h1>Drop In Services</h1>
+<h1>Quick View Drop In Services</h1>
 
 <?php
 
@@ -48,24 +48,6 @@ HtmlBlock('article',
                 ),
                 'afterHeader' => '<hr/>',
                  'title'=>'Needle Drop-off',
-                'text'=>false,
-                 'link'=>'/map/filter-services-provided-equal-to-Harm-Reduction',
-                 'linkTitle'=>'',  
-
-'images'=>array('https://isearchkelowna.ca/components/com_geolive/users_files/user_files_994/Uploads/AET_[G]_[ImAgE]_6cq_oEM.png')
-
-
-            ));
-
-HtmlBlock('article',
-            array(
-                'class'=>'fav-1',
-                'heading'     => 2,
-                'schema'      => array(
-                    'link' => 'itemprop="Service"',
-                ),
-                'afterHeader' => '<hr/>',
-                 'title'=>'Harm Reduction Supplies',
                 'text'=>false,
                  'link'=>'/map/filter-services-provided-equal-to-Harm-Reduction',
                  'linkTitle'=>'',  
