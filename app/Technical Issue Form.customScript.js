@@ -13,26 +13,7 @@ UI('form.outlet',array('fields'=>array(
 
 HtmlBlock('page', 
     array(
-        'sidebar' => array(
-            array(
-                'script' => '
-
-
-
-                (new AjaxControlQuery(CoreAjaxUrlRoot,"send_email", Object.append({
-                	"plugin":'EmailModerate'
-                }, window.Outlets.getFormData()))).execute();
-
-
-
-
-
-                ',
-                'title' => 'Send',
-                'icon' => Core::AssetsDir() . DS . 'Control Panel Icons' . DS . 'mail.png'
-            )
-
-        ),
+       'className'=>'email-form',
         'content' => function () {
 
 UI('input',
@@ -79,4 +60,24 @@ UI('input',
 	));
 
 
+UI('button', array(
+    'script' => '
+
+
+
+    (new AjaxControlQuery(CoreAjaxUrlRoot,"send_email", Object.append({
+    	"plugin":"EmailModerate"
+    }, window.Outlets.getFormData()))).execute();
+
+
+
+
+
+    ',
+    'title' => 'Send',
+    'icon' => Core::AssetsDir() . DS . 'Control Panel Icons' . DS . 'mail.png'
+));
+
+
 }));
+?>

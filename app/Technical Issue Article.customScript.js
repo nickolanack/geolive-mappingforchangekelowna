@@ -12,7 +12,7 @@ It may be helpful to contact you for more detail relating to the issue you are i
 
 <div class="width-helper">
 <?php
-HtmlBlock('widget', 103);
+   HtmlBlock('widget', 103);
 ?>
 
 </div>

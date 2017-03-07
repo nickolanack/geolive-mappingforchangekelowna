@@ -6203,5 +6203,14 @@
             "widgetTitle": "Technical Issue Form",
             "readAccess": "public"
         }
+    },
+    "widget.104": {
+        "name": "Custom CSS",
+        "instance": "CSS",
+        "parameters": {
+            "customCSS": "",
+            "widgetTitle": "Email Form CSS",
+            "readAccess": "public"
+        }
     }
 }
