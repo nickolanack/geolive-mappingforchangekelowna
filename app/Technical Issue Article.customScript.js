@@ -9,7 +9,7 @@ Thank you for taking the time to report a technical issue. Please fill out the f
 
 It may be helpful to contact you for more detail relating to the issue you are identifying, if you agree to be contacted, please
 </p></div>
-
+<br/>
 <div class="width-helper">
 <?php
    HtmlBlock('widget', 103);

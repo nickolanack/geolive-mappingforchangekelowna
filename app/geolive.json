@@ -6208,7 +6208,7 @@
         "name": "Custom CSS",
         "instance": "CSS",
         "parameters": {
-            "customCSS": "",
+            "customCSS": "Email Form CSS.customCSS.css",
             "widgetTitle": "Email Form CSS",
             "readAccess": "public"
         }

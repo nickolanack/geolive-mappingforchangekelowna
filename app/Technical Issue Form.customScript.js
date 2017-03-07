@@ -5,7 +5,7 @@ Behavior('ajax');
 UI('form.outlet',array('fields'=>array(
 	'fromEmail'=>$this->getParameter('fromEmail', ''),
 	'fromEmailName'=>$this->getParameter('fromEmailName', ''),
-	'toEmail'=>$this->getParameter('fromEmail', ''),
+
 	'subject'=>'',
 	'message'=>'',
 
@@ -13,15 +13,8 @@ UI('form.outlet',array('fields'=>array(
 
 HtmlBlock('page', 
     array(
-       'className'=>'email-form',
+        'className'=>'email-form',
         'content' => function () {
-
-UI('input',
-	array(
-		'value' => $this->getParameter('fromEmail', ''),
-		'name' => 'toEmail',
-		'label' => 'To Email',
-	));
 
 
 UI('input',
@@ -29,6 +22,7 @@ UI('input',
 		'value' => '',
 		'name' => 'subject',
 		'label' => 'Subject',
+		'message'=>'put a description or subject here'
 	));
 
 
@@ -37,7 +31,8 @@ UI('input',
 		'value' => '',
 		'name' => 'message',
 		'label' => 'Message',
-		'lines' =>5
+		'lines' =>5,
+		'message'=>'write your message here'
 	));
 
 
@@ -49,27 +44,26 @@ UI('input',
 	array(
 		'value' => $this->getParameter('fromEmail', ''),
 		'name' => 'fromEmail',
-		'label' => 'From Email Address',
+		'label' => 'Your Email Address',
+		'message'=>'put email address here'
 	));
 
 UI('input',
 	array(
 		'value' => $this->getParameter('fromEmailName', ''),
 		'name' => 'fromEmailName',
-		'label' => 'From Email Name',
+		'label' => 'Your Name',
+		'message'=>'put your name here'
 	));
-
 
 UI('button', array(
     'script' => '
 
 
 
-    (new AjaxControlQuery(CoreAjaxUrlRoot,"send_email", Object.append({
+    (new AjaxControlQuery(CoreAjaxUrlRoot,"send_email_feedback", Object.append({
     	"plugin":"EmailModerate"
     }, window.Outlets.getFormData()))).execute();
-
-
 
 
 
@@ -80,4 +74,5 @@ UI('button', array(
 
 
 }));
+
 ?>
