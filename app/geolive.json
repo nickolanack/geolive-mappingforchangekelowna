@@ -6253,15 +6253,72 @@
             "showContentRight": true,
             "showContentBottom": false,
             "showContentLeft": true,
-            "showContentTop": true
+            "showContentTop": true,
+            "metadata": {
+                "positions": {
+                    "content": {
+                        "modules": [
+                            {
+                                "type": "widget.108.TutorialStep",
+                                "config": {
+                                    "showContent": true,
+                                    "contentAnchor": "RIGHT_CENTER",
+                                    "content": "\t\nFullscreen version of the map.<br\/><br\/>\n\n\t\nReset the map to show the full map of Kelowna and all markers.<br\/><br\/>\n\n\t\nClick \u201cUngroup markers\u201d to show all individual markers.<br\/><br\/>\n\n\t\nComplete a survey about the effectiveness of iSearch Kelowna.<br\/><br\/>",
+                                    "contentMargin": "0"
+                                }
+                            },
+                            {
+                                "type": "widget.108.TutorialStep",
+                                "config": {
+                                    "showContent": false,
+                                    "contentAnchor": "BOTTOM_CENTER",
+                                    "content": "",
+                                    "contentMargin": "0"
+                                }
+                            },
+                            {
+                                "type": "widget.108.TutorialStep",
+                                "config": {
+                                    "showContent": true,
+                                    "contentAnchor": "LEFT_CENTER",
+                                    "content": "Turn on\/off markers that display community housing services.<br\/><br\/>\n\n\t\nTurn on\/off markers that display community drop-in services.<br\/><br\/>\n\n\t\nTurn on\/off markers that display the location and contact detail of community agencies working in the housing sector.<br\/><br\/>\n\n\t\nTurn on\/off area marking the 'Red Zone'.<br\/><br\/>",
+                                    "contentMargin": "0"
+                                }
+                            },
+                            {
+                                "type": "widget.108.TutorialStep",
+                                "config": {
+                                    "showContent": true,
+                                    "contentAnchor": ".SideBarWidget.left>.toggle-button",
+                                    "content": "This button open and closes access to iSearch Kelowna's advanced search. When it is open you will see a number of different filters on the left hand side that will allow you to quickly view individual, and combined, filters.<br\/><br\/>\n\nWhen the bar is open, try clicking on several of the filter icons and see how the map changes. ",
+                                    "contentMargin": "0"
+                                }
+                            },
+                            {
+                                "type": "widget.108.TutorialStep",
+                                "config": {
+                                    "showContent": true,
+                                    "contentAnchor": "TOP_CENTER",
+                                    "content": "Use the search bar to see a list of markers of housing service providers, agencies and drop-in services. Click on the \u201creset filter\u201d button on the left of the search bar to clear the filters.",
+                                    "contentMargin": "0"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "positionList": [
+                    "content"
+                ],
+                "_diagramState": []
+            }
         }
     },
     "widget.110": {
         "name": "Custom HTML",
         "instance": "CustomContent",
         "parameters": {
-            "customScript": "Map Banner and Behavours.customScript.js",
-            "widgetTitle": "Map Banner and Behavours",
+            "customScript": "Map Banner and Behaviors.customScript.js",
+            "widgetTitle": "Map Banner and Behaviors",
             "readAccess": "public"
         }
     }
