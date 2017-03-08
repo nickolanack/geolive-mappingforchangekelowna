@@ -3757,7 +3757,7 @@
         "name": "Legend",
         "instance": "Legend",
         "parameters": {
-            "position": "LEFT_BOTTOM",
+            "position": "LEFT_CENTER",
             "style": "GeoliveLegend.css",
             "useIconSet": true,
             "draggableIcons": false,
@@ -6136,8 +6136,8 @@
         "name": "Custom CSS",
         "instance": "CSS",
         "parameters": {
-            "customCSS": "Front Article Css.customCSS.css",
-            "widgetTitle": "Front Article Css",
+            "customCSS": "Front Article CSS.customCSS.css",
+            "widgetTitle": "Front Article CSS",
             "readAccess": "public"
         }
     },
@@ -6211,6 +6211,49 @@
             "customCSS": "Email Form CSS.customCSS.css",
             "widgetTitle": "Email Form CSS",
             "readAccess": "public"
+        }
+    },
+    "widget.105": {
+        "name": "Custom HTML",
+        "instance": "CustomContent",
+        "parameters": {
+            "customScript": "Agencies Page.customScript.js",
+            "widgetTitle": "Agencies Page",
+            "readAccess": "public"
+        }
+    },
+    "widget.106": {
+        "name": "Custom HTML",
+        "instance": "CustomContent",
+        "parameters": {
+            "customScript": "Agency Articles.customScript.js",
+            "widgetTitle": "Agency Articles",
+            "readAccess": "public"
+        }
+    },
+    "widget.108": {
+        "name": "Tutorial Button",
+        "instance": "TutorialModeTile",
+        "parameters": {
+            "controlColor": "rgb(143, 21, 64)",
+            "contentRight": "",
+            "contentBottom": "",
+            "contentLeft": "",
+            "contentTop": "",
+            "contentRightMargin": "0",
+            "contentBottomMargin": "0",
+            "contentLeftMargin": "0",
+            "contentTopMargin": "0",
+            "onTutorialStart": "",
+            "onTutorialEnd": "",
+            "startTutorial": "defaultStartFn();",
+            "widgetTitle": "Tutorial",
+            "readAccess": "public",
+            "position": "RIGHT_CENTER",
+            "showContentRight": true,
+            "showContentBottom": false,
+            "showContentLeft": true,
+            "showContentTop": true
         }
     }
 }

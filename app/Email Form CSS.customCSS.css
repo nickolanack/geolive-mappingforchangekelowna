@@ -1,3 +1,9 @@
 .email-form {
     width: 400px;
 }
+
+
+.email-form .cpanel_button {
+    float: right;
+margin: 0;
+}

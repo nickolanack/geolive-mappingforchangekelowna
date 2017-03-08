@@ -18,7 +18,7 @@ Step 3: Submit. When you have finished selecting your options, hit the submit bu
 
 
 
-<section class="explore drop-in-services">
+<a name="AdvancedSearch"></a><section class="explore drop-in-services">
 <h1>Advanced Search</h1>
 <div class="width-helper"><p>
 While your initial search may provide you with housing options that align with your criteria, you may be interested in creating a more detailed search incorporating additional filters.
@@ -37,6 +37,6 @@ This tool is built on google maps. You can drag the map around using a mouse, zo
 </p></div>
 </section>
 
-<?php 
+<a name="ReportIssue"></a><?php 
 HtmlBlock('widget', 102);
 ?>

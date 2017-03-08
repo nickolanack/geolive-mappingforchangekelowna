@@ -75,6 +75,6 @@ var style = [{
 	}]
 }];
 
-map.getBaseMap().setOptions({
-	styles: style
-});
+//map.getBaseMap().setOptions({
+//	styles: style
+//});

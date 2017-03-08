@@ -2,6 +2,8 @@
 
 
 Behavior('ajax');
+Behavior('bubbles');
+
 UI('form.outlet',array('fields'=>array(
 	'fromEmail'=>$this->getParameter('fromEmail', ''),
 	'fromEmailName'=>$this->getParameter('fromEmailName', ''),
@@ -15,6 +17,8 @@ HtmlBlock('page',
     array(
         'className'=>'email-form',
         'content' => function () {
+
+
 
 
 UI('input',
@@ -45,7 +49,7 @@ UI('input',
 		'value' => $this->getParameter('fromEmail', ''),
 		'name' => 'fromEmail',
 		'label' => 'Your Email Address',
-		'message'=>'put email address here'
+		'message'=>'put your email address here'
 	));
 
 UI('input',
@@ -63,7 +67,24 @@ UI('button', array(
 
     (new AjaxControlQuery(CoreAjaxUrlRoot,"send_email_feedback", Object.append({
     	"plugin":"EmailModerate"
-    }, window.Outlets.getFormData()))).execute();
+    }, window.Outlets.getFormData()))).addEvent("success",function(response){
+
+
+    	if(response.success){
+
+    		
+    		NotificationBubble.Make("", "Your message has been sent to a moderator");
+    		try{
+    			window.Outlets.clearForm();
+    		}catch(e){}
+    		
+    	}else{
+    		NotificationBubble.Make("", response.error);
+    	}
+
+
+
+    }).execute();
 
 
 
