@@ -45,8 +45,10 @@ HtmlBlock('widget',81) ;
 //Agencies
 HtmlBlock('widget', 85);
 
-//Agencies
+//Logos
+HtmlBlock('widget', 99);
+
+//Disclaimer
 HtmlBlock('widget', 91);
 
-HtmlBlock('widget', 99);
 ?>

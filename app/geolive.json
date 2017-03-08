@@ -6255,5 +6255,14 @@
             "showContentLeft": true,
             "showContentTop": true
         }
+    },
+    "widget.109": {
+        "name": "Custom CSS",
+        "instance": "CSS",
+        "parameters": {
+            "customCSS": "",
+            "widgetTitle": "Adaptive CSS",
+            "readAccess": "public"
+        }
     }
 }

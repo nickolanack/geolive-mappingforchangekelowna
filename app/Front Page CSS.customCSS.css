@@ -6,6 +6,9 @@
     position: relative;
 }
 
+.edit-widget-btns .cpanel_button_image {
+    background-size: 100%;
+}
 section.intro p {
    font-size: 30px;
     line-height: 36px;

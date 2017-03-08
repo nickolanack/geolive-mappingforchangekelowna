@@ -1,4 +1,4 @@
-<section><p><span class="bold">Disclaimer:</span> Built as a collaboration between community agencies, funders and researchers from the
+<section><p><div class="width-helper"><span class="bold">Disclaimer:</span> Built as a collaboration between community agencies, funders and researchers from the
 
 University of British Columbia and Okanagan College, i-Search Kelowna aims to reduce the time
 
@@ -10,4 +10,4 @@ have provided information on how they accept and place individuals and the servi
 
 However, they update information, so it is recommended that you contact individual agencies for
 
-specific program information.</p></section>
+specific program information.</p></div></section>
