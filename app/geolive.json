@@ -6256,12 +6256,12 @@
             "showContentTop": true
         }
     },
-    "widget.109": {
-        "name": "Custom CSS",
-        "instance": "CSS",
+    "widget.110": {
+        "name": "Custom HTML",
+        "instance": "CustomContent",
         "parameters": {
-            "customCSS": "",
-            "widgetTitle": "Adaptive CSS",
+            "customScript": "Map Banner and Behavours.customScript.js",
+            "widgetTitle": "Map Banner and Behavours",
             "readAccess": "public"
         }
     }
