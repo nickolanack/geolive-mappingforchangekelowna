@@ -6317,9 +6317,113 @@
         "name": "Custom HTML",
         "instance": "CustomContent",
         "parameters": {
-            "customScript": "Map Banner and Behaviors.customScript.js",
-            "widgetTitle": "Map Banner and Behaviors",
+            "customScript": "Map Configuration Graph.customScript.js",
+            "widgetTitle": "Map Configuration Graph",
             "readAccess": "public"
+        }
+    },
+    "widget.111": {
+        "name": "Named Iconset",
+        "instance": "NamedIconset",
+        "parameters": {
+            "exposeIconset": true,
+            "iconsetName": "buildingType",
+            "icons": [
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/fik_Qih_[ImAgE]_[G]_7qp.png",
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_Pts_qTq_2cO.png",
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_eI5_Wj9_9fx_[G].png",
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/YdL_[G]_5ID_t0q_[ImAgE].png",
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_W0M_lWp_zQJ_[G].png"
+            ],
+            "widgetTitle": "Housing Type Icons",
+            "readAccess": "public",
+            "position": "",
+            "iconsetMetadata": {
+                "iconName": {
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_Pts_qTq_2cO.png": "Transitional",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_eI5_Wj9_9fx_[G].png": "Supportive",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/YdL_[G]_5ID_t0q_[ImAgE].png": "Low Income Rental",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_W0M_lWp_zQJ_[G].png": "Rental",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/fik_Qih_[ImAgE]_[G]_7qp.png": "Emergency"
+                },
+                "iconMetadata": {
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/fik_Qih_[ImAgE]_[G]_7qp.png": "{}",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_Pts_qTq_2cO.png": "{}",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_eI5_Wj9_9fx_[G].png": "{}",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/YdL_[G]_5ID_t0q_[ImAgE].png": "{}",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_W0M_lWp_zQJ_[G].png": "{}"
+                }
+            }
+        }
+    },
+    "widget.112": {
+        "name": "Named Iconset",
+        "instance": "NamedIconset",
+        "parameters": {
+            "exposeIconset": false,
+            "iconsetName": "",
+            "icons": [
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/qTr_tpk_[ImAgE]_[G]_aiZ.png",
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/iTq_yAO_[ImAgE]_[G]_Z5E.png",
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_W8k_[G]_6YZ_LYe.png",
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/9AK_eR6_[ImAgE]_8La_[G].png",
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/QbA_[G]_[ImAgE]_eWR_rXc.png",
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/EhZ_[ImAgE]_LXe_[G]_3oF.png",
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_Qwd_[G]_4I0_frw.png"
+            ],
+            "widgetTitle": "Services Provided Icons",
+            "readAccess": "public",
+            "position": ""
+        }
+    },
+    "widget.113": {
+        "name": "Named Iconset",
+        "instance": "NamedIconset",
+        "parameters": {
+            "exposeIconset": false,
+            "iconsetName": "",
+            "icons": [
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/9AK_eR6_[ImAgE]_8La_[G].png",
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/AET_[G]_[ImAgE]_6cq_oEM.png",
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_W8k_[G]_6YZ_LYe.png",
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_0BZ_5dD_vxp_[ImAgE].png",
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/OZn_cee_[ImAgE]_327_[G].png",
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/EhZ_[ImAgE]_LXe_[G]_3oF.png"
+            ],
+            "widgetTitle": "Daily Services Provided Icons",
+            "readAccess": "public",
+            "position": ""
+        }
+    },
+    "widget.114": {
+        "name": "Named Iconset",
+        "instance": "NamedIconset",
+        "parameters": {
+            "exposeIconset": false,
+            "iconsetName": "",
+            "icons": [
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_5sV_8io_[ImAgE]_kRu.png",
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/RF8_U7a_[G]_StY_[ImAgE].png"
+            ],
+            "widgetTitle": "Primary Target Resident Icons",
+            "readAccess": "public",
+            "position": ""
+        }
+    },
+    "widget.115": {
+        "name": "Named Iconset",
+        "instance": "NamedIconset",
+        "parameters": {
+            "exposeIconset": false,
+            "iconsetName": "",
+            "icons": [
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_5sV_8io_[ImAgE]_kRu.png",
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_[G]_ToE_f3E_cj4.png",
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_zBj_[ImAgE]_kQr_5oA.png"
+            ],
+            "widgetTitle": "Gender Served Icons",
+            "readAccess": "public",
+            "position": ""
         }
     }
 }
