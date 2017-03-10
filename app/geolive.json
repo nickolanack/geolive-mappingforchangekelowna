@@ -6373,7 +6373,27 @@
             ],
             "widgetTitle": "Services Provided Icons",
             "readAccess": "public",
-            "position": ""
+            "position": "",
+            "iconsetMetadata": {
+                "iconName": {
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/qTr_tpk_[ImAgE]_[G]_aiZ.png": "Case Management",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/iTq_yAO_[ImAgE]_[G]_Z5E.png": "Referrals To Other Agencies",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_W8k_[G]_6YZ_LYe.png": "Health\/Dental Care",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/9AK_eR6_[ImAgE]_8La_[G].png": "Meals",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/QbA_[G]_[ImAgE]_eWR_rXc.png": "Showers",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/EhZ_[ImAgE]_LXe_[G]_3oF.png": "Storage",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_Qwd_[G]_4I0_frw.png": "Clothing, Household Goods"
+                },
+                "iconMetadata": {
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/qTr_tpk_[ImAgE]_[G]_aiZ.png": "{}",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/iTq_yAO_[ImAgE]_[G]_Z5E.png": "{}",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_W8k_[G]_6YZ_LYe.png": "{}",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/9AK_eR6_[ImAgE]_8La_[G].png": "{}",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/QbA_[G]_[ImAgE]_eWR_rXc.png": "{}",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/EhZ_[ImAgE]_LXe_[G]_3oF.png": "{}",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_Qwd_[G]_4I0_frw.png": "{}"
+                }
+            }
         }
     },
     "widget.113": {
@@ -6381,7 +6401,7 @@
         "instance": "NamedIconset",
         "parameters": {
             "exposeIconset": false,
-            "iconsetName": "",
+            "iconsetName": "dailyServices",
             "icons": [
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/9AK_eR6_[ImAgE]_8La_[G].png",
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/AET_[G]_[ImAgE]_6cq_oEM.png",
@@ -6392,7 +6412,25 @@
             ],
             "widgetTitle": "Daily Services Provided Icons",
             "readAccess": "public",
-            "position": ""
+            "position": "",
+            "iconsetMetadata": {
+                "iconName": {
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/9AK_eR6_[ImAgE]_8La_[G].png": "Meals",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/AET_[G]_[ImAgE]_6cq_oEM.png": "Harm Reduction",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_W8k_[G]_6YZ_LYe.png": "Health\/Dental Care",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_0BZ_5dD_vxp_[ImAgE].png": "Clothing, Household Goods",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/OZn_cee_[ImAgE]_327_[G].png": "Hygiene",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/EhZ_[ImAgE]_LXe_[G]_3oF.png": "Storage"
+                },
+                "iconMetadata": {
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/9AK_eR6_[ImAgE]_8La_[G].png": "{}",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/AET_[G]_[ImAgE]_6cq_oEM.png": "{}",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_W8k_[G]_6YZ_LYe.png": "{}",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_0BZ_5dD_vxp_[ImAgE].png": "{}",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/OZn_cee_[ImAgE]_327_[G].png": "{}",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/EhZ_[ImAgE]_LXe_[G]_3oF.png": "{}"
+                }
+            }
         }
     },
     "widget.114": {
@@ -6400,14 +6438,24 @@
         "instance": "NamedIconset",
         "parameters": {
             "exposeIconset": false,
-            "iconsetName": "",
+            "iconsetName": "primaryTargetResident",
             "icons": [
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_5sV_8io_[ImAgE]_kRu.png",
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/RF8_U7a_[G]_StY_[ImAgE].png"
             ],
             "widgetTitle": "Primary Target Resident Icons",
             "readAccess": "public",
-            "position": ""
+            "position": "",
+            "iconsetMetadata": {
+                "iconName": {
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_5sV_8io_[ImAgE]_kRu.png": "Individuals",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/RF8_U7a_[G]_StY_[ImAgE].png": "Families"
+                },
+                "iconMetadata": {
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_5sV_8io_[ImAgE]_kRu.png": "{}",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/RF8_U7a_[G]_StY_[ImAgE].png": "{}"
+                }
+            }
         }
     },
     "widget.115": {
@@ -6415,7 +6463,7 @@
         "instance": "NamedIconset",
         "parameters": {
             "exposeIconset": false,
-            "iconsetName": "",
+            "iconsetName": "genderServed",
             "icons": [
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_5sV_8io_[ImAgE]_kRu.png",
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_[G]_ToE_f3E_cj4.png",
@@ -6423,7 +6471,19 @@
             ],
             "widgetTitle": "Gender Served Icons",
             "readAccess": "public",
-            "position": ""
+            "position": "",
+            "iconsetMetadata": {
+                "iconName": {
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_5sV_8io_[ImAgE]_kRu.png": "Male",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_[G]_ToE_f3E_cj4.png": "Female",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_zBj_[ImAgE]_kQr_5oA.png": "Transgender"
+                },
+                "iconMetadata": {
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_5sV_8io_[ImAgE]_kRu.png": "{}",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_[G]_ToE_f3E_cj4.png": "{}",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_zBj_[ImAgE]_kQr_5oA.png": "{}"
+                }
+            }
         }
     }
 }
