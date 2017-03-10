@@ -2,62 +2,20 @@
 // to override the default sort order, and reduce duplicated code
 
 window.attributeValueList = {
-	buildingType: [
-
-		'emergency',
-		'transitional',
-		'supportive',
-		'low income rental',
-		'rental'
-
-	],
-	servicesProvided: [
-
-		"Case Management",
-		"Referrals to other Agencies",
-		"Health/Dental Care",
-		"Meals",
-		"Showers",
-		"Storage",
-		"Clothing, Household Goods"
-
-	],
-	dropinServicesProvided: [
-
-		"Meals",
-		"Harm Reduction",
-		"Health/Dental Care",
-		"Clothing, Household Goods",
-		"Hygiene",
-		"Storage"
-
-	],
-	genderServed: [
-
-		"Male",
-		"Female",
-		"Transgender",
-
-
-	],
-	primaryTargetResident: [
-
-		"Individuals",
-		"Families",
-                "Couples"
-
-	]
-
-
+	buildingType:window.buildingType.names,
+	servicesProvided: window.servicesProvided.names,
+	dropinServicesProvided: window.dailyServices.names,
+	genderServed: window.genderServed.names,
+	primaryTargetResident: window.primaryTargetResident.names
 };
 
 window.prefferedAttributeOrder = window.attributeValueList;
 
 window.attributeIconSets= {
 
-	  buildingType: window["BuildingTypeIcons"],
-	  servicesProvided: window["ServicesProvidedIcons"],
-	  genderServed: window["GenderServedIcons"],
-	  primaryTargetResident: window["PrimaryTargetResidentIcons"]
-
+	buildingType:window.buildingType.icons,
+	servicesProvided: window.servicesProvided.icons,
+	dropinServicesProvided: window.dailyServices.icons,
+	genderServed: window.genderServed.icons,
+	primaryTargetResident: window.primaryTargetResident.icons
 };

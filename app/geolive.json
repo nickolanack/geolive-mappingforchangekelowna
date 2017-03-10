@@ -567,7 +567,7 @@
         "parameters": {}
     },
     "widget.8": {
-        "name": "Custom Behavior Script",
+        "name": "App Javascript",
         "instance": "CustomBehaviorScript",
         "parameters": {
             "customScript": "Custom Map Style.customScript.js",
@@ -3340,7 +3340,7 @@
         "parameters": {}
     },
     "widget.28": {
-        "name": "Custom Behavior Script",
+        "name": "App Javascript",
         "instance": "CustomBehaviorScript",
         "parameters": {
             "customScript": "Cluster Style.customScript.js",
@@ -3493,7 +3493,7 @@
         }
     },
     "widget.73": {
-        "name": "Custom Behavior Script",
+        "name": "App Javascript",
         "instance": "CustomBehaviorScript",
         "parameters": {
             "customScript": "widget.CustomBehaviorScript.73.customScript.js",
@@ -3745,7 +3745,7 @@
         }
     },
     "widget.30": {
-        "name": "Custom Behavior Script",
+        "name": "App Javascript",
         "instance": "CustomBehaviorScript",
         "parameters": {
             "customScript": "Poly Behavior.customScript.js",
@@ -3788,7 +3788,7 @@
         }
     },
     "widget.34": {
-        "name": "Custom Behavior Script",
+        "name": "App Javascript",
         "instance": "CustomBehaviorScript",
         "parameters": {
             "customScript": "Marker Services Hover.customScript.js",
@@ -5883,7 +5883,7 @@
         }
     },
     "widget.66": {
-        "name": "Custom Behavior Script",
+        "name": "App Javascript",
         "instance": "CustomBehaviorScript",
         "parameters": {
             "customScript": "Attribute fields and order.customScript.js",
@@ -6361,7 +6361,7 @@
         "instance": "NamedIconset",
         "parameters": {
             "exposeIconset": false,
-            "iconsetName": "",
+            "iconsetName": "servicesProvided",
             "icons": [
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/qTr_tpk_[ImAgE]_[G]_aiZ.png",
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/iTq_yAO_[ImAgE]_[G]_Z5E.png",
