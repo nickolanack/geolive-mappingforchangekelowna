@@ -2,7 +2,7 @@
 <h1>Do I need to create an account for my agency, house or organization?</h1>
 <div class="width-helper"><p>
 
-Any agency or organization who provides housing that fits under the Housing Definitions (click here for link to housing definitions) listed on this site (emergency, transitional, supportive, low income or market rental) who are NOT currently represented on this map, may request to create a login.
+Any agency or organization who provides housing that fits under the Housing Definitions <a href="https://isearchkelowna.ca/definitions">(click here for link to housing definitions)</a> listed on this site (emergency, transitional, supportive, low income or market rental) who are NOT currently represented on this map, may request to create a login.
 A login is required in order to add your housing resource to the mapping tool or to add or delete information for a particular housing location. One login will be created for each agency, and for each individual property.
 </p></div>
 </section>

@@ -1,4 +1,5 @@
 <section class="explore housing-types">
+<p>context paragraph here...</p>
 <div class="width-helper"><?php
 
 
