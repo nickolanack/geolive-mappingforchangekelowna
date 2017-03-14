@@ -6267,6 +6267,15 @@
                                     "content": "Use the search bar to see a list of markers of housing service providers, agencies and drop-in services. Click on the \u201creset filter\u201d button on the left of the search bar to clear the filters.",
                                     "contentMargin": "100"
                                 }
+                            },
+                            {
+                                "type": "widget.108.TutorialStep",
+                                "config": {
+                                    "showContent": true,
+                                    "contentAnchor": ".fltr-bldr.share-filter",
+                                    "content": "Filters",
+                                    "contentMargin": "0"
+                                }
                             }
                         ]
                     }
