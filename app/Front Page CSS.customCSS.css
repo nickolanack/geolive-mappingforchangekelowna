@@ -173,6 +173,7 @@ a.agancy-website {
     overflow: hidden;
     z-index: 1;
 }
+
 .search-result-list:before{
     content:"";
     position:absolute;
