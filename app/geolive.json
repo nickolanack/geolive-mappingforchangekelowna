@@ -6043,11 +6043,6 @@
             "readAccess": "public"
         }
     },
-    "widget.118": {
-        "name": "Custom CSS",
-        "instance": "CSS",
-        "parameters": {}
-    },
     "widget.96": {
         "name": "Custom HTML",
         "instance": "CustomContent",
