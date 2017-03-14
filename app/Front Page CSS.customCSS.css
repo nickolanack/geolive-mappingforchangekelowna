@@ -5,12 +5,15 @@
     z-index: 1;
     position: relative;
 }
+
 button.btn.btn-primary {
     margin: 5px;
 }
+
 .edit-widget-btns .cpanel_button_image {
     background-size: 100%;
 }
+
 section.intro p {
    font-size: 30px;
     line-height: 36px;
@@ -58,6 +61,7 @@ div.search-bar-content {
     height: 200px;
   overflow: hidden;
 }
+
 article {
     display: inline-block;
     width: 350px;
