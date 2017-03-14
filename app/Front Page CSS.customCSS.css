@@ -5,7 +5,9 @@
     z-index: 1;
     position: relative;
 }
-
+button.btn.btn-primary {
+    margin: 5px;
+}
 .edit-widget-btns .cpanel_button_image {
     background-size: 100%;
 }
