@@ -3083,21 +3083,6 @@
                                 "config": {
                                     "widgetId": ""
                                 }
-                            },
-                            {
-                                "type": "plugin.Attributes.TextAttributes",
-                                "config": {
-                                    "attributeFieldArray": [],
-                                    "className": "",
-                                    "maxHeight": 0,
-                                    "maxWidth": 300,
-                                    "showLabels": true,
-                                    "showEmpty": false,
-                                    "showTitle": false,
-                                    "title": "",
-                                    "formatValueElement": "",
-                                    "formatContainerElement": ""
-                                }
                             }
                         ]
                     },
