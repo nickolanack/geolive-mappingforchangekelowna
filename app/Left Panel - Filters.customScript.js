@@ -192,6 +192,19 @@ var getAttributeFilterParameters = function(field, table) {
               iconSelection.clearSelection();
             });
 
+            me.filterManager.addEvent('filter',function(){
+              selection=[];
+              attributes.map(function(value){
+                  var valueIsSet=me.filterManager.isFilteringOnFieldValue(field, value)
+                  if(valueIsSet){
+
+                  }else{
+
+                  }
+              });
+
+            });
+
 
             return div;
 
