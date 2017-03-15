@@ -22,7 +22,11 @@ Step 3: Submit. When you have finished selecting your options, hit the submit bu
 <h1>Advanced Search</h1>
 <div class="width-helper"><p>
 While your initial search may provide you with housing options that align with your criteria, you may be interested in creating a more detailed search incorporating additional filters.
-Step 1:  ...
+Step 1: Click on the advance search icon - the red button on the top left of the map.<br/><br/>
+
+Step 2: Click on the icons that match the criteria you are searching for (if you hover over the icons with your mouse you will have a short description). Your search will determine which markers then appear on the map.<br/><br/>
+
+Step 3: Using the buttons "Items that match all fields" and  "Items that match any field" you can set your filters to include ALL of the search items or JUST the search items that are contained in the markers.
 
 </p></div>
 </section>
