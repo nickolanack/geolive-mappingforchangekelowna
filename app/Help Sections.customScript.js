@@ -3,8 +3,8 @@
 <div class="width-helper"><p>
 
 If this is your first time using i-Search Kelowna, the video link below walks you simply and quickly through the steps to create your first search.
-Create a short intro demo on how to use the filter questions on the first page<br/><br/>
-Step 1: Determine the kind of housing that you are looking for. You can refer to our housing definitions to help you decide the category of housing that best meets your needs. If you are looking for housing that would be considered “market rental” in Kelowna, you may wish to check out rental agencies or www.castanet.net for more options<br/><br/>
+<br/><br/>
+Step 1: Determine the kind of housing that you are looking for. You can refer to our housing definitions to help you decide the category of housing that best meets your needs. If you are looking for housing that would be considered “market rental” in Kelowna, you may wish to check out rental agencies or www.castanet.net for more options.<br/><br/>
 Step 2: Narrow down who the housing is for:<br/><br/>
 •	Is the housing for an individual only, or are you looking to house a couple or family?<br/>
 •	Is the housing for a specific gender (male/female/transgender)? This is most relevant if you are looking for housing that caters to a specific gender only - such as a women’s shelter. <br/>
