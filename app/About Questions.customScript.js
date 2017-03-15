@@ -34,8 +34,17 @@ What do we hope to achieve?
 
 
 <section class="explore drop-in-services">
-<h1>Related Initiatives</h1>
-<div class="width-helper"><p>...</p></div>
+<h1>About</h1>
+<div class="width-helper"><p>The funder community in Kelowna works very closely, and both COF and UW-CSO quickly determined that there was overlap and consistency in the work both groups were interested in pursuing. A core team quickly formed between COF and UW-CSO and the two post-secondary institutions UBC-O and OC. A community development research project was born and currently resides within the Institute for Community Engaged Research (ICER) housed out of UBC-O. 
+
+The research team was successful in securing core funding for the project through two university-based funders, Mitacs and the Innovations in Wellness Fund.
+
+
+The collaboration is the first of its kind in the community, bringing together researchers and students from both post-secondary institutions to tackle a community concern. With the goal of developing an on-line spatial database of housing and related services for homeless people that is accessible to anyone in need, the research team has worked closely with the homeless serving sector and broader homelessness stakeholders throughout the length of the project.
+
+Now that database, called i-Search Kelowna, has been developed, its use will be evaluated through direct user input and system generated data. Results of the evaluation will be posted on i-Search Kelowna in Fall 2017.
+
+</p></div>
 </section>
 
 
