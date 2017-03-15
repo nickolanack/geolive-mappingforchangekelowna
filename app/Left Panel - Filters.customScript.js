@@ -177,10 +177,10 @@ var getAttributeFilterParameters = function(field, table) {
 
             iconSelection.addEvent('selectionChanged', function(selection) {
 
-              if(selection.length===0){
-                me.filterManager.clear(true);
-                return;
-              }
+             //  if(selection.length===0){
+             //    me.filterManager.clear(true);
+             //    return;
+             //  }
 
               me.applyFilter(selection.map(function(a) {
                 return attributes[a[1]]
