@@ -66,3 +66,11 @@ To find out more about this project, how it was created and implemented, or to l
 ♣	Brooks Hewko, Research Assistant – Okanagan College<br/>
 </p></div>
 </section>
+
+
+<?php
+
+//Scroll Hellper
+HtmlBlock('widget', 119);
+
+?>
