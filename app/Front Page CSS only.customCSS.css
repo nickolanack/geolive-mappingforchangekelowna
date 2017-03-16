@@ -1,3 +1,6 @@
+html:after{
+display:none;
+}
 section.intro:after {
     background-color: whitesmoke;
     width: 150%;
