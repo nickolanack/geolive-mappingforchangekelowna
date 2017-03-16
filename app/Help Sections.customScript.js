@@ -1,4 +1,4 @@
-<a name="GetStarted"></a><section class="explore housing-types">
+<a name="HelpGetStarted"></a><section class="explore housing-types">
 <h1>Getting Started</h1>
 <div class="width-helper"><p>
 
