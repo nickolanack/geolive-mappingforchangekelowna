@@ -1,2 +1,2 @@
-# geolive-mappingforchangekelowna
-https://mappingforchangekelowna.geolive.ca/
+# geolive-isearchkelowna 
+https://isearchkelowna.ca/
