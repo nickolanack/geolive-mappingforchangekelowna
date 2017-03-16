@@ -17,9 +17,8 @@ html:after {
  }
 
 @media ( max-width : 900px) {
-    section.intro p {
       main .menu.nav > li a{
-      }
+      
    }
 
  }
