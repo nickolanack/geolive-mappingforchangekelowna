@@ -5736,7 +5736,11 @@
     "widget.119": {
         "name": "Custom HTML",
         "instance": "CustomContent",
-        "parameters": {}
+        "parameters": {
+            "customScript": "Scroll Helper.customScript.js",
+            "widgetTitle": "Scroll Helper",
+            "readAccess": "public"
+        }
     },
     "widget.55": {
         "name": "Attribute Search Drop",
