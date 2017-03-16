@@ -5733,6 +5733,11 @@
             "readAccess": "public"
         }
     },
+    "widget.119": {
+        "name": "Custom HTML",
+        "instance": "CustomContent",
+        "parameters": {}
+    },
     "widget.55": {
         "name": "Attribute Search Drop",
         "instance": "AttributesSearchDropMarker",
