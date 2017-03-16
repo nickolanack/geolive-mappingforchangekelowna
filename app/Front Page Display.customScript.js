@@ -17,6 +17,8 @@ HtmlBlock('widget', 94);
 //Quick start
 HtmlBlock('widget', 84);
 
+// Scroll helper
+HtmlBlock('widget', 119);;
 
 
 
