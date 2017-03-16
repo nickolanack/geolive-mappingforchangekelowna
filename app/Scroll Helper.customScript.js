@@ -10,7 +10,7 @@ window.addEvent("load",function(){
 
 $$("a").forEach(function(a){
 var href=a.getAttribute("href");
-if(href&&href.indexOf("#")===0){
+if(href&&href.indexOf("#")>=0){
    var name=href.split("#").pop();
    if(document.getElementsByName(name).length){
      a.addEvent("click",function(){
