@@ -6,7 +6,6 @@ section.intro:after {
     width: 150%;
     left: -25%;
     z-index: -1;
-    border: 1px solid rgba(0,0,0,0.1);
     background-image: url(https://isearchkelowna.ca/templates/protostar/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,6 +15,7 @@ section.intro:after {
     height: 100%;
     opacity: 0.2;
     border: 1px solid black;
+    background-position: center;
 }
 
 section.intro {
