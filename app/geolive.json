@@ -4587,8 +4587,10 @@
                                     "autocomplete": true,
                                     "muliTemplate": "lines",
                                     "multiMessage": "",
-                                    "formatter": "integer",
-                                    "iconTint": "rgb(100, 149, 237)"
+                                    "formatter": "none",
+                                    "iconTint": "rgb(100, 149, 237)",
+                                    "onRenderTextFieldScript": "",
+                                    "formatValueScript": ""
                                 }
                             },
                             {
@@ -4676,7 +4678,9 @@
                                     "muliTemplate": "lines",
                                     "multiMessage": "",
                                     "formatter": "none",
-                                    "iconTint": "rgb(100, 149, 237)"
+                                    "iconTint": "rgb(100, 149, 237)",
+                                    "onRenderTextFieldScript": "",
+                                    "formatValueScript": ""
                                 }
                             },
                             {
@@ -4751,7 +4755,9 @@
                                     "muliTemplate": "lines",
                                     "multiMessage": "",
                                     "formatter": "none",
-                                    "iconTint": "rgb(100, 149, 237)"
+                                    "iconTint": "rgb(100, 149, 237)",
+                                    "onRenderTextFieldScript": "",
+                                    "formatValueScript": ""
                                 }
                             },
                             {
@@ -4826,7 +4832,9 @@
                                     "muliTemplate": "lines",
                                     "multiMessage": "",
                                     "formatter": "none",
-                                    "iconTint": "rgb(100, 149, 237)"
+                                    "iconTint": "rgb(100, 149, 237)",
+                                    "onRenderTextFieldScript": "",
+                                    "formatValueScript": ""
                                 }
                             },
                             {

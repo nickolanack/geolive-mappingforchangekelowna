@@ -1448,14 +1448,27 @@
                     "title": "MonthlyCostOfStay",
                     "label": "Monthly Cost of Stay",
                     "description": "",
-                    "fieldType": "number",
-                    "color": "rgb(undefined, undefined, undefined)",
+                    "fieldType": "text",
+                    "color": "rgb(NaN, NaN, NaN)",
                     "searchability": "public",
                     "editability": "registered",
-                    "fieldNumberOptions": {
-                        "precision": 0,
-                        "limitMinValue": "",
-                        "limitMaxValue": ""
+                    "fieldTextOptions": {
+                        "textType": "input",
+                        "inputOptions": {
+                            "buildAutocomplete": false,
+                            "requireModeration": false,
+                            "limitMaxChars": 0,
+                            "limitMaxWords": 0,
+                            "allowHtml": false,
+                            "allowMedia": true,
+                            "allowLinks": true
+                        },
+                        "listOptions": {
+                            "takeSugesstions": true,
+                            "buildTree": false,
+                            "iconize": false,
+                            "colorize": false
+                        }
                     },
                     "allowMultiple": false
                 },
