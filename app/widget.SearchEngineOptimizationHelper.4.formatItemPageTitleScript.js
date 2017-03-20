@@ -1,0 +1,1 @@
+return str_replace('All items', 'Places that', $title);

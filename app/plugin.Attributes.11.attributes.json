@@ -856,10 +856,10 @@
                     "tableName": "serviceProviderAttributes",
                     "tableSuffix": "_9632",
                     "title": "housingTypeApartmen2BedroomNumberOfUnits",
-                    "label": "Number of 2 Bedroom Apartment Units",
+                    "label": "Number of 2 and 3 Bedroom Apartment Units",
                     "description": "",
                     "fieldType": "number",
-                    "color": "rgb(undefined, undefined, undefined)",
+                    "color": "rgb(NaN, NaN, NaN)",
                     "searchability": "public",
                     "editability": "registered",
                     "fieldNumberOptions": {

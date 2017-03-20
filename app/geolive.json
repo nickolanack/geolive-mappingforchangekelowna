@@ -537,7 +537,11 @@
     "widget.4": {
         "name": "Search Engine Optimization Helper",
         "instance": "SearchEngineOptimizationHelper",
-        "parameters": {}
+        "parameters": {
+            "formatItemPageTitleScript": "widget.SearchEngineOptimizationHelper.4.formatItemPageTitleScript.js",
+            "widgetTitle": "",
+            "readAccess": "public"
+        }
     },
     "widget.5": {
         "name": "No Javascript Helper",
