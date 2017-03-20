@@ -6401,7 +6401,8 @@
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/QbA_[G]_[ImAgE]_eWR_rXc.png",
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/EhZ_[ImAgE]_LXe_[G]_3oF.png",
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_Qwd_[G]_4I0_frw.png",
-                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_0BZ_5dD_vxp_[ImAgE].png"
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_0BZ_5dD_vxp_[ImAgE].png",
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/g3d_[G]_ivk_[ImAgE]_he7.png"
             ],
             "widgetTitle": "Services Provided Icons",
             "readAccess": "public",
@@ -6415,7 +6416,8 @@
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/QbA_[G]_[ImAgE]_eWR_rXc.png": "Showers",
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/EhZ_[ImAgE]_LXe_[G]_3oF.png": "Storage",
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_Qwd_[G]_4I0_frw.png": "Clothing, Household Goods",
-                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_0BZ_5dD_vxp_[ImAgE].png": "Laundry"
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_0BZ_5dD_vxp_[ImAgE].png": "Laundry",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/g3d_[G]_ivk_[ImAgE]_he7.png": "Parking"
                 },
                 "iconMetadata": {
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/qTr_tpk_[ImAgE]_[G]_aiZ.png": "{}",
@@ -6425,7 +6427,8 @@
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/QbA_[G]_[ImAgE]_eWR_rXc.png": "{}",
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/EhZ_[ImAgE]_LXe_[G]_3oF.png": "{}",
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_Qwd_[G]_4I0_frw.png": "{}",
-                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_0BZ_5dD_vxp_[ImAgE].png": ""
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_0BZ_5dD_vxp_[ImAgE].png": "",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/g3d_[G]_ivk_[ImAgE]_he7.png": ""
                 }
             }
         }
