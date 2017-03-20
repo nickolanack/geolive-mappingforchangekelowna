@@ -1,14 +1,4 @@
-var valuesArray = [
-
-	"Case Management",
-	"Referrals to other Agencies",
-	"Health/Dental Care",
-	"Meals",
-	"Showers",
-	"Storage",
-	"Clothing, Household Goods"
-
-];
+var valuesArray = window.attributeValueList.servicesProvided
 
 WizardHelper.declareAggregateFunctionObjectForStep(stepIndex, position, moduleIndex, "Attribute_serviceProviderAttributes_Object");
 WizardHelper.addModuleDataAggregateFunctionForStep(stepIndex, position, moduleIndex, function(object, attributes) {

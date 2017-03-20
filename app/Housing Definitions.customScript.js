@@ -70,7 +70,7 @@ HtmlBlock('article',
                  'link'=>'/map/filter-services-provided-equal-to-Harm-Reduction',
                  'linkTitle'=>'',  
 
-'images'=>array('https://isearchkelowna.ca/components/com_geolive/users_files/user_files_994/Uploads/YdL_[G]_5ID_t0q_[ImAgE].png')
+'images'=>array('https://isearchkelowna.ca/components/com_geolive/users_files/user_files_994/Uploads/3I1_sMs_[ImAgE]_[G]_mbr.png')
 
 
             ));
