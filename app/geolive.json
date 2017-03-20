@@ -6431,7 +6431,7 @@
             "icons": [
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_5sV_8io_[ImAgE]_kRu.png",
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/RF8_U7a_[G]_StY_[ImAgE].png",
-                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_0jt_[G]_Jkd_wUt.png"
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_[G]_xIK_fkF_60.png"
             ],
             "widgetTitle": "Primary Target Resident Icons",
             "readAccess": "public",
@@ -6440,12 +6440,14 @@
                 "iconName": {
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_5sV_8io_[ImAgE]_kRu.png": "Individuals",
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/RF8_U7a_[G]_StY_[ImAgE].png": "Families",
-                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_0jt_[G]_Jkd_wUt.png": "Couples"
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_0jt_[G]_Jkd_wUt.png": "Couples",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_[G]_xIK_fkF_60.png": "Couples"
                 },
                 "iconMetadata": {
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_5sV_8io_[ImAgE]_kRu.png": "{}",
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/RF8_U7a_[G]_StY_[ImAgE].png": "{}",
-                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_0jt_[G]_Jkd_wUt.png": ""
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_0jt_[G]_Jkd_wUt.png": "",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_[G]_xIK_fkF_60.png": ""
                 }
             }
         }
