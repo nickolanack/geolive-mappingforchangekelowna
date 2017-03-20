@@ -7,4 +7,6 @@ HtmlBlock('widget', 104);
 
 HtmlBlock('widget', 101);
 
+//Scroll Hellper
+HtmlBlock('widget', 119);
 ?>

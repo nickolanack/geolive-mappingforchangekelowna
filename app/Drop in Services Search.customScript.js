@@ -1,4 +1,4 @@
-<section class="explore drop-in-services">
+<a name="DropInServices"></a><section class="explore drop-in-services">
 <h1>Quick View Drop In Services</h1>
 
 <?php
@@ -47,7 +47,7 @@ HtmlBlock('article',
                     'link' => 'itemprop="Service"',
                 ),
                 'afterHeader' => '<hr/>',
-                 'title'=>'Needle Drop-off',
+                 'title'=>'Harm Reduction<br/>Supplies',
                 'text'=>false,
                  'link'=>'/map/filter-services-provided-equal-to-Harm-Reduction',
                  'linkTitle'=>'',  

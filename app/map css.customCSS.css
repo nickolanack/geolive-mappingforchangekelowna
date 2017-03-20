@@ -106,3 +106,8 @@ html:after {
     /*max-height: 500px;*/
     border-bottom: 1px solid black;
 }
+
+span.share-link-url {
+    padding: 50px;
+    display: inline-block;
+}

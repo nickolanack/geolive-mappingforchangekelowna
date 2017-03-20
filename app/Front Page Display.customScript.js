@@ -17,6 +17,8 @@ HtmlBlock('widget', 94);
 //Quick start
 HtmlBlock('widget', 84);
 
+// Scroll helper
+HtmlBlock('widget', 119);;
 
 
 
@@ -43,7 +45,7 @@ HtmlBlock('widget',81) ;
 
 
 //Agencies
-HtmlBlock('widget', 85);
+//HtmlBlock('widget', 85);
 
 //Logos
 HtmlBlock('widget', 99);
@@ -51,4 +53,6 @@ HtmlBlock('widget', 99);
 //Disclaimer
 HtmlBlock('widget', 91);
 
+
+HtmlBlock('widget', 119);
 ?>

@@ -489,9 +489,7 @@
         "parameters": {
             "sections": [
                 "fullscreen",
-                "home",
-                "login",
-                "logout"
+                "home"
             ],
             "controlColor": "rgb(143, 21, 64)",
             "discussionTag": false,
@@ -528,10 +526,7 @@
             "showLogoutProfile": true,
             "displayMapSave": "1",
             "onDisplayTileScript": "",
-            "onProfileClickScript": "widget.TileButtons.2.onProfileClickScript.js",
-            "profileIcon": null,
-            "_raw_layerMap": null,
-            "_raw_tipMap": null
+            "onProfileClickScript": "widget.TileButtons.2.onProfileClickScript.js"
         }
     },
     "widget.3": {
@@ -3480,6 +3475,15 @@
             "readAccess": "guest"
         }
     },
+    "widget.116": {
+        "name": "Custom CSS",
+        "instance": "CSS",
+        "parameters": {
+            "customCSS": "Map Toolbar CSS.customCSS.css",
+            "widgetTitle": "Map Toolbar CSS",
+            "readAccess": "public"
+        }
+    },
     "widget.73": {
         "name": "App Javascript",
         "instance": "CustomBehaviorScript",
@@ -4074,14 +4078,14 @@
                                     "initSelectedScript": "Form - Population Served.metadata.positions.content.modules.1.config.initSelectedScript.js",
                                     "className": "",
                                     "requireSelection": true,
-                                    "allowMultipleSelection": false,
+                                    "allowMultipleSelection": true,
                                     "allowEmptySelection": false,
                                     "initializationScript": "Form - Population Served.metadata.positions.content.modules.1.config.initializationScript.js",
                                     "onSelectScript": "addValue(i);",
                                     "onDeselectScript": "removeValue(i);",
                                     "onRenderSelectableScript": "Form - Population Served.metadata.positions.content.modules.1.config.onRenderSelectableScript.js",
                                     "onSubmitWizardWithSelectedScript": "",
-                                    "exposeIconset": false,
+                                    "exposeIconset": true,
                                     "iconsetName": "GenderServedIcons"
                                 }
                             },
@@ -5617,6 +5621,19 @@
             "readAccess": "public"
         }
     },
+    "widget.117": {
+        "name": "Uncluster Button",
+        "instance": "LayerClusterToggleTile",
+        "parameters": {
+            "controlColor": "rgb(143, 21, 64)",
+            "tileIcon": [],
+            "unclusterTip": "Toggle Placemark Clustering",
+            "clusterTip": "",
+            "widgetTitle": "",
+            "readAccess": "public",
+            "position": "RIGHT_CENTER"
+        }
+    },
     "widget.79": {
         "name": "Search",
         "instance": "Search",
@@ -5713,6 +5730,15 @@
                 ""
             ],
             "widgetTitle": "Logo",
+            "readAccess": "public"
+        }
+    },
+    "widget.119": {
+        "name": "Custom HTML",
+        "instance": "CustomContent",
+        "parameters": {
+            "customScript": "Scroll Helper.customScript.js",
+            "widgetTitle": "Scroll Helper",
             "readAccess": "public"
         }
     },
@@ -5988,13 +6014,13 @@
         "name": "Custom Tile Control Script",
         "instance": "CustomTileControlScript",
         "parameters": {
-            "customScript": "widget.CustomTileControlScript.82.customScript.js",
+            "customScript": "Heat Map Tile.customScript.js",
             "tileIcon": [
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/27M_zcX_[G]_[ImAgE]_bzG.png"
             ],
             "hoverTip": "",
             "className": "",
-            "widgetTitle": "",
+            "widgetTitle": "Heat Map Tile",
             "readAccess": "public",
             "position": "RIGHT_CENTER"
         }
@@ -6248,6 +6274,15 @@
                                     "showContent": true,
                                     "contentAnchor": "TOP_CENTER",
                                     "content": "Use the search bar to see a list of markers of housing service providers, agencies and drop-in services. Click on the \u201creset filter\u201d button on the left of the search bar to clear the filters.",
+                                    "contentMargin": "100"
+                                }
+                            },
+                            {
+                                "type": "widget.108.TutorialStep",
+                                "config": {
+                                    "showContent": true,
+                                    "contentAnchor": ".fltr-bldr.share-filter",
+                                    "content": "Filters",
                                     "contentMargin": "0"
                                 }
                             }
@@ -6325,7 +6360,7 @@
             "iconsetMetadata": {
                 "iconName": {
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/qTr_tpk_[ImAgE]_[G]_aiZ.png": "Case Management",
-                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/iTq_yAO_[ImAgE]_[G]_Z5E.png": "Referrals To Other Agencies",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/iTq_yAO_[ImAgE]_[G]_Z5E.png": "Referrals to other Agencies",
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_W8k_[G]_6YZ_LYe.png": "Health\/Dental Care",
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/9AK_eR6_[ImAgE]_8La_[G].png": "Meals",
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/QbA_[G]_[ImAgE]_eWR_rXc.png": "Showers",
@@ -6389,7 +6424,8 @@
             "iconsetName": "primaryTargetResident",
             "icons": [
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_5sV_8io_[ImAgE]_kRu.png",
-                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/RF8_U7a_[G]_StY_[ImAgE].png"
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/RF8_U7a_[G]_StY_[ImAgE].png",
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_0jt_[G]_Jkd_wUt.png"
             ],
             "widgetTitle": "Primary Target Resident Icons",
             "readAccess": "public",
@@ -6397,11 +6433,13 @@
             "iconsetMetadata": {
                 "iconName": {
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_5sV_8io_[ImAgE]_kRu.png": "Individuals",
-                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/RF8_U7a_[G]_StY_[ImAgE].png": "Families"
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/RF8_U7a_[G]_StY_[ImAgE].png": "Families",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_0jt_[G]_Jkd_wUt.png": "Couples"
                 },
                 "iconMetadata": {
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_5sV_8io_[ImAgE]_kRu.png": "{}",
-                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/RF8_U7a_[G]_StY_[ImAgE].png": "{}"
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/RF8_U7a_[G]_StY_[ImAgE].png": "{}",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_0jt_[G]_Jkd_wUt.png": ""
                 }
             }
         }

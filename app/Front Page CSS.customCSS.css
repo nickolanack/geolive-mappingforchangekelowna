@@ -6,9 +6,14 @@
     position: relative;
 }
 
+button.btn.btn-primary {
+    margin: 5px;
+}
+
 .edit-widget-btns .cpanel_button_image {
     background-size: 100%;
 }
+
 section.intro p {
    font-size: 30px;
     line-height: 36px;
@@ -16,7 +21,7 @@ section.intro p {
     display: inline-block;
     min-width: 400px;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 div#search-container {
@@ -56,6 +61,7 @@ div.search-bar-content {
     height: 200px;
   overflow: hidden;
 }
+
 article {
     display: inline-block;
     width: 350px;
@@ -167,6 +173,7 @@ a.agancy-website {
     overflow: hidden;
     z-index: 1;
 }
+
 .search-result-list:before{
     content:"";
     position:absolute;
@@ -457,4 +464,9 @@ background-color:transparent;
 .bigger-icons .article-images {
     top: -120px;
     left: -15px;
+}
+
+.intro span.smaller {
+    font-size: 17px;
+    color: #8f1540;
 }

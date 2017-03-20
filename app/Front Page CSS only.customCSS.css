@@ -1,6 +1,40 @@
-html:after {
-       max-height: 330px;
-    top: 120px;
-    background-position: center;
-    border: 1px solid black;
+html:after{
+display:none;
 }
+section.intro:after {
+    background-color: whitesmoke;
+    width: 150%;
+    left: -25%;
+    z-index: -1;
+    background-image: url(https://isearchkelowna.ca/templates/protostar/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    content: "";
+    top: 0;
+    height: 100%;
+    opacity: 0.2;
+    border: 1px solid black;
+    background-position: center;
+}
+
+section.intro {
+    position: relative;
+}
+
+@media ( max-width : 1100px) {
+    section.intro p {
+        margin-top: 10px;
+    font-size: 25px;
+    line-height: 28px;
+    max-width: 600px;
+    }
+
+ }
+
+@media ( max-width : 900px) {
+      main .menu.nav > li a{
+          font-size: 20px;
+   }
+
+ }

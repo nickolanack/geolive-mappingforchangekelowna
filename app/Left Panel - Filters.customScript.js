@@ -177,10 +177,10 @@ var getAttributeFilterParameters = function(field, table) {
 
             iconSelection.addEvent('selectionChanged', function(selection) {
 
-              if(selection.length===0){
-                me.filterManager.clear(true);
-                return;
-              }
+             //  if(selection.length===0){
+             //    me.filterManager.clear(true);
+             //    return;
+             //  }
 
               me.applyFilter(selection.map(function(a) {
                 return attributes[a[1]]
@@ -190,6 +190,19 @@ var getAttributeFilterParameters = function(field, table) {
 
             me.filterManager.addEvent('clear',function(){
               iconSelection.clearSelection();
+            });
+
+            me.filterManager.addEvent('filter',function(){
+              selection=[];
+              attributes.map(function(value){
+                  var valueIsSet=me.filterManager.isFilteringOnFieldValue(field, value)
+                  if(valueIsSet){
+
+                  }else{
+
+                  }
+              });
+
             });
 
 
