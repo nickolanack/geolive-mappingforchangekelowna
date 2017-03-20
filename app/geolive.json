@@ -662,8 +662,8 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 311,
-                            "y": 379
+                            "x": 321,
+                            "y": 389
                         },
                         "children": [
                             {
@@ -1933,59 +1933,7 @@
                                             "type": "WizardIconizedScriptSelect",
                                             "config": {
                                                 "icons": [],
-                                                "iconsetMetadata": {
-                                                    "onSelectScripts": {
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_9RQ_aTB_[ImAgE]_CEH.png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_gvc_[ImAgE]_Qsn_2dn.png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_2wu_Xsa_QUt.png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/qTr_tpk_[ImAgE]_[G]_aiZ.png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_Qwd_[G]_4I0_frw.png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/RF8_U7a_[G]_StY_[ImAgE].png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/F4_[G]_FDj_uPD_[ImAgE].png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_W8k_[G]_6YZ_LYe.png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_0BZ_5dD_vxp_[ImAgE].png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/9AK_eR6_[ImAgE]_8La_[G].png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_ivd_LXK_lzq_[ImAgE].png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/iTq_yAO_[ImAgE]_[G]_Z5E.png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/QbA_[G]_[ImAgE]_eWR_rXc.png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/5qa_[G]_VF0_[ImAgE]_6lK.png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/Id4_[G]_Emk_HMJ_[ImAgE].png": ""
-                                                    },
-                                                    "onSubmitScripts": {
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_9RQ_aTB_[ImAgE]_CEH.png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_gvc_[ImAgE]_Qsn_2dn.png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_2wu_Xsa_QUt.png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/qTr_tpk_[ImAgE]_[G]_aiZ.png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_Qwd_[G]_4I0_frw.png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/RF8_U7a_[G]_StY_[ImAgE].png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/F4_[G]_FDj_uPD_[ImAgE].png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_W8k_[G]_6YZ_LYe.png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_0BZ_5dD_vxp_[ImAgE].png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/9AK_eR6_[ImAgE]_8La_[G].png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_ivd_LXK_lzq_[ImAgE].png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/iTq_yAO_[ImAgE]_[G]_Z5E.png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/QbA_[G]_[ImAgE]_eWR_rXc.png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/5qa_[G]_VF0_[ImAgE]_6lK.png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/Id4_[G]_Emk_HMJ_[ImAgE].png": ""
-                                                    },
-                                                    "onRenderScripts": {
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_9RQ_aTB_[ImAgE]_CEH.png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_gvc_[ImAgE]_Qsn_2dn.png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_2wu_Xsa_QUt.png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/qTr_tpk_[ImAgE]_[G]_aiZ.png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_Qwd_[G]_4I0_frw.png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/RF8_U7a_[G]_StY_[ImAgE].png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/F4_[G]_FDj_uPD_[ImAgE].png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_W8k_[G]_6YZ_LYe.png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_0BZ_5dD_vxp_[ImAgE].png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/9AK_eR6_[ImAgE]_8La_[G].png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_ivd_LXK_lzq_[ImAgE].png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/iTq_yAO_[ImAgE]_[G]_Z5E.png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/QbA_[G]_[ImAgE]_eWR_rXc.png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/5qa_[G]_VF0_[ImAgE]_6lK.png": "",
-                                                        "components\/com_geolive\/users_files\/user_files_994\/Uploads\/Id4_[G]_Emk_HMJ_[ImAgE].png": ""
-                                                    }
-                                                },
+                                                "iconsetMetadata": [],
                                                 "namedIconsetWidget": "112",
                                                 "initSelectedScript": "ServiceProviderWizardTemplate.metadata.children.1.builderMetadata.positions.content.modules.36.config.initSelectedScript.js",
                                                 "className": "",
