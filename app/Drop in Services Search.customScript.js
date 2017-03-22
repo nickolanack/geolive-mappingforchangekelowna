@@ -16,7 +16,7 @@ HtmlBlock('article',
                 'afterHeader' => '<hr/>',
                 'title'=>'Showers',
                 'text'=>false,
-                'link'=>'/map/filter-services-provided-equal-to-Showers',
+                'link'=>'/map/layer-5/filter-services-provided-equal-to-Showers',
                 'linkTitle'=>'',             
 
 'images'=>array('https://isearchkelowna.ca/components/com_geolive/users_files/user_files_994/Uploads/QbA_[G]_[ImAgE]_eWR_rXc.png')
@@ -33,7 +33,7 @@ HtmlBlock('article',
                 'afterHeader' => '<hr/>',
                 'title'=>'Bathrooms',
                 'text'=>false,
-                 'link'=>'/map/filter-services-provided-equal-to-Hygiene',
+                 'link'=>'/map/layer-5/filter-services-provided-equal-to-Hygiene',
                  'linkTitle'=>'',  
                  'images'=>array('https://isearchkelowna.ca/components/com_geolive/users_files/user_files_994/Uploads/OZn_cee_[ImAgE]_327_[G].png')
 
@@ -49,7 +49,7 @@ HtmlBlock('article',
                 'afterHeader' => '<hr/>',
                  'title'=>'Harm Reduction<br/>Supplies',
                 'text'=>false,
-                 'link'=>'/map/filter-services-provided-equal-to-Harm-Reduction',
+                 'link'=>'/map/layer-5/filter-services-provided-equal-to-Harm-Reduction',
                  'linkTitle'=>'',  
 
 'images'=>array('https://isearchkelowna.ca/components/com_geolive/users_files/user_files_994/Uploads/AET_[G]_[ImAgE]_6cq_oEM.png')
@@ -69,7 +69,7 @@ HtmlBlock('article',
                 'afterHeader' => '<hr/>',
                  'title'=>'Meals',
                 'text'=>false,
-                 'link'=>'/map/filter-services-provided-equal-to-Meals',
+                 'link'=>'/map/layer-5/filter-services-provided-equal-to-Meals',
                  'linkTitle'=>'',  
 
 'images'=>array('https://isearchkelowna.ca/components/com_geolive/users_files/user_files_994/Uploads/9AK_eR6_[ImAgE]_8La_[G].png')
