@@ -16,7 +16,24 @@ A login is required in order to add your housing resource to the mapping tool or
 <a name="Creating"></a><section class="explore drop-in-services">
 <h1>Creating your initial information</h1>
 <div class="width-helper"><p>
-...
+
+To review and revise your agency's information, you will need to log in to the site.
+
+Please use the user name and password provided. If you do not have this information please email mappingforchangekelowna@gmail.com and, if you are a involved in the sector, we will send you this information.
+
+If you hover the 'Map' menu item at the top of the page a pop up called 'my items' will appear, select this. 
+
+If it does not appear, go to the search bar and type in the name of your agency/program. select your agency/program from the drop down list that will appear. 
+
+Your information will then appear on the right hand side of the map. 
+
+Ensure the edit tab is engaged. 
+
+Work your way down the form (it is quite long!) to ensure all the information is accurate, revising where it is not. 
+
+At the bottom, remember to click on the save button.
+
+Your information is now updated! Thank you! :)
 </p></div>
 </section>
 
