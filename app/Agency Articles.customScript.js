@@ -18,7 +18,7 @@ One login will be created for each agency, and for each individual property.<br>
 
 
 <a name="Creating"></a><section class="explore drop-in-services">
-<h1>Creating or updating your initial information</h1>
+<h1>Creating or updating your agency or provider information</h1>
 <div class="width-helper"><p>
 
 To review and revise your agency's information, you will need to log in to the site.<br></br>
