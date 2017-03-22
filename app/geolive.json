@@ -566,7 +566,7 @@
         "parameters": {}
     },
     "widget.8": {
-        "name": "App Javascript",
+        "name": "Javascript",
         "instance": "CustomBehaviorScript",
         "parameters": {
             "customScript": "Custom Map Style.customScript.js",
@@ -575,7 +575,7 @@
         }
     },
     "widget.9": {
-        "name": "Custom CSS",
+        "name": "Stylesheet",
         "instance": "CSS",
         "parameters": {
             "customCSS": "map css.customCSS.css",
@@ -3309,7 +3309,7 @@
         }
     },
     "widget.65": {
-        "name": "Custom CSS",
+        "name": "Stylesheet",
         "instance": "CSS",
         "parameters": {
             "customCSS": "Sidebars.customCSS.css",
@@ -3323,7 +3323,7 @@
         "parameters": {}
     },
     "widget.28": {
-        "name": "App Javascript",
+        "name": "Javascript",
         "instance": "CustomBehaviorScript",
         "parameters": {
             "customScript": "Cluster Style.customScript.js",
@@ -3476,7 +3476,7 @@
         }
     },
     "widget.116": {
-        "name": "Custom CSS",
+        "name": "Stylesheet",
         "instance": "CSS",
         "parameters": {
             "customCSS": "Map Toolbar CSS.customCSS.css",
@@ -3485,7 +3485,7 @@
         }
     },
     "widget.73": {
-        "name": "App Javascript",
+        "name": "Javascript",
         "instance": "CustomBehaviorScript",
         "parameters": {
             "customScript": "widget.CustomBehaviorScript.73.customScript.js",
@@ -3737,7 +3737,7 @@
         }
     },
     "widget.30": {
-        "name": "App Javascript",
+        "name": "Javascript",
         "instance": "CustomBehaviorScript",
         "parameters": {
             "customScript": "Poly Behavior.customScript.js",
@@ -3771,7 +3771,7 @@
         }
     },
     "widget.32": {
-        "name": "Custom CSS",
+        "name": "Stylesheet",
         "instance": "CSS",
         "parameters": {
             "customCSS": "Legend.customCSS.css",
@@ -3780,7 +3780,7 @@
         }
     },
     "widget.34": {
-        "name": "App Javascript",
+        "name": "Javascript",
         "instance": "CustomBehaviorScript",
         "parameters": {
             "customScript": "Marker Services Hover.customScript.js",
@@ -5856,7 +5856,7 @@
         "parameters": {}
     },
     "widget.80": {
-        "name": "Custom CSS",
+        "name": "Stylesheet",
         "instance": "CSS",
         "parameters": {
             "customCSS": "Front Page CSS.customCSS.css",
@@ -5865,7 +5865,7 @@
         }
     },
     "widget.66": {
-        "name": "App Javascript",
+        "name": "Javascript",
         "instance": "CustomBehaviorScript",
         "parameters": {
             "customScript": "Attribute fields and order.customScript.js",
@@ -6115,7 +6115,7 @@
         }
     },
     "widget.92": {
-        "name": "Custom CSS",
+        "name": "Stylesheet",
         "instance": "CSS",
         "parameters": {
             "customCSS": "Front Article CSS.customCSS.css",
@@ -6124,7 +6124,7 @@
         }
     },
     "widget.93": {
-        "name": "Custom CSS",
+        "name": "Stylesheet",
         "instance": "CSS",
         "parameters": {
             "customCSS": "Front Page CSS only.customCSS.css",
@@ -6187,7 +6187,7 @@
         }
     },
     "widget.104": {
-        "name": "Custom CSS",
+        "name": "Stylesheet",
         "instance": "CSS",
         "parameters": {
             "customCSS": "Email Form CSS.customCSS.css",

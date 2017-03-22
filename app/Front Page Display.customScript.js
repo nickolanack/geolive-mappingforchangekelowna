@@ -1,9 +1,5 @@
 <?php
 
-//Edit this
-UI('widget.button.graph', $this);
-
-
 //CSS
 HtmlBlock('widget', 80);
 HtmlBlock('widget', 93);
