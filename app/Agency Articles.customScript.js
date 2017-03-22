@@ -21,7 +21,7 @@ One login will be created for each agency, and for each individual property.<br>
 <h1>Creating or updating your agency or provider information</h1>
 <div class="width-helper"><p>
 
-To review and revise your agency's information, you will need to log in to the site.<br></br>
+To review and update your agency's information, you will need to log in to the site.<br></br>
 
 Please use the user name and password provided. If you do not have this information please email mappingforchangekelowna@gmail.com and, if you are a involved in the sector, we will send you this information.<br></br>
 
