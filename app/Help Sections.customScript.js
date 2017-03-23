@@ -2,8 +2,7 @@
 <h1>Getting Started</h1>
 <div class="width-helper"><p>
 
-If this is your first time using i-Search Kelowna, the video link below walks you simply and quickly through the steps to create your first search.
-<br/><br/>
+If this is your first time using i-Search Kelowna, the following information guides you through a simple search on the home page. You will also find help to navigate the map by clicking on the "?" icon located on the right hand side of the map page.<br/><br/>
 Step 1: Determine the kind of housing that you are looking for. You can refer to our housing definitions to help you decide the category of housing that best meets your needs. If you are looking for housing that would be considered “market rental” in Kelowna, you may wish to check out rental agencies or www.castanet.net for more options.<br/><br/>
 Step 2: Narrow down who the housing is for:<br/><br/>
 •	Is the housing for an individual only, or are you looking to house a couple or family?<br/>
