@@ -6006,8 +6006,8 @@
         "name": "Custom HTML",
         "instance": "CustomContent",
         "parameters": {
-            "customScript": "Drop in Services Search.customScript.js",
-            "widgetTitle": "Drop in Services Search",
+            "customScript": "Drop in Services Icons.customScript.js",
+            "widgetTitle": "Drop in Services Icons",
             "readAccess": "public"
         }
     },
