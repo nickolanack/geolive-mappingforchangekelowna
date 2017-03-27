@@ -1,5 +1,5 @@
 <section class="explore housing-types">
-<p>context paragraph here...</p>
+<p>Navigating all the options for finding housing and related supports can be difficult. i-Search Kelowna helps individuals or agencies to identify options through:</p>
 <div class="width-helper"><?php
 
 
