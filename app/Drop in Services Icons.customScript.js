@@ -16,7 +16,7 @@ HtmlBlock('article',
                 'afterHeader' => '<hr/>',
                 'title'=>'Health &amp; Dental',
                 'text'=>false,
-                'link'=>'/map/layer-5/services-provided-equal-to-HealthDental-Care-or-Harm-Reduction',
+                'link'=>'/map/layer-5/filter-services-provided-equal-to-HealthDental-Care-or-Harm-Reduction',
                 'linkTitle'=>'',             
 
 'images'=>array('https://isearchkelowna.ca/components/com_geolive/users_files/user_files_994/Uploads/[ImAgE]_W8k_[G]_6YZ_LYe.png')
@@ -76,7 +76,7 @@ HtmlBlock('article',
                 'afterHeader' => '<hr/>',
                  'title'=>'Clothing and Storage',
                 'text'=>false,
-                 'link'=>'/map/layer-5/services-provided-equal-to-Clothing-Household-Goods-or-Storage',
+                 'link'=>'/map/layer-5/filter-services-provided-equal-to-Clothing-Household-Goods-or-Storage',
                  'linkTitle'=>'',  
 
 'images'=>array('https://isearchkelowna.ca/components/com_geolive/users_files/user_files_994/Uploads/[ImAgE]_Qwd_[G]_4I0_frw.png')
