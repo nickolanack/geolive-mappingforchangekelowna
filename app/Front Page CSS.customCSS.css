@@ -233,6 +233,7 @@ section.search>h1 {
 
 .explore .no-hover:hover .article-images a {
     background: white;
+    cursor:default;
 }
 
 @media only screen and (max-width: 1300px) {
