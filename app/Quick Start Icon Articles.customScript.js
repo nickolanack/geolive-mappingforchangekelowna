@@ -7,7 +7,7 @@
 
 HtmlBlock('article',
             array(
-                'class'=>'fav-3',
+                'class'=>'no-hover',
                 'heading'     => 2,
                 'schema'      => array(
                     'link' => 'itemprop="Service"',
@@ -24,7 +24,7 @@ HtmlBlock('article',
             ));
 HtmlBlock('article',
             array(
-                'class'=>'fav-5',
+                'class'=>'no-hover',
                 'heading'     => 2,
                 'schema'      => array(
                     'link' => 'itemprop="Service"',
@@ -40,7 +40,7 @@ HtmlBlock('article',
             ));
 HtmlBlock('article',
             array(
-                'class'=>'fav-2',
+                'class'=>'no-hover',
                 'heading'     => 2,
                 'schema'      => array(
                     'link' => 'itemprop="Service"',
