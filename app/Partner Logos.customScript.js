@@ -137,6 +137,22 @@ HtmlBlock('article',
 
 
 
+HtmlBlock('article',
+            array(
+                'class'=>'',
+                'heading'     => 2,
+                'schema'      => array(
+                    'link' => 'itemprop="Service"',
+                ),
+                'afterHeader' => '<hr/>',
+                'title'=>'Institute for Community<br/> Engaged Research',
+                'text'=>false,
+                'link'=>'https://icer.ok.ubc.ca',
+                'linkTitle'=>'',             
+
+'images'=>array('https://isearchkelowna.ca/components/com_geolive/users_files/user_files_994/Uploads/75_JxZ_[ImAgE]_z0X_[G].png?thumb=%3E200x%3E150')
+));
+
 
 
 HtmlBlock('article',
@@ -157,22 +173,6 @@ HtmlBlock('article',
 
 
 
-
-HtmlBlock('article',
-            array(
-                'class'=>'',
-                'heading'     => 2,
-                'schema'      => array(
-                    'link' => 'itemprop="Service"',
-                ),
-                'afterHeader' => '<hr/>',
-                'title'=>'Institute for Community<br/> Engaged Research',
-                'text'=>false,
-                'link'=>'https://icer.ok.ubc.ca',
-                'linkTitle'=>'',             
-
-'images'=>array('https://isearchkelowna.ca/components/com_geolive/users_files/user_files_994/Uploads/75_JxZ_[ImAgE]_z0X_[G].png?thumb=%3E200x%3E150')
-));
 
 ?>
 
