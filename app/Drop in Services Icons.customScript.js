@@ -79,7 +79,7 @@ HtmlBlock('article',
                  'link'=>'/map/layer-5/services-provided-equal-to-Clothing-Household-Goods-or-Storage',
                  'linkTitle'=>'',  
 
-'images'=>array('https://isearchkelowna.ca/components/com_geolive/users_files/user_files_994/Uploads/AET_[G]_[ImAgE]_6cq_oEM.png')
+'images'=>array('https://isearchkelowna.ca/components/com_geolive/users_files/user_files_994/Uploads/[ImAgE]_Qwd_[G]_4I0_frw.png')
 
 
             ));
