@@ -150,7 +150,7 @@ HtmlBlock('article',
                 'link'=>'https://icer.ok.ubc.ca',
                 'linkTitle'=>'',             
 
-'images'=>array('https://isearchkelowna.ca/components/com_geolive/users_files/user_files_994/Uploads/75_JxZ_[ImAgE]_z0X_[G].png?thumb=%3E200x%3E150')
+'images'=>array('https://isearchkelowna.ca/components/com_geolive/users_files/user_files_994/Uploads/hRf_[G]_[ImAgE]_65k_sNK.png?thumb=%3E200x%3E150')
 ));
 
 
