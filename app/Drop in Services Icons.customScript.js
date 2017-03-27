@@ -16,10 +16,10 @@ HtmlBlock('article',
                 'afterHeader' => '<hr/>',
                 'title'=>'Showers',
                 'text'=>false,
-                'link'=>'/map/layer-5/filter-services-provided-equal-to-Showers',
+                'link'=>'/map/layer-5/services-provided-equal-to-HealthDental-Care-or-Harm-Reduction',
                 'linkTitle'=>'',             
 
-'images'=>array('https://isearchkelowna.ca/components/com_geolive/users_files/user_files_994/Uploads/QbA_[G]_[ImAgE]_eWR_rXc.png')
+'images'=>array('https://isearchkelowna.ca/components/com_geolive/users_files/user_files_994/Uploads/[ImAgE]_W8k_[G]_6YZ_LYe.png')
 
 
             ));
