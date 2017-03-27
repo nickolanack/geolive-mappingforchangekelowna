@@ -230,6 +230,11 @@ section.search>h1 {
 .explore article.fav-4:hover .article-images a {
     background-color: #b38c7e;
 }
+
+.explore .no-hover:hover .article-images a {
+    background: white;
+}
+
 @media only screen and (max-width: 1300px) {
      .search-area {
         height:300px;
