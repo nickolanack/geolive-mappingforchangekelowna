@@ -1,6 +1,6 @@
 <section class="explore housing-types">
 <div class="width-helper"><p>Navigating all the options for finding housing and related supports can be difficult. i-Search Kelowna helps individuals or agencies to identify options through:</p></div>
-<div class="width-helper"><?php
+<br/><div class="width-helper"><?php
 
 
 
