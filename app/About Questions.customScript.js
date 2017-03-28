@@ -23,7 +23,7 @@ United Way of the Central and South Okanagan Similkameen (UW-CSO): In early 2016
 <h1>First of it’s Kind Collaboration:</h1>
 <div class="width-helper"><p>
 
-The funder community in Kelowna works very closely and both COF and UW-CSO quickly determined that there was overlap and consistency in the work both groups were interested in pursuing. A core team quickly formed between COF and UW-CSO and the two post-secondary institutions UBC-O and OC. A community development research project was born and currently resides within the Centre for Community Engaged Research housed out of UBC-O. <br /><br />
+The funder community in Kelowna works very closely and both COF and UW-CSO quickly determined that there was overlap and consistency in the work both groups were interested in pursuing. A core team quickly formed between COF and UW-CSO and the two post-secondary institutions UBCO and OC. A community development research project was born and currently resides within the Centre for Community Engaged Research housed out of UBC-O. <br /><br />
 The collaboration is first of its kind in the community as it brings together researchers and students from both post-secondary institutions to tackle a community concern.
 What do we hope to achieve?
 
@@ -35,12 +35,12 @@ What do we hope to achieve?
 
 <section class="explore drop-in-services">
 <h1>About</h1>
-<div class="width-helper"><p>The funder community in Kelowna works very closely, and both COF and UW-CSO quickly determined that there was overlap and consistency in the work both groups were interested in pursuing. A core team quickly formed between COF and UW-CSO and the two post-secondary institutions UBC-O and OC. A community development research project was born and currently resides within the Institute for Community Engaged Research (ICER) housed out of UBC-O. 
+<div class="width-helper"><p>The funder community in Kelowna works very closely, and both COF and UW-CSO quickly determined that there was overlap and consistency in the work both groups were interested in pursuing. A core team quickly formed between COF and UW-CSO and the two post-secondary institutions UBCO and OC. A community development research project was born and currently resides within the Institute for Community Engaged Research (ICER) housed out of UBCO. <br /><br />
 
-The research team was successful in securing core funding for the project through two university-based funders, Mitacs and the Innovations in Wellness Fund.
+The research team was successful in securing core funding for the project through two university-based funders, Mitacs and the Innovations in Wellness Fund.<br /><br />
 
 
-The collaboration is the first of its kind in the community, bringing together researchers and students from both post-secondary institutions to tackle a community concern. With the goal of developing an on-line spatial database of housing and related services for homeless people that is accessible to anyone in need, the research team has worked closely with the homeless serving sector and broader homelessness stakeholders throughout the length of the project.
+The collaboration is the first of its kind in the community, bringing together researchers and students from both post-secondary institutions to tackle a community concern. With the goal of developing an on-line spatial database of housing and related services for homeless people that is accessible to anyone in need, the research team has worked closely with the homeless serving sector and broader homelessness stakeholders throughout the length of the project.<br /><br />
 
 Now that database, called i-Search Kelowna, has been developed, its use will be evaluated through direct user input and system generated data. Results of the evaluation will be posted on i-Search Kelowna in Fall 2017.
 
