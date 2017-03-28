@@ -4,7 +4,7 @@
 
 Occasionally, we may experience a technical issue with the site. If that happens, we would appreciate knowing about it. Please fill out the form below to submit information about the issue that you are having.<br/><br/>
 
-It may be helpful to contact you for more detail relating to the issue you are identifying, if you agree to be contacted, please include your email address.<br/><br/>
+It may be helpful to contact you for more details relating to the issue, if you agree to be contacted, please include your email address below.<br/><br/>
 </p></div>
 <br/>
 <div class="width-helper">
