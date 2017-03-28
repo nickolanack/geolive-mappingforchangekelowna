@@ -10,5 +10,5 @@ HtmlBlock('widget', 101);
 //Scroll Hellper
 HtmlBlock('widget', 119);
 
-HtmlBlock('widget.buttons', 102);
+UI('widget.button.canvas', 102);
 ?>
