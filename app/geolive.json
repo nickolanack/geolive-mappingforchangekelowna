@@ -6265,7 +6265,7 @@
                                 "config": {
                                     "showContent": true,
                                     "contentAnchor": "LEFT_CENTER",
-                                    "content": "Turn on\/off markers that display community housing services.<br\/><br\/>\n\n\t\nTurn on\/off markers that display community drop-in services.<br\/><br\/>\n\n\t\nTurn on\/off markers that display the location and contact detail of community agencies working in the housing sector.<br\/><br\/>\n\n\t\nTurn on\/off area marking the 'Red Zone'.<br\/><br\/>",
+                                    "content": "Turn on\/off markers that display residential services.<br\/><br\/>\n\n\t\nTurn on\/off markers that display community drop-in services.<br\/><br\/>\n\n\t\nTurn on\/off markers that display the location and contact detail of agencies working in the housing sector.<br\/><br\/>\n\n\t\nTurn on\/off area marking the 'Red Zone'.<br\/><br\/>",
                                     "contentMargin": "0"
                                 }
                             },
