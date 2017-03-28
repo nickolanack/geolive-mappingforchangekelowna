@@ -47,7 +47,7 @@ HtmlBlock('article',
                 ),
                 'afterHeader' => '<hr/>',
                  'title'=>'Contact',
-                'text'=>'iSearch Kelowna lets you access the contact details of residential services, housing agencies and individual buildings.',
+                'text'=>'iSearch Kelowna lets you access the contact details of individual buildings, residential services and housing agencies.',
                  'link'=>false,
                  'linkTitle'=>'',  
 
