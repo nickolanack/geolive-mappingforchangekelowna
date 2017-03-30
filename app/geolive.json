@@ -462,6 +462,11 @@
         "instance": "Links",
         "parameters": {}
     },
+    "plugin.26": {
+        "name": "Activity Monitor",
+        "instance": "ActivityMonitor",
+        "parameters": {}
+    },
     "widget.1": {
         "name": "Google Controls",
         "instance": "GoogleControl",
