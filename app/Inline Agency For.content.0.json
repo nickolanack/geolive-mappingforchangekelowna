@@ -9,7 +9,7 @@
         "showDeleteButton": false,
         "deleteItemScript": "",
         "formatModuleScript": "",
-        "resolveItemScript": "",
+        "resolveItemScript": "return item;",
         "itemButtonsScript": "return [];"
     }
 }
