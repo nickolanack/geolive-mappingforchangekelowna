@@ -4302,7 +4302,7 @@
                 ],
                 "_diagramState": []
             },
-            "templateName": "AgencyInlineView",
+            "templateName": "AgencyForInlineView",
             "requireTarget": true,
             "widgetTitle": "Inline Agency For",
             "target": "map.1",
