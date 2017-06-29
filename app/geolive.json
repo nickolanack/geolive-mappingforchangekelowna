@@ -1645,10 +1645,19 @@
                                 }
                             },
                             {
+                                "type": "WizardStepTitle",
+                                "config": {
+                                    "className": "",
+                                    "text": "<div class=\"label\"><span class=\"lbl-txt\">Refferal Form<\/span><\/div>",
+                                    "template": "",
+                                    "templateVariablesScript": ""
+                                }
+                            },
+                            {
                                 "type": "plugin.Attributes.DescriptionAttribute",
                                 "config": {
                                     "attributeFieldArray": [
-                                        "ServiceProviderDetail.metadata.positions.content.modules.4.config.attributeFieldArray.0.json"
+                                        "ServiceProviderDetail.metadata.positions.content.modules.5.config.attributeFieldArray.0.json"
                                     ],
                                     "className": "",
                                     "imageWidth": 300,
