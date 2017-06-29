@@ -27,15 +27,6 @@ Step 2: Select the icons that match the criteria you are searching for (if you h
 
 Step 3: Using the buttons "Items that match all fields" and  "Items that match any field" you can set your filters to include ALL of the search items or JUST the search items that are contained in all of the filtered markers.
 
-</p></div>
-</section>
-
-
-
-
-<section class="explore housing-types">
-<h1>Using the Map</h1>
-<div class="width-helper"><p>
 This tool is built on google maps. You can drag the map around using a mouse, zoom in and out, and set your maps default view on full screen using the buttons on the right hand side of the map.<br/><br/>
 
 To have a brief introduction to the map's functionality, please click on the Question Mark button on the right side of the map to activate a short help tutorial.
