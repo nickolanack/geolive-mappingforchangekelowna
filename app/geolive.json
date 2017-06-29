@@ -2087,7 +2087,9 @@
             "onSaveScript": "SetAgencyWizardTemplate.onSaveScript.js",
             "templateName": "SetAgencyWizardTemplate",
             "widgetTitle": "SetAgencyWizardTemplate",
-            "readAccess": "public"
+            "readAccess": "public",
+            "requireTarget": true,
+            "target": "map.1"
         }
     },
     "widget.26": {
