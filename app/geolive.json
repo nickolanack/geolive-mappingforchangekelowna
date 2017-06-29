@@ -3286,7 +3286,8 @@
         "parameters": {
             "customCSS": "Sidebars.customCSS.css",
             "widgetTitle": "Sidebars",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": "map.1"
         }
     },
     "widget.66": {
