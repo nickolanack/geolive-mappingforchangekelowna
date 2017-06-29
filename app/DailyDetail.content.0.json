@@ -1,0 +1,9 @@
+{
+    "type": "WizardStepTitle",
+    "config": {
+        "className": "",
+        "text": "<div class=\"label\"><span class=\"lbl-txt\">Drop-in Service Details<\/span><\/div>",
+        "template": "",
+        "templateVariablesScript": ""
+    }
+}

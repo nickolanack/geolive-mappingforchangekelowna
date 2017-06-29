@@ -1,0 +1,37 @@
+{
+    "type": "plugin.Attributes.WizardBooleanAttribute",
+    "config": {
+        "attributeFields": [
+            {
+                "visibility": "public",
+                "tableId": "1",
+                "tableName": "serviceProviderAttributes",
+                "tableSuffix": "_9632",
+                "title": "referralsMadeDirectly",
+                "label": "Referrals are Made Directly",
+                "description": "",
+                "fieldType": "boolean",
+                "color": "rgb(undefined, undefined, undefined)",
+                "searchability": "public",
+                "editability": "registered",
+                "fieldBooleanOptions": {
+                    "trueIcon": false,
+                    "falseIcon": false,
+                    "hideFalse": true,
+                    "trueLabel": "",
+                    "falseLabel": "",
+                    "useFieldIcon": false
+                },
+                "allowMultiple": false
+            }
+        ],
+        "presentationImagesTrueImage": [],
+        "presentationImagesFalseImage": [],
+        "className": "",
+        "label": "Are referrals made directly to your organization?",
+        "showLabel": false,
+        "presentationStyle": "radio",
+        "presentationRadioTrueLabel": "Yes",
+        "presentationRadioFalseLabel": "No"
+    }
+}

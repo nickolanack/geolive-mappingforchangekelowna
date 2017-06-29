@@ -230,8 +230,9 @@ var getAttributeFilterParameters = function(field, table) {
         "servicesProvided", 
         "primaryTargetResident", 
         "genderServed", 
-        "demographicServed",
-        "otherServices"
+        "demographicServed"
+      //,
+       // "otherServices"
     );
 
 

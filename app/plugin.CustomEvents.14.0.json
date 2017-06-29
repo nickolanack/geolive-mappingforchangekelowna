@@ -1,0 +1,6 @@
+{
+    "id": "1",
+    "description": "testing deploy",
+    "eventName": "onEmailOwnershipAssignment",
+    "eventScript": "$client=Core::Client()->getUserId();\r\nsleep(4);\r\nCore::Broadcast(\"user.\" . $client, \"notification\",array(\r\n  \"text\" => \"You have been assigned ownership of items\",\r\n));"
+}

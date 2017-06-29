@@ -1,0 +1,8 @@
+{
+    "type": "WizardStepTitle",
+    "config": {
+        "className": "",
+        "text": "",
+        "identifier": "htmlLabel"
+    }
+}

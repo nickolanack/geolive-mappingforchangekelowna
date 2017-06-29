@@ -1,0 +1,13 @@
+{
+    "type": "WizardButtons",
+    "config": {
+        "className": "",
+        "reduceOpacity": false,
+        "onCompleteScript": "defaultBehaviorFn();",
+        "labelForCancel": "cancel",
+        "labelForSubmit": "save",
+        "labelForNext": "next",
+        "labelForPrevious": "previous",
+        "showCancel": false
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "type": "plugin.Attributes.WizardTextAttribute",
+    "config": {
+        "attributeFields": [
+            {
+                "visibility": "public",
+                "tableId": "1",
+                "tableName": "serviceProviderAttributes",
+                "tableSuffix": "_9632",
+                "title": "agency",
+                "label": "Agency",
+                "description": "",
+                "fieldType": "number",
+                "color": "rgb(undefined, undefined, undefined)",
+                "searchability": "public",
+                "editability": "registered",
+                "fieldNumberOptions": {
+                    "precision": 0,
+                    "limitMinValue": "",
+                    "limitMaxValue": ""
+                },
+                "allowMultiple": false
+            }
+        ],
+        "className": "",
+        "label": "Agency",
+        "message": "",
+        "lines": 1,
+        "maxChars": 0,
+        "mandatory": false,
+        "multiEntry": false,
+        "autocomplete": true,
+        "muliTemplate": "lines",
+        "multiMessage": "",
+        "formatter": "none",
+        "iconTint": "rgb(100, 149, 237)",
+        "onRenderTextFieldScript": "var search = new UISearchControl(inputElement, {});\nUISearchControl.AddAggregatedSearchResults(search, [\n\n\tnew MarkerSearchAggregator(map, search, {\n\t\theader: \"Agencies\",\n\t\tResultClickEventFunction: function(result) {\n\t\t\ttextField.setValue(result.id);\n\t\t\t\/\/alert(\"boom - you blew up the internet\");\n\t\t}\n\t}),\n\n\n], {});"
+    }
+}

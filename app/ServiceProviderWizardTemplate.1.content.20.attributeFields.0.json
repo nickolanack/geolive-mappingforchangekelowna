@@ -1,0 +1,19 @@
+{
+    "visibility": "public",
+    "tableId": "1",
+    "tableName": "serviceProviderAttributes",
+    "tableSuffix": "_9632",
+    "title": "housingTypeOtherBedroomNumberOfUnits",
+    "label": "Number of Other Type Bedroom Units",
+    "description": "",
+    "fieldType": "number",
+    "color": "rgb(NaN, NaN, NaN)",
+    "searchability": "public",
+    "editability": "registered",
+    "fieldNumberOptions": {
+        "precision": 0,
+        "limitMinValue": "",
+        "limitMaxValue": ""
+    },
+    "allowMultiple": false
+}

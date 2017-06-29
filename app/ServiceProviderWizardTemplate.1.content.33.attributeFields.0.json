@@ -1,0 +1,22 @@
+{
+    "visibility": "public",
+    "tableId": "1",
+    "tableName": "serviceProviderAttributes",
+    "tableSuffix": "_9632",
+    "title": "housingHasBathroomKitchen",
+    "label": "Housing is fully self contained (Bathroom\/Kitchen)",
+    "description": "",
+    "fieldType": "boolean",
+    "color": "rgb(NaN, NaN, NaN)",
+    "searchability": "public",
+    "editability": "registered",
+    "fieldBooleanOptions": {
+        "trueIcon": false,
+        "falseIcon": false,
+        "hideFalse": true,
+        "trueLabel": "",
+        "falseLabel": "",
+        "useFieldIcon": false
+    },
+    "allowMultiple": false
+}
