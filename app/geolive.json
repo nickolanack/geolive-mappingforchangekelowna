@@ -1973,8 +1973,8 @@
                                 "type": "FieldValue",
                                 "config": {
                                     "loadAsync": false,
-                                    "fieldLabelScript": "return \"Field Label Script\";",
-                                    "fieldValueScript": "return \"Field Value Script\";",
+                                    "fieldLabelScript": "return \"\";",
+                                    "fieldValueScript": "return item.getName();",
                                     "formatElementScript": ""
                                 }
                             },
