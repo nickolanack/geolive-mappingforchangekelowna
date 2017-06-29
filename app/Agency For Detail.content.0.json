@@ -9,7 +9,7 @@
         "showDeleteButton": false,
         "deleteItemScript": "",
         "formatModuleScript": "",
-        "resolveItemScript": "",
+        "resolveItemScript": "(new GetAttributeItemValueQuery(\n\t\tmapitem.getId(), mapitem.getType(), 'serviceProviderAttributes', 'agency'\n\t)).addEvent(\"success\", function(result) {\n\n\t\t\/\/defualt numeric value is 0. but is mapped to an id. \n\t\tvar agencyId = parseInt(result.value);\n\t\tvar agencyMapitem = null;\n\t\tif (agencyId > 0) {\n\t\t\tagencyMapitem = map.getLayerManager().filterMapitemById(agencyId, null, {\n\t\t\t\tlayer: agencyLayer()\n\t\t\t});\n\t\t}\n\n\t\tif (agencyMapitem) {\n\t\t    callback(agencyMapitem)\n\t\t    \n\t\t}\n\t}).execute();",
         "itemButtonsScript": "return [];"
     }
 }
