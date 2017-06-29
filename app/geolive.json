@@ -2070,16 +2070,16 @@
                                 }
                             },
                             {
-                                "type": "WizardScriptElement",
-                                "config": {
-                                    "script": "AgencyDetail.metadata.positions.content.modules.3.config.script.js",
-                                    "identifier": "customScriptElement"
-                                }
-                            },
-                            {
                                 "type": "ReusableArray",
                                 "config": {
                                     "widgetId": "57"
+                                }
+                            },
+                            {
+                                "type": "WizardScriptElement",
+                                "config": {
+                                    "script": "AgencyDetail.metadata.positions.content.modules.4.config.script.js",
+                                    "identifier": "customScriptElement"
                                 }
                             }
                         ]
