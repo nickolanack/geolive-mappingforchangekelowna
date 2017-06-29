@@ -34,7 +34,7 @@ Step 3: Using the buttons "Items that match all fields" and  "Items that match a
 
 
 <section class="explore housing-types">
-<h1>Using the Map:</h1>
+<h1>Using the Map</h1>
 <div class="width-helper"><p>
 This tool is built on google maps. You can drag the map around using a mouse, zoom in and out, and set your maps default view on full screen using the buttons on the right hand side of the map.<br/><br/>
 

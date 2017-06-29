@@ -3918,7 +3918,8 @@
         "parameters": {
             "customScript": "Help Sections.customScript.js",
             "widgetTitle": "Help Sections",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": ""
         }
     },
     "widget.102": {
