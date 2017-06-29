@@ -4224,7 +4224,7 @@
             "templateName": "AgencyInlineView",
             "requireTarget": true,
             "widgetTitle": "Inline Agency For",
-            "target": "none",
+            "target": "map.1",
             "readAccess": "public"
         }
     }
