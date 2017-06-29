@@ -3,7 +3,7 @@
     "config": {
         "className": "",
         "viewType": "view",
-        "namedView": "defaultView",
+        "namedView": "AgencyDetail",
         "showInlineEdit": true,
         "namedFormView": "SetAgencyWizardTemplate",
         "showDeleteButton": false,
