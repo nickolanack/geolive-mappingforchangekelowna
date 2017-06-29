@@ -244,7 +244,7 @@ map.setMapitemSelectFn(function(mapitem) {
 		MapFactory.EnableMouseEditing(mapitem);
 
 
-		if (isService(mapitem)||isDaily(mapitem) {
+		if (isService(mapitem)||isDaily(mapitem)) {
 			showTab('agency');
 			displayAgencyFor(mapitem, userHasWriteAccess);
 		}
