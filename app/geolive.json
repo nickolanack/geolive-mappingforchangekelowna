@@ -542,7 +542,8 @@
         "parameters": {
             "customCSS": "map css.customCSS.css",
             "widgetTitle": "map css",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": "map.1"
         }
     },
     "widget.11": {

@@ -111,3 +111,16 @@ span.share-link-url {
     padding: 50px;
     display: inline-block;
 }
+
+.LegendArea.minimized {
+    background: none;
+    box-shadow: none;
+}
+
+.LegendLayer {
+    margin-bottom: 25px;
+}
+
+.LegendLayers {
+    border-bottom: none;
+}
