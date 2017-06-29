@@ -3,6 +3,7 @@
     "config": {
         "className": "",
         "text": "<div class=\"label\"><span class=\"lbl-txt\">Agency Details<\/span><\/div>",
-        "identifier": "htmlLabel"
+        "template": "",
+        "templateVariablesScript": ""
     }
 }

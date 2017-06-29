@@ -1970,9 +1970,18 @@
                         "modules": [
                             "AgencyDetail.metadata.positions.content.modules.0.json",
                             {
+                                "type": "FieldValue",
+                                "config": {
+                                    "loadAsync": false,
+                                    "fieldLabelScript": "return \"Field Label Script\";",
+                                    "fieldValueScript": "return \"Field Value Script\";",
+                                    "formatElementScript": ""
+                                }
+                            },
+                            {
                                 "type": "WizardScriptElement",
                                 "config": {
-                                    "script": "AgencyDetail.metadata.positions.content.modules.1.config.script.js",
+                                    "script": "AgencyDetail.metadata.positions.content.modules.2.config.script.js",
                                     "identifier": "customScriptElement"
                                 }
                             },
@@ -2001,7 +2010,9 @@
             },
             "templateName": "AgencyDetail",
             "widgetTitle": "AgencyDetail",
-            "readAccess": "public"
+            "readAccess": "public",
+            "requireTarget": true,
+            "target": "map.1"
         }
     },
     "widget.25": {
