@@ -3928,7 +3928,8 @@
         "parameters": {
             "customScript": "Technical Issue Article.customScript.js",
             "widgetTitle": "Technical Issue Article",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": ""
         }
     },
     "widget.103": {
