@@ -2231,7 +2231,7 @@
         "instance": "WizardBuilder",
         "parameters": {
             "metadata": {
-                "class": "DescisionNode",
+                "class": "DecisionNode",
                 "_diagramState": {
                     "x": -201,
                     "y": 162
@@ -2245,11 +2245,18 @@
                             "DailyWizardTemplate.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
-                            "x": 157,
-                            "y": 418
+                            "x": 167,
+                            "y": 428
                         },
                         "children": [
-                            "DailyWizardTemplate.metadata.children.1.children.0.json"
+                            "DailyWizardTemplate.metadata.children.1.children.0.json",
+                            {
+                                "class": "InsertNode",
+                                "_diagramState": {
+                                    "x": 127,
+                                    "y": 660
+                                }
+                            }
                         ],
                         "builderMetadata": {
                             "positions": {
@@ -2265,8 +2272,9 @@
                                             "type": "WizardStepTitle",
                                             "config": {
                                                 "className": "",
-                                                "text": "<div class=\"label\"><span class=\"lbl-txt\">Daily Service Details<\/span><\/div>",
-                                                "identifier": "htmlLabel"
+                                                "text": "<div class=\"label\"><span class=\"lbl-txt\">Drop-in Service Details<\/span><\/div>",
+                                                "template": "",
+                                                "templateVariablesScript": ""
                                             }
                                         },
                                         {
@@ -2292,7 +2300,8 @@
                                             "config": {
                                                 "className": "",
                                                 "text": "<div class=\"label\"><span class=\"lbl-txt\">Services Provided<\/span><\/div>",
-                                                "identifier": "htmlLabel"
+                                                "template": "",
+                                                "templateVariablesScript": ""
                                             }
                                         },
                                         {
@@ -2370,7 +2379,9 @@
             "onSaveScript": "DailyWizardTemplate.onSaveScript.js",
             "templateName": "DailyWizardTemplate",
             "widgetTitle": "DailyWizardTemplate",
-            "readAccess": "public"
+            "readAccess": "public",
+            "requireTarget": true,
+            "target": "map.1"
         }
     },
     "widget.37": {

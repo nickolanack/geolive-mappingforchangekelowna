@@ -8,6 +8,7 @@
         "labelForSubmit": "Save",
         "labelForNext": "next",
         "labelForPrevious": "previous",
-        "showCancel": false
+        "showCancel": false,
+        "showBack": true
     }
 }
