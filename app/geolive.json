@@ -5799,14 +5799,6 @@
                                     "preferLocalContent": true,
                                     "portraitClip": true
                                 }
-                            },
-                            {
-                                "type": "StreetView",
-                                "config": {
-                                    "className": "",
-                                    "showEmpty": false,
-                                    "displayImage": true
-                                }
                             }
                         ]
                     }
