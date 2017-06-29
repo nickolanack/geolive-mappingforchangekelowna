@@ -1989,9 +1989,90 @@
                                 }
                             },
                             {
+                                "type": "plugin.Attributes.TextAttributes",
+                                "config": {
+                                    "attributeFieldArray": [
+                                        "AgencyDetail.metadata.positions.content.modules.2.config.attributeFieldArray.0.json",
+                                        {
+                                            "visibility": "public",
+                                            "tableId": "2",
+                                            "tableName": "agencyAttributes",
+                                            "tableSuffix": "_1888",
+                                            "title": "contactEmail",
+                                            "label": "Contact Email",
+                                            "description": "",
+                                            "fieldType": "text",
+                                            "color": "rgb(undefined, undefined, undefined)",
+                                            "searchability": "public",
+                                            "editability": "registered",
+                                            "fieldTextOptions": {
+                                                "textType": "input",
+                                                "inputOptions": {
+                                                    "buildAutocomplete": false,
+                                                    "requireModeration": false,
+                                                    "limitMaxChars": 0,
+                                                    "limitMaxWords": 0,
+                                                    "allowHtml": false,
+                                                    "allowMedia": true,
+                                                    "allowLinks": true
+                                                },
+                                                "listOptions": {
+                                                    "takeSugesstions": true,
+                                                    "buildTree": false,
+                                                    "iconize": false,
+                                                    "colorize": false
+                                                }
+                                            },
+                                            "allowMultiple": false
+                                        },
+                                        {
+                                            "visibility": "public",
+                                            "tableId": "2",
+                                            "tableName": "agencyAttributes",
+                                            "tableSuffix": "_1888",
+                                            "title": "website",
+                                            "label": "Website",
+                                            "description": "",
+                                            "fieldType": "text",
+                                            "color": "rgb(undefined, undefined, undefined)",
+                                            "searchability": "public",
+                                            "editability": "registered",
+                                            "fieldTextOptions": {
+                                                "textType": "input",
+                                                "inputOptions": {
+                                                    "buildAutocomplete": false,
+                                                    "requireModeration": false,
+                                                    "limitMaxChars": 0,
+                                                    "limitMaxWords": 0,
+                                                    "allowHtml": false,
+                                                    "allowMedia": true,
+                                                    "allowLinks": true
+                                                },
+                                                "listOptions": {
+                                                    "takeSugesstions": true,
+                                                    "buildTree": false,
+                                                    "iconize": false,
+                                                    "colorize": false
+                                                }
+                                            },
+                                            "allowMultiple": false
+                                        }
+                                    ],
+                                    "className": "",
+                                    "maxHeight": 0,
+                                    "maxWidth": 300,
+                                    "showLabels": true,
+                                    "showEmpty": false,
+                                    "showTitle": false,
+                                    "title": "",
+                                    "formatValueElement": "",
+                                    "formatContainerElement": ""
+                                }
+                            },
+                            {
                                 "type": "WizardScriptElement",
                                 "config": {
-                                    "script": "AgencyDetail.metadata.positions.content.modules.2.config.script.js",
+                                    "script": "AgencyDetail.metadata.positions.content.modules.3.config.script.js",
                                     "identifier": "customScriptElement"
                                 }
                             },
