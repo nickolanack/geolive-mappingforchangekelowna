@@ -601,7 +601,8 @@
             "widgetTitle": "Right Panel - Detail",
             "readAccess": "public",
             "position": "RIGHT_CENTER",
-            "customScript": "Right Panel - Detail.customScript.js"
+            "customScript": "Right Panel - Detail.customScript.js",
+            "target": "map.1"
         }
     },
     "widget.15": {
