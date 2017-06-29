@@ -418,8 +418,8 @@
         "name": "Sentry IO Error reporting",
         "instance": "SentryIO",
         "parameters": {
-            "clientSecretUrl": "",
-            "clientPublicUrl": ""
+            "clientSecretUrl": "XXXX-XXXX",
+            "clientPublicUrl": "https:\/\/36cfe0ea86024517b7da293bcd941353@sentry.io\/185774"
         }
     },
     "widget.1": {
