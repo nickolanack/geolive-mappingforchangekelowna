@@ -130,9 +130,9 @@ var displayAgencyFor = function(mapitem, userHasWriteAccess) {
 		}
 
 		if (agencyMapitem) {
-			agencyTabViewController.open(new GeoliveTemplateModule(agencyMapitem, {
+			agencyTabViewController.open(new GeoliveTemplateModule(mapitem, {
 				template: "default",
-				page: userHasWriteAccess?"AgencyInlineView":"AgencyDetail"
+				page: userHasWriteAccess?"AgencyForInlineView":"AgencyForDetail"
 			}), mapitem);
 		} else {
 
