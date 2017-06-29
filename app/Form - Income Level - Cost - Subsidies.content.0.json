@@ -1,0 +1,8 @@
+{
+    "type": "WizardStepTitle",
+    "config": {
+        "className": "",
+        "text": "Income Level\/Cost\/Subsidies",
+        "identifier": "htmlLabel"
+    }
+}

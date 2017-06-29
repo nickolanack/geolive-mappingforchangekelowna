@@ -1,0 +1,19 @@
+{
+    "visibility": "public",
+    "tableId": "1",
+    "tableName": "serviceProviderAttributes",
+    "tableSuffix": "_9632",
+    "title": "housingTypeSecondaryHouseSuiteNumberOfUnits",
+    "label": "Number of Units in Secondary House Suite",
+    "description": "",
+    "fieldType": "number",
+    "color": "rgb(NaN, NaN, NaN)",
+    "searchability": "public",
+    "editability": "registered",
+    "fieldNumberOptions": {
+        "precision": 0,
+        "limitMinValue": "",
+        "limitMaxValue": ""
+    },
+    "allowMultiple": false
+}

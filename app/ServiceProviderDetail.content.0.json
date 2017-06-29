@@ -1,0 +1,176 @@
+{
+    "type": "plugin.Attributes.TextAttributes",
+    "config": {
+        "attributeFieldArray": [
+            {
+                "visibility": "public",
+                "tableId": "1",
+                "tableName": "serviceProviderAttributes",
+                "tableSuffix": "_9632",
+                "title": "buildingType",
+                "label": "Building Type",
+                "description": "",
+                "fieldType": "text",
+                "color": "rgb(NaN, NaN, NaN)",
+                "searchability": "public",
+                "editability": "registered",
+                "fieldTextOptions": {
+                    "textType": "options",
+                    "inputOptions": {
+                        "buildAutocomplete": true,
+                        "requireModeration": false,
+                        "limitMaxChars": 0,
+                        "limitMaxWords": 0,
+                        "allowHtml": false,
+                        "allowMedia": true,
+                        "allowLinks": true
+                    },
+                    "listOptions": {
+                        "takeSugesstions": true,
+                        "buildTree": false,
+                        "iconize": false,
+                        "colorize": false
+                    }
+                },
+                "allowMultiple": true
+            },
+            {
+                "visibility": "public",
+                "tableId": "1",
+                "tableName": "serviceProviderAttributes",
+                "tableSuffix": "_9632",
+                "title": "servicesProvided",
+                "label": "Services Provided",
+                "description": "",
+                "fieldType": "text",
+                "color": "rgb(NaN, NaN, NaN)",
+                "searchability": "public",
+                "editability": "registered",
+                "fieldTextOptions": {
+                    "textType": "options",
+                    "inputOptions": {
+                        "buildAutocomplete": true,
+                        "requireModeration": false,
+                        "limitMaxChars": 0,
+                        "limitMaxWords": 0,
+                        "allowHtml": false,
+                        "allowMedia": true,
+                        "allowLinks": true
+                    },
+                    "listOptions": {
+                        "takeSugesstions": true,
+                        "buildTree": false,
+                        "iconize": false,
+                        "colorize": false
+                    }
+                },
+                "allowMultiple": true
+            },
+            {
+                "visibility": "public",
+                "tableId": "1",
+                "tableName": "serviceProviderAttributes",
+                "tableSuffix": "_9632",
+                "title": "genderServed",
+                "label": "Gender Served",
+                "description": "",
+                "fieldType": "text",
+                "color": "rgb(undefined, undefined, undefined)",
+                "searchability": "public",
+                "editability": "registered",
+                "fieldTextOptions": {
+                    "textType": "options",
+                    "inputOptions": {
+                        "buildAutocomplete": true,
+                        "requireModeration": false,
+                        "limitMaxChars": 0,
+                        "limitMaxWords": 0,
+                        "allowHtml": false,
+                        "allowMedia": true,
+                        "allowLinks": true
+                    },
+                    "listOptions": {
+                        "takeSugesstions": true,
+                        "buildTree": false,
+                        "iconize": false,
+                        "colorize": false
+                    }
+                },
+                "allowMultiple": true
+            },
+            {
+                "visibility": "public",
+                "tableId": "1",
+                "tableName": "serviceProviderAttributes",
+                "tableSuffix": "_9632",
+                "title": "primaryTargetResident",
+                "label": "Primary Target Resident",
+                "description": "",
+                "fieldType": "text",
+                "color": "rgb(undefined, undefined, undefined)",
+                "searchability": "public",
+                "editability": "registered",
+                "fieldTextOptions": {
+                    "textType": "options",
+                    "inputOptions": {
+                        "buildAutocomplete": true,
+                        "requireModeration": false,
+                        "limitMaxChars": 0,
+                        "limitMaxWords": 0,
+                        "allowHtml": false,
+                        "allowMedia": true,
+                        "allowLinks": true
+                    },
+                    "listOptions": {
+                        "takeSugesstions": true,
+                        "buildTree": false,
+                        "iconize": false,
+                        "colorize": false
+                    }
+                },
+                "allowMultiple": true
+            },
+            {
+                "visibility": "public",
+                "tableId": "1",
+                "tableName": "serviceProviderAttributes",
+                "tableSuffix": "_9632",
+                "title": "demographicServed",
+                "label": "Demographic Served",
+                "description": "",
+                "fieldType": "text",
+                "color": "rgb(undefined, undefined, undefined)",
+                "searchability": "public",
+                "editability": "registered",
+                "fieldTextOptions": {
+                    "textType": "options",
+                    "inputOptions": {
+                        "buildAutocomplete": true,
+                        "requireModeration": false,
+                        "limitMaxChars": 0,
+                        "limitMaxWords": 0,
+                        "allowHtml": false,
+                        "allowMedia": true,
+                        "allowLinks": true
+                    },
+                    "listOptions": {
+                        "takeSugesstions": true,
+                        "buildTree": false,
+                        "iconize": false,
+                        "colorize": false
+                    }
+                },
+                "allowMultiple": false
+            }
+        ],
+        "className": "",
+        "maxHeight": 0,
+        "maxWidth": 300,
+        "showLabels": true,
+        "showEmpty": false,
+        "showTitle": false,
+        "title": "Icons",
+        "formatValueElement": "try{\nvar formattedValues=value.map(function(v){return attributeIconSets[field][attributeValueList[field].indexOf(v)]});\nconsole.log(formattedValues);\nelement.innerHTML='';\n    formattedValues.map(function(url){ return new Asset.image(url); }).forEach(function(image, i){\n        element.appendChild(image);\n       map.getContentFilterManager().addFilterBehavior(image, value[i], fieldMeta);\n\n        new UIPopover(image, {\n                title: value[i].capitalize(),\n                anchor: UIPopover.AnchorTo(['bottom'])\n              });\n\n    });\n}catch(e){\n console.error(e);\n}",
+        "formatContainerElement": ""
+    }
+}

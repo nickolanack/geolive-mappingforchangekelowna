@@ -1,0 +1,9 @@
+{
+    "type": "widget.108.TutorialStep",
+    "config": {
+        "showContent": true,
+        "contentAnchor": "RIGHT_CENTER",
+        "content": "\t\nFullscreen version of the map.<br\/><br\/>\n\n\t\nReset the map to show the full map of Kelowna and all markers.<br\/><br\/>\n\n\t\nClick \u201cUngroup markers\u201d to show all individual markers.<br\/><br\/>\n\n\t\nComplete a survey about the effectiveness of iSearch Kelowna.<br\/><br\/>",
+        "contentMargin": "0"
+    }
+}

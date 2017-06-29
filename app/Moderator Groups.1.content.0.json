@@ -1,0 +1,8 @@
+{
+    "type": "WizardStepTitle",
+    "config": {
+        "className": "",
+        "text": "<h2>Manage Authorizations<\/h2>\n<p>You can manage your own moderator groups, by creating custom tokens that users can use to log into your account with reduced access.  These tokens can be used instead of your normal login password, and will allow users to create update and remove items on your behalf. You can revoke access at anytime<\/p>",
+        "identifier": "htmlLabel"
+    }
+}

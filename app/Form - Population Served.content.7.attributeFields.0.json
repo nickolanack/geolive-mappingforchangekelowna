@@ -1,0 +1,22 @@
+{
+    "visibility": "public",
+    "tableId": "1",
+    "tableName": "serviceProviderAttributes",
+    "tableSuffix": "_9632",
+    "title": "residentsAreRequiredToLiveInCity",
+    "label": "Potential residents are required to live in Kelowna for a certain amount of time",
+    "description": "Are potential residents required to live in Kelowna for a certain amount of time to be eligible?",
+    "fieldType": "boolean",
+    "color": "rgb(undefined, undefined, undefined)",
+    "searchability": "public",
+    "editability": "registered",
+    "fieldBooleanOptions": {
+        "trueIcon": false,
+        "falseIcon": false,
+        "hideFalse": true,
+        "trueLabel": "",
+        "falseLabel": "",
+        "useFieldIcon": false
+    },
+    "allowMultiple": false
+}
