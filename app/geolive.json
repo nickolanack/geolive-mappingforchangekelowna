@@ -1648,7 +1648,7 @@
                                 "type": "WizardStepTitle",
                                 "config": {
                                     "className": "",
-                                    "text": "<div class=\"label\"><span class=\"lbl-txt\">Refferal Form<\/span><\/div>",
+                                    "text": "<div class=\"label\"><span class=\"lbl-txt\">Referral Form<\/span><\/div>",
                                     "template": "",
                                     "templateVariablesScript": ""
                                 }
