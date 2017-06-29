@@ -3891,7 +3891,8 @@
         "parameters": {
             "customScript": "About Questions.customScript.js",
             "widgetTitle": "About Questions",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": ""
         }
     },
     "widget.99": {
