@@ -4188,5 +4188,10 @@
             "widgetTitle": "Scroll Helper",
             "readAccess": "public"
         }
+    },
+    "widget.120": {
+        "name": "Detail View",
+        "instance": "InfoWindowBuilder",
+        "parameters": {}
     }
 }
