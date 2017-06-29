@@ -2410,7 +2410,9 @@
             },
             "templateName": "DailyDetail",
             "widgetTitle": "DailyDetail",
-            "readAccess": "public"
+            "readAccess": "public",
+            "requireTarget": true,
+            "target": "map.1"
         }
     },
     "widget.46": {

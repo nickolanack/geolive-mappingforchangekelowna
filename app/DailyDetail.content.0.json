@@ -2,7 +2,8 @@
     "type": "WizardStepTitle",
     "config": {
         "className": "",
-        "text": "<div class=\"label\"><span class=\"lbl-txt\">Daily Service Details<\/span><\/div>",
-        "identifier": "htmlLabel"
+        "text": "<div class=\"label\"><span class=\"lbl-txt\">Drop-in Service Details<\/span><\/div>",
+        "template": "",
+        "templateVariablesScript": ""
     }
 }
