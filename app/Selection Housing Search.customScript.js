@@ -82,7 +82,7 @@ window.addEvent("load",function(){
            $("housing-search-goto-map").setAttribute("title",url);
            $("housing-search-goto-map").addEvent("click", function(){
 
-            $("housing-search-form").action=url;
+            $("housing-search-form").action=encodeURIComponent(url);
              $("housing-search-form").submit();
 
            });

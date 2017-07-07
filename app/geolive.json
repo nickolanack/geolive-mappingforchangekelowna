@@ -3801,7 +3801,8 @@
         "parameters": {
             "customScript": "Selection Housing Search.customScript.js",
             "widgetTitle": "Selection Housing Search",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": ""
         }
     },
     "widget.89": {
