@@ -78,11 +78,11 @@ window.addEvent("load",function(){
            $("housing-results").innerHTML="<span class=\"r-count\">"+count+"</span> Result"+(count==1?"":"s");
 
            console.log("add events");
-           var url="map/filter-"+link;
+           var url="map/filter-"+encodeURIComponent(link);
            $("housing-search-goto-map").setAttribute("title",url);
            $("housing-search-goto-map").addEvent("click", function(){
 
-            $("housing-search-form").action=encodeURIComponent(url);
+            $("housing-search-form").action=url;
              $("housing-search-form").submit();
 
            });
