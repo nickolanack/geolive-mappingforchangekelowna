@@ -43,7 +43,7 @@ HtmlBlock('article',
 
 HtmlBlock('article',
             array(
-                'class'=>'fav-2',
+                'class'=>'fav-1',
                 'heading'     => 2,
                 'schema'      => array(
                     'link' => 'itemprop="Service"',
