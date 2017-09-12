@@ -41,6 +41,23 @@ HtmlBlock('article',
             ));
 
 
+HtmlBlock('article',
+            array(
+                'class'=>'fav-2',
+                'heading'     => 2,
+                'schema'      => array(
+                    'link' => 'itemprop="Service"',
+                ),
+                'afterHeader' => '<hr/>',
+                 'title'=>'Harm Reduction',
+                'text'=>false,
+                 'link'=>'/map/layer-5/filter-services-provided-equal-to-Harm-Reduction',
+                 'linkTitle'=>'',  
+
+'images'=>array('https://isearchkelowna.ca/components/com_geolive/users_files/user_files_994/Uploads/AET_[G]_[ImAgE]_6cq_oEM.png')
+
+
+            ));
 
 
 HtmlBlock('article',
@@ -85,23 +102,6 @@ HtmlBlock('article',
             ));
 
 
-HtmlBlock('article',
-            array(
-                'class'=>'fav-2',
-                'heading'     => 2,
-                'schema'      => array(
-                    'link' => 'itemprop="Service"',
-                ),
-                'afterHeader' => '<hr/>',
-                 'title'=>'Harm Reduction',
-                'text'=>false,
-                 'link'=>'/map/layer-5/filter-services-provided-equal-to-Harm-Reduction',
-                 'linkTitle'=>'',  
-
-'images'=>array('https://isearchkelowna.ca/components/com_geolive/users_files/user_files_994/Uploads/AET_[G]_[ImAgE]_6cq_oEM.png')
-
-
-            ));
 
 
 ?>
