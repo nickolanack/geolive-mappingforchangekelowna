@@ -3811,7 +3811,8 @@
         "parameters": {
             "customScript": "Drop in Services Icons.customScript.js",
             "widgetTitle": "Drop in Services Icons",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": ""
         }
     },
     "widget.90": {
