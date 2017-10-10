@@ -591,7 +591,8 @@
             "widgetTitle": "Left Panel - Filters",
             "readAccess": "public",
             "position": "LEFT_CENTER",
-            "customScript": "Left Panel - Filters.customScript.js"
+            "customScript": "Left Panel - Filters.customScript.js",
+            "target": "map.1"
         }
     },
     "widget.14": {
