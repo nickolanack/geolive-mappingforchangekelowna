@@ -157,7 +157,7 @@ var getAttributeFilterParameters = function(field, table) {
 
           //defined in global behavior widget.
           var attributes =attributeList[field] || values;
-          var labels={"rentals":"Market Rentals"}
+          var labels={"rental":"Market Rental"}
           
 
           var me = this; //bound to Attributes filter object
