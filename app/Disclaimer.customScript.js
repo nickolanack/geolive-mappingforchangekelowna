@@ -3,7 +3,7 @@
 
 <div class="width-helper"><p>A better world is possible.</p><p>Alex Aylett</p><a href="http://geothink.ca/tag/alexander-aylett/" target="_blank">http://geothink.ca/tag/alexander-aylett/</a></div>
 
-
+<br/>
 
 <div class="width-helper"><p><span class="bold">Disclaimer:</span> Built as a collaboration between community agencies, funders and researchers from the
 
