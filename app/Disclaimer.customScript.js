@@ -1,4 +1,11 @@
-<section><p><div class="width-helper"><span class="bold">Disclaimer:</span> Built as a collaboration between community agencies, funders and researchers from the
+<section>
+
+
+<div class="width-helper"><p>A better world is possible.</p><p>Alex Aylett</p><a href="http://geothink.ca/tag/alexander-aylett/" target="_blank">http://geothink.ca/tag/alexander-aylett/</a></div>
+
+
+
+<div class="width-helper"><p><span class="bold">Disclaimer:</span> Built as a collaboration between community agencies, funders and researchers from the
 
 University of British Columbia and Okanagan College, i-Search Kelowna aims to reduce the time
 

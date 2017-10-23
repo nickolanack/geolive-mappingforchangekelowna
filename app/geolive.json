@@ -3831,7 +3831,8 @@
         "parameters": {
             "customScript": "Disclaimer.customScript.js",
             "widgetTitle": "Disclaimer",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": ""
         }
     },
     "widget.92": {
