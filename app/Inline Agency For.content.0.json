@@ -1,0 +1,15 @@
+{
+    "type": "UIView",
+    "config": {
+        "className": "",
+        "viewType": "view",
+        "namedView": "AgencyForDetail",
+        "showInlineEdit": true,
+        "namedFormView": "SetAgencyWizardTemplate",
+        "showDeleteButton": false,
+        "deleteItemScript": "",
+        "formatModuleScript": "",
+        "resolveItemScript": "return item;",
+        "itemButtonsScript": "return [];"
+    }
+}

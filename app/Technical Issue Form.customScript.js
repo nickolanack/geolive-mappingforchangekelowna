@@ -5,8 +5,8 @@ Behavior('ajax');
 Behavior('bubbles');
 
 UI('form.outlet',array('fields'=>array(
-	'fromEmail'=>$this->getParameter('fromEmail', ''),
-	'fromEmailName'=>$this->getParameter('fromEmailName', ''),
+	'fromEmail'=>'',
+	'fromEmailName'=>'',
 
 	'subject'=>'',
 	'message'=>'',
@@ -46,7 +46,7 @@ UI('input',
 
 UI('input',
 	array(
-		'value' => $this->getParameter('fromEmail', ''),
+		'value' => '',
 		'name' => 'fromEmail',
 		'label' => 'Your Email Address',
 		'message'=>'put your email address here'
@@ -54,7 +54,7 @@ UI('input',
 
 UI('input',
 	array(
-		'value' => $this->getParameter('fromEmailName', ''),
+		'value' => '',
 		'name' => 'fromEmailName',
 		'label' => 'Your Name',
 		'message'=>'put your name here'

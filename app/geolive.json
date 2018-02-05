@@ -591,7 +591,8 @@
             "widgetTitle": "Left Panel - Filters",
             "readAccess": "public",
             "position": "LEFT_CENTER",
-            "customScript": "Left Panel - Filters.customScript.js"
+            "customScript": "Left Panel - Filters.customScript.js",
+            "target": "map.1"
         }
     },
     "widget.14": {
@@ -601,7 +602,8 @@
             "widgetTitle": "Right Panel - Detail",
             "readAccess": "public",
             "position": "RIGHT_CENTER",
-            "customScript": "Right Panel - Detail.customScript.js"
+            "customScript": "Right Panel - Detail.customScript.js",
+            "target": "map.1"
         }
     },
     "widget.15": {
@@ -1645,10 +1647,19 @@
                                 }
                             },
                             {
+                                "type": "WizardStepTitle",
+                                "config": {
+                                    "className": "",
+                                    "text": "<div class=\"label\"><span class=\"lbl-txt\">Referrals<\/span><\/div>",
+                                    "template": "",
+                                    "templateVariablesScript": ""
+                                }
+                            },
+                            {
                                 "type": "plugin.Attributes.DescriptionAttribute",
                                 "config": {
                                     "attributeFieldArray": [
-                                        "ServiceProviderDetail.metadata.positions.content.modules.4.config.attributeFieldArray.0.json"
+                                        "ServiceProviderDetail.metadata.positions.content.modules.5.config.attributeFieldArray.0.json"
                                     ],
                                     "className": "",
                                     "imageWidth": 300,
@@ -1970,16 +1981,106 @@
                         "modules": [
                             "AgencyDetail.metadata.positions.content.modules.0.json",
                             {
-                                "type": "WizardScriptElement",
+                                "type": "FieldValue",
                                 "config": {
-                                    "script": "AgencyDetail.metadata.positions.content.modules.1.config.script.js",
-                                    "identifier": "customScriptElement"
+                                    "loadAsync": false,
+                                    "fieldLabelScript": "return \"Agency\";",
+                                    "fieldValueScript": "return item.getName();",
+                                    "formatElementScript": ""
+                                }
+                            },
+                            {
+                                "type": "plugin.Attributes.TextAttributes",
+                                "config": {
+                                    "attributeFieldArray": [
+                                        "AgencyDetail.metadata.positions.content.modules.2.config.attributeFieldArray.0.json",
+                                        {
+                                            "visibility": "public",
+                                            "tableId": "2",
+                                            "tableName": "agencyAttributes",
+                                            "tableSuffix": "_1888",
+                                            "title": "contactEmail",
+                                            "label": "Contact Email",
+                                            "description": "",
+                                            "fieldType": "text",
+                                            "color": "rgb(undefined, undefined, undefined)",
+                                            "searchability": "public",
+                                            "editability": "registered",
+                                            "fieldTextOptions": {
+                                                "textType": "input",
+                                                "inputOptions": {
+                                                    "buildAutocomplete": false,
+                                                    "requireModeration": false,
+                                                    "limitMaxChars": 0,
+                                                    "limitMaxWords": 0,
+                                                    "allowHtml": false,
+                                                    "allowMedia": true,
+                                                    "allowLinks": true
+                                                },
+                                                "listOptions": {
+                                                    "takeSugesstions": true,
+                                                    "buildTree": false,
+                                                    "iconize": false,
+                                                    "colorize": false
+                                                }
+                                            },
+                                            "allowMultiple": false
+                                        },
+                                        {
+                                            "visibility": "public",
+                                            "tableId": "2",
+                                            "tableName": "agencyAttributes",
+                                            "tableSuffix": "_1888",
+                                            "title": "website",
+                                            "label": "Website",
+                                            "description": "",
+                                            "fieldType": "text",
+                                            "color": "rgb(undefined, undefined, undefined)",
+                                            "searchability": "public",
+                                            "editability": "registered",
+                                            "fieldTextOptions": {
+                                                "textType": "input",
+                                                "inputOptions": {
+                                                    "buildAutocomplete": false,
+                                                    "requireModeration": false,
+                                                    "limitMaxChars": 0,
+                                                    "limitMaxWords": 0,
+                                                    "allowHtml": false,
+                                                    "allowMedia": true,
+                                                    "allowLinks": true
+                                                },
+                                                "listOptions": {
+                                                    "takeSugesstions": true,
+                                                    "buildTree": false,
+                                                    "iconize": false,
+                                                    "colorize": false
+                                                }
+                                            },
+                                            "allowMultiple": false
+                                        }
+                                    ],
+                                    "className": "",
+                                    "maxHeight": 0,
+                                    "maxWidth": 300,
+                                    "showLabels": true,
+                                    "showEmpty": true,
+                                    "showTitle": false,
+                                    "title": "",
+                                    "formatValueElement": "",
+                                    "formatContainerElement": ""
                                 }
                             },
                             {
                                 "type": "ReusableArray",
                                 "config": {
                                     "widgetId": "57"
+                                }
+                            },
+                            {
+                                "type": "WizardScriptElement",
+                                "config": {
+                                    "script": "AgencyDetail.metadata.positions.content.modules.4.config.script.js",
+                                    "identifier": "customScriptElement"
                                 }
                             }
                         ]
@@ -2001,7 +2102,9 @@
             },
             "templateName": "AgencyDetail",
             "widgetTitle": "AgencyDetail",
-            "readAccess": "public"
+            "readAccess": "public",
+            "requireTarget": true,
+            "target": "map.1"
         }
     },
     "widget.25": {
@@ -2067,7 +2170,9 @@
             "onSaveScript": "SetAgencyWizardTemplate.onSaveScript.js",
             "templateName": "SetAgencyWizardTemplate",
             "widgetTitle": "SetAgencyWizardTemplate",
-            "readAccess": "public"
+            "readAccess": "public",
+            "requireTarget": true,
+            "target": "map.1"
         }
     },
     "widget.26": {
@@ -3286,7 +3391,8 @@
         "parameters": {
             "customCSS": "Sidebars.customCSS.css",
             "widgetTitle": "Sidebars",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": "map.1"
         }
     },
     "widget.66": {
@@ -3696,7 +3802,8 @@
         "parameters": {
             "customScript": "Selection Housing Search.customScript.js",
             "widgetTitle": "Selection Housing Search",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": ""
         }
     },
     "widget.89": {
@@ -3705,7 +3812,8 @@
         "parameters": {
             "customScript": "Drop in Services Icons.customScript.js",
             "widgetTitle": "Drop in Services Icons",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": ""
         }
     },
     "widget.90": {
@@ -3723,7 +3831,8 @@
         "parameters": {
             "customScript": "Disclaimer.customScript.js",
             "widgetTitle": "Disclaimer",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": ""
         }
     },
     "widget.92": {
@@ -3786,7 +3895,8 @@
         "parameters": {
             "customScript": "About Questions.customScript.js",
             "widgetTitle": "About Questions",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": ""
         }
     },
     "widget.99": {
@@ -3813,7 +3923,8 @@
         "parameters": {
             "customScript": "Help Sections.customScript.js",
             "widgetTitle": "Help Sections",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": ""
         }
     },
     "widget.102": {
@@ -3822,7 +3933,8 @@
         "parameters": {
             "customScript": "Technical Issue Article.customScript.js",
             "widgetTitle": "Technical Issue Article",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": ""
         }
     },
     "widget.103": {
@@ -3831,7 +3943,8 @@
         "parameters": {
             "customScript": "Technical Issue Form.customScript.js",
             "widgetTitle": "Technical Issue Form",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": ""
         }
     },
     "widget.104": {
@@ -4164,6 +4277,78 @@
         "parameters": {
             "customScript": "Scroll Helper.customScript.js",
             "widgetTitle": "Scroll Helper",
+            "readAccess": "public"
+        }
+    },
+    "widget.120": {
+        "name": "Detail View",
+        "instance": "InfoWindowBuilder",
+        "parameters": {
+            "metadata": {
+                "positions": {
+                    "title": {
+                        "modules": []
+                    },
+                    "content": {
+                        "modules": [
+                            "Inline Agency For.metadata.positions.content.modules.0.json"
+                        ]
+                    },
+                    "footer": {
+                        "modules": []
+                    },
+                    "menu": {
+                        "modules": []
+                    }
+                },
+                "positionList": [
+                    "title",
+                    "content",
+                    "footer",
+                    "menu"
+                ],
+                "_diagramState": []
+            },
+            "templateName": "AgencyForInlineView",
+            "requireTarget": true,
+            "widgetTitle": "Inline Agency For",
+            "target": "map.1",
+            "readAccess": "public"
+        }
+    },
+    "widget.121": {
+        "name": "Detail View",
+        "instance": "InfoWindowBuilder",
+        "parameters": {
+            "metadata": {
+                "positions": {
+                    "title": {
+                        "modules": []
+                    },
+                    "content": {
+                        "modules": [
+                            "Agency For Detail.metadata.positions.content.modules.0.json"
+                        ]
+                    },
+                    "footer": {
+                        "modules": []
+                    },
+                    "menu": {
+                        "modules": []
+                    }
+                },
+                "positionList": [
+                    "title",
+                    "content",
+                    "footer",
+                    "menu"
+                ],
+                "_diagramState": []
+            },
+            "templateName": "AgencyForDetail",
+            "requireTarget": true,
+            "widgetTitle": "Agency For Detail",
+            "target": "map.1",
             "readAccess": "public"
         }
     }

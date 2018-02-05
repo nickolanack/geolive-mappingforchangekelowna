@@ -7,7 +7,7 @@ What began as two separate conversations in the community, grew to a collaborati
 </section>
 
 
-<section class="explore drop-in-services">
+<a name="Conversations"></a><section class="explore drop-in-services">
 <h1>Initial Conversations:</h1>
 <div class="width-helper"><p>
 Enter Central Okanagan Foundation (COF): COF is currently the community entity tasked with dispersing the Federal Funding through the Homelessness Partnership Strategy (HPS). As part of the role of COF, the sit on the local Community Advisory Board on Homelessness (CAB-H) in Kelowna. Early in 2016, CAB-H identified that keeping track of the unique offerings of all homeless housing providers was at times a difficult task. While BC Housing maintained an excellent list of some of the housing providers, the list was not all inclusive. Kelowna Community Resources (KCR) also hosted a database which listed many housing providers. The database was widely used by the community, but did not provide the more detailed information that would assist the community or service providers in narrowing their searches. <br /><br />
@@ -19,7 +19,7 @@ United Way of the Central and South Okanagan Similkameen (UW-CSO): In early 2016
 
 
 
-<section class="explore housing-types">
+<a name="Collaboration"></a><section class="explore housing-types">
 <h1>First of it’s Kind Collaboration:</h1>
 <div class="width-helper"><p>
 
@@ -33,7 +33,7 @@ What do we hope to achieve?
 
 
 
-<section class="explore drop-in-services">
+<a name="About"></a><section class="explore drop-in-services">
 <h1>About</h1>
 <div class="width-helper"><p>The funder community in Kelowna works very closely, and both COF and UW-CSO quickly determined that there was overlap and consistency in the work both groups were interested in pursuing. A core team quickly formed between COF and UW-CSO and the two post-secondary institutions UBCO and OC. A community development research project was born and currently resides within the Institute for Community Engaged Research (ICER) housed out of UBCO. <br /><br />
 

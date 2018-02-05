@@ -1,0 +1,15 @@
+{
+    "type": "UIView",
+    "config": {
+        "className": "",
+        "viewType": "view",
+        "namedView": "AgencyDetail",
+        "showInlineEdit": false,
+        "namedFormView": "defaultFormView",
+        "showDeleteButton": false,
+        "deleteItemScript": "",
+        "formatModuleScript": "",
+        "resolveItemScript": "var agencyLayer = function() {\n\treturn map.getLayerManager().getLayer(2);\n}\n\nvar agencyQuery=new GetAttributeItemValueQuery(\n\t\titem.getId(), item.getType(), 'serviceProviderAttributes', 'agency'\n\t);\n\tagencyQuery.addEvent(\"success\", function(result) {\n\n\t\t\/\/defualt numeric value is 0. but is mapped to an id. \n\t\tvar agencyId = parseInt(result.value);\n\t\tvar agencyMapitem = null;\n\t\tif (agencyId > 0) {\n\t\t\tagencyMapitem = map.getLayerManager().filterMapitemById(agencyId, null, {\n\t\t\t\tlayer: agencyLayer()\n\t\t\t});\n\t\t}\n\n\t\tif (agencyMapitem) {\n\t\t    callback(agencyMapitem)\n\t\t    \n\t\t}\n\t});\n\tagencyQuery.execute();\n\t\n\treturn null;",
+        "itemButtonsScript": "return [];"
+    }
+}

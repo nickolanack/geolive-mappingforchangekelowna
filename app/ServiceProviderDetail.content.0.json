@@ -170,7 +170,7 @@
         "showEmpty": false,
         "showTitle": false,
         "title": "Icons",
-        "formatValueElement": "try{\nvar formattedValues=value.map(function(v){return attributeIconSets[field][attributeValueList[field].indexOf(v)]});\nconsole.log(formattedValues);\nelement.innerHTML='';\n    formattedValues.map(function(url){ return new Asset.image(url); }).forEach(function(image, i){\n        element.appendChild(image);\n       map.getContentFilterManager().addFilterBehavior(image, value[i], fieldMeta);\n\n        new UIPopover(image, {\n                title: value[i].capitalize(),\n                anchor: UIPopover.AnchorTo(['bottom'])\n              });\n\n    });\n}catch(e){\n console.error(e);\n}",
+        "formatValueElement": "try{\nvar formattedValues=value.map(function(v){return attributeIconSets[field][attributeValueList[field].indexOf(v)]});\nconsole.log(formattedValues);\nelement.innerHTML='';\n    formattedValues.map(function(url){ return new Asset.image(url); }).forEach(function(image, i){\n        element.appendChild(image);\n       map.getContentFilterManager().addFilterBehavior(image, value[i], fieldMeta);\n\n        var label=value[i];\n        var labels={\"rental\":\"Market Rental\"};\n        if(labels[label]){\n            label=labels[label];\n        }\n\n        new UIPopover(image, {\n                title: label.capitalize(),\n                anchor: UIPopover.AnchorTo(['bottom'])\n              });\n\n    });\n}catch(e){\n console.error(e);\n}",
         "formatContainerElement": ""
     }
 }

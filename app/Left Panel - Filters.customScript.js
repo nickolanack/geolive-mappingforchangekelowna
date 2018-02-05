@@ -157,6 +157,8 @@ var getAttributeFilterParameters = function(field, table) {
 
           //defined in global behavior widget.
           var attributes =attributeList[field] || values;
+          var labels={"rental":"Market Rental"}
+          
 
           var me = this; //bound to Attributes filter object
 
@@ -169,8 +171,12 @@ var getAttributeFilterParameters = function(field, table) {
             });
 
             iconSelection.addEvent('loadIcon', function(icon, i, asset) {
+              var label=attributes[i];
+              if(labels[label]){
+                  label=labels[label];
+              }
               new UIPopover(asset, {
-                title: attributes[i].capitalize(),
+                title: label.capitalize(),
                 anchor: UIPopover.AnchorTo(['bottom'])
               });
             }); 
