@@ -130,9 +130,9 @@ var displayAgencyFor = function(mapitem, userHasWriteAccess) {
 		}
 
 		if (agencyMapitem) {
-			agencyTabViewController.open(new GeoliveTemplateModule(agencyMapitem, {
+			agencyTabViewController.open(new GeoliveTemplateModule(mapitem, {
 				template: "default",
-				page: "AgencyDetail"
+				page: userHasWriteAccess?"AgencyForInlineView":"AgencyForDetail"
 			}), mapitem);
 		} else {
 
@@ -153,7 +153,7 @@ var displayAgencyFor = function(mapitem, userHasWriteAccess) {
 					content: [new HTMLModule(map, 'No agency has been selected for this service provider')]
 				}, {
 					template: "default",
-					page: "AgencyDetail"
+					//page: "AgencyDetail"
 				}), mapitem);
 			}
 
@@ -244,7 +244,7 @@ map.setMapitemSelectFn(function(mapitem) {
 		MapFactory.EnableMouseEditing(mapitem);
 
 
-		if (isService(mapitem)) {
+		if (isService(mapitem)||isDaily(mapitem)) {
 			showTab('agency');
 			displayAgencyFor(mapitem, userHasWriteAccess);
 		}
