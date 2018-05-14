@@ -2255,7 +2255,8 @@
             "position": "RIGHT_BOTTOM",
             "filterRowScript": "CSV Export.filterRowScript.js",
             "tileHoverTip": "Download Service Provider Data",
-            "filterFieldsScript": "CSV Export.filterFieldsScript.js"
+            "filterFieldsScript": "CSV Export.filterFieldsScript.js",
+            "target": ""
         }
     },
     "widget.30": {
