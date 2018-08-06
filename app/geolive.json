@@ -3722,9 +3722,10 @@
         "name": "Javascript",
         "instance": "CustomBehaviorScript",
         "parameters": {
-            "customScript": "Attribute fields and order.customScript.js",
-            "widgetTitle": "Attribute fields and order",
-            "readAccess": "public"
+            "customScript": "Set Searchable Attributes.customScript.js",
+            "widgetTitle": "Set Searchable Attributes",
+            "readAccess": "public",
+            "target": "map.1"
         }
     },
     "widget.68": {
