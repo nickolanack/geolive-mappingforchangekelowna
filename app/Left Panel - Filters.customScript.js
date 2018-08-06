@@ -258,8 +258,8 @@ echo $module->display($targetInstance->getJSObjectName(), $targetInstance->getJS
   '
 ));
 ?>;
-setTimeout(function(){
+sidePanel.addEvent('show:once',function(){
     attributesMod.load(null, attributesFilterContent, null);
-}, 500);
+});
     
     //attributesMod.load(null, attributesFilterContentAlt, null);
