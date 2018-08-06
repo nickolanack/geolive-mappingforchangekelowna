@@ -2498,5 +2498,23 @@
                 }
             ]
         }
+    },
+    {
+        "id": "3",
+        "name": "servicesAttributes",
+        "description": "",
+        "label": "",
+        "suffix": "_4223",
+        "metadata": {
+            "title": "servicesAttributes",
+            "readAccess": "public",
+            "appliesTo": [
+                "marker"
+            ],
+            "id": "3",
+            "suffix": "_4223",
+            "description": "",
+            "fields": []
+        }
     }
 ]

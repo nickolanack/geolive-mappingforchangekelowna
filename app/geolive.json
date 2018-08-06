@@ -4769,8 +4769,32 @@
         "instance": "AttributesTable",
         "parameters": {
             "widgetTitle": "",
-            "metadata": [],
-            "target": "none"
+            "metadata": {
+                "title": "servicesAttributes",
+                "_tableDiagramState": {
+                    "x": 283,
+                    "y": 165
+                },
+                "_diagramState": {
+                    "x": 283,
+                    "y": 165
+                },
+                "appliesTo": [
+                    "marker"
+                ],
+                "_typeDiagramState": {
+                    "x": 100,
+                    "y": 300
+                },
+                "readAccess": "public",
+                "maxEntries": 1,
+                "createAutomatically": 1,
+                "description": "",
+                "fields": []
+            },
+            "target": "servicesAttributes",
+            "readAccess": "public",
+            "position": ""
         }
     }
 }
