@@ -30,6 +30,10 @@ var getAttributeFilterParameters = function(field, table) {
 
     var attributeList=window.attributeValueList;
 
+    if(!attributeList){
+        console.error('attributeList is not available');
+        return;
+    }
     
      attributeList.dropinServicesProvided.forEach(function(name, index){
         if(attributeList.servicesProvided.indexOf(name)<0){
