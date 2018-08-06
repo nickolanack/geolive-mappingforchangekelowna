@@ -230,7 +230,7 @@ var getAttributeFilterParameters = function(field, table) {
 
     };
 
-
+sidePanel.addEvent('show:once',function(){
     var attributesMod = <?php
 
 
@@ -258,7 +258,7 @@ echo $module->display($targetInstance->getJSObjectName(), $targetInstance->getJS
   '
 ));
 ?>;
-sidePanel.addEvent('show:once',function(){
+
     attributesMod.load(null, attributesFilterContent, null);
 });
     
