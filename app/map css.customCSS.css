@@ -124,3 +124,18 @@ span.share-link-url {
 .LegendLayers {
     border-bottom: none;
 }
+
+
+
+.default-cluster-labels {
+    font-size: 0;
+    color: white;
+}
+
+.default-cluster-labels:after {
+    content: attr(data-number);
+    font-size: 20px;
+    top: -10px;
+    position: relative;
+    left: -6px;
+}
