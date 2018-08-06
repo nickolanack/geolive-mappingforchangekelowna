@@ -259,4 +259,4 @@ echo $module->display($targetInstance->getJSObjectName(), $targetInstance->getJS
 ));
 ?>;
     attributesMod.load(null, attributesFilterContent, null);
-    attributesMod.load(null, attributesFilterContentAlt, null);
+    //attributesMod.load(null, attributesFilterContentAlt, null);
