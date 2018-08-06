@@ -1549,7 +1549,7 @@
                         "modules": [
                             "ServiceProviderDetail.metadata.positions.content.modules.0.json",
                             {
-                                "type": "WizardStepTitle",
+                                "type": "InlineHtml",
                                 "config": {
                                     "className": "",
                                     "text": "<div class=\"label\"><span class=\"lbl-txt\">Service Provider Details<\/span><\/div>",
@@ -1666,6 +1666,7 @@
                                     "showEmpty": false,
                                     "showTitle": false,
                                     "title": "",
+                                    "formatData": "",
                                     "formatValueElement": "console.log('WOOP');\nconsole.log('WOOP');\nconsole.log('WOOP');\nconsole.log('WOOP');",
                                     "formatContainerElement": ""
                                 }
@@ -1677,7 +1678,7 @@
                                 }
                             },
                             {
-                                "type": "WizardStepTitle",
+                                "type": "InlineHtml",
                                 "config": {
                                     "className": "",
                                     "text": "<div class=\"label\"><span class=\"lbl-txt\">Referrals<\/span><\/div>",
