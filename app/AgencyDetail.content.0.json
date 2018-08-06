@@ -1,5 +1,5 @@
 {
-    "type": "WizardStepTitle",
+    "type": "InlineHtml",
     "config": {
         "className": "",
         "text": "<div class=\"label\"><span class=\"lbl-txt\">Agency Details<\/span><\/div>",

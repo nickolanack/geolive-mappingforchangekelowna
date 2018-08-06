@@ -13,7 +13,7 @@ var filterManager=geolive.getContentFilterManager()
                                    // optional callback //if null calls filterManager.filter
 					);
 					//let the world know.
-					filterManager.propagateFilterState(me, "agency", mapItem.getId());
+					filterManager.propagateFilterState(button, "agency", mapItem.getId());
 
 });
 return button;

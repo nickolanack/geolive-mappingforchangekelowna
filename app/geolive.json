@@ -2099,6 +2099,7 @@
                                     "showEmpty": true,
                                     "showTitle": false,
                                     "title": "",
+                                    "formatData": "",
                                     "formatValueElement": "",
                                     "formatContainerElement": ""
                                 }
@@ -2112,8 +2113,9 @@
                             {
                                 "type": "WizardScriptElement",
                                 "config": {
+                                    "name": "My Custom Script",
                                     "script": "AgencyDetail.metadata.positions.content.modules.4.config.script.js",
-                                    "identifier": "customScriptElement"
+                                    "description": "Info about my custom script"
                                 }
                             }
                         ]
