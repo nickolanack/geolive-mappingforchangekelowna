@@ -150,7 +150,7 @@ var displayAgencyFor = function(mapitem, userHasWriteAccess) {
 
 
 				agencyTabViewController.open(new TemplateModule({
-					content: [new HTMLModule(map, 'No agency has been selected for this service provider')]
+					content: ['No agency has been selected for this service provider']
 				}, {
 					template: "default",
 					//page: "AgencyDetail"
