@@ -238,10 +238,10 @@ map.setMapitemSelectFn(function(mapitem) {
 	GeoliveClient.authorize('write', mapitem, function(userHasWriteAccess) {
 
 		if (lastMapitem) {
-			MapFactory.DisableMouseEditing(lastMapitem);
+			lastMapitem.stopMouseEditing();
 		}
 		lastMapitem = mapitem;
-		MapFactory.EnableMouseEditing(mapitem);
+		mapitem.startMouseEditing()
 
 
 		if (isService(mapitem)||isDaily(mapitem)) {
