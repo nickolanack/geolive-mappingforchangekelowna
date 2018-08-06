@@ -258,5 +258,8 @@ echo $module->display($targetInstance->getJSObjectName(), $targetInstance->getJS
   '
 ));
 ?>;
+setTimeout(function(){
     attributesMod.load(null, attributesFilterContent, null);
+}, 500);
+    
     //attributesMod.load(null, attributesFilterContentAlt, null);
