@@ -9335,7 +9335,7 @@
             "onSaveScript": "",
             "onLoadScript": "",
             "requireTarget": false,
-            "templateName": "MapItemTemplate",
+            "templateName": "servicesForm",
             "widgetTitle": "Services Form",
             "readAccess": "public"
         }
