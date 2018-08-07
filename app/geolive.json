@@ -9249,14 +9249,14 @@
                     {
                         "was": "",
                         "title": "phoneNumber",
-                        "label": "Phone Number",
+                        "label": "Phone Number(s)",
                         "description": "",
                         "icon": [],
-                        "color": "rgb(undefined, undefined, undefined)",
+                        "color": "rgb(NaN, NaN, NaN)",
                         "visibility": "public",
                         "editability": "registered",
                         "searchability": "public",
-                        "allowMultiple": false,
+                        "allowMultiple": true,
                         "fieldType": "text",
                         "fieldTextOptions": {
                             "textType": "input",
