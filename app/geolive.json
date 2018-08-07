@@ -8841,8 +8841,8 @@
                     "marker"
                 ],
                 "_typeDiagramState": {
-                    "x": 120,
-                    "y": 293
+                    "x": 100,
+                    "y": 300
                 },
                 "readAccess": "public",
                 "maxEntries": 1,
@@ -9116,11 +9116,11 @@
                     },
                     {
                         "was": "",
-                        "title": "Referral Process",
+                        "title": "referralProcess",
                         "label": "Referral Process",
                         "description": "",
                         "icon": [],
-                        "color": "rgb(undefined, undefined, undefined)",
+                        "color": "rgb(NaN, NaN, NaN)",
                         "visibility": "public",
                         "editability": "registered",
                         "searchability": "public",

@@ -2744,11 +2744,11 @@
                     "tableId": "3",
                     "tableName": "servicesAttributes",
                     "tableSuffix": "_4223",
-                    "title": "Referral Process",
+                    "title": "referralProcess",
                     "label": "Referral Process",
                     "description": "",
                     "fieldType": "text",
-                    "color": "rgb(undefined, undefined, undefined)",
+                    "color": "rgb(NaN, NaN, NaN)",
                     "searchability": "public",
                     "editability": "registered",
                     "fieldTextOptions": {
