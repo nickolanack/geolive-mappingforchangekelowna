@@ -11,7 +11,7 @@ $apikey=GetPlugin('Maps')->getParameter('googleMapsServerApiKey', '');
         }
 
         IncludeExternalJS(
-            '//maps.google.com/maps/api/js?libraries=geometry,places,weather,visualization&callback=GoogleState.setGoogleLoaded'.$apikey.$version,
+            '//maps.google.com/maps/api/js?libraries=geometry,places,weather,visualization&callback=GoogleState.setGoogleLoaded'.$apikey.$version
         );
 
 ?>
