@@ -9349,7 +9349,8 @@
             "requireTarget": false,
             "templateName": "servicesForm",
             "widgetTitle": "Services Form",
-            "readAccess": "public"
+            "readAccess": "public",
+            "resolveItemScript": "return null;"
         }
     }
 }
