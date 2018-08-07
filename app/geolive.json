@@ -9334,7 +9334,7 @@
             "onUpdateScript": "",
             "onSaveScript": "",
             "onLoadScript": "",
-            "requireTarget": true,
+            "requireTarget": false,
             "templateName": "MapItemTemplate",
             "widgetTitle": "Services Form",
             "readAccess": "public"
