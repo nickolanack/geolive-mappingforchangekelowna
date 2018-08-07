@@ -9208,7 +9208,7 @@
                         "label": "Waitlist",
                         "description": "",
                         "icon": [],
-                        "color": "rgb(undefined, undefined, undefined)",
+                        "color": "rgb(NaN, NaN, NaN)",
                         "visibility": "public",
                         "editability": "registered",
                         "searchability": "public",

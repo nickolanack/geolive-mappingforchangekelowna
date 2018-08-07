@@ -2812,7 +2812,7 @@
                     "label": "Waitlist",
                     "description": "",
                     "fieldType": "text",
-                    "color": "rgb(undefined, undefined, undefined)",
+                    "color": "rgb(NaN, NaN, NaN)",
                     "searchability": "public",
                     "editability": "registered",
                     "fieldTextOptions": {
