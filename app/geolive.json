@@ -8803,25 +8803,71 @@
             "metadata": {
                 "title": "servicesAttributes",
                 "_tableDiagramState": {
-                    "x": 283,
-                    "y": 165
+                    "x": 351,
+                    "y": 196
                 },
                 "_diagramState": {
-                    "x": 283,
-                    "y": 165
+                    "x": 351,
+                    "y": 196
                 },
                 "appliesTo": [
                     "marker"
                 ],
                 "_typeDiagramState": {
-                    "x": 100,
-                    "y": 300
+                    "x": 99,
+                    "y": 312
                 },
                 "readAccess": "public",
                 "maxEntries": 1,
                 "createAutomatically": 1,
                 "description": "",
-                "fields": []
+                "fields": [
+                    "widget.AttributesTable.126.metadata.fields.0.json",
+                    {
+                        "was": "",
+                        "title": "agency",
+                        "label": "Agency",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "text",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    }
+                ]
             },
             "target": "servicesAttributes",
             "readAccess": "public",
