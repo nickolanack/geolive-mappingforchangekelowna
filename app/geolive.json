@@ -9273,16 +9273,16 @@
                             "Services Form.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
-                            "x": 234,
-                            "y": 143
+                            "x": 244,
+                            "y": 153
                         },
                         "children": [
                             "Services Form.metadata.children.1.children.0.json",
                             {
                                 "class": "InsertNode",
                                 "_diagramState": {
-                                    "x": 194,
-                                    "y": 419
+                                    "x": 204,
+                                    "y": 454
                                 }
                             }
                         ],
@@ -9409,13 +9409,25 @@
                                             }
                                         },
                                         {
-                                            "type": "WizardGeocodeAddress",
+                                            "type": "plugin.Attributes.WizardTextAttribute",
                                             "config": {
-                                                "label": "Location",
-                                                "message": "set the location",
+                                                "attributeFields": [
+                                                    "Services Form.metadata.children.1.builderMetadata.positions.content.modules.7.config.attributeFields.0.json"
+                                                ],
                                                 "className": "",
+                                                "label": "{field.label}",
+                                                "message": "",
+                                                "lines": 1,
                                                 "maxChars": 0,
-                                                "textFormatScript": ""
+                                                "mandatory": false,
+                                                "multiEntry": false,
+                                                "autocomplete": true,
+                                                "muliTemplate": "lines",
+                                                "multiMessage": "",
+                                                "formatter": "none",
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": "",
+                                                "formatValueScript": ""
                                             }
                                         },
                                         {
@@ -9485,25 +9497,13 @@
                                             }
                                         },
                                         {
-                                            "type": "plugin.Attributes.WizardTextAttribute",
+                                            "type": "WizardGeocodeAddress",
                                             "config": {
-                                                "attributeFields": [
-                                                    "Services Form.metadata.children.1.builderMetadata.positions.content.modules.11.config.attributeFields.0.json"
-                                                ],
+                                                "label": "Location",
+                                                "message": "set the location",
                                                 "className": "",
-                                                "label": "{field.label}",
-                                                "message": "",
-                                                "lines": 1,
                                                 "maxChars": 0,
-                                                "mandatory": false,
-                                                "multiEntry": false,
-                                                "autocomplete": true,
-                                                "muliTemplate": "lines",
-                                                "multiMessage": "",
-                                                "formatter": "none",
-                                                "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": "",
-                                                "formatValueScript": ""
+                                                "textFormatScript": ""
                                             }
                                         },
                                         {
