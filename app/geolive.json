@@ -649,6 +649,16 @@
         "name": "Generic Wizard",
         "instance": "WizardBuilder",
         "parameters": {
+            "widgetTitle": "ServiceProviderWizardTemplate",
+            "target": "",
+            "templateName": "ServiceProviderWizardTemplate",
+            "requireTarget": true,
+            "resolveItemScript": "return item;",
+            "beforeSubmitScript": "",
+            "onCreateScript": "",
+            "onUpdateScript": "",
+            "onSaveScript": "ServiceProviderWizardTemplate.onSaveScript.js",
+            "onLoadScript": "",
             "metadata": {
                 "class": "DescisionNode",
                 "_diagramState": {
@@ -1477,12 +1487,6 @@
                     }
                 ]
             },
-            "beforeSubmitScript": "",
-            "onCreateScript": "",
-            "onUpdateScript": "",
-            "onSaveScript": "ServiceProviderWizardTemplate.onSaveScript.js",
-            "templateName": "ServiceProviderWizardTemplate",
-            "widgetTitle": "ServiceProviderWizardTemplate",
             "readAccess": "public"
         }
     },
@@ -1753,6 +1757,16 @@
         "name": "Generic Wizard",
         "instance": "WizardBuilder",
         "parameters": {
+            "widgetTitle": "AgencyWizardTemplate",
+            "target": "",
+            "templateName": "AgencyWizardTemplate",
+            "requireTarget": true,
+            "resolveItemScript": "return item;",
+            "beforeSubmitScript": "",
+            "onCreateScript": "",
+            "onUpdateScript": "",
+            "onSaveScript": "AgencyWizardTemplate.onSaveScript.js",
+            "onLoadScript": "",
             "metadata": {
                 "class": "DescisionNode",
                 "_diagramState": {
@@ -1980,12 +1994,6 @@
                     }
                 ]
             },
-            "beforeSubmitScript": "",
-            "onCreateScript": "",
-            "onUpdateScript": "",
-            "onSaveScript": "AgencyWizardTemplate.onSaveScript.js",
-            "templateName": "AgencyWizardTemplate",
-            "widgetTitle": "AgencyWizardTemplate",
             "readAccess": "public"
         }
     },
@@ -2157,6 +2165,16 @@
         "name": "Generic Wizard",
         "instance": "WizardBuilder",
         "parameters": {
+            "widgetTitle": "SetAgencyWizardTemplate",
+            "target": "map.1",
+            "templateName": "SetAgencyWizardTemplate",
+            "requireTarget": true,
+            "resolveItemScript": "return item;",
+            "beforeSubmitScript": "",
+            "onCreateScript": "",
+            "onUpdateScript": "",
+            "onSaveScript": "SetAgencyWizardTemplate.onSaveScript.js",
+            "onLoadScript": "",
             "metadata": {
                 "class": "DescisionNode",
                 "_diagramState": {
@@ -2210,15 +2228,7 @@
                     }
                 ]
             },
-            "beforeSubmitScript": "",
-            "onCreateScript": "",
-            "onUpdateScript": "",
-            "onSaveScript": "SetAgencyWizardTemplate.onSaveScript.js",
-            "templateName": "SetAgencyWizardTemplate",
-            "widgetTitle": "SetAgencyWizardTemplate",
-            "readAccess": "public",
-            "requireTarget": true,
-            "target": "map.1"
+            "readAccess": "public"
         }
     },
     "widget.26": {
@@ -2608,6 +2618,16 @@
         "name": "Generic Wizard",
         "instance": "WizardBuilder",
         "parameters": {
+            "widgetTitle": "DailyWizardTemplate",
+            "target": "map.1",
+            "templateName": "DailyWizardTemplate",
+            "requireTarget": true,
+            "resolveItemScript": "return item;",
+            "beforeSubmitScript": "",
+            "onCreateScript": "",
+            "onUpdateScript": "",
+            "onSaveScript": "DailyWizardTemplate.onSaveScript.js",
+            "onLoadScript": "",
             "metadata": {
                 "class": "DecisionNode",
                 "_diagramState": {
@@ -2751,15 +2771,7 @@
                     }
                 ]
             },
-            "beforeSubmitScript": "",
-            "onCreateScript": "",
-            "onUpdateScript": "",
-            "onSaveScript": "DailyWizardTemplate.onSaveScript.js",
-            "templateName": "DailyWizardTemplate",
-            "widgetTitle": "DailyWizardTemplate",
-            "readAccess": "public",
-            "requireTarget": true,
-            "target": "map.1"
+            "readAccess": "public"
         }
     },
     "widget.37": {
