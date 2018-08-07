@@ -448,13 +448,12 @@
         "instance": "KeenIO",
         "parameters": {
             "enabled": true,
-            "projectId": "",
-            "writeKey": "",
+            "projectId": "5b69d28bc9e77c0001e7c2ce",
+            "writeKey": "XXXX-XXXX",
             "readKey": "",
             "ignoreEvents": [
-                "onManipulateMap",
                 "onDisplayView",
-                "onDisplayMap"
+                ""
             ],
             "eventPrefix": ""
         }
