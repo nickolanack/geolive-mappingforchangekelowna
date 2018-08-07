@@ -207,12 +207,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -261,12 +261,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -423,12 +423,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -445,12 +445,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -467,12 +467,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -489,12 +489,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -511,12 +511,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -743,12 +743,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -765,12 +765,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -933,12 +933,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -955,12 +955,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -996,12 +996,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -1113,12 +1113,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -1135,12 +1135,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -1157,12 +1157,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -1179,12 +1179,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -1201,12 +1201,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -1223,12 +1223,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -1277,12 +1277,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -1299,12 +1299,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -1321,12 +1321,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -1343,12 +1343,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -1365,12 +1365,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -1387,12 +1387,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -1409,12 +1409,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -1431,12 +1431,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -1485,12 +1485,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -1539,12 +1539,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -1561,12 +1561,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -1621,12 +1621,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -1643,12 +1643,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -1665,12 +1665,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -1687,12 +1687,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -1741,12 +1741,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -1763,12 +1763,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -1817,12 +1817,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -1871,12 +1871,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -1912,12 +1912,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -1934,12 +1934,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },
@@ -1988,12 +1988,12 @@
                     "searchability": "public",
                     "editability": "registered",
                     "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
                         "hideFalse": true,
                         "trueLabel": "",
                         "falseLabel": "",
-                        "useFieldIcon": false
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
                     },
                     "allowMultiple": false
                 },

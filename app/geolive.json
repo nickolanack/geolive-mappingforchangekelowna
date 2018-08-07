@@ -4420,7 +4420,4038 @@
         "instance": "AttributesTable",
         "parameters": {
             "widgetTitle": "",
-            "metadata": []
+            "metadata": {
+                "title": "serviceProviderAttributes",
+                "_tableDiagramState": {
+                    "x": 297,
+                    "y": 245
+                },
+                "_diagramState": {
+                    "x": 297,
+                    "y": 245
+                },
+                "appliesTo": [
+                    "marker"
+                ],
+                "_typeDiagramState": {
+                    "x": 129,
+                    "y": 244
+                },
+                "readAccess": "public",
+                "maxEntries": 1,
+                "createAutomatically": 1,
+                "description": "",
+                "fields": [
+                    "widget.AttributesTable.124.metadata.fields.0.json",
+                    {
+                        "was": "",
+                        "title": "agency",
+                        "label": "Agency",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "number",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "buildingContact",
+                        "label": "Contact Person",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "text",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "positionOfContact",
+                        "label": "Position of Contact",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "text",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "phoneNumber",
+                        "label": "Phone Number",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "text",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "email",
+                        "label": "Email",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "text",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "hasWaitlist",
+                        "label": "Has Waitlist",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "estimatedWaitTime",
+                        "label": "Estimated Wait Time",
+                        "description": "widget.AttributesTable.124.metadata.fields.7.description.js",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "text",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "hasMaxDurationOfStay",
+                        "label": "Has Maximum Duration of Stay",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "maxDurationOfStay",
+                        "label": "Maximum Duration of Stay",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "number",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "housingTypeDormitoryNumberOfBeds",
+                        "label": "Number of Dormitory Beds",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "number",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "housingTypeSharedBedroomNumberOfBeds",
+                        "label": "Number of Shared Bedroom Beds",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "number",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "housingTypeBedroomNumberOfBeds",
+                        "label": "Number of Single Bedroom Beds",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "number",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "servicesProvided",
+                        "label": "Services Provided",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": true,
+                        "fieldType": "text",
+                        "fieldTextOptions": {
+                            "textType": "options",
+                            "inputOptions": {
+                                "buildAutocomplete": true,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "hasServiceCaseManagement",
+                        "label": "Provides Case Management Services",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "text",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "hasServiceReferralsToOtherAgencies",
+                        "label": "Provides Referrals to other Agencies",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "hasServiceHealthDentalCare",
+                        "label": "Provides Health\/Dental Care",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "hasServiceMeals",
+                        "label": "Provides Meals",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "hasServiceShowers",
+                        "label": "Provides Showers",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "hasServiceStorage",
+                        "label": "Provides Storage",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "hasServiceClothingHouseholdGoods",
+                        "label": "Provides Clothing\/Household Goods",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "text",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "otherServices",
+                        "label": "Other Services",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": true,
+                        "fieldType": "text",
+                        "fieldTextOptions": {
+                            "textType": "options",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "housingTypeStudioBachelorNumberOfUnits",
+                        "label": "Number of Studio\/Bachelor Units",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "number",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "housingType1BedroomNumberOfUnits",
+                        "label": "Number of 1 Bedroom Units",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "number",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "housingType2BedroomNumberOfUnits",
+                        "label": "Number of 2 Bedroom Units",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "number",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "housingType3BedroomNumberOfUnits",
+                        "label": "Number of 3 Bedroom Units",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "number",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "housingType4BedroomNumberOfUnits",
+                        "label": "Number of 4 Bedroom Units",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "number",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "housingTypeOtherBedroomNumberOfUnits",
+                        "label": "Number of Other Type Bedroom Units",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "number",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "housingTypeOtherBedroomDescription",
+                        "label": "Description of Other Type Bedroom Units",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "text",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "housingHasBathroomKitchen",
+                        "label": "Housing is fully self contained (Bathroom\/Kitchen)",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "housingIsFurnished",
+                        "label": "Housing is fully furnished",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "housingTypeHouseSharedBedroomNumberOfBeds",
+                        "label": "Number Beds in house with shared bedroom(s)",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "number",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "housingTypeHouseIndividualBedroomNumberOfBeds",
+                        "label": "Number of Beds in House with Individual Rooms",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "number",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "housingTypeApartmentStudioNumberOfUnits",
+                        "label": "Number of Apartment Studio Units",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "number",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "housingTypeApartmen1BedroomNumberOfUnits",
+                        "label": "Number of 1 Bedroom Apartment Units",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "number",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "housingTypeApartmen2BedroomNumberOfUnits",
+                        "label": "Number of 2 and 3 Bedroom Apartment Units",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "number",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "housingTypeOtherNumberOfUnits",
+                        "label": "Number of Other Units",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "number",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "housingTypeOtherDescription",
+                        "label": "Description of Other Type Houseing Units",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "text",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "isBuildingUnderRTA",
+                        "label": "Is the Building Under RTA?",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "requiresDamageDeposit",
+                        "label": "Requires Damage Deposit",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "damageDepositAmount",
+                        "label": "Damage Deposit Amount",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "number",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "tenantHoldsLease",
+                        "label": "Tenant Holds Lease",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "housingTypeHouseSharedAccommodationsNumberOfBeds",
+                        "label": "Number of Beds in Shared Accommodation House",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "number",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "housingTypeSecondaryHouseSuiteNumberOfUnits",
+                        "label": "Number of Units in Secondary House Suite",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "number",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "housingTypeDuplexNumberOfUnits",
+                        "label": "Number of Duplex Units",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "number",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "housingTypeFourplexNumberOfUnits",
+                        "label": "Number of Fourplex Units",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "number",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "housingTypeTownHouseNumberOfUnits",
+                        "label": "Number of Townhouse Units",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "number",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "servesGenderMales",
+                        "label": "Provides Service to Males",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "servesGenderFemales",
+                        "label": "Provides Service to Females",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "servesGenderTransgender",
+                        "label": "Provides Service to Transgender",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "servesAge16_18",
+                        "label": "Provides Services to Demographic: 16 - 18",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "servesAge19Plus",
+                        "label": "Provides Services to Demographic: 19+",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "servesAge55Plus",
+                        "label": "Provides Services to Demographic: 55+",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "providesServiceToOtherDemographic",
+                        "label": "Provides Service To Other Demographic",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "text",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "canYouthBeKeyTenantOrLeaseholder",
+                        "label": "Can the key tenant or primary lease holder be a youth",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "primaryTargetResidentIndividuals",
+                        "label": "Primary Target Residents are Individuals",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "primaryTargetResidentFamilies",
+                        "label": "Primary Target Residents are Families",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "primaryTargetResidentIndividualsAndFamilies",
+                        "label": "Primary Target Residents are Individuals and Families",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "residentsAreRequiredToLiveInCity",
+                        "label": "Potential residents are required to live in Kelowna for a certain amount of time",
+                        "description": "widget.AttributesTable.124.metadata.fields.58.description.js",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "buildingAccommodatesDisabilities",
+                        "label": "Building Accommodated Individuals with Disabilities",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "someUnitsAccommodateDisabilites",
+                        "label": "Some Units Accommodate Individuals with Disabilities",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "exclusivelyServesAboriginalCommunity",
+                        "label": "Exclusively Serves Aboriginal Community",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "MonthlyCostOfStay",
+                        "label": "Monthly Cost of Stay",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "text",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "unitsAreRGI",
+                        "label": "The Units are RGI",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "notRGIMonthCalculation",
+                        "label": "Monthly Cost Calculation",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "text",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "hasMinimunIncomeLevel",
+                        "label": "Has Minimum Income Level",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "hasMaximumIncomeLevel",
+                        "label": "Has Maximum Income Level",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "minIncomeLevel",
+                        "label": "Minimum Income Level",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "number",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "maximumIncomeLevel",
+                        "label": "Maximum Income Level",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "number",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "unitsAreLowerEndOfMarket",
+                        "label": "Units Are Lower End of Market",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "residentsRequireIncomeOrDisabilityAssistance",
+                        "label": "Residents are Require to be on Income or Disability Assistance",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "buildingQualifiesForRentalAssistance",
+                        "label": "Building Qualifies For Rental Assistance",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "buildingIsPetFriendly",
+                        "label": "Building is Pet Friendly",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "petRestrictions",
+                        "label": "Pet Restrictions",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "text",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "smokingIsPermittedInBuilding",
+                        "label": "Smoking is Permitted in Building",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "smokingIsPermittedInUnits",
+                        "label": "Smoking is Permitted in Units",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "accommodationsForSmoking",
+                        "label": "Accommodations For Smoking",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "text",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "drugsAndAlcoholAreProhibited",
+                        "label": "Residents are required to abstain from alcohol and drugs",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "levelOfTolerence",
+                        "label": "Level of Drugs and Alcohol Tolerence",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": true,
+                        "fieldType": "text",
+                        "fieldTextOptions": {
+                            "textType": "options",
+                            "inputOptions": {
+                                "buildAutocomplete": true,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "cleanTimeRequirement",
+                        "label": "Clean Time Requirement",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "lengthOfCleanTime",
+                        "label": "Length of Clean Time",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "number",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "treatmentDetoxRequiredFirst",
+                        "label": "Treatment\/Detox Required First",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "residentsRequireProfessionalSupport",
+                        "label": "Residents Require Professional Support for Eligibility",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "supportsRequired",
+                        "label": "Supports Required For Eligibility",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": true,
+                        "fieldType": "text",
+                        "fieldTextOptions": {
+                            "textType": "options",
+                            "inputOptions": {
+                                "buildAutocomplete": true,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "referralsMadeDirectly",
+                        "label": "Referrals are Made Directly",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": false,
+                            "falseIcon": false
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "referralsForm",
+                        "label": "Referrals Form",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "text",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "demographicServed",
+                        "label": "Demographic Served",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "text",
+                        "fieldTextOptions": {
+                            "textType": "options",
+                            "inputOptions": {
+                                "buildAutocomplete": true,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "genderServed",
+                        "label": "Gender Served",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": true,
+                        "fieldType": "text",
+                        "fieldTextOptions": {
+                            "textType": "options",
+                            "inputOptions": {
+                                "buildAutocomplete": true,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "primaryTargetResident",
+                        "label": "Primary Target Resident",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": true,
+                        "fieldType": "text",
+                        "fieldTextOptions": {
+                            "textType": "options",
+                            "inputOptions": {
+                                "buildAutocomplete": true,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "logo",
+                        "label": "Logo",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "text",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "keywords",
+                        "label": "Search Keywords",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "text",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
+                        "was": "",
+                        "title": "estimatedWaitTimeUnits",
+                        "label": "Wait Time Units",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "text",
+                        "fieldTextOptions": {
+                            "textType": "options",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    }
+                ]
+            },
+            "target": "serviceProviderAttributes",
+            "readAccess": "public",
+            "position": ""
         }
     },
     "widget.125": {
