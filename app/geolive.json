@@ -9181,5 +9181,12 @@
             "readAccess": "public",
             "position": ""
         }
+    },
+    "widget.127": {
+        "name": "Form View",
+        "instance": "UserWizardBuilder",
+        "parameters": {
+            "target": "none"
+        }
     }
 }
