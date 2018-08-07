@@ -443,6 +443,22 @@
             "enabled": true
         }
     },
+    "plugin.29": {
+        "name": "Keen I O",
+        "instance": "KeenIO",
+        "parameters": {
+            "enabled": true,
+            "projectId": "",
+            "writeKey": "",
+            "readKey": "",
+            "ignoreEvents": [
+                "onManipulateMap",
+                "onDisplayView",
+                "onDisplayMap"
+            ],
+            "eventPrefix": ""
+        }
+    },
     "widget.1": {
         "name": "Google Controls",
         "instance": "GoogleControl",
