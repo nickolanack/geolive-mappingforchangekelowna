@@ -9229,16 +9229,16 @@
                             "Services Form.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
-                            "x": 214,
-                            "y": 123
+                            "x": 224,
+                            "y": 133
                         },
                         "children": [
                             "Services Form.metadata.children.1.children.0.json",
                             {
                                 "class": "InsertNode",
                                 "_diagramState": {
-                                    "x": 174,
-                                    "y": 336
+                                    "x": 184,
+                                    "y": 371
                                 }
                             }
                         ],
@@ -9372,6 +9372,72 @@
                                                 "className": "",
                                                 "maxChars": 0,
                                                 "textFormatScript": ""
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardTextAttribute",
+                                            "config": {
+                                                "attributeFields": [
+                                                    "Services Form.metadata.children.1.builderMetadata.positions.content.modules.8.config.attributeFields.0.json"
+                                                ],
+                                                "className": "",
+                                                "label": "{field.label}",
+                                                "message": "",
+                                                "lines": 1,
+                                                "maxChars": 0,
+                                                "mandatory": false,
+                                                "multiEntry": false,
+                                                "autocomplete": true,
+                                                "muliTemplate": "lines",
+                                                "multiMessage": "",
+                                                "formatter": "none",
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": "",
+                                                "formatValueScript": ""
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardTextAttribute",
+                                            "config": {
+                                                "attributeFields": [
+                                                    "Services Form.metadata.children.1.builderMetadata.positions.content.modules.9.config.attributeFields.0.json"
+                                                ],
+                                                "className": "",
+                                                "label": "{field.label}",
+                                                "message": "",
+                                                "lines": 1,
+                                                "maxChars": 0,
+                                                "mandatory": false,
+                                                "multiEntry": false,
+                                                "autocomplete": true,
+                                                "muliTemplate": "lines",
+                                                "multiMessage": "",
+                                                "formatter": "none",
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": "",
+                                                "formatValueScript": ""
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardTextAttribute",
+                                            "config": {
+                                                "attributeFields": [
+                                                    "Services Form.metadata.children.1.builderMetadata.positions.content.modules.10.config.attributeFields.0.json"
+                                                ],
+                                                "className": "",
+                                                "label": "{field.label}",
+                                                "message": "",
+                                                "lines": 1,
+                                                "maxChars": 0,
+                                                "mandatory": false,
+                                                "multiEntry": false,
+                                                "autocomplete": true,
+                                                "muliTemplate": "lines",
+                                                "multiMessage": "",
+                                                "formatter": "none",
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": "",
+                                                "formatValueScript": ""
                                             }
                                         }
                                     ]
