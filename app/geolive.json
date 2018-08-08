@@ -10056,7 +10056,216 @@
             "parameters": [
                 "services-config.parameters.0.json"
             ],
-            "categories": [],
+            "categories": {
+                "Emergency and Crisis": [
+                    "Child Abuse",
+                    "Disaster Services",
+                    "Elder Abuse",
+                    "Emergency Shelters",
+                    "Family Violence",
+                    "Hospitals and Health Centres",
+                    "Police",
+                    "Sexual Assault",
+                    "Suicide and Mental Health"
+                ],
+                "Addiction": [
+                    "Counselling and Outreach",
+                    "Detoxification",
+                    "Gambling",
+                    "Health Care",
+                    "Information and Referral",
+                    "Residential Treatment",
+                    "Support Groups and Recreation",
+                    "Supportive Recovery Housing",
+                    "Youth"
+                ],
+                "Counselling": [
+                    "Counselling",
+                    "Finding a Counsellor"
+                ],
+                "Health Care": [
+                    "Addiction",
+                    "Free Medical Clinics",
+                    "Home Health Support",
+                    "Hospice and Palliative Care",
+                    "Hospitals and Health Centres",
+                    "Low-cost Dental Care",
+                    "Mental Health",
+                    "Older Adults",
+                    "Prenatal and Postnatal",
+                    "Women",
+                    "Youth"
+                ],
+                "Mental Health": [
+                    "Children and Youth",
+                    "Counselling",
+                    "Depression and Anxiety",
+                    "Health Care",
+                    "Hospitals and Health Centres",
+                    "Information and Support",
+                    "Other Issues",
+                    "Residential Programs and Facilities",
+                    "Suicide",
+                    "Supportive Housing"
+                ],
+                "Victim Services": [
+                    "Aboriginal Peoples",
+                    "Child Abuse",
+                    "Counselling and Support Groups",
+                    "Crisis Lines",
+                    "Elder Abuse",
+                    "Family Violence",
+                    "Financial Assistance",
+                    "Other Crimes",
+                    "Police",
+                    "Sexual Assault",
+                    "Victim Support Workers"
+                ],
+                "Employment\/ Training": [
+                    "Child Care",
+                    "Finding a Job",
+                    "Immigrants and Refugees",
+                    "People with Disabilities",
+                    "Rights and Responsibilities",
+                    "Youth"
+                ],
+                "Financial": [
+                    "Child Care Subsidy",
+                    "Education and Training",
+                    "Employment Insurance",
+                    "Income Assistance",
+                    "Medical and Health",
+                    "Pensions",
+                    "Recreation",
+                    "Rent Assistance",
+                    "Taxes",
+                    "Urgent Needs"
+                ],
+                "Food and Basic Goods": [
+                    "Clothing",
+                    "Community Food",
+                    "Food Banks",
+                    "Home-delivered Meals",
+                    "Household Goods",
+                    "Meals and Snacks"
+                ],
+                "Homelessness": [
+                    "Clothing",
+                    "Emergency Shelters",
+                    "Emergency Shelters for Families",
+                    "Emergency Shelters for Men",
+                    "Emergency Shelters for Women",
+                    "Emergency Shelters for Youth",
+                    "Household Goods",
+                    "Meals and Snacks",
+                    "Outreach",
+                    "Shower and Laundry Facilities",
+                    "Transition Houses for Victims of Violence"
+                ],
+                "Housing": [
+                    "Aboriginal Peoples",
+                    "Addiction and Mental Health Supportive Housing",
+                    "Finding Housing",
+                    "Older Adults",
+                    "People with Disabilities",
+                    "Rent Assistance",
+                    "Subsidized Housing",
+                    "Transition Houses for Victims of Violence"
+                ],
+                "Legal and Advocacy": [
+                    "Advocacy",
+                    "Corrections",
+                    "Courts",
+                    "Disability Rights",
+                    "Elected Representatives",
+                    "Family Law",
+                    "Free or Low-Cost Legal Services",
+                    "Legal Information",
+                    "Police",
+                    "Tenancy Rights and Responsibilities",
+                    "Victim Services"
+                ],
+                "Transportation": [
+                    "Medical Appointments",
+                    "Older Adults",
+                    "People with Disabilities",
+                    "Public Transit"
+                ],
+                "Indigenous\/ Aboriginal": [
+                    "Child and Family Services",
+                    "Culture and Community",
+                    "Education",
+                    "Elders",
+                    "Employment",
+                    "Financial Assistance",
+                    "Housing",
+                    "Justice",
+                    "Representation and Government",
+                    "Victims of Violence",
+                    "Wellness",
+                    "Youth"
+                ],
+                "Children and Families": [
+                    "Aboriginal Peoples",
+                    "Child Abuse",
+                    "Child Care",
+                    "Children and Youth with Special Needs",
+                    "Early Childhood Development",
+                    "Financial Assistance",
+                    "Health",
+                    "Mental Health",
+                    "Parenting Resources",
+                    "Prenatal and Postnatal",
+                    "Recreation",
+                    "Young Parents"
+                ],
+                "Disabilities": [
+                    "Advocacy and Information",
+                    "Day Programs",
+                    "Employment",
+                    "Financial Assistance",
+                    "Home Support",
+                    "People with Intellectual Disabilities",
+                    "People with Learning Disabilities",
+                    "People with Physical Disabilities",
+                    "Recreation",
+                    "Subsidized Housing"
+                ],
+                "Immigrants and Refugees": [
+                    "Citizenship",
+                    "Community and Recreation",
+                    "Employment",
+                    "Interpretation and Translation",
+                    "Learning English",
+                    "Refugees",
+                    "Schools",
+                    "Settlement Services"
+                ],
+                "Older Adults": [
+                    "Advocacy and Helplines",
+                    "Day Programs",
+                    "Elder Abuse",
+                    "Financial Assistance",
+                    "Health Conditions",
+                    "Home Support",
+                    "Housing",
+                    "Meals",
+                    "Social and Recreation"
+                ],
+                "Youth": [
+                    "Crisis Lines and Suicide",
+                    "Drugs and Alcohol",
+                    "Education and Employment",
+                    "Gender and Sexual Identity",
+                    "Health",
+                    "Mental Health and Wellness",
+                    "Outreach",
+                    "Recreation",
+                    "Sexual Health",
+                    "Shelter and Housing",
+                    "Young Parents"
+                ]
+            },
             "widgetTitle": "services-config",
             "readAccess": "public"
         }
