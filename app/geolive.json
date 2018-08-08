@@ -9827,5 +9827,17 @@
             "readAccess": "public",
             "resolveItemScript": "Services Form.resolveItemScript.js"
         }
+    },
+    "widget.128": {
+        "name": "Detail View",
+        "instance": "DetailView",
+        "parameters": {
+            "widgetTitle": "",
+            "target": "none",
+            "templateName": "{target}",
+            "requireTarget": true,
+            "onRenderApplictionScript": "",
+            "notifyViewer": false
+        }
     }
 }
