@@ -7,7 +7,7 @@ foreach(Widget::GetWidgetsForTarget('map.1') as $widget){
 				    
 				    
 				    
-					$widget->display($map);
+					$widget->display($targetInstance);
 				}
 				
 			}
