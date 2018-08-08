@@ -9,6 +9,9 @@ foreach(Widget::GetWidgetsForTarget('map.1') as $widget){
 				    if(class_exists('SidePanelWidget')&&$widget instanceof SidePanelWidget){
 				        continue;
 				    }
+				    if(class_exists('MarkerTileWidget')&&$widget instanceof SidePanelWidget){
+				        continue;
+				    }
 				    
 					$widget->display($targetInstance);
 				}
