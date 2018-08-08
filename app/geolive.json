@@ -4283,7 +4283,8 @@
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_0BZ_5dD_vxp_[ImAgE].png": "",
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/g3d_[G]_ivk_[ImAgE]_he7.png": ""
                 }
-            }
+            },
+            "target": "servicesProvidedIcons"
         }
     },
     "widget.113": {
