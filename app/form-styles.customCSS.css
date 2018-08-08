@@ -28,7 +28,7 @@ h1.inline-form {
 
 foreach(($data=GetWidget('servicesCategoriesIcons')->getIconsetData())->names as $name){
     
-    $className=str_replace(' ','-',preg_replace("/[^A-Za-z0-9 ]/", '', $name));
+    $className=strtolower(str_replace(' ','-',preg_replace("/[^A-Za-z0-9 ]/", '', $name)));
     
     ?>.word-<?php echo $className; ?>{
         
