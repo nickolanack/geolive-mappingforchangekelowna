@@ -10043,5 +10043,12 @@
             },
             "readAccess": "public"
         }
+    },
+    "widget.131": {
+        "name": "Configuration",
+        "instance": "Configuration",
+        "parameters": {
+            "target": "none"
+        }
     }
 }
