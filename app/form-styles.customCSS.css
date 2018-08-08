@@ -1,14 +1,18 @@
-.inline-servicesForm {
+.inline-form {
     margin: auto;
     max-width: 800px;
     margin-top: 50px;
 }
 
-.inline-servicesForm .label {
+.inline-form .label {
     background-color: transparent;
     color: black;
     text-shadow: none;
     font-weight: 100;
     font-size: 18px;
     padding: 10px 0;
+}
+
+.inline-form .btn {
+    margin-5px;
 }
