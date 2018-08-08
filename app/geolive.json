@@ -9875,5 +9875,17 @@
             "widgetTitle": "form-styles",
             "readAccess": "public"
         }
+    },
+    "widget.130": {
+        "name": "Detail View",
+        "instance": "DetailView",
+        "parameters": {
+            "widgetTitle": "",
+            "target": "none",
+            "templateName": "{target}",
+            "requireTarget": true,
+            "onRenderApplictionScript": "",
+            "notifyViewer": false
+        }
     }
 }
