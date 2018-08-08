@@ -9537,16 +9537,16 @@
                             "Services Form.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
-                            "x": 312,
-                            "y": 223
+                            "x": 322,
+                            "y": 233
                         },
                         "children": [
                             "Services Form.metadata.children.1.children.0.json",
                             {
                                 "class": "InsertNode",
                                 "_diagramState": {
-                                    "x": 272,
-                                    "y": 586
+                                    "x": 282,
+                                    "y": 596
                                 }
                             }
                         ],
@@ -9899,7 +9899,7 @@
                                                 "shuffleTags": false,
                                                 "tags": "[\n    \"tag one\",\n    \"tag two\"\n]",
                                                 "getItemTagsScript": "Services Form.metadata.children.1.builderMetadata.positions.content.modules.17.config.getItemTagsScript.js",
-                                                "formatModule": "module.runOnceOnLoad(function(){\n    \n    \n    var el=module.getElement();\n    \n    <?php \n    \n    foreach(GetWidget('services-config')->getParameter('categories') as $cat=>$subs){\n        ?>\n        (function(){\n            \n            var div=el.appendChild(new Element('div'));\n            div.appendChild(new Element('label',{html:<?php echo json_encode($cat); ?>}))\n            (new TagCloud(el, {\n                tags:<?php echo json_encode($subs);?>\n            })).show();\n        \n        })()\n        \n        <?php\n        \n        \n        \n    }\n    \n    \n    ?>\n    \n    \n    \n    \n    \n})"
+                                                "formatModule": "module.runOnceOnLoad(function(){\n    \n    \n    var el=module.getElement();\n    \n    <?php \n    \n    foreach(GetWidget('services-config')->getParameter('categories') as $cat=>$subs){\n        ?>\n        (function(){\n            \n            var div=new Element('div')\n            el.appendChild(div);\n            div.appendChild(new Element('label',{html:<?php echo json_encode($cat); ?>}))\n            (new TagCloud(div, {\n                tags:<?php echo json_encode($subs);?>\n            })).show();\n        \n        })()\n        \n        <?php\n        \n        \n        \n    }\n    \n    \n    ?>\n    \n    \n    \n    \n    \n})"
                                             }
                                         }
                                     ]
