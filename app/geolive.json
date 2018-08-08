@@ -10315,7 +10315,14 @@
         "name": "Named Iconset",
         "instance": "NamedIconset",
         "parameters": {
-            "target": "none"
+            "target": "servicesCategoriesIcons",
+            "exposeIconset": true,
+            "iconsetName": "",
+            "icons": [],
+            "iconsetMetadata": [],
+            "widgetTitle": "Services Categories",
+            "readAccess": "public",
+            "position": ""
         }
     }
 }
