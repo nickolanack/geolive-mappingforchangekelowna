@@ -10291,7 +10291,7 @@
             "loadMapId": "2",
             "target": "servicesMap",
             "templateName": "googlemap",
-            "loadWidgetsWithTarget": "map.1",
+            "loadWidgetsWithTarget": "",
             "mapOptions": [],
             "readAccess": "public"
         }
