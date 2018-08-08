@@ -1519,7 +1519,8 @@
             "markerIconset": [
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_cai_qou_wau_[G].png",
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_fIR_hWi_8e5.png",
-                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/MXD_bna_[ImAgE]_4ND_[G].png"
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/MXD_bna_[ImAgE]_4ND_[G].png",
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/MMT_92i_[ImAgE]_k3H_[G].png"
             ],
             "layerMap": [],
             "tipMap": [],
@@ -1528,7 +1529,8 @@
                 "layerMap": {
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_cai_qou_wau_[G].png": 1,
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_fIR_hWi_8e5.png": 5,
-                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/MXD_bna_[ImAgE]_4ND_[G].png": 2
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/MXD_bna_[ImAgE]_4ND_[G].png": 2,
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/MMT_92i_[ImAgE]_k3H_[G].png": 6
                 },
                 "renderSettings": {
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_cai_qou_wau_[G].png": {
@@ -1542,11 +1544,20 @@
                             "50.0%",
                             "100.0%"
                         ]
+                    },
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/MXD_bna_[ImAgE]_4ND_[G].png": {
+                        "anchor": [
+                            "50.0%",
+                            "100.0%"
+                        ]
                     }
                 }
             },
             "widgetTitle": "",
-            "readAccess": "public"
+            "readAccess": "public",
+            "_raw_layerMap": null,
+            "_raw_tipMap": null,
+            "target": "map.1"
         }
     },
     "widget.18": {
