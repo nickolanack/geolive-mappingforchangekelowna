@@ -9553,16 +9553,16 @@
                             "Services Form.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
-                            "x": 297,
-                            "y": 200
+                            "x": 307,
+                            "y": 210
                         },
                         "children": [
                             "Services Form.metadata.children.1.children.0.json",
                             {
                                 "class": "InsertNode",
                                 "_diagramState": {
-                                    "x": 257,
-                                    "y": 561
+                                    "x": 267,
+                                    "y": 571
                                 }
                             }
                         ],
@@ -9825,7 +9825,7 @@
                                                 "lines": 1,
                                                 "maxChars": 0,
                                                 "mandatory": false,
-                                                "multiEntry": false,
+                                                "multiEntry": true,
                                                 "autocomplete": true,
                                                 "muliTemplate": "lines",
                                                 "multiMessage": "add more numbers",
