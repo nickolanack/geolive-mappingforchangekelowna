@@ -9871,7 +9871,7 @@
         "instance": "CSS",
         "parameters": {
             "target": "form-styles",
-            "customCSS": "",
+            "customCSS": "form-styles.customCSS.css",
             "widgetTitle": "form-styles",
             "readAccess": "public"
         }
