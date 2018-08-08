@@ -9542,16 +9542,16 @@
                             "Services Form.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
-                            "x": 257,
-                            "y": 160
+                            "x": 267,
+                            "y": 170
                         },
                         "children": [
                             "Services Form.metadata.children.1.children.0.json",
                             {
                                 "class": "InsertNode",
                                 "_diagramState": {
-                                    "x": 217,
-                                    "y": 523
+                                    "x": 227,
+                                    "y": 533
                                 }
                             }
                         ],
@@ -9588,7 +9588,7 @@
                                         {
                                             "type": "WizardTitleField",
                                             "config": {
-                                                "label": "Name of program\/service",
+                                                "label": "Name of Program\/Service",
                                                 "message": "add a title",
                                                 "className": "",
                                                 "maxChars": 0,
