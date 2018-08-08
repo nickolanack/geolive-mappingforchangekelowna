@@ -2,7 +2,7 @@
 // to override the default sort order, and reduce duplicated code
 
 window.attributeValueList = {
-	buildingType:window.buildingType.names,
+	buildingType:<?php echo json_encode(GetWidget('buildingTypeIcons')->getIconsetData()->names);?>,
 	servicesProvided: window.servicesProvided.names,
 	dropinServicesProvided: window.dailyServices.names,
 	genderServed: window.genderServed.names,
