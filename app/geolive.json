@@ -10286,11 +10286,12 @@
         "name": "Google Map",
         "instance": "GoogleMap",
         "parameters": {
-            "widgetTitle": "",
-            "target": "none",
+            "widgetTitle": "servicesMap",
+            "target": "servicesMap",
             "templateName": "googlemap",
-            "loadWidgetsWithTarget": "forTheMap",
-            "mapOptions": []
+            "loadWidgetsWithTarget": "map.1",
+            "mapOptions": [],
+            "readAccess": "public"
         }
     }
 }
