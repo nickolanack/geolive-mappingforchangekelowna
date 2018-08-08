@@ -9537,16 +9537,16 @@
                             "Services Form.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
-                            "x": 332,
-                            "y": 243
+                            "x": 342,
+                            "y": 253
                         },
                         "children": [
                             "Services Form.metadata.children.1.children.0.json",
                             {
                                 "class": "InsertNode",
                                 "_diagramState": {
-                                    "x": 292,
-                                    "y": 606
+                                    "x": 302,
+                                    "y": 616
                                 }
                             }
                         ],
@@ -9899,7 +9899,7 @@
                                                 "shuffleTags": false,
                                                 "tags": "[\n    \"tag one\",\n    \"tag two\"\n]",
                                                 "getItemTagsScript": "Services Form.metadata.children.1.builderMetadata.positions.content.modules.17.config.getItemTagsScript.js",
-                                                "formatModule": "module.runOnceOnLoad(function(){\n    \n    \n    var el=module.getElement();\n    \n    <?php \n    \n    foreach(GetWidget('services-config')->getParameter('categories') as $cat=>$subs){\n        ?>\n        (function(){\n            \n            var container=new Element('div');\n            el.appendChild(container);\n            container.appendChild(new Element('label',{html:<?php echo json_encode($cat); ?>}));\n            (new TagCloud(container, {\n                tags:<?php echo json_encode($subs);?>\n            })).show();\n        \n        })();\n        \n        <?php\n        \n        \n        \n    }\n    \n    \n    ?>\n    \n    \n    \n    \n    \n})"
+                                                "formatModule": "module.runOnceOnLoad(function(){\n    \n    \n    var el=module.getElement();\n    var cloud=module.getCloud();\n    \n    var catTree=<?php \n    \n    echo json_encode(GetWidget('services-config')->getParameter('categories'));\n        ?>;\n        \n            \n            var container=new Element('div');\n            el.appendChild(container);\n            container.appendChild(new Element('label',{html:<?php echo json_encode($cat); ?>}));\n            var subCloud=(new TagCloud(container, {\n                tags:<?php echo json_encode($subs);?>\n            })).show();\n        \n     \n        \n      \n    \n    \n    \n    \n})"
                                             }
                                         }
                                     ]
