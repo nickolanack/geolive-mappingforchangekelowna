@@ -47,7 +47,7 @@
         "multiMessage": "",
         "formatter": "none",
         "iconTint": "rgb(100, 149, 237)",
-        "onRenderTextFieldScript": "",
+        "onRenderTextFieldScript": "var search = new UISearchControl(inputElement, {});\nUISearchControl.AddAggregatedSearchResults(search, [\n\n\tnew MarkerSearchAggregator(map, search, {\n\t\theader: \"Agencies\",\n\t\tResultClickEventFunction: function(result) {\n\t\t\ttextField.setValue(result.id);\n\t\t\t\/\/alert(\"boom - you blew up the internet\");\n\t\t}\n\t}),\n\n\n], {});",
         "formatValueScript": ""
     }
 }
