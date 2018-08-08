@@ -10295,5 +10295,12 @@
             "mapOptions": [],
             "readAccess": "public"
         }
+    },
+    "widget.134": {
+        "name": "Content",
+        "instance": "CustomContent",
+        "parameters": {
+            "target": "none"
+        }
     }
 }
