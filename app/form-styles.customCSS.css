@@ -26,7 +26,7 @@ h1.inline-form {
 
 <?php 
 
-foreach(($data=GetWiget('servicesCategoriesIcons')->getIconsetData())->names as $name){
+foreach(($data=GetWidget('servicesCategoriesIcons')->getIconsetData())->names as $name){
     
     $className='word-'.str_replace(' ','-',preg_replace("/[^A-Za-z0-9 ]/", '', $name));
     
