@@ -32,7 +32,7 @@ foreach(($data=GetWidget('servicesCategoriesIcons')->getIconsetData())->names as
     
     ?>.word-<?php echo $className; ?>:after{
         
-        background-image:url(<?php echo json_encode(UrlFrom($data->icon[$i]));?>);
+        background-image:url(<?php echo json_encode(UrlFrom($data->icons[$i]));?>);
         
     }
     
