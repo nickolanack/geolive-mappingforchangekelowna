@@ -10300,7 +10300,10 @@
         "name": "Content",
         "instance": "CustomContent",
         "parameters": {
-            "target": "none"
+            "target": "none",
+            "customScript": "services-map-widgets.customScript.js",
+            "widgetTitle": "services-map-widgets",
+            "readAccess": "public"
         }
     }
 }
