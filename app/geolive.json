@@ -9870,7 +9870,10 @@
         "name": "Stylesheet",
         "instance": "CSS",
         "parameters": {
-            "target": "none"
+            "target": "form-styles",
+            "customCSS": "",
+            "widgetTitle": "form-styles",
+            "readAccess": "public"
         }
     }
 }
