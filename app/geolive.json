@@ -9537,16 +9537,16 @@
                             "Services Form.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
-                            "x": 264,
-                            "y": 173
+                            "x": 274,
+                            "y": 183
                         },
                         "children": [
                             "Services Form.metadata.children.1.children.0.json",
                             {
                                 "class": "InsertNode",
                                 "_diagramState": {
-                                    "x": 224,
-                                    "y": 474
+                                    "x": 234,
+                                    "y": 534
                                 }
                             }
                         ],
@@ -9800,14 +9800,14 @@
                                                 ],
                                                 "className": "",
                                                 "label": "{field.label}",
-                                                "message": "",
+                                                "message": "add a phone number",
                                                 "lines": 1,
                                                 "maxChars": 0,
                                                 "mandatory": false,
-                                                "multiEntry": true,
+                                                "multiEntry": false,
                                                 "autocomplete": true,
                                                 "muliTemplate": "lines",
-                                                "multiMessage": "",
+                                                "multiMessage": "add more numbers",
                                                 "formatter": "none",
                                                 "iconTint": "rgb(100, 149, 237)",
                                                 "onRenderTextFieldScript": "",
