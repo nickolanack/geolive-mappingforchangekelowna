@@ -9542,16 +9542,16 @@
                             "Services Form.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
-                            "x": 402,
-                            "y": 313
+                            "x": 412,
+                            "y": 323
                         },
                         "children": [
                             "Services Form.metadata.children.1.children.0.json",
                             {
                                 "class": "InsertNode",
                                 "_diagramState": {
-                                    "x": 362,
-                                    "y": 676
+                                    "x": 372,
+                                    "y": 686
                                 }
                             }
                         ],
@@ -9893,7 +9893,7 @@
                                                 "attributeFields": [
                                                     "Services Form.metadata.children.1.builderMetadata.positions.content.modules.17.config.attributeFields.0.json"
                                                 ],
-                                                "className": "",
+                                                "className": "category-tags",
                                                 "showLabel": false,
                                                 "showAddWord": false,
                                                 "label": "{field.label}",
