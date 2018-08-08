@@ -9884,7 +9884,7 @@
             "target": "inline-services-form",
             "templateName": "inline-services-form",
             "requireTarget": false,
-            "onRenderApplictionScript": "",
+            "onRenderApplictionScript": "inline-services-form.onRenderApplictionScript.js",
             "notifyViewer": false,
             "metadata": {
                 "positions": {
