@@ -13,7 +13,7 @@ window.prefferedAttributeOrder = window.attributeValueList;
 
 window.attributeIconSets= {
 
-	buildingType:window.buildingType.icons,
+	buildingType:<?php echo json_encode(GetWidget('buildingTypeIcons')->getIconsetData()->icons);?>,
 	servicesProvided: window.servicesProvided.icons,
 	dropinServicesProvided: window.dailyServices.icons,
 	genderServed: window.genderServed.icons,
