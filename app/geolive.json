@@ -10275,6 +10275,7 @@
         "instance": "GoogleMap",
         "parameters": {
             "widgetTitle": "housingMap",
+            "loadMapId": "{default}",
             "target": "housingMap",
             "templateName": "googlemap",
             "loadWidgetsWithTarget": "map.1",
@@ -10287,6 +10288,7 @@
         "instance": "GoogleMap",
         "parameters": {
             "widgetTitle": "servicesMap",
+            "loadMapId": "2",
             "target": "servicesMap",
             "templateName": "googlemap",
             "loadWidgetsWithTarget": "map.1",
