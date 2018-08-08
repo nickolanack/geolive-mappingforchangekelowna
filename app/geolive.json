@@ -9537,16 +9537,16 @@
                             "Services Form.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
-                            "x": 262,
-                            "y": 173
+                            "x": 272,
+                            "y": 183
                         },
                         "children": [
                             "Services Form.metadata.children.1.children.0.json",
                             {
                                 "class": "InsertNode",
                                 "_diagramState": {
-                                    "x": 222,
-                                    "y": 536
+                                    "x": 232,
+                                    "y": 546
                                 }
                             }
                         ],
@@ -9898,7 +9898,7 @@
                                                 "selectedColor": "rgb(143, 188, 143)",
                                                 "shuffleTags": false,
                                                 "tags": "[\n    \"tag one\",\n    \"tag two\"\n]",
-                                                "getItemTagsScript": "return defaultTags;",
+                                                "getItemTagsScript": "Services Form.metadata.children.1.builderMetadata.positions.content.modules.17.config.getItemTagsScript.js",
                                                 "formatModule": "module.runOnceOnLoad(function(){\n    \n    var el=module.getElement();\n    (new TagCloud(el, {\n        tags:[\"subOne\", \"subTwo\"]\n    })).show();\n    \n    \n    \n})"
                                             }
                                         }
