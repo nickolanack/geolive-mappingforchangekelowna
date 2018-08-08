@@ -4354,7 +4354,8 @@
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_0jt_[G]_Jkd_wUt.png": "",
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_[G]_xIK_fkF_60.png": ""
                 }
-            }
+            },
+            "target": "primaryTargetResidentIcons"
         }
     },
     "widget.115": {
