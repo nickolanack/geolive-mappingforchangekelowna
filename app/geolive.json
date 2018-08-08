@@ -10310,5 +10310,12 @@
             "widgetTitle": "services-map-widgets",
             "readAccess": "public"
         }
+    },
+    "widget.135": {
+        "name": "Named Iconset",
+        "instance": "NamedIconset",
+        "parameters": {
+            "target": "none"
+        }
     }
 }
