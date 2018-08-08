@@ -9897,7 +9897,7 @@
                             {
                                 "type": "UIView",
                                 "config": {
-                                    "className": "inline-servicesForm",
+                                    "className": "inline-servicesForm inline-form",
                                     "viewType": "form",
                                     "namedView": "servicesForm",
                                     "shouldRender": true,

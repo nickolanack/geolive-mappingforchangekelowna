@@ -2,7 +2,7 @@
     "type": "InlineHtml",
     "config": {
         "className": "",
-        "text": "<h1>Create A New Service<\/h1>",
+        "text": "<h1 class=\"inline-form\">Create A New Service<\/h1>",
         "template": "",
         "templateVariablesScript": ""
     }
