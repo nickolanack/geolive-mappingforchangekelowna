@@ -9835,21 +9835,13 @@
             "widgetTitle": "map-stats",
             "target": "map-stats",
             "templateName": "map-stats",
-            "requireTarget": true,
+            "requireTarget": false,
             "onRenderApplictionScript": "",
             "notifyViewer": false,
             "metadata": {
-                "positionList": [
-                    "title",
-                    "content",
-                    "footer",
-                    "menu"
-                ],
                 "positions": {
                     "title": {
-                        "modules": [
-                            "map-stats.metadata.positions.title.modules.0.json"
-                        ]
+                        "modules": []
                     },
                     "content": {
                         "modules": [
@@ -9857,14 +9849,19 @@
                         ]
                     },
                     "footer": {
-                        "modules": [
-                            "map-stats.metadata.positions.footer.modules.0.json"
-                        ]
+                        "modules": []
                     },
                     "menu": {
                         "modules": []
                     }
-                }
+                },
+                "positionList": [
+                    "title",
+                    "content",
+                    "footer",
+                    "menu"
+                ],
+                "_diagramState": []
             },
             "readAccess": "public"
         }
