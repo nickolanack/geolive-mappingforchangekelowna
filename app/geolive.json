@@ -10318,8 +10318,32 @@
             "target": "servicesCategoriesIcons",
             "exposeIconset": true,
             "iconsetName": "",
-            "icons": [],
-            "iconsetMetadata": [],
+            "icons": [
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/mwO_[G]_[ImAgE]_QAC_h0b.png",
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_lIS_[G]_IVO_nEm.png",
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_[G]_bhM_zZA_aQr.png",
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_Lzj_n86_W82_[ImAgE].png",
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/xdv_[G]_[ImAgE]_QXC_7k9.png",
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_zvg_ef7_[G]_C1O.png"
+            ],
+            "iconsetMetadata": {
+                "iconName": {
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/mwO_[G]_[ImAgE]_QAC_h0b.png": "",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_lIS_[G]_IVO_nEm.png": "",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_[G]_bhM_zZA_aQr.png": "",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_Lzj_n86_W82_[ImAgE].png": "",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/xdv_[G]_[ImAgE]_QXC_7k9.png": "",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_zvg_ef7_[G]_C1O.png": ""
+                },
+                "iconMetadata": {
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/mwO_[G]_[ImAgE]_QAC_h0b.png": "",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_lIS_[G]_IVO_nEm.png": "",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_[G]_bhM_zZA_aQr.png": "",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_Lzj_n86_W82_[ImAgE].png": "",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/xdv_[G]_[ImAgE]_QXC_7k9.png": "",
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_zvg_ef7_[G]_C1O.png": ""
+                }
+            },
             "widgetTitle": "Services Categories",
             "readAccess": "public",
             "position": ""
