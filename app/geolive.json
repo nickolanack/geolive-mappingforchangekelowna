@@ -10274,11 +10274,12 @@
         "name": "Google Map",
         "instance": "GoogleMap",
         "parameters": {
-            "widgetTitle": "",
-            "target": "none",
+            "widgetTitle": "housingMap",
+            "target": "housingMap",
             "templateName": "googlemap",
-            "loadWidgetsWithTarget": "forTheMap",
-            "mapOptions": []
+            "loadWidgetsWithTarget": "map.1",
+            "mapOptions": [],
+            "readAccess": "public"
         }
     },
     "widget.133": {
