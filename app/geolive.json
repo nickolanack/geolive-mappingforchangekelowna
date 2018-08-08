@@ -9553,16 +9553,16 @@
                             "Services Form.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
-                            "x": 287,
-                            "y": 190
+                            "x": 297,
+                            "y": 200
                         },
                         "children": [
                             "Services Form.metadata.children.1.children.0.json",
                             {
                                 "class": "InsertNode",
                                 "_diagramState": {
-                                    "x": 247,
-                                    "y": 551
+                                    "x": 257,
+                                    "y": 561
                                 }
                             }
                         ],
@@ -9781,7 +9781,7 @@
                                         {
                                             "type": "WizardGeocodeAddress",
                                             "config": {
-                                                "label": "Location",
+                                                "label": "Location (program or service)",
                                                 "message": "set the location",
                                                 "className": "",
                                                 "maxChars": 0,
