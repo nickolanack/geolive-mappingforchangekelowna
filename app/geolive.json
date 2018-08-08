@@ -9865,5 +9865,12 @@
             },
             "readAccess": "public"
         }
+    },
+    "widget.129": {
+        "name": "Stylesheet",
+        "instance": "CSS",
+        "parameters": {
+            "target": "none"
+        }
     }
 }
