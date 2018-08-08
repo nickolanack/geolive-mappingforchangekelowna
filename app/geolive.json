@@ -4387,7 +4387,8 @@
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_Z7l_u9f_TK6_[ImAgE].png": "",
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_ZNo_OwQ_[G]_HUl.png": ""
                 }
-            }
+            },
+            "target": "genderServedIcons"
         }
     },
     "widget.121": {
