@@ -28,11 +28,11 @@ h1.inline-form {
 
 foreach(($data=GetWidget('servicesCategoriesIcons')->getIconsetData())->names as $name){
     
-    $className=strtolower(str_replace(' ','-',preg_replace("/[^A-Za-z0-9 ]/", '', $name)));
+    $className=strtolower(str_replace(' ','-',preg_replace("/[^A-Za-z0-9 ]/", '', $i=>$name)));
     
-    ?>.word-<?php echo $className; ?>{
+    ?>.word-<?php echo $className; ?>:after{
         
-        
+        background-image:url(<?php echo json_encode(UrlFrom($data->icon[$i]));?>);
         
     }
     
