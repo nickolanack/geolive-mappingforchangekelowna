@@ -10048,7 +10048,17 @@
         "name": "Configuration",
         "instance": "Configuration",
         "parameters": {
-            "target": "none"
+            "target": "services-config",
+            "contentTemplate": "",
+            "comments": "",
+            "formatParametersScript": "return $parameters;",
+            "formatOutputScript": "return $parameters;",
+            "parameters": [
+                "services-config.parameters.0.json"
+            ],
+            "categories": [],
+            "widgetTitle": "services-config",
+            "readAccess": "public"
         }
     }
 }
