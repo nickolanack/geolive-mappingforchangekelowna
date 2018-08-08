@@ -9537,16 +9537,16 @@
                             "Services Form.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
-                            "x": 242,
-                            "y": 153
+                            "x": 252,
+                            "y": 163
                         },
                         "children": [
                             "Services Form.metadata.children.1.children.0.json",
                             {
                                 "class": "InsertNode",
                                 "_diagramState": {
-                                    "x": 202,
-                                    "y": 516
+                                    "x": 212,
+                                    "y": 526
                                 }
                             }
                         ],
@@ -9899,7 +9899,7 @@
                                                 "shuffleTags": false,
                                                 "tags": "[\n    \"tag one\",\n    \"tag two\"\n]",
                                                 "getItemTagsScript": "return defaultTags;",
-                                                "formatModule": "module.runOnceOnLoad(function(){\n    \n    var el=module.getElement();\n    new TagCloud(el, {\n        tags:[\"subOne\", \"subTwo\"]\n    })\n    \n    \n    \n})"
+                                                "formatModule": "module.runOnceOnLoad(function(){\n    \n    var el=module.getElement();\n    (new TagCloud(el, {\n        tags:[\"subOne\", \"subTwo\"]\n    })).show();\n    \n    \n    \n})"
                                             }
                                         }
                                     ]
