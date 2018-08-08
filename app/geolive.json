@@ -4236,7 +4236,8 @@
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_W0M_lWp_zQJ_[G].png": "{}",
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/3I1_sMs_[ImAgE]_[G]_mbr.png": ""
                 }
-            }
+            },
+            "target": "buildingTypeIcons"
         }
     },
     "widget.112": {
