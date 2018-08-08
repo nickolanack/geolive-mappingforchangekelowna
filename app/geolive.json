@@ -9537,16 +9537,16 @@
                             "Services Form.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
-                            "x": 382,
-                            "y": 293
+                            "x": 392,
+                            "y": 303
                         },
                         "children": [
                             "Services Form.metadata.children.1.children.0.json",
                             {
                                 "class": "InsertNode",
                                 "_diagramState": {
-                                    "x": 342,
-                                    "y": 656
+                                    "x": 352,
+                                    "y": 666
                                 }
                             }
                         ],
@@ -9899,7 +9899,7 @@
                                                 "shuffleTags": false,
                                                 "tags": "[\n    \"tag one\",\n    \"tag two\"\n]",
                                                 "getItemTagsScript": "Services Form.metadata.children.1.builderMetadata.positions.content.modules.17.config.getItemTagsScript.js",
-                                                "formatModule": "module.runOnceOnLoad(function(){\n    \n    \n    var el=module.getElement();\n    var cloud=module.getCloud();\n    \n    var catTree=<?php \n    \n    echo json_encode(GetWidget('services-config')->getParameter('categories'));\n        ?>;\n        \n            \n            var container=new Element('div');\n            el.appendChild(container);\n            container.appendChild(new Element('label',{html:\"Sub Categories\"}));\n            var subCloud=(new TagCloud(container, {\n                tags:[]\n            })).show();\n        \n     \n        \n      cloud.addEvent('onSelectWord',function(){\n          \n          var tags=[];\n          module.getValues().forEach(function(w){\n              \n              var subTags=catTree[w].filter(function(c){\n                  \n                  return Object.keys(catTree).indexOf(c0)<0&&tags.indexOf(c)<0;\n              })\n              \n              tags=tags.concat(subTags);\n              subCloud.setTags(tags);\n              \n              \n          });\n          \n          \n          \n      })\n    \n    \n    \n    \n})"
+                                                "formatModule": "module.runOnceOnLoad(function(){\n    \n    \n    var el=module.getElement();\n    var cloud=module.getCloud();\n    \n    var catTree=<?php \n    \n    echo json_encode(GetWidget('services-config')->getParameter('categories'));\n        ?>;\n        \n            \n            var container=new Element('div');\n            el.appendChild(container);\n            container.appendChild(new Element('label',{html:\"Sub Categories\"}));\n            var subCloud=(new TagCloud(container, {\n                tags:[]\n            })).show();\n        \n     \n        \n      cloud.addEvent('onSelectWord',function(){\n          \n          var tags=[];\n          module.getValues().forEach(function(w){\n              \n              var subTags=catTree[w].filter(function(c){\n                  \n                  return Object.keys(catTree).indexOf(c)<0&&tags.indexOf(c)<0;\n              })\n              \n              tags=tags.concat(subTags);\n              subCloud.setTags(tags);\n              \n              \n          });\n          \n          \n          \n      })\n    \n    \n    \n    \n})"
                                             }
                                         }
                                     ]
