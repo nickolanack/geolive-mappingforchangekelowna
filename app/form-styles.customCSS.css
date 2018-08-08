@@ -43,7 +43,7 @@ foreach(($data=GetWidget('servicesCategoriesIcons')->getIconsetData())->names as
 
 ?>
 
-.TagCloud_4514 .tag-el:after {
+.category-tags .tag-el:after {
     content: "";
     width: 11px;
     height: 11px;
