@@ -4323,7 +4323,8 @@
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/EhZ_[ImAgE]_LXe_[G]_3oF.png": "{}",
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_Qwd_[G]_4I0_frw.png": ""
                 }
-            }
+            },
+            "target": "dailyServicesIcons"
         }
     },
     "widget.114": {
