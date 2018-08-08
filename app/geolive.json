@@ -10269,5 +10269,27 @@
             "widgetTitle": "services-config",
             "readAccess": "public"
         }
+    },
+    "widget.132": {
+        "name": "Google Map",
+        "instance": "GoogleMap",
+        "parameters": {
+            "widgetTitle": "",
+            "target": "none",
+            "templateName": "googlemap",
+            "loadWidgetsWithTarget": "forTheMap",
+            "mapOptions": []
+        }
+    },
+    "widget.133": {
+        "name": "Google Map",
+        "instance": "GoogleMap",
+        "parameters": {
+            "widgetTitle": "",
+            "target": "none",
+            "templateName": "googlemap",
+            "loadWidgetsWithTarget": "forTheMap",
+            "mapOptions": []
+        }
     }
 }
