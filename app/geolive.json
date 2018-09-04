@@ -430,7 +430,7 @@
         "name": "Monolog Plugin",
         "instance": "Monolog",
         "parameters": {
-            "logPath": "\/srv\/www\/vhosts\/production\/mappingforchangekelowna.s54.ok.ubc.ca\/http\/administrator\/components\/com_geolive\/log",
+            "logPath": "{front}\/..\/logs",
             "logToSentry": false
         }
     },
