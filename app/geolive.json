@@ -10466,7 +10466,7 @@
                                     "shouldRender": true,
                                     "namedViewScript": "return namedView",
                                     "showInlineEdit": false,
-                                    "namedFormView": "ServiceProviderWizardTemplate",
+                                    "namedFormView": "DailyWizardTemplate",
                                     "formOptions": "{}",
                                     "showDeleteButton": false,
                                     "deleteItemScript": "defaultBehaviorFn()",
