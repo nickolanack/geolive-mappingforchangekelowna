@@ -1,4 +1,9 @@
 {
     "type": "InlineHtml",
-    "config": {}
+    "config": {
+        "className": "",
+        "text": "<h1 class=\"inline-form\">Create Drop In Service<\/h1>",
+        "template": "",
+        "templateVariablesScript": ""
+    }
 }

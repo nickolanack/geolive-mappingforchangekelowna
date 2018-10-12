@@ -10459,7 +10459,23 @@
                             "inline-daily-form.metadata.positions.content.modules.0.json",
                             {
                                 "type": "UIView",
-                                "config": []
+                                "config": {
+                                    "className": "inline-servicesForm inline-form",
+                                    "viewType": "form",
+                                    "namedView": "ServiceProviderWizardTemplate",
+                                    "shouldRender": true,
+                                    "namedViewScript": "return namedView",
+                                    "showInlineEdit": false,
+                                    "namedFormView": "ServiceProviderWizardTemplate",
+                                    "formOptions": "{}",
+                                    "showDeleteButton": false,
+                                    "deleteItemScript": "defaultBehaviorFn()",
+                                    "formatModuleScript": "",
+                                    "resolveItemScript": "inline-daily-form.metadata.positions.content.modules.1.config.resolveItemScript.js",
+                                    "filterModulesScript": "return list",
+                                    "itemButtonsScript": "return [];",
+                                    "insertAtTop": false
+                                }
                             }
                         ]
                     },
