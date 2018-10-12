@@ -3040,7 +3040,10 @@
                                     "message": "set the location",
                                     "className": "",
                                     "maxChars": 0,
-                                    "textFormatScript": ""
+                                    "textFormatScript": "",
+                                    "getValueScript": "Form - Title Address Description.metadata.positions.content.modules.1.config.getValueScript.js",
+                                    "updateValueScript": " object.value=value; ",
+                                    "submitValueScript": "Form - Title Address Description.metadata.positions.content.modules.1.config.submitValueScript.js"
                                 }
                             },
                             {
@@ -3059,7 +3062,8 @@
                                     "showExpandInput": true,
                                     "toolbarPosition": "bottom",
                                     "textFormatScript": "",
-                                    "mediaIconTint": "rgb(100, 149, 237)"
+                                    "mediaIconTint": "rgb(100, 149, 237)",
+                                    "onRenderModuleFn": ""
                                 }
                             },
                             {
@@ -3080,7 +3084,8 @@
                                     "multiMessage": "",
                                     "formatter": "none",
                                     "iconTint": "rgb(100, 149, 237)",
-                                    "onRenderTextFieldScript": ""
+                                    "onRenderTextFieldScript": "",
+                                    "formatValueScript": ""
                                 }
                             }
                         ]
@@ -3100,7 +3105,8 @@
                 ""
             ],
             "widgetTitle": "Form - Title Address Description",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": "map.1"
         }
     },
     "widget.52": {
