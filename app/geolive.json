@@ -10402,7 +10402,7 @@
                             {
                                 "type": "UIView",
                                 "config": {
-                                    "className": "",
+                                    "className": "inline-servicesForm inline-form",
                                     "viewType": "form",
                                     "namedView": "ServiceProviderWizardTemplate",
                                     "shouldRender": true,
