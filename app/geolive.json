@@ -3773,7 +3773,7 @@
             "customScript": "Set Searchable Attributes.customScript.js",
             "widgetTitle": "Set Searchable Attributes",
             "readAccess": "public",
-            "target": "map.1"
+            "target": "attributeAndIconsetVariables"
         }
     },
     "widget.68": {
