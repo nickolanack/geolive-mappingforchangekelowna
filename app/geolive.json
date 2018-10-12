@@ -10462,7 +10462,7 @@
                                 "config": {
                                     "className": "inline-servicesForm inline-form",
                                     "viewType": "form",
-                                    "namedView": "ServiceProviderWizardTemplate",
+                                    "namedView": "DailyWizardTemplate",
                                     "shouldRender": true,
                                     "namedViewScript": "return namedView",
                                     "showInlineEdit": false,
