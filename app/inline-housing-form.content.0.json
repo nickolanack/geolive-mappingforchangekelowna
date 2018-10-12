@@ -2,7 +2,7 @@
     "type": "InlineHtml",
     "config": {
         "className": "",
-        "text": "",
+        "text": "<h1 class=\"inline-form\">Create New Housing<\/h1>",
         "template": "",
         "templateVariablesScript": ""
     }
