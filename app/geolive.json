@@ -9559,16 +9559,16 @@
                             "Services Form.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
-                            "x": 327,
-                            "y": 230
+                            "x": 337,
+                            "y": 240
                         },
                         "children": [
                             "Services Form.metadata.children.1.children.0.json",
                             {
                                 "class": "InsertNode",
                                 "_diagramState": {
-                                    "x": 287,
-                                    "y": 593
+                                    "x": 297,
+                                    "y": 616
                                 }
                             }
                         ],
@@ -9675,32 +9675,10 @@
                                             }
                                         },
                                         {
-                                            "type": "plugin.Attributes.WizardTextAttribute",
-                                            "config": {
-                                                "attributeFields": [
-                                                    "Services Form.metadata.children.1.builderMetadata.positions.content.modules.6.config.attributeFields.0.json"
-                                                ],
-                                                "className": "",
-                                                "label": "Sex - replace with option cloud",
-                                                "message": "",
-                                                "lines": 1,
-                                                "maxChars": 0,
-                                                "mandatory": false,
-                                                "multiEntry": false,
-                                                "autocomplete": true,
-                                                "muliTemplate": "lines",
-                                                "multiMessage": "",
-                                                "formatter": "none",
-                                                "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": "",
-                                                "formatValueScript": ""
-                                            }
-                                        },
-                                        {
                                             "type": "plugin.Attributes.WizardTagCloud",
                                             "config": {
                                                 "attributeFields": [
-                                                    "Services Form.metadata.children.1.builderMetadata.positions.content.modules.7.config.attributeFields.0.json"
+                                                    "Services Form.metadata.children.1.builderMetadata.positions.content.modules.6.config.attributeFields.0.json"
                                                 ],
                                                 "className": "",
                                                 "showLabel": false,
@@ -9714,6 +9692,28 @@
                                                 "tags": "[\n    \"Male\",\n    \"Female\"\n]",
                                                 "getItemTagsScript": "return defaultTags;",
                                                 "formatModule": ""
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardTextAttribute",
+                                            "config": {
+                                                "attributeFields": [
+                                                    "Services Form.metadata.children.1.builderMetadata.positions.content.modules.7.config.attributeFields.0.json"
+                                                ],
+                                                "className": "",
+                                                "label": "{field.label}",
+                                                "message": "",
+                                                "lines": 1,
+                                                "maxChars": 0,
+                                                "mandatory": false,
+                                                "multiEntry": false,
+                                                "autocomplete": true,
+                                                "muliTemplate": "lines",
+                                                "multiMessage": "",
+                                                "formatter": "none",
+                                                "iconTint": "rgb(100, 149, 237)",
+                                                "onRenderTextFieldScript": "",
+                                                "formatValueScript": ""
                                             }
                                         },
                                         {
@@ -9783,28 +9783,6 @@
                                             }
                                         },
                                         {
-                                            "type": "plugin.Attributes.WizardTextAttribute",
-                                            "config": {
-                                                "attributeFields": [
-                                                    "Services Form.metadata.children.1.builderMetadata.positions.content.modules.11.config.attributeFields.0.json"
-                                                ],
-                                                "className": "",
-                                                "label": "{field.label}",
-                                                "message": "",
-                                                "lines": 1,
-                                                "maxChars": 0,
-                                                "mandatory": false,
-                                                "multiEntry": false,
-                                                "autocomplete": true,
-                                                "muliTemplate": "lines",
-                                                "multiMessage": "",
-                                                "formatter": "none",
-                                                "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": "",
-                                                "formatValueScript": ""
-                                            }
-                                        },
-                                        {
                                             "type": "WizardGeocodeAddress",
                                             "config": {
                                                 "label": "Location (program or service)",
@@ -9814,14 +9792,14 @@
                                                 "textFormatScript": "",
                                                 "getValueScript": "return null;",
                                                 "updateValueScript": " object.value=value; ",
-                                                "submitValueScript": "Services Form.metadata.children.1.builderMetadata.positions.content.modules.12.config.submitValueScript.js"
+                                                "submitValueScript": "Services Form.metadata.children.1.builderMetadata.positions.content.modules.11.config.submitValueScript.js"
                                             }
                                         },
                                         {
                                             "type": "plugin.Attributes.WizardTextAttribute",
                                             "config": {
                                                 "attributeFields": [
-                                                    "Services Form.metadata.children.1.builderMetadata.positions.content.modules.13.config.attributeFields.0.json"
+                                                    "Services Form.metadata.children.1.builderMetadata.positions.content.modules.12.config.attributeFields.0.json"
                                                 ],
                                                 "className": "",
                                                 "label": "{field.label}",
@@ -9843,7 +9821,7 @@
                                             "type": "plugin.Attributes.WizardTextAttribute",
                                             "config": {
                                                 "attributeFields": [
-                                                    "Services Form.metadata.children.1.builderMetadata.positions.content.modules.14.config.attributeFields.0.json"
+                                                    "Services Form.metadata.children.1.builderMetadata.positions.content.modules.13.config.attributeFields.0.json"
                                                 ],
                                                 "className": "",
                                                 "label": "{field.label}",
@@ -9865,7 +9843,7 @@
                                             "type": "plugin.Attributes.WizardTextAttribute",
                                             "config": {
                                                 "attributeFields": [
-                                                    "Services Form.metadata.children.1.builderMetadata.positions.content.modules.15.config.attributeFields.0.json"
+                                                    "Services Form.metadata.children.1.builderMetadata.positions.content.modules.14.config.attributeFields.0.json"
                                                 ],
                                                 "className": "",
                                                 "label": "{field.label}",
@@ -9887,7 +9865,7 @@
                                             "type": "plugin.Attributes.WizardTextAttribute",
                                             "config": {
                                                 "attributeFields": [
-                                                    "Services Form.metadata.children.1.builderMetadata.positions.content.modules.16.config.attributeFields.0.json"
+                                                    "Services Form.metadata.children.1.builderMetadata.positions.content.modules.15.config.attributeFields.0.json"
                                                 ],
                                                 "className": "",
                                                 "label": "Mailing Address (autofill from agency)",
@@ -9901,7 +9879,7 @@
                                                 "multiMessage": "",
                                                 "formatter": "none",
                                                 "iconTint": "rgb(100, 149, 237)",
-                                                "onRenderTextFieldScript": "Services Form.metadata.children.1.builderMetadata.positions.content.modules.16.config.onRenderTextFieldScript.js",
+                                                "onRenderTextFieldScript": "Services Form.metadata.children.1.builderMetadata.positions.content.modules.15.config.onRenderTextFieldScript.js",
                                                 "formatValueScript": ""
                                             }
                                         },
@@ -9909,7 +9887,7 @@
                                             "type": "plugin.Attributes.WizardTextAttribute",
                                             "config": {
                                                 "attributeFields": [
-                                                    "Services Form.metadata.children.1.builderMetadata.positions.content.modules.17.config.attributeFields.0.json"
+                                                    "Services Form.metadata.children.1.builderMetadata.positions.content.modules.16.config.attributeFields.0.json"
                                                 ],
                                                 "className": "",
                                                 "label": "{field.label}",
@@ -9931,7 +9909,7 @@
                                             "type": "plugin.Attributes.WizardTagCloud",
                                             "config": {
                                                 "attributeFields": [
-                                                    "Services Form.metadata.children.1.builderMetadata.positions.content.modules.18.config.attributeFields.0.json"
+                                                    "Services Form.metadata.children.1.builderMetadata.positions.content.modules.17.config.attributeFields.0.json"
                                                 ],
                                                 "className": "category-tags",
                                                 "showLabel": false,
@@ -9943,7 +9921,7 @@
                                                 "selectedColor": "rgb(143, 188, 143)",
                                                 "shuffleTags": false,
                                                 "tags": "[\n    \"tag one\",\n    \"tag two\"\n]",
-                                                "getItemTagsScript": "Services Form.metadata.children.1.builderMetadata.positions.content.modules.18.config.getItemTagsScript.js",
+                                                "getItemTagsScript": "Services Form.metadata.children.1.builderMetadata.positions.content.modules.17.config.getItemTagsScript.js",
                                                 "formatModule": "module.runOnceOnLoad(function(){\n    \n    \n    var el=module.getElement();\n    var cloud=module.getCloud();\n    \n    var catTree=<?php \n    \n    echo json_encode(GetWidget('services-config')->getParameter('categories'));\n        ?>;\n        \n            \n            var container=new Element('div');\n            el.appendChild(container);\n            container.appendChild(new Element('label',{html:\"Sub Categories\"}));\n            var subCloud=(new TagCloud(container, {\n                tags:[]\n            })).show();\n        \n     \n        \n      cloud.addEvent('onSelectWord',function(){\n          \n          var tags=[];\n          module.getValues().forEach(function(w){\n              \n              var subTags=catTree[w].filter(function(c){\n                  \n                  return Object.keys(catTree).indexOf(c)<0&&tags.indexOf(c)<0;\n              })\n              \n              tags=tags.concat(subTags);\n              subCloud.setTags(tags);\n              \n              \n          });\n          \n          \n          \n      })\n    \n    \n    \n    \n})"
                                             }
                                         }
