@@ -3,11 +3,11 @@
     "tableId": "3",
     "tableName": "servicesAttributes",
     "tableSuffix": "_4223",
-    "title": "fax",
-    "label": "Fax",
+    "title": "phoneNumber",
+    "label": "Phone Number(s)",
     "description": "",
     "fieldType": "text",
-    "color": "rgb(undefined, undefined, undefined)",
+    "color": "rgb(NaN, NaN, NaN)",
     "searchability": "public",
     "editability": "registered",
     "fieldTextOptions": {
@@ -28,5 +28,5 @@
             "colorize": false
         }
     },
-    "allowMultiple": false
+    "allowMultiple": true
 }
