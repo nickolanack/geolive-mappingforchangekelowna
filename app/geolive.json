@@ -10383,7 +10383,7 @@
             "target": "inline-housing-form",
             "templateName": "inline-housing-form",
             "requireTarget": false,
-            "onRenderApplictionScript": "",
+            "onRenderApplictionScript": "inline-housing-form.onRenderApplictionScript.js",
             "notifyViewer": false,
             "metadata": {
                 "positions": {
