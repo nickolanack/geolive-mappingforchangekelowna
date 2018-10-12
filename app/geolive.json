@@ -2630,7 +2630,7 @@
         "instance": "WizardBuilder",
         "parameters": {
             "widgetTitle": "DailyWizardTemplate",
-            "target": "map.1",
+            "target": "DailyWizardTemplate",
             "templateName": "DailyWizardTemplate",
             "requireTarget": true,
             "resolveItemScript": "return item;",
