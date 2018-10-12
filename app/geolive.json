@@ -1769,7 +1769,7 @@
         "instance": "WizardBuilder",
         "parameters": {
             "widgetTitle": "AgencyWizardTemplate",
-            "target": "",
+            "target": "AgencyWizardTemplate",
             "templateName": "AgencyWizardTemplate",
             "requireTarget": true,
             "resolveItemScript": "return item;",
