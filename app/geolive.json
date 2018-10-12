@@ -650,7 +650,7 @@
         "instance": "WizardBuilder",
         "parameters": {
             "widgetTitle": "ServiceProviderWizardTemplate",
-            "target": "",
+            "target": "ServiceProviderWizardTemplate",
             "templateName": "ServiceProviderWizardTemplate",
             "requireTarget": true,
             "resolveItemScript": "return item;",
