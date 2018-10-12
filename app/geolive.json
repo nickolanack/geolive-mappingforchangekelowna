@@ -10559,7 +10559,10 @@
         "name": "Content",
         "instance": "CustomContent",
         "parameters": {
-            "target": "none"
+            "target": "map.1",
+            "customScript": "",
+            "widgetTitle": "mapDependencies",
+            "readAccess": "public"
         }
     }
 }
