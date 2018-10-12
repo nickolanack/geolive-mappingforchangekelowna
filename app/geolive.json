@@ -10407,7 +10407,7 @@
                                     "showDeleteButton": false,
                                     "deleteItemScript": "defaultBehaviorFn()",
                                     "formatModuleScript": "",
-                                    "resolveItemScript": "return item",
+                                    "resolveItemScript": "inline-housing-form.metadata.positions.content.modules.1.config.resolveItemScript.js",
                                     "filterModulesScript": "return list",
                                     "itemButtonsScript": "return [];",
                                     "insertAtTop": false
