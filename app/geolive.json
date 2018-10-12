@@ -10504,8 +10504,8 @@
             "widgetTitle": "inline-agency-form",
             "target": "inline-agency-form",
             "templateName": "inline-agency-form",
-            "requireTarget": true,
-            "onRenderApplictionScript": "",
+            "requireTarget": false,
+            "onRenderApplictionScript": "inline-agency-form.onRenderApplictionScript.js",
             "notifyViewer": false,
             "metadata": {
                 "positionList": [
