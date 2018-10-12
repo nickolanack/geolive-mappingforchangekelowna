@@ -52,3 +52,19 @@ foreach(($data=GetWidget('servicesCategoriesIcons')->getIconsetData())->names as
     position: relative;
     margin-left: 5px;
 }
+
+
+.inline-form .mandatory-field:before {
+    content: "required";
+    float: right;
+    color: #911741;
+    line-height: 30px;
+    position: relative;
+    top: 2px;
+}
+
+
+
+.inline-form .mandatory-field .invalid, .inline-form .mandatory-field .empty {
+    border-color:#911741;
+}
