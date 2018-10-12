@@ -10554,5 +10554,12 @@
             },
             "readAccess": "public"
         }
+    },
+    "widget.139": {
+        "name": "Content",
+        "instance": "CustomContent",
+        "parameters": {
+            "target": "none"
+        }
     }
 }
