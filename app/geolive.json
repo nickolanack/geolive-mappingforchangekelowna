@@ -10520,11 +10520,11 @@
                                 "config": {
                                     "className": "",
                                     "viewType": "form",
-                                    "namedView": "DailyWizardTemplate",
+                                    "namedView": "AgencyWizardTemplate",
                                     "shouldRender": true,
                                     "namedViewScript": "return namedView",
                                     "showInlineEdit": false,
-                                    "namedFormView": "DailyWizardTemplate",
+                                    "namedFormView": "AgencyWizardTemplate",
                                     "formOptions": "\"{}\"",
                                     "showDeleteButton": false,
                                     "deleteItemScript": "defaultBehaviorFn()",
