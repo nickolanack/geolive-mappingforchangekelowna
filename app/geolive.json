@@ -10443,12 +10443,41 @@
         "name": "Detail View",
         "instance": "DetailView",
         "parameters": {
-            "widgetTitle": "",
-            "target": "none",
-            "templateName": "{target}",
+            "widgetTitle": "inline-daily-form",
+            "target": "inline-daily-form",
+            "templateName": "inline-daily-form",
             "requireTarget": true,
             "onRenderApplictionScript": "",
-            "notifyViewer": false
+            "notifyViewer": false,
+            "metadata": {
+                "positionList": [
+                    "title",
+                    "content",
+                    "footer",
+                    "menu"
+                ],
+                "positions": {
+                    "title": {
+                        "modules": [
+                            "inline-daily-form.metadata.positions.title.modules.0.json"
+                        ]
+                    },
+                    "content": {
+                        "modules": [
+                            "inline-daily-form.metadata.positions.content.modules.0.json"
+                        ]
+                    },
+                    "footer": {
+                        "modules": [
+                            "inline-daily-form.metadata.positions.footer.modules.0.json"
+                        ]
+                    },
+                    "menu": {
+                        "modules": []
+                    }
+                }
+            },
+            "readAccess": "public"
         }
     }
 }
