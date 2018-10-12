@@ -10382,7 +10382,7 @@
             "widgetTitle": "inline-housing-form",
             "target": "inline-housing-form",
             "templateName": "inline-housing-form",
-            "requireTarget": true,
+            "requireTarget": false,
             "onRenderApplictionScript": "",
             "notifyViewer": false,
             "metadata": {
