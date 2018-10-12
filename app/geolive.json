@@ -10560,7 +10560,7 @@
         "instance": "CustomContent",
         "parameters": {
             "target": "map.1",
-            "customScript": "",
+            "customScript": "mapDependencies.customScript.js",
             "widgetTitle": "mapDependencies",
             "readAccess": "public"
         }
