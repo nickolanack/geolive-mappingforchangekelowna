@@ -1,6 +1,5 @@
 <?php 
 
-print_r($targetInstance);
 
 $apikey=GetPlugin('Maps')->getParameter('googleMapsServerApiKey', '');
         if(!empty($apikey)){
