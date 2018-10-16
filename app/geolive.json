@@ -430,6 +430,7 @@
         "name": "Monolog Plugin",
         "instance": "Monolog",
         "parameters": {
+            "enabled": true,
             "logPath": "{front}\/..\/logs",
             "logToSentry": false
         }
@@ -440,7 +441,7 @@
         "parameters": {
             "clientSecretUrl": "XXXX-XXXX",
             "clientPublicUrl": "https:\/\/36cfe0ea86024517b7da293bcd941353@sentry.io\/185774",
-            "enabled": false
+            "enabled": true
         }
     },
     "plugin.29": {
@@ -1568,6 +1569,7 @@
             "target": "map.1",
             "templateName": "ServiceProviderDetail",
             "requireTarget": true,
+            "resolveItemScript": "return item",
             "onRenderApplictionScript": "",
             "notifyViewer": false,
             "metadata": {
@@ -2037,6 +2039,7 @@
             "target": "map.1",
             "templateName": "AgencyDetail",
             "requireTarget": true,
+            "resolveItemScript": "return item",
             "onRenderApplictionScript": "",
             "notifyViewer": false,
             "metadata": {
@@ -2250,6 +2253,7 @@
             "target": "",
             "templateName": "Detail",
             "requireTarget": true,
+            "resolveItemScript": "return item",
             "onRenderApplictionScript": "",
             "notifyViewer": false,
             "metadata": {
@@ -2793,6 +2797,7 @@
             "target": "map.1",
             "templateName": "DailyDetail",
             "requireTarget": true,
+            "resolveItemScript": "return item",
             "onRenderApplictionScript": "",
             "notifyViewer": false,
             "metadata": {
@@ -4071,6 +4076,7 @@
             "target": "map.1",
             "templateName": "AgencyForInlineView",
             "requireTarget": true,
+            "resolveItemScript": "return item",
             "onRenderApplictionScript": "",
             "notifyViewer": false,
             "metadata": {
@@ -4416,6 +4422,7 @@
             "target": "map.1",
             "templateName": "AgencyForDetail",
             "requireTarget": true,
+            "resolveItemScript": "return item",
             "onRenderApplictionScript": "",
             "notifyViewer": false,
             "metadata": {
@@ -9969,6 +9976,7 @@
             "target": "map-stats",
             "templateName": "map-stats",
             "requireTarget": false,
+            "resolveItemScript": "return item",
             "onRenderApplictionScript": "",
             "notifyViewer": false,
             "metadata": {
@@ -10017,6 +10025,7 @@
             "target": "inline-services-form",
             "templateName": "inline-services-form",
             "requireTarget": false,
+            "resolveItemScript": "return item",
             "onRenderApplictionScript": "inline-services-form.onRenderApplictionScript.js",
             "notifyViewer": false,
             "metadata": {
@@ -10387,6 +10396,7 @@
             "target": "inline-housing-form",
             "templateName": "inline-housing-form",
             "requireTarget": false,
+            "resolveItemScript": "return item",
             "onRenderApplictionScript": "inline-housing-form.onRenderApplictionScript.js",
             "notifyViewer": false,
             "metadata": {
@@ -10445,6 +10455,7 @@
             "target": "inline-daily-form",
             "templateName": "inline-daily-form",
             "requireTarget": false,
+            "resolveItemScript": "return item",
             "onRenderApplictionScript": "inline-daily-form.onRenderApplictionScript.js",
             "notifyViewer": false,
             "metadata": {
@@ -10503,6 +10514,7 @@
             "target": "inline-agency-form",
             "templateName": "inline-agency-form",
             "requireTarget": false,
+            "resolveItemScript": "return item",
             "onRenderApplictionScript": "inline-agency-form.onRenderApplictionScript.js",
             "notifyViewer": false,
             "metadata": {
