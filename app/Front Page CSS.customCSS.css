@@ -30,7 +30,7 @@ div#search-container {
 }
 
 .search-area {
-    background-image: url(templates/protostar/banner.png);
+    background-image: url(templates/protostar-plain/banner-sm.png);
     height: 300px;
     background-position: center;
     background-size: 100% auto;
