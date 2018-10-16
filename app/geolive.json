@@ -409,7 +409,7 @@
             ],
             "enableEmails": true,
             "fromEmailName": "Geolive Notifications",
-            "fromEmail": "admin@geolive.ca",
+            "fromEmail": "geolivemap+isearch@gmail.com",
             "siteUrl": "https:\/\/isearchkelowna.ca",
             "siteName": "iSearch - Kelowna",
             "formatEmailScript": "return $message;",
