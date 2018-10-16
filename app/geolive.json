@@ -4009,7 +4009,8 @@
         "parameters": {
             "customCSS": "Front Page CSS only.customCSS.css",
             "widgetTitle": "Front Page CSS only",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": "none"
         }
     },
     "widget.95": {
