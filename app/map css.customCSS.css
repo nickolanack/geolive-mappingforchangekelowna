@@ -93,7 +93,7 @@ section#housing-results-section {
 }
 
 html:after {
-    background-image: url(https://isearchkelowna.ca/templates/protostar/banner.png);
+    background-image: url(https://isearchkelowna.ca/templates/protostar-plain/banner-sm.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
