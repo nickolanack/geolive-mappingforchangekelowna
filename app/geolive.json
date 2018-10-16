@@ -10581,9 +10581,11 @@
         "name": "Template",
         "instance": "Template",
         "parameters": {
-            "contentTemplate": "Subject",
+            "contentTemplate": "New Marker! {{marker.name}}",
             "widgetTitle": "email.moderate.onCreateMapItem.subject",
-            "target": "email.moderate.onCreateMapItem.subject"
+            "target": "email.moderate.onCreateMapItem.subject",
+            "comments": "",
+            "readAccess": "public"
         }
     },
     "widget.141": {
