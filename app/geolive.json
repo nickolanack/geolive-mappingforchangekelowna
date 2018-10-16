@@ -10590,9 +10590,11 @@
         "name": "Template",
         "instance": "Template",
         "parameters": {
-            "contentTemplate": "Message Content",
+            "contentTemplate": "email-moderate-onCreateMapItem-content.contentTemplate.html",
             "widgetTitle": "email.moderate.onCreateMapItem.content",
-            "target": "email.moderate.onCreateMapItem.content"
+            "target": "email.moderate.onCreateMapItem.content",
+            "comments": "",
+            "readAccess": "public"
         }
     }
 }
