@@ -10574,5 +10574,23 @@
             "widgetTitle": "mapDependencies",
             "readAccess": "public"
         }
+    },
+    "widget.140": {
+        "name": "Template",
+        "instance": "Template",
+        "parameters": {
+            "contentTemplate": "Subject",
+            "widgetTitle": "email.moderate.onCreateMapItem.subject",
+            "target": "email.moderate.onCreateMapItem.subject"
+        }
+    },
+    "widget.141": {
+        "name": "Template",
+        "instance": "Template",
+        "parameters": {
+            "contentTemplate": "Message Content",
+            "widgetTitle": "email.moderate.onCreateMapItem.content",
+            "target": "email.moderate.onCreateMapItem.content"
+        }
     }
 }
