@@ -2,7 +2,7 @@
 
 HtmlDocument()->META(HtmlDocument()->website(), 'base');
 
-foreach(Widget::GetWidgetsForTarget('map.1') as $widget){
+foreach(WidgetsForTarget('map.1') as $widget){
 				if(($widget->getEnabled()) && Auth('read', $widget, 'widget')){
 				    
 				    

@@ -10312,7 +10312,9 @@
             "target": "services-map-widgets",
             "customScript": "services-map-widgets.customScript.js",
             "widgetTitle": "services-map-widgets",
-            "readAccess": "public"
+            "readAccess": "public",
+            "language": "html\/text",
+            "returnsValue": false
         }
     },
     "widget.135": {
