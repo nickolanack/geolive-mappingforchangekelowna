@@ -10398,7 +10398,23 @@
         "name": "Draggable Marker Tile",
         "instance": "MarkerTile",
         "parameters": {
-            "target": "none"
+            "target": "none",
+            "customScript": "",
+            "controlColor": "rgb(48,84,107)",
+            "markerIconset": [
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/MMT_92i_[ImAgE]_k3H_[G].png"
+            ],
+            "markerSize": 32,
+            "hoverTip": "Add A Service",
+            "className": "",
+            "wizardName": "MapItemTemplate",
+            "guestLoginDrag": true,
+            "onDragEndScript": "defaultBehaviorFn();",
+            "profileIcon": null,
+            "formatTipScript": "",
+            "widgetTitle": "",
+            "readAccess": "public",
+            "position": "RIGHT_CENTER"
         }
     },
     "widget.136": {
