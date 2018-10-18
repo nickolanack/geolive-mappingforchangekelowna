@@ -10398,7 +10398,7 @@
         "name": "Draggable Marker Tile",
         "instance": "MarkerTile",
         "parameters": {
-            "target": "none",
+            "target": "services-map-widgets",
             "customScript": "",
             "controlColor": "rgb(48,84,107)",
             "markerIconset": [
@@ -10410,9 +10410,8 @@
             "wizardName": "MapItemTemplate",
             "guestLoginDrag": true,
             "onDragEndScript": "defaultBehaviorFn();",
-            "profileIcon": null,
             "formatTipScript": "",
-            "widgetTitle": "",
+            "widgetTitle": "New Service Marker",
             "readAccess": "public",
             "position": "RIGHT_CENTER"
         }
