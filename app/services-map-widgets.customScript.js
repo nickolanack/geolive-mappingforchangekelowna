@@ -7,7 +7,7 @@ foreach(WidgetsForTarget('map.1') as $widget){
 				    
 				    
 				    if(class_exists('SidePanelWidget')&&$widget instanceof SidePanelWidget){
-				        //continue;
+				        continue;
 				    }
 				    if(class_exists('MarkerTileWidget')&&$widget instanceof MarkerTileWidget){
 				        //continue;
