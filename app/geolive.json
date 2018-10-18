@@ -9967,7 +9967,7 @@
             "templateName": "servicesForm",
             "widgetTitle": "Services Form",
             "readAccess": "public",
-            "resolveItemScript": "Services Form.resolveItemScript.js"
+            "resolveItemScript": "return item;"
         }
     },
     "widget.128": {
