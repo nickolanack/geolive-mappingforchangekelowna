@@ -8,6 +8,10 @@ foreach(WidgetsForTarget('map.1') as $widget){
 				    if($widget->getId()==13){
 				        continue; //Left Panel!
 				    }
+				    if($widget->getId()==16||$widget->getId()==22){
+				        continue; //Add Services, Add Agency
+				    }
+				  
 				    
 				    if(class_exists('SidePanelWidget')&&$widget instanceof SidePanelWidget){
 				        //continue;
