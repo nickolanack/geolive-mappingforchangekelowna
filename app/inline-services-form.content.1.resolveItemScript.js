@@ -27,8 +27,13 @@ var MockMapitem=new Class({
             (new GoogleSearch(options.address)).addEvent("success", function(result){
                     
                     console.log(result);
+                    
                     var latlng=result.results[0].geometry.location;
-                    options.coordinates=[latlng.lat(), latlng.lng()];
+                    options.layerId=6;
+                    options.marker={
+                        coordinates:[latlng.lat(), latlng.lng()]
+                        style:'components/com_geolive/users_files/user_files_994/Uploads/MMT_92i_[ImAgE]_k3H_[G].png'
+                    }
                     console.log(options);
                     cb(true);
                     NotificationBubble.Make('', "Woop Woop Success!");
