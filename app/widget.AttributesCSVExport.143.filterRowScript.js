@@ -1,1 +1,1 @@
-return $record->{'layer id'}===6;
+return $record->{'layer id'}==6;
