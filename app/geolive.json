@@ -10653,5 +10653,12 @@
             "readAccess": "registered",
             "position": "RIGHT_CENTER"
         }
+    },
+    "widget.144": {
+        "name": "Attr CSV Export",
+        "instance": "AttributesCSVExport",
+        "parameters": {
+            "target": "none"
+        }
     }
 }
