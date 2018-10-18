@@ -27,10 +27,13 @@ var MockMapitem=new Class({
             (new GoogleSearch(options.address)).addEvent("success", function(result){
                     
                     console.log(result);
+                    var latlng=result.results[0].geometry.location;
+                    object.coordinates=[latlng.lat(), latlng.lng()];
+                    console.log(options);
+                    cb(true);
                 
             }).execute();
-            console.log(options);
-            cb(false);
+           
         }
         
     }
