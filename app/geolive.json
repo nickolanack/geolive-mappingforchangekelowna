@@ -9572,16 +9572,16 @@
                             "Services Form.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
-                            "x": 347,
-                            "y": 250
+                            "x": 357,
+                            "y": 260
                         },
                         "children": [
                             "Services Form.metadata.children.1.children.0.json",
                             {
                                 "class": "InsertNode",
                                 "_diagramState": {
-                                    "x": 307,
-                                    "y": 613
+                                    "x": 317,
+                                    "y": 623
                                 }
                             }
                         ],
@@ -9803,7 +9803,7 @@
                                                 "className": "",
                                                 "maxChars": 0,
                                                 "textFormatScript": "",
-                                                "getValueScript": "return null;",
+                                                "getValueScript": "Services Form.metadata.children.1.builderMetadata.positions.content.modules.11.config.getValueScript.js",
                                                 "updateValueScript": " object.value=value; ",
                                                 "submitValueScript": "Services Form.metadata.children.1.builderMetadata.positions.content.modules.11.config.submitValueScript.js"
                                             }
