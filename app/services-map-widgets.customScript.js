@@ -19,5 +19,6 @@ foreach(WidgetsForTarget('map.1') as $widget){
 			}
 
 
+GetWidget('servicesForm')->display($targetInstance);
 
 ?>
