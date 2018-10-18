@@ -10662,7 +10662,7 @@
             "downloadImage": [],
             "uploadImage": [],
             "controlColor": "rgb(175, 108, 27)",
-            "tileHoverTip": "Export Drop In Services",
+            "tileHoverTip": "Export Drop Ins",
             "exportMetadata": {
                 "fields": "DEFAULT"
             },
@@ -10671,7 +10671,7 @@
             "exportEncoding": "UTF-8",
             "importEncoding": "UTF-8",
             "showImportEncoding": false,
-            "filename": "Geolive Export DATE[Y-m-d (H.i.s)]",
+            "filename": "Drop In Export DATE[Y-m-d (H.i.s)]",
             "filterRowScript": "widget.AttributesCSVExport.144.filterRowScript.js",
             "filterFieldsScript": "return true;",
             "widgetTitle": "",
