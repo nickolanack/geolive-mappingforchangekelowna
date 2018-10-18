@@ -28,7 +28,7 @@ var MockMapitem=new Class({
                     
                     console.log(result);
                     var latlng=result.results[0].geometry.location;
-                    object.coordinates=[latlng.lat(), latlng.lng()];
+                    options.coordinates=[latlng.lat(), latlng.lng()];
                     console.log(options);
                     cb(true);
                 
