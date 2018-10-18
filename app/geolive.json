@@ -10394,6 +10394,13 @@
             "position": ""
         }
     },
+    "widget.142": {
+        "name": "Draggable Marker Tile",
+        "instance": "MarkerTile",
+        "parameters": {
+            "target": "none"
+        }
+    },
     "widget.136": {
         "name": "Detail View",
         "instance": "DetailView",
