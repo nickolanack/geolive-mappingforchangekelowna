@@ -24,7 +24,7 @@ var MockMapitem=new Class({
         
         me.save=function(cb){
             
-            (new GoogleSearch(options.address).addEvent("success", function(result){
+            (new GoogleSearch(options.address)).addEvent("success", function(result){
                     
                     console.log(result);
                 
