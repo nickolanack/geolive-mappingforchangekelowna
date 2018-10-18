@@ -35,8 +35,17 @@ var MockMapitem=new Class({
                         style:'components/com_geolive/users_files/user_files_994/Uploads/MMT_92i_[ImAgE]_k3H_[G].png'
                     }
                     console.log(options);
-                    cb(true);
-                    NotificationBubble.Make('', "Woop Woop Success!");
+                    
+                    
+                    
+                     (new AjaxControlQuery(
+                        CoreAjaxUrlRoot, 
+                        "marker_new", 
+                        Object.append(options, {plugin:"Maps"})
+                     )).addEvent("success", function(result){
+                         NotificationBubble.Make('', "Woop Woop Success!");
+                         cb(true);
+                     }).execute();
                 
             }).execute();
            
