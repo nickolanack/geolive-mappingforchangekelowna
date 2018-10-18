@@ -1,2 +1,2 @@
-//if(record[layer])
-return true;
+return $record['layer id']==6;
+//return true;
