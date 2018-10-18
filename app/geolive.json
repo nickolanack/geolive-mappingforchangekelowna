@@ -10624,5 +10624,12 @@
             "comments": "",
             "readAccess": "public"
         }
+    },
+    "widget.143": {
+        "name": "Attr CSV Export",
+        "instance": "AttributesCSVExport",
+        "parameters": {
+            "target": "none"
+        }
     }
 }
