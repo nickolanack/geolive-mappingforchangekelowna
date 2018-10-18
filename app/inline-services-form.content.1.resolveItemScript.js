@@ -1,10 +1,34 @@
 
 var MockMapitem=new Class({
     Extends:MockDataTypeItem,
-    save:function(cb){
+    initialize:function(options){
         
-        cb(false);
+        var me=this;
+        me.parent(options);
+        
+        me.setName=function(name){
+            options.title=name;
+        };
+        me.setDescription=function(desc){
+            options.description=desc;
+        }
+        me.setAddress=function(addr){
+            options.address=addr;
+        }
+        me.setAttributes=function(data){
+            if(!options.attributes){
+                options.attributes={};
+            }
+            options.attributes.servicesAttributes=data;
+        }
+        
+        me.save=function(cb){
+            console.log(options);
+            cb(false);
+        }
+        
     }
+   
 })
 
 return new MockMapitem({
