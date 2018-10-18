@@ -86,6 +86,9 @@ background-color: #fff6df;
 
 .SideBarWidget.right {
     min-width: 0;
+
+}
+.SideBarWidget.right .sidebar-view{
     overflow-y:scroll;
 }
 
