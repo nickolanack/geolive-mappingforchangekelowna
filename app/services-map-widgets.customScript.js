@@ -5,6 +5,9 @@ HtmlDocument()->META(HtmlDocument()->website(), 'base');
 foreach(WidgetsForTarget('map.1') as $widget){
 				if(($widget->getEnabled()) && Auth('read', $widget, 'widget')){
 				    
+				    if($widget->getId()==13){
+				        continue; //Left Panel!
+				    }
 				    
 				    if(class_exists('SidePanelWidget')&&$widget instanceof SidePanelWidget){
 				        //continue;
