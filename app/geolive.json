@@ -2026,9 +2026,11 @@
             "guestLoginDrag": true,
             "onDragEndScript": "defaultBehaviorFn();",
             "formatTipScript": "",
-            "widgetTitle": "",
+            "widgetTitle": "Add Agency",
             "readAccess": "registered",
-            "position": "RIGHT_CENTER"
+            "position": "RIGHT_CENTER",
+            "profileIcon": null,
+            "target": "map.1"
         }
     },
     "widget.24": {
