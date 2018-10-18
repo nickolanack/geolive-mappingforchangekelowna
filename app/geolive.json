@@ -10661,7 +10661,7 @@
             "target": "services-map-widgets",
             "downloadImage": [],
             "uploadImage": [],
-            "controlColor": "rgb(48,84,107)",
+            "controlColor": "rgb(175, 108, 27)",
             "tileHoverTip": "Export Drop In Services",
             "exportMetadata": {
                 "fields": "DEFAULT"
