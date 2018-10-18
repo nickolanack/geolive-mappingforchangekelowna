@@ -8,6 +8,7 @@ var MockMapitem=new Class({
         
         me.setName=function(name){
             options.title=name;
+            options.name=name;
         };
         me.setDescription=function(desc){
             options.description=desc;
