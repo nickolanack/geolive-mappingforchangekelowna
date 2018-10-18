@@ -31,6 +31,7 @@ var MockMapitem=new Class({
                     options.coordinates=[latlng.lat(), latlng.lng()];
                     console.log(options);
                     cb(true);
+                    NotificationBubble.Make('', "Woop Woop Success!");
                 
             }).execute();
            
