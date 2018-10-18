@@ -86,6 +86,7 @@ background-color: #fff6df;
 
 .SideBarWidget.right {
     min-width: 0;
+    overflow-y:scroll;
 }
 
 .agency-filter-btn {
