@@ -10658,7 +10658,25 @@
         "name": "Attr CSV Export",
         "instance": "AttributesCSVExport",
         "parameters": {
-            "target": "none"
+            "target": "services-map-widgets",
+            "downloadImage": [],
+            "uploadImage": [],
+            "controlColor": "rgb(48,84,107)",
+            "tileHoverTip": "Export Drop In Services",
+            "exportMetadata": {
+                "fields": "DEFAULT"
+            },
+            "showImport": false,
+            "tileIcon": [],
+            "exportEncoding": "UTF-8",
+            "importEncoding": "UTF-8",
+            "showImportEncoding": false,
+            "filename": "Geolive Export DATE[Y-m-d (H.i.s)]",
+            "filterRowScript": "widget.AttributesCSVExport.144.filterRowScript.js",
+            "filterFieldsScript": "return true;",
+            "widgetTitle": "",
+            "readAccess": "registered",
+            "position": "RIGHT_CENTER"
         }
     }
 }
