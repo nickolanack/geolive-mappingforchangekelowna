@@ -1,0 +1,905 @@
+{
+    "items": [
+        {
+            "name": "OC Toastmasters Kelowna",
+            "address": "Centre for Learning, Okanagan College1000 KLO RdKelowna, BC     V1Y 4X8",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0584?Number=0"
+        },
+        {
+            "name": "Office of the Information & Privacy Commissioner for BC",
+            "address": "947 Fort StVictoria, BC     V8V 3K3&nbsp;View MapQuest Map",
+            "phone": "1.250.387.5629",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1086?Number=1"
+        },
+        {
+            "name": "Office of the Seniors Advocate of BC",
+            "address": "1515 Blanshard StVictoria, BC     V8W 9P4",
+            "phone": "1.877.952.3181",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1992?Number=2"
+        },
+        {
+            "name": "OK Breastfeeding",
+            "address": "186 Nanaimo Ave, #102Penticton, BC     V2A 4P9",
+            "phone": "250.460.2515",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0928?Number=3"
+        },
+        {
+            "name": "OK Mobility Scooters Plus, Central Okanagan Location",
+            "address": "250.764.7757",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1610?Number=4"
+        },
+        {
+            "name": "OK to Say: Responding to Racism Together",
+            "address": "",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1769?Number=5"
+        },
+        {
+            "name": "Okanagan (Central) Small Dog Rescue Society",
+            "address": "",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0049?Number=6"
+        },
+        {
+            "name": "Okanagan Ability Centre",
+            "address": "2040 Springfield Rd, #102Kelowna, BC     V1X 9N7",
+            "phone": "250.762.7790",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0285?Number=7"
+        },
+        {
+            "name": "Okanagan Arts Directory",
+            "address": "421 Cawston AveKelowna, BC     V1Y 6Z1&nbsp;View MapQuest Map",
+            "phone": "250.861.4123",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0827?Number=8"
+        },
+        {
+            "name": "Okanagan Athletics Club",
+            "address": "",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA2161?Number=9"
+        },
+        {
+            "name": "Okanagan Boys and Girls Clubs",
+            "address": "Administration Office1434 Graham StKelowna, BC     V1Y 3A8&nbsp;View MapQuest Map",
+            "phone": "250.762.3914",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0618?Number=10"
+        },
+        {
+            "name": "Okanagan Boys and Girls Clubs, Bail Support and Supervision - Kelowna",
+            "address": "250.869.2194",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0209?Number=11"
+        },
+        {
+            "name": "Okanagan Boys and Girls Clubs, Club 180",
+            "address": "1633 Richter StKelowna, BC     V1Y 9T7&nbsp;View MapQuest Map",
+            "phone": "250.868.8541 ext.200",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0349?Number=12"
+        },
+        {
+            "name": "Okanagan Boys and Girls Clubs, Downtown Youth Centre",
+            "address": "1633 Richter StKelowna, BC     V1Y 9T7&nbsp;View MapQuest Map",
+            "phone": "250.868.8541",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0740?Number=13"
+        },
+        {
+            "name": "Okanagan Boys and Girls Clubs, Emergency\/Temporary Placement Services for Children and Youth",
+            "address": "250.859.4616",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0511?Number=14"
+        },
+        {
+            "name": "Okanagan Boys and Girls Clubs, Gateway Suite",
+            "address": "250.861.5593",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0304?Number=15"
+        },
+        {
+            "name": "Okanagan Boys and Girls Clubs, Martin Avenue Community Centre",
+            "address": "1434 Graham StKelowna, BC     V1Y 9H2&nbsp;View MapQuest Map",
+            "phone": "250.762.3914",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0738?Number=16"
+        },
+        {
+            "name": "Okanagan Boys and Girls Clubs, Outreach Mental Health Services",
+            "address": "Downtown Youth Centre1633 Richter StKelowna, BC     V1Y 9H2&nbsp;View MapQuest Map",
+            "phone": "250.868.8541 ext.209 ; 250.869.5093",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0746?Number=17"
+        },
+        {
+            "name": "Okanagan Boys and Girls Clubs, Parent and Tot Drop-In",
+            "address": "1434 Graham StKelowna, BC     V1Y 9H2",
+            "phone": "250.762.3914",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1516?Number=18"
+        },
+        {
+            "name": "Okanagan Boys and Girls Clubs, Penny Lane Transition House",
+            "address": "250.861.5593",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0454?Number=19"
+        },
+        {
+            "name": "Okanagan Boys and Girls Clubs, Reconnect Program",
+            "address": "Jaycees Downtown Centre1633 Richter StKelowna, BC     V1Y 9T7&nbsp;View MapQuest Map",
+            "phone": "Kelowna:  250.868.8541 ext.4",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0745?Number=20"
+        },
+        {
+            "name": "Okanagan Boys and Girls Clubs, Recreation Programs",
+            "address": "1434 Graham StKelowna, BC     V1Y 9H2",
+            "phone": "250.762.3914",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1572?Number=21"
+        },
+        {
+            "name": "Okanagan Boys and Girls Clubs, Richter Street Overnight Program - Kelowna Youth Shelter",
+            "address": "Downtown Youth Centre1633 Richter StKelowna, BC     V1Y 9T7&nbsp;View MapQuest Map",
+            "phone": "250.868.8541 ext.202",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0747?Number=22"
+        },
+        {
+            "name": "Okanagan Boys and Girls Clubs, Services for Children and Youth with Special Needs",
+            "address": "Administration Office1434 Graham StKelowna, BC     V1Y 3A8",
+            "phone": "250.762.3914",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0604?Number=23"
+        },
+        {
+            "name": "Okanagan Boys and Girls Clubs, The Family Support Program",
+            "address": "Jaycees Downtown Youth Centre1633 Richter StKelowna, BCCanada     V1Y 2M3&nbsp;View MapQuest Map",
+            "phone": "250.870.0899",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1613?Number=24"
+        },
+        {
+            "name": "Okanagan Boys and Girls Clubs, The Youth Housing Support Program",
+            "address": "Kelowna:  778.214.4131",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0313?Number=25"
+        },
+        {
+            "name": "Okanagan Boys and Girls Clubs, Webber Road Community Centre",
+            "address": "2829 Inverness RdWest Kelowna, BC     V4T 1J5&nbsp;View MapQuest Map",
+            "phone": "250.768.3049",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0742?Number=26"
+        },
+        {
+            "name": "Okanagan Boys and Girls Clubs, Youth Restorative Justice Program",
+            "address": "1633 Richter StKelowna, BC     V1Y 9T7&nbsp;View MapQuest Map",
+            "phone": "250.868.8541 ext.207",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0293?Number=27"
+        },
+        {
+            "name": "Okanagan Car Share Co-op (OGO)",
+            "address": "460 Doyle Ave, #201Kelowna, BC     V1Y 2A2",
+            "phone": "250.469.6617",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0675?Number=28"
+        },
+        {
+            "name": "Okanagan Centre for Autism Intervention, Early Intensive Behaviour Intervention Program",
+            "address": "1767 Harvey Ave, #207Kelowna, BC     V1Y 6G4",
+            "phone": "250.801.0820",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1125?Number=29"
+        },
+        {
+            "name": "Okanagan Centre Hall",
+            "address": "11099 Maddock AveOkanagan Centre, BC     V4V 2J7",
+            "phone": "For rental information:  &nbsp;- Jenny: 250.766.5345&nbsp;- Elaine: 250.766.2372",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1966?Number=30"
+        },
+        {
+            "name": "Okanagan Changemakers, Non-Governmental Organization (NGO)",
+            "address": "",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1973?Number=31"
+        },
+        {
+            "name": "Okanagan Chateau, BayBridge Senior Living",
+            "address": "2100 Benvoulin CrtKelowna, BC     V1W 3A4&nbsp;View MapQuest Map",
+            "phone": "250.862.9088",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0223?Number=32"
+        },
+        {
+            "name": "Okanagan Chinese Baptist Church",
+            "address": "1025 Rutland Rd NKelowna, BC     V1X 4Y9&nbsp;View MapQuest Map",
+            "phone": "250.491.0910",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1835?Number=33"
+        },
+        {
+            "name": "Okanagan Chiropractic Family Health & Wellness Centre",
+            "address": "Mill Creek Crossing1912 Enterprise Way, Unit 105Kelowna, BC     V1Y 9S9",
+            "phone": "250.762.2888",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1931?Number=34"
+        },
+        {
+            "name": "Okanagan Christian School",
+            "address": "1035 Hollywood Rd SKelowna, BC     V1X 4N3",
+            "phone": "250.860.5305",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1135?Number=35"
+        },
+        {
+            "name": "Okanagan College",
+            "address": "1000 KLO RdKelowna, BC     V1Y 4X8&nbsp;View MapQuest Map",
+            "phone": "250.762.5445",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0208?Number=36"
+        },
+        {
+            "name": "Okanagan College, Accounting Club",
+            "address": "1000 KLO RdKelowna, BC     V1Y 4X8",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1746?Number=37"
+        },
+        {
+            "name": "Okanagan College, Adult Academic and Career Preparation",
+            "address": "1000 KLO RdKelowna, BC     V1Y 4X8&nbsp;View MapQuest Map",
+            "phone": "250.762.5445",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1363?Number=38"
+        },
+        {
+            "name": "Okanagan College, Camp OC - Summer Day Camps for Children and Youth",
+            "address": "Continuing Studies, A Building, Room A-1081000 KLO RdKelowna, BC     V1Y 4X2",
+            "phone": "250.862.5480",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0661?Number=39"
+        },
+        {
+            "name": "Okanagan College, Campus Health & Wellness",
+            "address": "1000 KLO RdKelowna, BC     V1Y 4X8&nbsp;View MapQuest Map",
+            "phone": "250.762.5445 ext. 4119",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0846?Number=40"
+        },
+        {
+            "name": "Okanagan College, English as a Second Language for Permanent Residents and Canadian Students",
+            "address": "1000 KLO Rd, Bldg C, Room C161Kelowna, BC     V1Y 4X8",
+            "phone": "250.762.5488 ext.4381",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0931?Number=41"
+        },
+        {
+            "name": "Okanagan College, International Education",
+            "address": "Centre for Learning1000 KLO Rd, Unit E110Kelowna, BC     V1Y 4X8",
+            "phone": "250.862.5443",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1317?Number=42"
+        },
+        {
+            "name": "Okanagan College, Literacy Skills for Adults",
+            "address": "1000 KLO Rd, Bldg CKelowna, BC     V1Y 4X8&nbsp;View MapQuest Map",
+            "phone": "250.862.5488 ext.4244",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1704?Number=43"
+        },
+        {
+            "name": "Okanagan College, Teen OC Summer Camps",
+            "address": "Continuing Studies, A Building, Room A-1081000 KLO RdKelowna, BC     V1Y 4X2",
+            "phone": "250.862.5480",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1185?Number=44"
+        },
+        {
+            "name": "Okanagan College Foundation",
+            "address": "1000 KLO RdKelowna, BC     V1Y 4X8",
+            "phone": "250.762.5445",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1259?Number=45"
+        },
+        {
+            "name": "Okanagan Dental Care for Kids",
+            "address": "1890 Cooper Rd, Suite 101Kelowna, BC     V1Y 8B7",
+            "phone": "250.763.5101",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0245?Number=46"
+        },
+        {
+            "name": "Okanagan Dentistry",
+            "address": "1500 Hardy St, #302Kelowna, BC     V1Y 8H2",
+            "phone": "250.762.3563",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0897?Number=47"
+        },
+        {
+            "name": "Okanagan Denture Inc",
+            "address": "1771 Cooper Rd, #5Kelowna, BC     V1Y 7T1",
+            "phone": "250.861.3852",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1939?Number=48"
+        },
+        {
+            "name": "Okanagan Designated Driving Service",
+            "address": "250.808.6533",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0844?Number=49"
+        },
+        {
+            "name": "Okanagan Family Autism Connection",
+            "address": "",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0077?Number=50"
+        },
+        {
+            "name": "Okanagan Festival Singers (OFS)",
+            "address": "Willowstone Academy4091 Lakeshore RdKelowna, BC     V1W 1V6&nbsp;View MapQuest Map",
+            "phone": "250.870.8701",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0353?Number=51"
+        },
+        {
+            "name": "Okanagan Filipino Canadians (OFC)",
+            "address": "",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0992?Number=52"
+        },
+        {
+            "name": "Okanagan Firestorm Cheerleading",
+            "address": "360 Spedding Crt, Unit 5Kelowna, BC     V1X 7K9",
+            "phone": "250.681.3934",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0598?Number=53"
+        },
+        {
+            "name": "Okanagan Forest Task Force",
+            "address": "Kelowna, BCCanada",
+            "phone": "250.863.3210",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA2148?Number=54"
+        },
+        {
+            "name": "Okanagan Foster Parents Association",
+            "address": "1503 MacLeay CrtKelowna, BC     V1Y 9L6&nbsp;View MapQuest Map",
+            "phone": "250.870.8991",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0294?Number=55"
+        },
+        {
+            "name": "Okanagan Freestyle Fencing",
+            "address": "1825 Richter StKelowna, BC     V1Y 2M8",
+            "phone": "250.306.9253",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0651?Number=56"
+        },
+        {
+            "name": "Okanagan Fruit Tree Project",
+            "address": "",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1023?Number=57"
+        },
+        {
+            "name": "Okanagan Greens Society",
+            "address": "250.469.1881",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0722?Number=58"
+        },
+        {
+            "name": "Okanagan Gymnastics Centre",
+            "address": "365 Hartman RdKelowna, BC     V1X 2M9&nbsp;View MapQuest Map",
+            "phone": "250.765.0888",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0355?Number=59"
+        },
+        {
+            "name": "Okanagan Halfway House Society",
+            "address": "1353 Bernard AveKelowna, BC     V1Y 6E4&nbsp;View MapQuest Map",
+            "phone": "Kelowna: 250.860.5820&nbsp;Robinson House:  250.862.8363&nbsp;Bernard Residence:  250.717.5613",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0134?Number=60"
+        },
+        {
+            "name": "Okanagan Health Performance",
+            "address": "Kiwanis Towers Plaza1100 Lawrence Ave, #104Kelowna, BC     V1Y 6M4",
+            "phone": "250.860.6295",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1725?Number=61"
+        },
+        {
+            "name": "Okanagan Hearing Centre",
+            "address": "Guisachan Village Mall2365 Gordon Dr, #115Kelowna, BC     V1W 3C2",
+            "phone": "778.484.7237",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1716?Number=62"
+        },
+        {
+            "name": "Okanagan Historical Society, Kelowna Branch",
+            "address": "",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0357?Number=63"
+        },
+        {
+            "name": "Okanagan Housing Cooperative, Maple Lanes",
+            "address": "205 Nickel RdKelowna, BC     V1X 4E5",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0326?Number=64"
+        },
+        {
+            "name": "Okanagan Institute",
+            "address": "250.870.2690",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1634?Number=65"
+        },
+        {
+            "name": "Okanagan Jewish Community Association, Beth Shalom Congregation",
+            "address": "102 Snowsell St NKelowna, BC     V1V 2E2&nbsp;View MapQuest Map",
+            "phone": "250.862.2305",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1867?Number=66"
+        },
+        {
+            "name": "Okanagan Kids Care Fund Society, A Public Service by Q103.1, Power 104, and Area TD Canada Branches",
+            "address": "250.763.1047 * 250.762.3331",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1295?Number=67"
+        },
+        {
+            "name": "Okanagan Korean Culture and Knowledge Society, OKCK",
+            "address": "555 Fuller AveKelowna, BC     V1Y 7W8",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1002?Number=68"
+        },
+        {
+            "name": "Okanagan Landing Community Hall, Okanagan Landing & District Community Association",
+            "address": "7801 Okanagan Landing RdVernon, BC     V1H 1H2",
+            "phone": "250.542.2500",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1985?Number=69"
+        },
+        {
+            "name": "Okanagan Laser Solutions",
+            "address": "Capital News Building2363 Enterprise WayKelowna, BC     V1Y 7K2",
+            "phone": "250.763.9355",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1928?Number=70"
+        },
+        {
+            "name": "Okanagan Life",
+            "address": "814 Lawrence AveKelowna, BC     V1Y 6L9",
+            "phone": "250.861.5399",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1163?Number=71"
+        },
+        {
+            "name": "Okanagan Mainline Ostomy Association of BC",
+            "address": "1953 Baron Rd, #101Kelowna, BC     V1X 6W2&nbsp;View MapQuest Map",
+            "phone": "250.868.3034",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0450?Number=72"
+        },
+        {
+            "name": "Okanagan Master Gardener's Chapter, Master Gardeners Association of BC",
+            "address": "",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1442?Number=73"
+        },
+        {
+            "name": "Okanagan Masters Swim Club",
+            "address": "H20 Fitness & Adventure Centre4075 Gordon DrKelowna, BC     V1W 5J2",
+            "phone": "250.491.9622",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1249?Number=74"
+        },
+        {
+            "name": "Okanagan Men's Shed Association",
+            "address": "250.717.1575",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1250?Number=75"
+        },
+        {
+            "name": "Okanagan Mental Health Services Society",
+            "address": "1369 Bernard AveKelowna, BC     V1Y 6R5&nbsp;View MapQuest Map",
+            "phone": "250.717.3007",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0337?Number=76"
+        },
+        {
+            "name": "Okanagan Mental Health Services Society, Assisted Living Program",
+            "address": "1369 Bernard AveKelowna, BC     V1Y 6R5&nbsp;View MapQuest Map",
+            "phone": "250.717.3368",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0565?Number=77"
+        },
+        {
+            "name": "Okanagan Mental Health Services Society, Therapeutic Work Program",
+            "address": "2303 Leckie Rd, #112Kelowna, BC     V1X 6Y5&nbsp;View MapQuest Map",
+            "phone": "250.717.3007",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0566?Number=78"
+        },
+        {
+            "name": "Okanagan M\u00e9tis & Aboriginal Housing Society",
+            "address": "1855 Kirschner Rd, #240Kelowna, BC     V1Y 4N7&nbsp;View MapQuest Map",
+            "phone": "250.763.7747",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0360?Number=79"
+        },
+        {
+            "name": "Okanagan Mission Activity Centre",
+            "address": "4398 Hobson RdKelowna, BC     V1W 1Y3",
+            "phone": "250.469.8957",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA2001?Number=80"
+        },
+        {
+            "name": "Okanagan Mission Community Hall",
+            "address": "4409 Lakeshore RdKelowna, BC     V1W 1W7",
+            "phone": "250.764.7477",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1148?Number=81"
+        },
+        {
+            "name": "Okanagan Mission Residents Association",
+            "address": "",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1485?Number=82"
+        },
+        {
+            "name": "Okanagan Mission Senior Center Society",
+            "address": "4398 Hobson RdKelowna, BC     V1W 1Y3&nbsp;View MapQuest Map",
+            "phone": "Facility Rentals: 250.469.8957&nbsp;Okanagan Mission Senior Centre Society:  250.763.2781",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0193?Number=83"
+        },
+        {
+            "name": "Okanagan Mission Tennis Club",
+            "address": "4409 Lakeshore Rd, #3Kelowna, BC     V1W 1W7",
+            "phone": "250.764.7477",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0394?Number=84"
+        },
+        {
+            "name": "Okanagan Mobile Hearing Services Inc.",
+            "address": "1449 St. Paul St, Unit 100AKelowna, BC     V1Y 2E5",
+            "phone": "778.363.4327",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1090?Number=85"
+        },
+        {
+            "name": "Okanagan Nation Alliance",
+            "address": "3535 Hwy Old Okanagan, #101West Kelowna, BC     V4T 3L7",
+            "phone": "250.707.0095",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0221?Number=86"
+        },
+        {
+            "name": "Okanagan Naturopathic Healthcare - Kelowna",
+            "address": "346 Lawrence Ave, #102Kelowna, BC     V1Y 6L4",
+            "phone": "250.860.8855",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1944?Number=87"
+        },
+        {
+            "name": "Okanagan Naturopathic Healthcare - West Kelowna",
+            "address": "2453A Main StWest Kelowna, BC     V4T 1K5",
+            "phone": "778.754.5610",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1945?Number=88"
+        },
+        {
+            "name": "Okanagan Observatory",
+            "address": "250.300.8759",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0642?Number=89"
+        },
+        {
+            "name": "Okanagan Oldies 103.9, Castanet",
+            "address": "455 Lawrence AveKelowna, BC     V1Y 6L6",
+            "phone": "250.980.9009",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1193?Number=90"
+        },
+        {
+            "name": "Okanagan Oral and Maxillofacial Surgery Associates",
+            "address": "550 West Ave, #400Kelowna, BC     V1Y 4Z4",
+            "phone": "250.860.8819",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1943?Number=91"
+        },
+        {
+            "name": "Okanagan Orthodontics",
+            "address": "1890 Cooper Rd, #315Kelowna, BC     V1Y 8B7",
+            "phone": "250.860.3111",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1445?Number=92"
+        },
+        {
+            "name": "Okanagan Periodontal & Implant Centre",
+            "address": "470 Groves AveKelowna, BC     V1Y 4Y5",
+            "phone": "250.763.1111",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1630?Number=93"
+        },
+        {
+            "name": "Okanagan Pharmacy Remedy'sRx - Peachland Location",
+            "address": "5500 Clements Cres, #24Peachland, BC     V0H 1X5",
+            "phone": "250.767.2911",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA2052?Number=94"
+        },
+        {
+            "name": "Okanagan Potters Association",
+            "address": "",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1969?Number=95"
+        },
+        {
+            "name": "Okanagan Pre & Post Organ Transplant Support Group",
+            "address": "250.807.0202",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0602?Number=96"
+        },
+        {
+            "name": "Okanagan Pride Society and Living Positive Resource Centre, Etcetera Kelowna - Celebrating the Diversity of Kelowna's Youth",
+            "address": "",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA2004?Number=97"
+        },
+        {
+            "name": "Okanagan Prostate Resource Centre Society",
+            "address": "1405 Guisachan Pl, Ste 105Kelowna, BC     V1Y 9X8&nbsp;View MapQuest Map",
+            "phone": "250-762-0607",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0362?Number=98"
+        },
+        {
+            "name": "Okanagan Regional Library, Administration Centre",
+            "address": "1430 KLO RdKelowna, BC     V1W 3P6&nbsp;View MapQuest Map",
+            "phone": "250.860.4033",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0196?Number=99"
+        },
+        {
+            "name": "Okanagan Regional Library, Kelowna Branch",
+            "address": "1380 Ellis StKelowna, BC     V1Y 2A2&nbsp;View MapQuest Map",
+            "phone": "250.762.2800",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0572?Number=100"
+        },
+        {
+            "name": "Okanagan Regional Library, Lake Country Branch",
+            "address": "10150 Bottom Wood Lake Rd, #2Lake Country, BC     V4V 2M1&nbsp;View MapQuest Map",
+            "phone": "250.766.3141",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0570?Number=101"
+        },
+        {
+            "name": "Okanagan Regional Library, Mission Branch",
+            "address": "Capital News Centre4105 Gordon Dr NWKelowna, BC     V1W 4Z1&nbsp;View MapQuest Map",
+            "phone": "250.764.2254",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0571?Number=102"
+        },
+        {
+            "name": "Okanagan Regional Library, Oyama Branch",
+            "address": "15718 Oyama RdOyama, BC     V4V 2E1",
+            "phone": "250.548.3377",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0781?Number=103"
+        },
+        {
+            "name": "Okanagan Regional Library, Peachland Branch",
+            "address": "Peachland Village Mall5500 Clements Cres, #40Peachland, BC     V0H 1X5&nbsp;View MapQuest Map",
+            "phone": "250.767.9111",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0567?Number=104"
+        },
+        {
+            "name": "Okanagan Regional Library, Rutland Branch",
+            "address": "Plaza 33 Mall301 Hwy 33 W, #20Kelowna, BC     V1X 1X8&nbsp;View MapQuest Map",
+            "phone": "250.765.8165",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0625?Number=105"
+        },
+        {
+            "name": "Okanagan Regional Library, Storytime and Children's Programs",
+            "address": "1380 Ellis StKelowna, BC     V1Y 2A2&nbsp;View MapQuest Map",
+            "phone": "250.762.2800",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0581?Number=106"
+        },
+        {
+            "name": "Okanagan Regional Library, Westbank Branch",
+            "address": "Westridge Mall2484 Main St, #31West Kelowna, BC     V4T 2G2&nbsp;View MapQuest Map",
+            "phone": "250.768.4369",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0568?Number=107"
+        },
+        {
+            "name": "Okanagan Science Centre",
+            "address": "2704 Hwy 6Vernon, BC     V1T 5G5",
+            "phone": "250.545.3644",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1562?Number=108"
+        },
+        {
+            "name": "Okanagan Sikh Temple and Cultural Society",
+            "address": "1111 Rutland Rd NKelowna, BC     V1X 4Y9",
+            "phone": "250.765.7477",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1773?Number=109"
+        },
+        {
+            "name": "Okanagan Similkameen Stewardship Society",
+            "address": "304 Martin St, #203Penticton, BCCanada     V2A 5K4",
+            "phone": "250.770.1467",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA2121?Number=110"
+        },
+        {
+            "name": "Okanagan Smiles Dental Clinic",
+            "address": "2149 Springfield Rd, #101Kelowna, BC     V1Y 7X1",
+            "phone": "250.763.3338",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0203?Number=111"
+        },
+        {
+            "name": "Okanagan Suicide Awareness Society",
+            "address": "250.300.7990",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1582?Number=112"
+        },
+        {
+            "name": "Okanagan Suicide Awareness Society, 'Surviving our Loved One's Suicide' Online Support Group",
+            "address": "250.300.7990",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1910?Number=113"
+        },
+        {
+            "name": "Okanagan Symphony Orchestra",
+            "address": "865 Bernard AveKelowna, BC     V1Y 6P6&nbsp;View MapQuest Map",
+            "phone": "250.763.7544",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0493?Number=114"
+        },
+        {
+            "name": "Okanagan Training and Development Council",
+            "address": "101-1865 Dilworth Dr, Suite 339Kelowna, BC     V1Y 9T1",
+            "phone": "250.769.1977",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA2135?Number=115"
+        },
+        {
+            "name": "Okanagan Valley Field Hockey Association",
+            "address": "1.604.737.3046",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0502?Number=116"
+        },
+        {
+            "name": "Okanagan Valley Goose Management Program",
+            "address": "",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0966?Number=117"
+        },
+        {
+            "name": "Okanagan Valley Pregnancy Care Centre",
+            "address": "Southgate Centre2622 Pandosy St, #201Kelowna, BC     V1Y 1V6&nbsp;View MapQuest Map",
+            "phone": "250.763.2112",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0657?Number=118"
+        },
+        {
+            "name": "Okanagan Visually Impaired Society",
+            "address": "250.868.1468",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0128?Number=119"
+        },
+        {
+            "name": "Okanagan Yoga Retreats",
+            "address": "",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0013?Number=120"
+        },
+        {
+            "name": "Okanagan Young Professionals Collective, Central Okanagan Economic Development Commission",
+            "address": "1405 St. Paul St, Ste 201Kelowna, BC     V1Y 2E4",
+            "phone": "250.462.3739",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1102?Number=121"
+        },
+        {
+            "name": "Old Age Security Pension",
+            "address": "",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1633?Number=122"
+        },
+        {
+            "name": "Ombudsman for Banking Services and Investments",
+            "address": "",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1469?Number=123"
+        },
+        {
+            "name": "Ombudsperson of British Columbia",
+            "address": "",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0820?Number=124"
+        },
+        {
+            "name": "On-call Dental Emergency Service",
+            "address": "250.861.6066",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0983?Number=125"
+        },
+        {
+            "name": "One Big Table",
+            "address": "1440 St Paul StKelowna, BC     V1Y 2E6",
+            "phone": "778.478.0497",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA2137?Number=126"
+        },
+        {
+            "name": "OneSky Community Resources",
+            "address": "330 Ellis StPenticton, BC     V2A 4L7",
+            "phone": "250.492.5814",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0034?Number=127"
+        },
+        {
+            "name": "Online Grief Support - A Social Community",
+            "address": "",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1637?Number=128"
+        },
+        {
+            "name": "Online Walk-in Clinic Wait-Time Calculator, MediMap Systems Inc",
+            "address": "",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1158?Number=129"
+        },
+        {
+            "name": "oook.ca",
+            "address": "",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0131?Number=130"
+        },
+        {
+            "name": "Opera Kelowna",
+            "address": "346 Lawrence Ave, Unit 101Kelowna, BCCanada     V1Y 6L4",
+            "phone": "250.575.1434",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1029?Number=131"
+        },
+        {
+            "name": "Options for Sexual Health, Kelowna Clinic",
+            "address": "Rutland Aurora Health Centre285 Aurora Cres, #102Kelowna, BC     V1X 7N6&nbsp;View MapQuest Map",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0448?Number=132"
+        },
+        {
+            "name": "Options for Sexual Health, West Kelowna Clinic",
+            "address": "West Kelowna Health Centre2300 Carrington Rd, #160West Kelowna, BC     V4T 2N6",
+            "phone": "250.712.6400",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1533?Number=133"
+        },
+        {
+            "name": "Orchard Chiropractic and Wellness",
+            "address": "Orchard Plaza1980 Cooper Rd, #110Kelowna, BC     V1Y 8K5",
+            "phone": "250.717.7732",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1883?Number=134"
+        },
+        {
+            "name": "Orchard Medical Centre",
+            "address": "Orchard Plaza1990 Cooper RdKelowna, BC     V1Y 8K5",
+            "phone": "250.861.3235",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1656?Number=135"
+        },
+        {
+            "name": "Orchard Park Dental, Dr Perry Kreway & Associates",
+            "address": "2271 Harvey Ave, #215Kelowna, BC     V1Y 6H2",
+            "phone": "250.860.6460",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1147?Number=136"
+        },
+        {
+            "name": "Orchard Park Optometry",
+            "address": "2271 Harvey Ave, #1536Kelowna, BC     V1Y 6H2",
+            "phone": "250.762.2090",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0201?Number=137"
+        },
+        {
+            "name": "Orchard Plaza Dental",
+            "address": "1890 Cooper Rd, Suite 308Kelowna, BC     V1Y 8B7",
+            "phone": "250.860.1333",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1231?Number=138"
+        },
+        {
+            "name": "Orchard Remedy'sRx, Kelowna\/Lower Rutland - Orchard Plaza",
+            "address": "Orchard Plaza1876 Cooper Rd, #152Kelowna, BC     V1Y 9N7",
+            "phone": "250.420.2882",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0861?Number=139"
+        },
+        {
+            "name": "Orchard Valley Senior Housing Society, The Burtches",
+            "address": "1620 Burtch Rd, #110Kelowna, BC     V1Y 9A9&nbsp;View MapQuest Map",
+            "phone": "250.861.5221",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0495?Number=140"
+        },
+        {
+            "name": "Osteoporosis Canada",
+            "address": "1200 Eglinton Ave E, Ste 500Toronto, ON     M3C 1H9&nbsp;View MapQuest Map",
+            "phone": "1.800.463.6842",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0184?Number=141"
+        },
+        {
+            "name": "Our Lady of Lourdes Catholic Church",
+            "address": "2547 Hebert RdWest Kelowna, BC     V4T 2J6&nbsp;View MapQuest Map",
+            "phone": "250.768.4114",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1885?Number=142"
+        },
+        {
+            "name": "Our Lady of Lourdes Elementary School",
+            "address": "2547 Hebert RdWest Kelowna, BC     V4T 2J6",
+            "phone": "250.768.9008",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA2023?Number=143"
+        },
+        {
+            "name": "Outdoor Power Equipment Institute of Canada",
+            "address": "1.877.592.2972 ext.364",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0774?Number=144"
+        },
+        {
+            "name": "Outdoor Recreation Council of British Columbia",
+            "address": "207 West Hastings St, #1101Vancouver, BC     V6B 1H7&nbsp;View MapQuest Map",
+            "phone": "1.604.873.5546",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1396?Number=145"
+        },
+        {
+            "name": "Ovarian Cancer Canada, BC\/Yukon",
+            "address": "470 Granville St, #330Vancouver, BC     V6C 1V5&nbsp;View MapQuest Map",
+            "phone": "1.604.676.3428",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1181?Number=146"
+        },
+        {
+            "name": "Overeaters Anonymous",
+            "address": "",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0685?Number=147"
+        },
+        {
+            "name": "Oyama Community Hall",
+            "address": "15710 Oyama RdLake Country, BC     V4V 2E1",
+            "phone": "250.548.3204",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1101?Number=148"
+        },
+        {
+            "name": "Oyama Zipline Adventure Park",
+            "address": "5617 Oyama Lake RdLake Country, BC     V4V 2C9",
+            "phone": "250.548.4129",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0616?Number=149"
+        }
+    ],
+    "url": "https:\/\/kelowna.cioc.ca\/browsebyorg.asp?Let=O"
+}

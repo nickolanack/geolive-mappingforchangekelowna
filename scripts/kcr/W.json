@@ -1,0 +1,485 @@
+{
+    "items": [
+        {
+            "name": "Walmart Pharmacy, Kelowna\/Lower Rutland - Central Park Shopping Centre",
+            "address": "Central Park Shopping Centre1555 Banks RdKelowna, BC     V1X 7Y8",
+            "phone": "250.860.9145",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1585?Number=0"
+        },
+        {
+            "name": "Walmart Pharmacy, Westbank\/West Kelowna - Louie Dr Location",
+            "address": "2170 Louie DrWest Kelowna, BC     V4T 1Y2",
+            "phone": "250.768.1759",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1586?Number=1"
+        },
+        {
+            "name": "Wash Tub Laundromat & Drycleaning",
+            "address": "Westbank Towne Centre2475 Dobbin Rd, #21West Kelowna, BC     V4T 2E9",
+            "phone": "250.768.4949",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0753?Number=2"
+        },
+        {
+            "name": "Wave Physiotherapy - Kelowna\/Lower Mission Location",
+            "address": "2900 Pandosy St, #110Kelowna, BC     V1Y 1V9",
+            "phone": "250.763.9283",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1262?Number=3"
+        },
+        {
+            "name": "WDCR 95.1 FM, Westbank and District Community Radio Society",
+            "address": "250.768.1111",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1195?Number=4"
+        },
+        {
+            "name": "We Care Home Health Services",
+            "address": "2000 Spall Rd, #270Kelowna, BC     V1Y 9P6&nbsp;View MapQuest Map",
+            "phone": "250.861.8315",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0015?Number=5"
+        },
+        {
+            "name": "We Teach Swimming  (WETS)",
+            "address": "Swimming Lessons:2629 Hwy 97 NKelowna, BC     V1X 4J6",
+            "phone": "250.470.7496",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0555?Number=6"
+        },
+        {
+            "name": "Welcome Wagon",
+            "address": "1.905.474.5190",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0104?Number=7"
+        },
+        {
+            "name": "Wentworth Music",
+            "address": "1634 Harvey Ave, #106Kelowna, BC     V1Y 6G2",
+            "phone": "250.860.2251 ext.2",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0654?Number=8"
+        },
+        {
+            "name": "West Kelowna Chiropractic Centre for Health",
+            "address": "3713 Hoskins RdWest Kelowna, BC     V4T 2H8",
+            "phone": "778.754.3713",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0809?Number=9"
+        },
+        {
+            "name": "West Kelowna Junior A Hockey Club",
+            "address": "2760 Cameron AveWest Kelowna, BC     V1Z 2T6",
+            "phone": "250.769.7051",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0785?Number=10"
+        },
+        {
+            "name": "West Kelowna Kids Dental",
+            "address": "3011 Louie Dr, #215West Kelowna, BC     V4T 3E3",
+            "phone": "250.768.8663",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1534?Number=11"
+        },
+        {
+            "name": "West Kelowna Medical Centre & Walk-in",
+            "address": "Governor's Market2231 Louie Dr, #105West Kelowna, BC     V4T 3K3",
+            "phone": "250.768.6985",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1672?Number=12"
+        },
+        {
+            "name": "West Kelowna Minor Baseball Association",
+            "address": "",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0599?Number=13"
+        },
+        {
+            "name": "West Kelowna Minor Hockey Association",
+            "address": "2760 Cameron RdWest Kelowna     V1Z 2T6",
+            "phone": "250.769.1543",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0489?Number=14"
+        },
+        {
+            "name": "West Kelowna Music School",
+            "address": "2372 Dobbin Rd WWest kelowna, BC     V4T 2H9",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1462?Number=15"
+        },
+        {
+            "name": "West Kelowna Parent's Buy, Sell and Swap",
+            "address": "",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0737?Number=16"
+        },
+        {
+            "name": "West Kelowna Visitor Centre",
+            "address": "Westbank Museum2376 Dobbin RdWest Kelowna, BC     V4T 2H9&nbsp;View MapQuest Map",
+            "phone": "250.768.2712",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0527?Number=17"
+        },
+        {
+            "name": "Westbank Bible Chapel",
+            "address": "2412 Apollo RdWest Kelowna, BC     V4T 1P6&nbsp;View MapQuest Map",
+            "phone": "250.768.2444",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1841?Number=18"
+        },
+        {
+            "name": "Westbank Chiropractic",
+            "address": "2447 Main StWest Kelowna, BC     V4T 1K5",
+            "phone": "250.768.5114",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1904?Number=19"
+        },
+        {
+            "name": "Westbank First Nation",
+            "address": "515 Hwy 97 S, #201West Kelowna, BC     V1Z 3J2",
+            "phone": "250.769.4999",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0237?Number=20"
+        },
+        {
+            "name": "Westbank First Nation, Aboriginal Supported Child Development Program",
+            "address": "Community Services1900 Quail LaneWestbank, BC     V4T 2H3",
+            "phone": "250.768.0227",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1151?Number=21"
+        },
+        {
+            "name": "Westbank First Nation, Counselling Services",
+            "address": "WFN Health and Wellness Building1900 Quail LaneWestbank, BC     V4T 2H3",
+            "phone": "250.768.0227",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1583?Number=22"
+        },
+        {
+            "name": "Westbank First Nation, Employment and Training",
+            "address": "WFN Health and Wellness Building1900 Quail LaneWestbank, BC     V4T 2H3",
+            "phone": "250.768.0227",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1346?Number=23"
+        },
+        {
+            "name": "Westbank First Nation, Family and Parenting Services",
+            "address": "Westbank First Nation Community Services1900 Quail LaneWestbank, BC     V4T 2H3",
+            "phone": "250.768.0227",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0278?Number=24"
+        },
+        {
+            "name": "Westbank First Nation, Pine Acres Home Adult Intermediate Care Facility",
+            "address": "1902 Pheasant LaneWestbank, BC     V4T 2H4&nbsp;View MapQuest Map",
+            "phone": "250.768.7676",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0178?Number=25"
+        },
+        {
+            "name": "Westbank First Nations, After School Care",
+            "address": "1920 Quail LaneWestbank, BC     V4T 2H3",
+            "phone": "250.768.4838",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0673?Number=26"
+        },
+        {
+            "name": "Westbank First Nations, Connecting Fun for Families",
+            "address": "1900 Quail LaneWestbank, BC     V4T 2H3",
+            "phone": "250.768.4838",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0676?Number=27"
+        },
+        {
+            "name": "Westbank First Nations, Family Circle (1-2-3 Rhyme With Me)",
+            "address": "1900 Quail LaneWestbank, BC     V4T 2H3",
+            "phone": "250.768.4838",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0674?Number=28"
+        },
+        {
+            "name": "Westbank First Nations, Westbank Child Development Centre (WCDC)",
+            "address": "3255A Shannon Lake RdWestbank, BC     V4T 1V4",
+            "phone": "250.768.4568",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0677?Number=29"
+        },
+        {
+            "name": "Westbank Lions Club",
+            "address": "2466 Main StWest Kelowna, BC     V4T 1Z1",
+            "phone": "250.768.2594",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1543?Number=30"
+        },
+        {
+            "name": "Westbank Lions Community Centre",
+            "address": "2466 Main StWest Kelowna, BC     V4T 1Z1",
+            "phone": "250.768.2322",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA2019?Number=31"
+        },
+        {
+            "name": "Westbank Lions Seniors' Housing Society",
+            "address": "3715 Gellatly Rd, #209West Kelowna, BC     V4T 1W8&nbsp;View MapQuest Map",
+            "phone": "250.768.9590, ext.104",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0508?Number=32"
+        },
+        {
+            "name": "Westbank Museum",
+            "address": "2376 Dobbin RdWest Kelowna, BC     V4T 2H9",
+            "phone": "250.768.0110",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0079?Number=33"
+        },
+        {
+            "name": "Westbank United Church",
+            "address": "3672 Brown RdWest Kelowna, BC     V4T 1P7&nbsp;View MapQuest Map",
+            "phone": "Office:  250.768.4426&nbsp;Thrift Shop:  250.768.3363",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1880?Number=34"
+        },
+        {
+            "name": "Westbank United Church, Thrift Shop",
+            "address": "3672 Brown RdWest Kelowna, BC     V4T 1P7",
+            "phone": "250.768.3363",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1588?Number=35"
+        },
+        {
+            "name": "Western Human Resource Corp., Resource Ability and Nursing Solutions Home Support",
+            "address": "260 Harvey Ave, #200Kelowna, BC     V1Y 7S5",
+            "phone": "250.861.5450",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1418?Number=36"
+        },
+        {
+            "name": "Western Institute for the Deaf and Hard of Hearing",
+            "address": "2125 West 7th AveVancouver, BC     V6K 1X9&nbsp;View MapQuest Map",
+            "phone": "1.604.736.7391",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0726?Number=37"
+        },
+        {
+            "name": "Westgate Church",
+            "address": "2221 Moose RdWest Kelowna, BC     V4T 2G8&nbsp;View MapQuest Map",
+            "phone": "250.768.9677",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1842?Number=38"
+        },
+        {
+            "name": "Westside Alliance Church",
+            "address": "2011 Daimler RdWest Kelowna, BC     V1Z 3H6&nbsp;View MapQuest Map",
+            "phone": "250.769.5481",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1821?Number=39"
+        },
+        {
+            "name": "Westside Celebration Society, Westside Daze & Celebrate Canada Day",
+            "address": "22 - 2475 Dobbin Rd, Suite 555West Kelowna, BC     V4T 2E9&nbsp;View MapQuest Map",
+            "phone": "1.250.999.7210",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1038?Number=40"
+        },
+        {
+            "name": "Westside Dental Centre",
+            "address": "2231 Louie Dr, #115West Kelowna, BC     V4T 3K3",
+            "phone": "250.707.0248",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0692?Number=41"
+        },
+        {
+            "name": "Westside Health Network Society, Medwatch Program",
+            "address": "2300 Carrington Rd, #160West Kelowna, BC     V4T 2N6",
+            "phone": "250.768.3305",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1990?Number=42"
+        },
+        {
+            "name": "Westside Health Network Society, Seniors Information and Referral Service",
+            "address": "2300 Carrington Rd, #160West Kelowna, BC     V4T 2N6&nbsp;View MapQuest Map",
+            "phone": "250.768.3305",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0202?Number=43"
+        },
+        {
+            "name": "Westside Health Network Society, Volunteer Visits",
+            "address": "250.768.3305",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA2117?Number=44"
+        },
+        {
+            "name": "Westside Orthodontic Centre",
+            "address": "2300 Carrington Rd, #200West Kelowna, BC     V4T 2N6",
+            "phone": "250.768.5573",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1380?Number=45"
+        },
+        {
+            "name": "Westside Physiotherapy & Acupuncture - West Kelowna",
+            "address": "2424 Apollo RdWest Kelowna, BC     V4T 1P6",
+            "phone": "250.768.5907",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1689?Number=46"
+        },
+        {
+            "name": "Westside Sales & Rentals, Recycling Program",
+            "address": "1834 Byland RdWest Kelowna, BC     V1Z 3E5",
+            "phone": "250.769.7606",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0593?Number=47"
+        },
+        {
+            "name": "Westside School of Tae Kwon Do",
+            "address": "2109C Louie DrWest Kelowna, BC     V4T 1Y2",
+            "phone": "250.768.8868",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0589?Number=48"
+        },
+        {
+            "name": "Westside Senior Citizens Service Association Activity Centre",
+            "address": "3661 Hwy Old OkanaganWest Kelowna, BC     V4T 1P6",
+            "phone": "250.768.4004",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1651?Number=49"
+        },
+        {
+            "name": "Westside Youth Centre - Drop In Program, Okanagan Boys and Girls Club",
+            "address": "2466 Main StWest Kelowna, BC     V4T 1Z1&nbsp;View MapQuest Map",
+            "phone": "250.768.9139",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0741?Number=50"
+        },
+        {
+            "name": "Westwood Retirement Resort, Regency Retirement Resorts",
+            "address": "2505 Ingram RdWest Kelowna, BC     V4T 2Y8&nbsp;View MapQuest Map",
+            "phone": "250.768.2934",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0385?Number=51"
+        },
+        {
+            "name": "What's Your Impact",
+            "address": "",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA2064?Number=52"
+        },
+        {
+            "name": "White Heather Manor",
+            "address": "3728 Casorso RdKelowna, BC     V1W 4M8&nbsp;View MapQuest Map",
+            "phone": "250.763.6554",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0306?Number=53"
+        },
+        {
+            "name": "White Sails A Cappella Chorus, Sweet Adelines International",
+            "address": "778.755.0562",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1639?Number=54"
+        },
+        {
+            "name": "Who Minds The Child? Media Education Society",
+            "address": "325 Phoebe CrtKelowna, BC     V1W 3Y9&nbsp;View MapQuest Map",
+            "phone": "250.764.4257",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1289?Number=55"
+        },
+        {
+            "name": "WildPlay Element Parks",
+            "address": "5983 Hwy 33Kelowna, BC     V1P 1H8",
+            "phone": "1.855.595.2251",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0613?Number=56"
+        },
+        {
+            "name": "Willow Park Church",
+            "address": "439 Hwy 33 WKelowna, BC     V1X 1Y2&nbsp;View MapQuest Map",
+            "phone": "250.765.6622",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0686?Number=57"
+        },
+        {
+            "name": "Willow Park Church, The Baby Basket",
+            "address": "439 Hwy 33 WKelowna, BC     V1X 1Y2&nbsp;View MapQuest Map",
+            "phone": "250.765.6622",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0874?Number=58"
+        },
+        {
+            "name": "Willow Park Church, The Hope Community",
+            "address": "439 Hwy 33 WKelowna, BC     V1X 1Y2",
+            "phone": "250.765.6622",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1417?Number=59"
+        },
+        {
+            "name": "Willowstone Academy",
+            "address": "4091 Lakeshore RdKelowna, BC     V1W 1V7",
+            "phone": "250.764.3111",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0035?Number=60"
+        },
+        {
+            "name": "Winfield Coin Laundry",
+            "address": "10051 Hwy 97, Unit 3Lake Country, BC     V4V 1P6",
+            "phone": "250.317.3103",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0780?Number=61"
+        },
+        {
+            "name": "Winfield Community Church",
+            "address": "9460 Glenmore RdLake Country, BC     V4V 1M8&nbsp;View MapQuest Map",
+            "phone": "250.766.2753",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1850?Number=62"
+        },
+        {
+            "name": "Winfield I.D.A. Pharmacy, Lake Country\/Winfield - Village Centre",
+            "address": "Village Centre9522 Main St, #50Lake Country, BC     V4V 2L9",
+            "phone": "250.766.2666",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1590?Number=63"
+        },
+        {
+            "name": "Winfield Memorial Hall",
+            "address": "10130 Bottom Wood Lake RdLake Country, BC     V4V 1T8",
+            "phone": "250.766.4131",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA2018?Number=64"
+        },
+        {
+            "name": "Winfield United Church",
+            "address": "3751 Woodsdale RdLake Country, BC     V4V 1X2&nbsp;View MapQuest Map",
+            "phone": "Office:  250.766.4458&nbsp;Thrift Shop:  250.766.3387",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1881?Number=65"
+        },
+        {
+            "name": "Winfield United Church, Thrift Shop",
+            "address": "Winfield United Church3751 Woodsdale RdLake Country, BC     V4V 1X2",
+            "phone": "250.766.3387",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0845?Number=66"
+        },
+        {
+            "name": "Winfield-Lake Country Family Practice",
+            "address": "Lake Country Medical Building9966 Pollard St, Suite 1Lake Country, BC     V4V 1Z3",
+            "phone": "250.766.3938",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1667?Number=67"
+        },
+        {
+            "name": "Wolfe Mobility, Central Okanagan Location",
+            "address": "1.613.962.5177",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1247?Number=68"
+        },
+        {
+            "name": "Women Entrepreneurs British Columbia",
+            "address": "1405 St Paul St, Unit 201Kelowna, BCCanada     V1Y 9N2",
+            "phone": "778.215.2795",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA2164?Number=69"
+        },
+        {
+            "name": "Women in Trades Training, Okanagan College",
+            "address": "1000 KLO RdKelowna, BC     V1Y 4X8",
+            "phone": "250.762.5445 ext.4825",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1271?Number=70"
+        },
+        {
+            "name": "Women's Enterprise Centre",
+            "address": "1726 Dolphin Ave, #201Kelowna, BC     V1Y 9R9&nbsp;View MapQuest Map",
+            "phone": "250.868.3454",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0672?Number=71"
+        },
+        {
+            "name": "Women's Network of British Columbia, (R\u00e9seau-Femmes Colombie-Britannique)",
+            "address": "1555 7th Ave W, #227DVancouver, BC     V6J 1S1&nbsp;View MapQuest Map",
+            "phone": "1.604.736.6912",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0159?Number=72"
+        },
+        {
+            "name": "Work Wellness and Disability Prevention Institute",
+            "address": "916 West Broadway, #204Vancouver, BC     V5Z 1K7",
+            "phone": "1.604.684.4148",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA1953?Number=73"
+        },
+        {
+            "name": "WorkBC - Kelowna",
+            "address": "1460 Pandosy St, #102Kelowna, BC     V1Y 1P3",
+            "phone": "778.478.8390",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0607?Number=74"
+        },
+        {
+            "name": "WorkBC - Rutland",
+            "address": "285 Aurora Cres, #103Kelowna, BC     V1X 7N6",
+            "phone": "778.753.6045",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0624?Number=75"
+        },
+        {
+            "name": "WorkBC - West Kelowna",
+            "address": "2448 Main St, #1West Kelowna, BC     V4T 2S7",
+            "phone": "778.754.5890",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0617?Number=76"
+        },
+        {
+            "name": "WorkSafeBC",
+            "address": "2045 Enterprise Way, #110Kelowna, BC     V1Y 9T5&nbsp;View MapQuest Map",
+            "phone": "250.717.4313",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0518?Number=77"
+        },
+        {
+            "name": "World Oceans Day",
+            "address": "2818 Main St, #352Vancouver, BC     V5T 3G2",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0723?Number=78"
+        },
+        {
+            "name": "World Vision Canada",
+            "address": "",
+            "phone": "",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0365?Number=79"
+        }
+    ],
+    "url": "https:\/\/kelowna.cioc.ca\/browsebyorg.asp?Let=W"
+}

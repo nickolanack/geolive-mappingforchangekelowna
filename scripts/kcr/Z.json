@@ -1,0 +1,23 @@
+{
+    "items": [
+        {
+            "name": "Zabb Thai Restaurant - Mission",
+            "address": "3005 Pandosy StKelowna, BCCanada",
+            "phone": "(778) 484-3988",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/ACC1538?Number=0"
+        },
+        {
+            "name": "Zabb Thai Restaurant - Rutland",
+            "address": "150 Hollywood Rd, 11Kelowna, BCCanada     V1X 3S9",
+            "phone": "(778) 484-3188",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/ACC1539?Number=1"
+        },
+        {
+            "name": "Zajac Ranch for Children",
+            "address": "15600 Florence Lake RdMission, BC     V4S 1C4",
+            "phone": "1.604.462.8305",
+            "link": "https:\/\/kelowna.cioc.ca\/record\/KNA0016?Number=2"
+        }
+    ],
+    "url": "https:\/\/kelowna.cioc.ca\/browsebyorg.asp?Let=Z"
+}

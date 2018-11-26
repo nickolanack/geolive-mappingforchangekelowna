@@ -1,0 +1,31 @@
+{
+    "name": "nblackwe/php-isearch-tools",
+    "description": "Isearch Tools",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "nickolanack",
+            "email": "nickblackwell82@gmail.com"
+        }
+    ],
+    "repositories":[
+        {
+            "type":"git",
+            "url":"https://nickolanack@bitbucket.org/nickolanack/lib-scrape.git"
+        },
+        {
+            "type":"git",
+            "url":"https://nickolanack@bitbucket.org/nickolanack/php-core-client.git"
+        }
+     
+    ],
+    "require": {
+       "nickola/php-scraper":"dev-master",
+       "nickola/php-core-client":"dev-master"
+       
+   },
+   "autoload": {
+        "psr-4": { "isearch\\": "src/" }
+    }
+}
