@@ -2,7 +2,7 @@
  GetPlugin('Isearch')->includeScripts();
 ?>
 sidePanel.addEvent('show:once', function() {
-	var filterBuilder = new IsearchFilterBuilder(container, gutter);
+	var filterBuilder = new IsearchFilterBuilder(map, container, gutter);
 	var attributesMod = <?php
 
 
