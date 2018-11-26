@@ -435,6 +435,11 @@
             "logToSentry": false
         }
     },
+    "plugin.30": {
+        "name": "Isearch Plugin",
+        "instance": "Isearch",
+        "parameters": {}
+    },
     "plugin.28": {
         "name": "Sentry IO Error reporting",
         "instance": "SentryIO",
