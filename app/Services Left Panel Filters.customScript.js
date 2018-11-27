@@ -34,7 +34,7 @@ sidePanel.addEvent('show:once', function() {
         "servicesProvided", 
         "primaryTargetResident", 
         "sex", 
-        "demographicServed"
+        "populationServed"
 
     );
 
