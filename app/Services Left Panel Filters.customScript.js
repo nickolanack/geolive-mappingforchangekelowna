@@ -13,7 +13,7 @@ sidePanel.addEvent('show:once', function() {
 
 	    iconizeFilters : function(){ return {
 
-			buildingType: window["BuildingTypeIcons"],
+			categories: window["attributeIconSets"]["servicesCategoriesIcons"],
 			servicesProvided: window["ServicesProvidedIcons"],
 			sex: window["GenderServedIcons"],
 			primaryTargetResident: window["PrimaryTargetResidentIcons"]
@@ -30,7 +30,7 @@ sidePanel.addEvent('show:once', function() {
 
 
     $whiteList=array(
-        "buildingType", 
+        "catetories", 
         "servicesProvided", 
         "primaryTargetResident", 
         "sex", 
