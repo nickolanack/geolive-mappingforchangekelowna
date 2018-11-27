@@ -623,13 +623,6 @@
             "target": "map.1"
         }
     },
-    "widget.145": {
-        "name": "Content",
-        "instance": "CustomContent",
-        "parameters": {
-            "target": "none"
-        }
-    },
     "widget.146": {
         "name": "Side Panel",
         "instance": "SidePanel",
