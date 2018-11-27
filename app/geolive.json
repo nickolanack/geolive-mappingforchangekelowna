@@ -634,6 +634,13 @@
             "position": "LEFT_CENTER"
         }
     },
+    "widget.147": {
+        "name": "Multipoint Tool",
+        "instance": "MultipointTool",
+        "parameters": {
+            "target": "none"
+        }
+    },
     "widget.11": {
         "name": "Attr Search Bar",
         "instance": "AttributesSearch",
