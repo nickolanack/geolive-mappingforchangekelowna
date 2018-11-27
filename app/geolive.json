@@ -623,6 +623,13 @@
             "target": "map.1"
         }
     },
+    "widget.145": {
+        "name": "Content",
+        "instance": "CustomContent",
+        "parameters": {
+            "target": "none"
+        }
+    },
     "widget.11": {
         "name": "Attr Search Bar",
         "instance": "AttributesSearch",
