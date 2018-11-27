@@ -630,6 +630,13 @@
             "target": "none"
         }
     },
+    "widget.146": {
+        "name": "Side Panel",
+        "instance": "SidePanel",
+        "parameters": {
+            "target": "none"
+        }
+    },
     "widget.11": {
         "name": "Attr Search Bar",
         "instance": "AttributesSearch",
