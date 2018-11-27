@@ -19,6 +19,12 @@ sidePanel.addEvent('show:once', function() {
 			primaryTargetResident: window.attributeIconSets.primaryTargetResident
 			
 		}; },
+		labelSets : function(){ return {
+
+			categories: window.attributeValueList.servicesCategoriesIcons,
+			
+			
+		}; },
 
 		attributeList:function(){ return window.attributeValueList; }
 
