@@ -38,9 +38,9 @@ sidePanel.addEvent('show:once', function() {
 
     $whiteList=array(
         "categories", 
-        "primaryTargetResident", 
-        "sex", 
-        "populationServed"
+        "populationServed",
+        "sex"
+        
 
     );
 
