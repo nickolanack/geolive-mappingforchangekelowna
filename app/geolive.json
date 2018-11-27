@@ -638,7 +638,30 @@
         "name": "Multipoint Tool",
         "instance": "MultipointTool",
         "parameters": {
-            "target": "none"
+            "target": "services-map-widgets",
+            "controlColor": "rgb(48,84,107)",
+            "tileIcon": [],
+            "strokeColor": "rgb(0,0,0)",
+            "strokeWidth": "1.5",
+            "startColor": "rgb(77, 144, 254)",
+            "vertexColor": "rgb(255,255,255)",
+            "endColor": "rgb(77, 144, 254)",
+            "formatPopover": "",
+            "formatDistance": "",
+            "formatHeading": "",
+            "showOpenClosePath": true,
+            "autoClosePath": false,
+            "startInDrawingMode": false,
+            "showSavePath": false,
+            "showTile": true,
+            "onRenderTile": "",
+            "onFeatureStartScript": "",
+            "onFeatureEndScript": "",
+            "onFeatureChangeScript": "",
+            "getInitialFeatureScript": "",
+            "widgetTitle": "Polygons",
+            "readAccess": "public",
+            "position": "RIGHT_CENTER"
         }
     },
     "widget.11": {
