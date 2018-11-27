@@ -2,7 +2,29 @@
  GetPlugin('Isearch')->includeScripts();
 ?>
 sidePanel.addEvent('show:once', function() {
-	var filterBuilder = new IsearchFilterBuilder(map, container, gutter);
+	var filterBuilder = new IsearchFilterBuilder(map, container, {
+	    rangeFilters : function(){ return {
+			estimatedWaitTime: {},
+			MonthlyCostOfStay: {},
+			maxDurationOfStay: {}
+
+
+		}; },
+
+	    iconizeFilters : function(){ return {
+
+			buildingType: window["BuildingTypeIcons"],
+			servicesProvided: window["ServicesProvidedIcons"],
+			genderServed: window["GenderServedIcons"],
+			primaryTargetResident: window["PrimaryTargetResidentIcons"]
+		}; },
+
+		attributeList:function(){ return window.attributeValueList; }
+
+	    
+	    
+	    
+	});
 	var attributesMod = <?php
 
 
