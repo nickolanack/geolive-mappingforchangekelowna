@@ -660,7 +660,7 @@
             "onFeatureChangeScript": "",
             "getInitialFeatureScript": "",
             "widgetTitle": "Polygons",
-            "readAccess": "public",
+            "readAccess": "special",
             "position": "RIGHT_CENTER"
         }
     },
