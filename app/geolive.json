@@ -627,7 +627,11 @@
         "name": "Side Panel",
         "instance": "SidePanel",
         "parameters": {
-            "target": "none"
+            "target": "services-map-widgets",
+            "customScript": "Services Left Panel Filters.customScript.js",
+            "widgetTitle": "Services Left Panel Filters",
+            "readAccess": "public",
+            "position": "RIGHT_CENTER"
         }
     },
     "widget.11": {
