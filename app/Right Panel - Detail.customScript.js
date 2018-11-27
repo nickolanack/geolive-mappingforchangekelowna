@@ -1,1 +1,1 @@
-var detailViewer=new IsearchDetailViewer(map, container);
+var detailViewer=new IsearchDetailViewer(map, sidePanel, container);
