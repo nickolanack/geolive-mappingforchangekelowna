@@ -13,10 +13,11 @@ sidePanel.addEvent('show:once', function() {
 
 	    iconizeFilters : function(){ return {
 
-			categories: window["attributeIconSets"]["servicesCategoriesIcons"],
-			servicesProvided: window["ServicesProvidedIcons"],
-			sex: window["GenderServedIcons"],
-			primaryTargetResident: window["PrimaryTargetResidentIcons"]
+			categories: window.attributeIconSets.servicesCategoriesIcons,
+			servicesProvided: window.attributeIconSets.servicesProvided,
+			sex: window.attributeIconSets.genderServed,
+			primaryTargetResident: window.attributeIconSets.primaryTargetResident
+			
 		}; },
 
 		attributeList:function(){ return window.attributeValueList; }
