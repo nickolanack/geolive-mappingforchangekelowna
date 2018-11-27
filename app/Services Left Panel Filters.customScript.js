@@ -15,7 +15,7 @@ sidePanel.addEvent('show:once', function() {
 
 			buildingType: window["BuildingTypeIcons"],
 			servicesProvided: window["ServicesProvidedIcons"],
-			genderServed: window["GenderServedIcons"],
+			sex: window["GenderServedIcons"],
 			primaryTargetResident: window["PrimaryTargetResidentIcons"]
 		}; },
 
@@ -33,7 +33,7 @@ sidePanel.addEvent('show:once', function() {
         "buildingType", 
         "servicesProvided", 
         "primaryTargetResident", 
-        "genderServed", 
+        "sex", 
         "demographicServed"
 
     );
