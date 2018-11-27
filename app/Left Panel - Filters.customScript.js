@@ -19,7 +19,9 @@ sidePanel.addEvent('show:once', function() {
 			primaryTargetResident: window["PrimaryTargetResidentIcons"]
 		}; },
 
-		attributeList:function(){ return window.attributeValueList; }
+		attributeList:function(){ return Object.append({
+		    
+		}, window.attributeValueList); }
 
 	    
 	    
