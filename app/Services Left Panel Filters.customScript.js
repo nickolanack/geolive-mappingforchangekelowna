@@ -13,7 +13,7 @@ sidePanel.addEvent('show:once', function() {
 
 	    iconizeFilters : function(){ return {
 
-			categories: window.attributeIconSets.servicesCategoriesIcons,
+			categories: window.attributeIconSets.servicesCategories,
 			servicesProvided: window.attributeIconSets.servicesProvided,
 			sex: window.attributeIconSets.genderServed,
 			primaryTargetResident: window.attributeIconSets.primaryTargetResident
@@ -21,12 +21,15 @@ sidePanel.addEvent('show:once', function() {
 		}; },
 		labelSets : function(){ return {
 
-			categories: window.attributeValueList.servicesCategoriesIcons,
+			categories: window.attributeValueList.servicesCategories,
 			
 			
 		}; },
 
-		attributeList:function(){ return window.attributeValueList; }
+		attributeList:function(){ return Object.append({
+		    categories: window.attributeValueList.servicesCategories,
+		    sex: window.attributeValueList.genderServed
+		}, window.attributeValueList); }
 
 	    
 	    
