@@ -661,7 +661,7 @@
             "getInitialFeatureScript": "",
             "widgetTitle": "Polygons",
             "readAccess": "special",
-            "position": "RIGHT_CENTER"
+            "position": "LEFT_CENTER"
         }
     },
     "widget.11": {
