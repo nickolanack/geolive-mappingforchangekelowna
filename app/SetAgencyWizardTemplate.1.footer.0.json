@@ -4,10 +4,12 @@
         "className": "",
         "reduceOpacity": false,
         "onCompleteScript": "defaultBehaviorFn();",
+        "showFinish": true,
+        "showCancel": false,
+        "showBack": true,
         "labelForCancel": "cancel",
         "labelForSubmit": "Save",
         "labelForNext": "next",
-        "labelForPrevious": "previous",
-        "showCancel": false
+        "labelForPrevious": "previous"
     }
 }

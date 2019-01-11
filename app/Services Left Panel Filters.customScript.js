@@ -13,14 +13,22 @@ sidePanel.addEvent('show:once', function() {
 
 	    iconizeFilters : function(){ return {
 
-			buildingType: window["BuildingTypeIcons"],
-			servicesProvided: window["ServicesProvidedIcons"],
-			genderServed: window["GenderServedIcons"],
-			primaryTargetResident: window["PrimaryTargetResidentIcons"]
+			categories: window.attributeIconSets.servicesCategories,
+			servicesProvided: window.attributeIconSets.servicesProvided,
+			sex: window.attributeIconSets.genderServed,
+			primaryTargetResident: window.attributeIconSets.primaryTargetResident
+			
+		}; },
+		labelSets : function(){ return {
+
+			categories: window.attributeValueList.servicesCategories,
+			
+			
 		}; },
 
 		attributeList:function(){ return Object.append({
-		    
+		    categories: window.attributeValueList.servicesCategories,
+		    sex: window.attributeValueList.genderServed
 		}, window.attributeValueList); }
 
 	    
@@ -32,11 +40,10 @@ sidePanel.addEvent('show:once', function() {
 
 
     $whiteList=array(
-        "buildingType", 
-        "servicesProvided", 
-        "primaryTargetResident", 
-        "genderServed", 
-        "demographicServed"
+        "categories", 
+        "populationServed",
+        "sex"
+        
 
     );
 

@@ -20,6 +20,11 @@ foreach(WidgetsForTarget('map.1') as $widget){
 				        //continue;
 				    }
 				    
+				     if(class_exists('AttributesFilterBuilderWidget')&&$widget instanceof AttributesFilterBuilderWidget){
+				        $widget->setParameter('urlPrefix','/map/services-map/');
+				    }
+				    
+				    
 					$widget->display($targetInstance);
 				}
 				

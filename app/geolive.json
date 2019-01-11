@@ -405,9 +405,10 @@
         "parameters": {
             "moderator": [
                 "nickblackwell82@gmail.com",
+                "isearchmap@gmail.com",
                 ""
             ],
-            "enableEmails": false,
+            "enableEmails": true,
             "fromEmailName": "Geolive Notifications",
             "fromEmail": "geolivemap+isearch@gmail.com",
             "siteUrl": "https:\/\/isearchkelowna.ca",
@@ -446,7 +447,7 @@
         "parameters": {
             "clientSecretUrl": "XXXX-XXXX",
             "clientPublicUrl": "https:\/\/36cfe0ea86024517b7da293bcd941353@sentry.io\/185774",
-            "enabled": true
+            "enabled": false
         }
     },
     "plugin.29": {
@@ -621,6 +622,60 @@
             "position": "RIGHT_CENTER",
             "customScript": "Right Panel - Detail.customScript.js",
             "target": "map.1"
+        }
+    },
+    "widget.146": {
+        "name": "Side Panel",
+        "instance": "SidePanel",
+        "parameters": {
+            "target": "services-map-widgets",
+            "customScript": "Services Left Panel Filters.customScript.js",
+            "widgetTitle": "Services Left Panel Filters",
+            "readAccess": "public",
+            "position": "LEFT_CENTER"
+        }
+    },
+    "widget.147": {
+        "name": "Multipoint Tool",
+        "instance": "MultipointTool",
+        "parameters": {
+            "widgetTitle": "Polygons",
+            "target": "services-map-widgets",
+            "controlColor": "rgb(48,84,107)",
+            "tileIcon": [],
+            "strokeColor": "rgb(0,0,0)",
+            "startColor": "rgb(77, 144, 254)",
+            "vertexColor": "rgb(255,255,255)",
+            "endColor": "rgb(77, 144, 254)",
+            "strokeWidth": "1.5",
+            "showOpenClosePath": true,
+            "showSavePath": false,
+            "autoClosePath": false,
+            "startInDrawingMode": false,
+            "showTile": true,
+            "formatPopover": "",
+            "formatDistance": "",
+            "formatHeading": "",
+            "onRenderTileScript": "",
+            "getInitialFeatureScript": "",
+            "onFeatureStartScript": "",
+            "onFeatureChangeScript": "",
+            "onFeatureEndScript": "",
+            "onRenderTile": "",
+            "readAccess": "special",
+            "position": "LEFT_CENTER"
+        }
+    },
+    "widget.148": {
+        "name": "Content",
+        "instance": "CustomContent",
+        "parameters": {
+            "target": "map.1",
+            "customScript": "Add Dependencies To Map.customScript.js",
+            "widgetTitle": "Add Dependencies To Map",
+            "language": "php",
+            "returnsValue": false,
+            "readAccess": "public"
         }
     },
     "widget.11": {
@@ -2197,7 +2252,7 @@
             "onSaveScript": "SetAgencyWizardTemplate.onSaveScript.js",
             "onLoadScript": "",
             "metadata": {
-                "class": "DescisionNode",
+                "class": "DecisionNode",
                 "_diagramState": {
                     "x": 0,
                     "y": 41
@@ -2211,11 +2266,18 @@
                             "SetAgencyWizardTemplate.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
-                            "x": 212,
-                            "y": 211
+                            "x": 232,
+                            "y": 231
                         },
                         "children": [
-                            "SetAgencyWizardTemplate.metadata.children.1.children.0.json"
+                            "SetAgencyWizardTemplate.metadata.children.1.children.0.json",
+                            {
+                                "class": "InsertNode",
+                                "_diagramState": {
+                                    "x": 192,
+                                    "y": 397
+                                }
+                            }
                         ],
                         "builderMetadata": {
                             "positions": {
@@ -4056,7 +4118,9 @@
             "customScript": "Help Sections.customScript.js",
             "widgetTitle": "Help Sections",
             "readAccess": "public",
-            "target": ""
+            "target": "",
+            "language": "html\/text",
+            "returnsValue": false
         }
     },
     "widget.102": {
@@ -4076,7 +4140,9 @@
             "customScript": "Technical Issue Form.customScript.js",
             "widgetTitle": "Technical Issue Form",
             "readAccess": "public",
-            "target": ""
+            "target": "",
+            "language": "html\/text",
+            "returnsValue": false
         }
     },
     "widget.120": {
@@ -9577,16 +9643,16 @@
                             "Services Form.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
-                            "x": 272,
-                            "y": 173
+                            "x": 422,
+                            "y": 323
                         },
                         "children": [
                             "Services Form.metadata.children.1.children.0.json",
                             {
                                 "class": "InsertNode",
                                 "_diagramState": {
-                                    "x": 232,
-                                    "y": 534
+                                    "x": 382,
+                                    "y": 686
                                 }
                             }
                         ],
@@ -9886,7 +9952,7 @@
                                                     "Services Form.metadata.children.1.builderMetadata.positions.content.modules.15.config.attributeFields.0.json"
                                                 ],
                                                 "className": "",
-                                                "label": "Mailing Address (autofill from agency)",
+                                                "label": "Mailing Address",
                                                 "message": "",
                                                 "lines": 1,
                                                 "maxChars": 0,

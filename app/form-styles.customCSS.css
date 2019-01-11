@@ -63,8 +63,96 @@ foreach(($data=GetWidget('servicesCategoriesIcons')->getIconsetData())->names as
     top: 2px;
 }
 
+.uitext-container.mirroring .lbl-txt:after {
+    content: " autofilled from location field";
+    font-style: italic;
+    color: #911741;
+    font-size: 13px;
+}
 
+.tag-cloud- .label.top-left {
+    margin: 5px;
+}
+.label.top-left, .edittab-content .label{
+    background: none;
+}
 
 .inline-form .mandatory-field .invalid, .inline-form .mandatory-field .empty {
     border-color:#911741;
+}
+
+.uitext-container.hideTextArea .text-input {
+    display: none;
+}
+
+.upload-btns span {
+    display:none;
+    
+}
+span.image.noIcon {
+    height: 30px;
+    background-size: audo 100%;
+    background-position: right center;
+    background-repeat: no-repeat;
+    line-height: 26px;
+    cursor: pointer;
+}
+
+span.image.noIcon:before {
+    content: "Browse Images";
+    display: inline;
+    font-style: italic;
+    color: #901841;
+    margin-right: 40px;
+}
+.upload-btns span.image {
+   display:inline-block;
+   background-image: url("<?php echo UrlFrom("{assets}/Interface Control Icons/image-mime.png?tint=rgb(144, 24, 65)"); ?>");
+}
+
+
+
+
+
+
+
+
+.selected-agency>div {
+    display: inline-block;
+    background-color: rgba(0,0,0,0.1);
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin: 5px 0;
+        height: 20px;
+}
+
+.selected-agency>div>* {
+    display: inline-block;
+}
+
+.selected-agency button {
+    border: none;
+    background-color: transparent;
+    padding-right: 0;
+}
+
+.selected-agency img {
+    height: 17px;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+    left: -4px;
+    width: auto;
+}
+
+.selected-agency button:after {
+    content: "+";
+    transform: rotate(42deg);
+    display: inline-block;
+    font-size: 22px;
+    color: #901841;
+}
+
+.has-agency .text-input {
+    display: none;
 }
