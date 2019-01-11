@@ -2,7 +2,13 @@ module.runOnceOnLoad(function(){
 
                       
                         moduleGroup.forEach(function(mod){
-                            
+                            if(mod._module.getIdentifier()=="location"){
+                            	mod._module.addEvent("change",function(){
+                            	    if(module.getValue()==""&&mod._module.getValue()&&mod._module.getValue()!=""){
+                            	        module.setValue(mod._module.getValue());
+                            	    }
+                            	})
+                            }
                         });
 
                         var search = new UISearchControl(inputElement,{});
