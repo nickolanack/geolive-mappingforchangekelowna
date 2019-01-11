@@ -665,6 +665,13 @@
             "position": "LEFT_CENTER"
         }
     },
+    "widget.148": {
+        "name": "Content",
+        "instance": "CustomContent",
+        "parameters": {
+            "target": "none"
+        }
+    },
     "widget.11": {
         "name": "Attr Search Bar",
         "instance": "AttributesSearch",
