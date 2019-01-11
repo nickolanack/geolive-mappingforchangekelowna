@@ -670,8 +670,8 @@
         "instance": "CustomContent",
         "parameters": {
             "target": "map.1",
-            "customScript": "Helper.customScript.js",
-            "widgetTitle": "Helper",
+            "customScript": "Add Styles to map.customScript.js",
+            "widgetTitle": "Add Styles to map",
             "language": "php",
             "returnsValue": false,
             "readAccess": "public"
