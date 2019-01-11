@@ -13,6 +13,11 @@ module.runOnceOnLoad(function(){
                             	        module.setValue(mod._module.getValue());
                             	    }
                             	})
+                            	mod._module._search.addEvent("onLocationSearch", function(place){
+                            	    if(mirror){
+                            	        textField.setValue(place.geometry.location)
+                            	    }
+                            	})
                             }
                         });
 
