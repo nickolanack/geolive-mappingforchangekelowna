@@ -188,9 +188,10 @@ echo ($this->direction == 'rtl' ? ' rtl' : '');
 				<!-- End Sidebar -->
 				<?php endif; ?>
 				<main id="content" role="main" class="<?php echo $span; ?>"> <!-- Begin Content -->
-				<jdoc:include type="modules" name="position-3" style="xhtml" /> <jdoc:include
-					type="message" /> <jdoc:include type="component" /> <jdoc:include
-					type="modules" name="position-2" style="none" /> <!-- End Content -->
+				<jdoc:include type="modules" name="position-3" style="xhtml" /> 
+				<jdoc:include type="message" /> 
+				<jdoc:include type="component" /> 
+				<jdoc:include type="modules" name="position-2" style="none" /> <!-- End Content -->
 				</main>
 				<?php if ($this->countModules('position-7')) : ?>
 				<div id="pushmenu-parent"
@@ -218,7 +219,7 @@ echo ($this->direction == 'rtl' ? ' rtl' : '');
 			<jdoc:include type="modules" name="footer" style="none" />
 			<p class="pull-right">
 				<a href="#top" id="back-top">
-					<?php echo JText::_('TPL_PROTOSTAR_BACKTOTOP'); ?>
+					Back To Top
 				</a>
 			</p>
 			<p>
