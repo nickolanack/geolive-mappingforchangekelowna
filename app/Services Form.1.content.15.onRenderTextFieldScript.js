@@ -1,7 +1,7 @@
 module.runOnceOnLoad(function(){
 
-                        var moduleList=moduleData[step][position];
-                        moduleList.forEach(function(mod){
+                      
+                        moduleGroup.forEach(function(mod){
                             
                         });
 
