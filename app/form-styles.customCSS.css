@@ -77,6 +77,21 @@ foreach(($data=GetWidget('servicesCategoriesIcons')->getIconsetData())->names as
     display:none;
     
 }
+span.image.noIcon {
+    height: 30px;
+    background-size: audo 100%;
+    background-position: right center;
+    background-repeat: no-repeat;
+    line-height: 26px;
+}
+
+span.image.noIcon:before {
+    content: "Browse Images";
+    display: inline;
+    font-style: italic;
+    color: #901841;
+    margin-right: 40px;
+}
 .upload-btns span.image {
    display:inline-block;
    background-image: url("<?php echo UrlFrom("{assets}/Interface Control Icons/image-mime.png?tint=rgb(100, 149, 237)"); ?>");
