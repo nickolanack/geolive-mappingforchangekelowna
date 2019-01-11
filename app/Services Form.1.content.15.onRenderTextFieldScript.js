@@ -1,8 +1,15 @@
 module.runOnceOnLoad(function(){
 
                         var mirror=false;
+                        module.getElement().setAttribute('data-mirroring',"copying location");
                         var setMirror=function(bool){
                             mirror=bool;
+                            if(mirror){
+                                  module.getElement().addClass("mirroring");
+                                  return;
+                            }
+                            module.getElement().addClass("mirroring");
+                            
                         };
                       
                         moduleGroup.forEach(function(mod){
@@ -10,6 +17,7 @@ module.runOnceOnLoad(function(){
                            
                                 if(module.getValue()==mod._module.getValue()&&mod._module.getValue()!=""){
                                     setMirror(true);
+                                  
                                 } 
                            
                             	mod._module.addEvent("change",function(){
