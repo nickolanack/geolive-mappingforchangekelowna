@@ -405,9 +405,10 @@
         "parameters": {
             "moderator": [
                 "nickblackwell82@gmail.com",
+                "isearchmap@gmail.com",
                 ""
             ],
-            "enableEmails": false,
+            "enableEmails": true,
             "fromEmailName": "Geolive Notifications",
             "fromEmail": "geolivemap+isearch@gmail.com",
             "siteUrl": "https:\/\/isearchkelowna.ca",
