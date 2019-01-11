@@ -63,6 +63,12 @@ foreach(($data=GetWidget('servicesCategoriesIcons')->getIconsetData())->names as
     top: 2px;
 }
 
+.uitext-container.mirroring .lbl-txt:after {
+    content: " autofilled from location field";
+    font-style: italic;
+    color: #911741;
+    font-size: 13px;
+}
 
 .tag-cloud- .label.top-left {
     margin: 5px;
