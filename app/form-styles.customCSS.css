@@ -69,6 +69,10 @@ foreach(($data=GetWidget('servicesCategoriesIcons')->getIconsetData())->names as
     border-color:#911741;
 }
 
+.uitext-container.hideTextArea .text-input {
+    display: none;
+}
+
 .upload-btns span {
     display:none;
     
