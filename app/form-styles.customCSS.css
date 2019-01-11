@@ -68,3 +68,12 @@ foreach(($data=GetWidget('servicesCategoriesIcons')->getIconsetData())->names as
 .inline-form .mandatory-field .invalid, .inline-form .mandatory-field .empty {
     border-color:#911741;
 }
+
+.upload-btns span {
+    display:none;
+    
+}
+.upload-btns span.image {
+   display:inline-block;
+   background-image: url("<?php echo UrlFrom("{assets}/Interface Control Icons/image-mime.png?tint=rgb(100, 149, 237)"); ?>");
+}
