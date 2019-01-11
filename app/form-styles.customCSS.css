@@ -67,7 +67,7 @@ foreach(($data=GetWidget('servicesCategoriesIcons')->getIconsetData())->names as
 .tag-cloud- .label.top-left {
     margin: 5px;
 }
-.label.top-left {
+.label.top-left, .edittab-content .label{
     background: none;
 }
 
