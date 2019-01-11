@@ -109,3 +109,40 @@ span.image.noIcon:before {
    display:inline-block;
    background-image: url("<?php echo UrlFrom("{assets}/Interface Control Icons/image-mime.png?tint=rgb(144, 24, 65)"); ?>");
 }
+
+
+
+
+
+
+
+
+.selected-agency>div {
+    display: inline-block;
+    background-color: rgba(0,0,0,0.1);
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin: 5px 0;
+}
+
+.selected-agency>div>* {
+    display: inline-block;
+}
+
+.selected-agency button {
+    border: none;
+    background-color: transparent;
+    padding-right: 0;
+}
+
+.selected-agency button:after {
+    content: "+";
+    transform: rotate(42deg);
+    display: inline-block;
+    font-size: 22px;
+    color: #901841;
+}
+
+.has-agency .text-input {
+    display: none;
+}
