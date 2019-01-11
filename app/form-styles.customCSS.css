@@ -123,6 +123,7 @@ span.image.noIcon:before {
     padding: 5px 10px;
     border-radius: 4px;
     margin: 5px 0;
+        height: 20px;
 }
 
 .selected-agency>div>* {
