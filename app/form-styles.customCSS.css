@@ -83,6 +83,7 @@ span.image.noIcon {
     background-position: right center;
     background-repeat: no-repeat;
     line-height: 26px;
+    cursor: pointer;
 }
 
 span.image.noIcon:before {
