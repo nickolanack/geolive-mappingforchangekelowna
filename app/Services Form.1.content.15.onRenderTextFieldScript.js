@@ -8,15 +8,13 @@ module.runOnceOnLoad(function(){
                             	mod._module.addEvent("change",function(){
                             	    if(module.getValue()==""&&mod._module.getValue()&&mod._module.getValue()!=""){
                             	        mirror=true;
-                            	        mod._module._search.addEvent("onLocationSearch", function(place){
+                            	        mod._module._search.addEvent("select", function(value){
                                     	    if(mirror){
-                                    	        textField.setValue(place.geometry.location)
+                                    	        textField.setValue(value)
                                     	    }
                                     	})
                             	    }
-                            	    if(mirror){
-                            	        module.setValue(mod._module.getValue());
-                            	    }
+             
                             	})
                             	
                             }
