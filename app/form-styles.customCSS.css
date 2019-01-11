@@ -94,5 +94,5 @@ span.image.noIcon:before {
 }
 .upload-btns span.image {
    display:inline-block;
-   background-image: url("<?php echo UrlFrom("{assets}/Interface Control Icons/image-mime.png?tint=rgb(100, 149, 237)"); ?>");
+   background-image: url("<?php echo UrlFrom("{assets}/Interface Control Icons/image-mime.png?tint=rgb(144, 24, 65)"); ?>");
 }
