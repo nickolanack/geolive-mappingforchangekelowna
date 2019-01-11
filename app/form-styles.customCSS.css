@@ -136,6 +136,15 @@ span.image.noIcon:before {
     padding-right: 0;
 }
 
+.selected-agency img {
+    height: 17px;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+    left: -4px;
+    width: auto;
+}
+
 .selected-agency button:after {
     content: "+";
     transform: rotate(42deg);
