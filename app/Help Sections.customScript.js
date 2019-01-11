@@ -1,3 +1,5 @@
+<?php GetWidget('form-styles')->display($targetInstance); ?>
+
 <a name="HelpGetStarted"></a><section class="explore housing-types">
 <h1>Getting Started</h1>
 <div class="width-helper"><p>
