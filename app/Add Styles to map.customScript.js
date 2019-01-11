@@ -1,1 +1,0 @@
-GetWidget('form-styles')->display($targetInstance);

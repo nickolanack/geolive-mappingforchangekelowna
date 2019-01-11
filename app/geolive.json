@@ -671,8 +671,8 @@
         "instance": "CustomContent",
         "parameters": {
             "target": "map.1",
-            "customScript": "Add Styles to map.customScript.js",
-            "widgetTitle": "Add Styles to map",
+            "customScript": "Add Dependencies To Map.customScript.js",
+            "widgetTitle": "Add Dependencies To Map",
             "language": "php",
             "returnsValue": false,
             "readAccess": "public"
