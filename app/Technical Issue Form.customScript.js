@@ -15,7 +15,7 @@ UI('form.outlet',array('fields'=>array(
 
 HtmlBlock('page', 
     array(
-        'className'=>'email-form',
+        'className'=>'email-form inline-form',
         'content' => function () {
 
 
