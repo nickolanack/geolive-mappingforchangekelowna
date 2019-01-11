@@ -23,7 +23,7 @@
             }
         ],
         "className": "",
-        "label": "Agency",
+        "label": "Select Agency",
         "message": "",
         "lines": 1,
         "maxChars": 0,
