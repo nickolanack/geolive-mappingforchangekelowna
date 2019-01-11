@@ -1,5 +1,9 @@
 module.runOnceOnLoad(function(){
 
+                        var moduleList=moduleData[step][position];
+                        moduleList.forEach(function(mod){
+                            
+                        });
 
                         var search = new UISearchControl(inputElement,{});
                         UISearchControl.AddAggregatedSearchResults(search, [
