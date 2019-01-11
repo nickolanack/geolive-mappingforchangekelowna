@@ -10,10 +10,14 @@ module.runOnceOnLoad(function(){
                             	        mirror=true;
                             	        mod._module._search.addEvent("select", function(value){
                                     	    if(mirror){
-                                    	        textField.setValue(value)
+                                    	        module.setValue(value)
                                     	    }
                                     	})
                             	    }
+                            	    
+                            	     if(mirror){
+                                        module.setValue(mod._module.getValue())
+                                     }
              
                             	})
                             	
