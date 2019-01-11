@@ -67,7 +67,9 @@ foreach(($data=GetWidget('servicesCategoriesIcons')->getIconsetData())->names as
 .tag-cloud- .label.top-left {
     margin: 5px;
 }
-
+.label.top-left {
+    background: none;
+}
 
 .inline-form .mandatory-field .invalid, .inline-form .mandatory-field .empty {
     border-color:#911741;
