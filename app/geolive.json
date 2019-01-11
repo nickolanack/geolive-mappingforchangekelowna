@@ -669,7 +669,12 @@
         "name": "Content",
         "instance": "CustomContent",
         "parameters": {
-            "target": "none"
+            "target": "map.1",
+            "customScript": "Helper.customScript.js",
+            "widgetTitle": "Helper",
+            "language": "php",
+            "returnsValue": false,
+            "readAccess": "public"
         }
     },
     "widget.11": {
