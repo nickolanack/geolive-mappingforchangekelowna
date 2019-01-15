@@ -165,3 +165,27 @@ span.attribute-item>img:hover {
 .icn-s-lst li:hover.selected::before {
     background: cornflowerblue;
 }
+
+/*Responsive Styles*/
+
+
+@media only screen and (max-height: 800px) {
+  .icn-s-lst li {
+    width: 35px;
+    height: 35px;
+  }
+
+  .icn-s-lst li>img {
+    top: 6px;
+    left: 8px;
+    height: 20px;
+  }
+}
+
+
+
+
+/*
+
+
+*/
