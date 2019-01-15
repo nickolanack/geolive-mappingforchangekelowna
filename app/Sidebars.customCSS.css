@@ -173,6 +173,29 @@ span.attribute-item>img:hover {
     font-size: 14px;
 }
 
+
+.right>.sidebar-view:before {
+    content: "Select a marker from the map to view details here";
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    padding: 40px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+.right>.sidebar-view>*   {
+    display: none;
+}
+
+.right>.sidebar-view.selected-mapitem>* {
+    display: block;
+}
+
+.right>.sidebar-view.selected-mapitem:before {
+    display: none;
+}
+
 /*Responsive Styles*/
 
 
