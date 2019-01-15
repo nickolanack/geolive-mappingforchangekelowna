@@ -203,6 +203,19 @@ span.attribute-item>img:hover {
     }
 
 
+    .SideBarWidget.left .attribute-filter[data-field=primaryTargetResident], .SideBarWidget.left .attribute-filter[data-field=genderServed] {
+        width: calc(50% - 15px);
+        display: inline-block;
+        margin-right: 0;
+        padding:0;
+    }
+    
+    .SideBarWidget.left .attribute-filter[data-field=primaryTargetResident] .label, .SideBarWidget.left .attribute-filter[data-field=genderServed] .label {
+      padding: 10px;
+    }
+    
+   
+
 }
 
 
