@@ -71,7 +71,7 @@ foreach(($data=GetWidget('servicesCategoriesIcons')->getIconsetData())->names as
 }
 
 .uitext-container.uitext-container[data-identifier=descriptionField] .media-bar:before {
-    content: "You can also include Program/Service Dates or Schedule images";
+    content: "You can also include Program/Service Dates or Schedule images (jpg, jpeg, png, gif, bmp)";
 }
 
 .tag-cloud- .label.top-left {
