@@ -16,7 +16,8 @@ var IsearchDetailViewer = new Class({
 			'class': 'sidebar-tabs'
 		}));
 		var page = container.appendChild(new Element('div', {
-			'class': 'sidebar-content'
+			'class': 'sidebar-content',
+			'html':'<p>Select a marker from the map to view detials here</p>'
 		}));
 
 
@@ -240,7 +241,7 @@ var IsearchDetailViewer = new Class({
 				throw Error('Requires GeoliveTemplateModule class');
 			}
 
-			var newClass = 'layer-' + mapitem.getLayer().getId();
+			var newClass = 'selected-mapitem layer-' + mapitem.getLayer().getId()+' item-'+mapitem.getId();
 			if (className) {
 				container.removeClass(className);
 			}
