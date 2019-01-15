@@ -192,6 +192,17 @@ span.attribute-item>img:hover {
   .SideBarWidget.active{
       width: 310px;
   }
+  
+
+
+    .cluster-toggle{
+        display:none;
+    }
+    .help-tile{
+        display:none;
+    }
+
+
 }
 
 
