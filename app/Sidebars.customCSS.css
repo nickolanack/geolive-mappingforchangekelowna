@@ -183,6 +183,7 @@ span.attribute-item>img:hover {
     display: block;
     width: 100%;
     box-sizing: border-box;
+    font-size: 14px;
 }
 .right>.sidebar-view>*   {
     display: none;
