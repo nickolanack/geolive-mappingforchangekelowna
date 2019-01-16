@@ -3763,7 +3763,8 @@
                     "type": "plugin.Attributes.AttributesMetadataSearch"
                 }
             ],
-            "onSelectItemScript": "Front End Search.onSelectItemScript.js"
+            "onSelectItemScript": "Front End Search.onSelectItemScript.js",
+            "target": "searchBar"
         }
     },
     "widget.78": {
