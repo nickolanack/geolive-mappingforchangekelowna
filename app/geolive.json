@@ -4160,7 +4160,7 @@
             "cacheable": false,
             "link": false,
             "widgetTitle": "Front Page CSS only",
-            "target": "none",
+            "target": "onlyFrontPageStyle",
             "customCSS": "Front Page CSS only.customCSS.css",
             "readAccess": "public"
         }
