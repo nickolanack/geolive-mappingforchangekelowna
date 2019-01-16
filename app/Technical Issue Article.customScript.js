@@ -1,3 +1,22 @@
+<a name="GeneralInquiry"></a>
+<section class="explore housing-types">
+<h1>Experiencing a Technical Issue</h1>
+<div class="width-helper"><p>
+
+To contact a isearch team member for general inquirys and comment please fill out the following form. 
+be sure to include your email if you would like to hear back
+
+</p></div>
+<br/>
+<div class="width-helper">
+<?php
+    GetWidget('submitIssueForm')->display();
+?>
+
+</div>
+
+</section>
+
 <a name="ReportIssue"></a>
 <section class="explore housing-types">
 <h1>Experiencing a Technical Issue</h1>
@@ -10,7 +29,7 @@ It may be helpful to contact you for more details relating to the issue, if you 
 <br/>
 <div class="width-helper">
 <?php
-   HtmlBlock('widget', 103);
+    GetWidget('submitIssueForm')->display();
 ?>
 
 </div>
