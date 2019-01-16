@@ -21,7 +21,16 @@
             "uploadViewInlineCss": "",
             "uploadViewPageScript": "",
             "enableFileAttributes": false,
-            "fileAttributesTableName": "filesystemAttributes"
+            "fileAttributesTableName": "filesystemAttributes",
+            "useS3Storage": false,
+            "bucket": "",
+            "folder": "",
+            "region": "us-west-2",
+            "version": "latest",
+            "key": "",
+            "secret": "",
+            "useCloudFront": false,
+            "cloudFrontDomain": ""
         }
     },
     "plugin.4": {
@@ -57,7 +66,7 @@
             "CSSInlineObfuscationEnabled": false,
             "PHPDebugEnabled": true,
             "JSDebugEnabled": false,
-            "CachingEnabled": false,
+            "CachingEnabled": true,
             "ExternalizeWidgetScripts": true,
             "PrettyPrintJson": true,
             "JSCacheObfuscationEnabled": false,
@@ -98,7 +107,18 @@
     "plugin.9": {
         "name": "Users",
         "instance": "Users",
-        "parameters": {}
+        "parameters": {
+            "customUserGroups": [],
+            "customUserScript": "",
+            "customGroupMemberOfGroupScript": "",
+            "defaultImage": [],
+            "userProfileImageScript": "return $defaultImage;",
+            "validateEmail": true,
+            "magicLinkUrl": "",
+            "useRecaptcha": false,
+            "recaptchaKey": false,
+            "recaptchaSecret": false
+        }
     },
     "plugin.10": {
         "name": "Upgrade",
@@ -199,13 +219,19 @@
         "name": "Email",
         "instance": "Email",
         "parameters": {
-            "useSmtp": true,
             "fromEmail": "geolivemap.ca+isearch@gmail.com",
             "fromEmailName": "iSearch Kelowna",
+            "useSmtp": true,
             "smtpHost": "smtp.gmail.com",
             "username": "XXXX-XXXX",
             "password": "XXXX-XXXX",
             "port": "587",
+            "useMailgun": false,
+            "domain": "",
+            "apiKey": "",
+            "validateSenderDomain": false,
+            "useGlobalMailTemplate": false,
+            "globalTemplate": "DefaultMailerTemplate",
             "recieveMail": false,
             "recieveMailSecretToken": "XXXX-XXXX"
         }
@@ -447,7 +473,8 @@
         "parameters": {
             "clientSecretUrl": "XXXX-XXXX",
             "clientPublicUrl": "https:\/\/36cfe0ea86024517b7da293bcd941353@sentry.io\/185774",
-            "enabled": false
+            "enabled": false,
+            "enabledFrontEnd": false
         }
     },
     "plugin.29": {
@@ -492,46 +519,52 @@
         "name": "Tile Buttons",
         "instance": "TileButtons",
         "parameters": {
+            "widgetTitle": "",
+            "target": "",
+            "position": "RIGHT_CENTER",
+            "fullscreen": true,
+            "home": true,
+            "iconset": true,
+            "login": true,
+            "logout": true,
+            "controlColor": "rgb(143, 21, 64)",
+            "subControlColor": "rgb(143, 21, 64)",
+            "tileIcon": [],
+            "displayMapSave": "1",
+            "tileSize": 50,
+            "markerSize": 32,
+            "markerIconset": [],
+            "iconsetMetadata": [],
+            "groupIcon": [],
+            "showToolTips": true,
+            "useTipIconsetLayerTitle": false,
+            "showLogoutProfile": true,
+            "formatTipScript": "",
+            "guestLoginDrag": true,
+            "onDragEndScript": "defaultBehaviorFn();",
+            "onDisplayTileScript": "",
+            "onProfileClickScript": "widget.TileButtons.2.onProfileClickScript.js",
             "sections": [
                 "fullscreen",
                 "home"
             ],
-            "controlColor": "rgb(143, 21, 64)",
             "discussionTag": false,
             "iconSetReferenceName": "",
             "markerSearch": true,
-            "tileIcon": [],
-            "groupIcon": [],
-            "position": "RIGHT_CENTER",
             "offsetX": 100,
             "offsetY": 100,
             "tilePadding": 0,
             "direction": "auto",
-            "markerSize": 32,
-            "tileSize": 50,
-            "showToolTips": true,
             "fullscreenTip": false,
             "homeTip": false,
             "markerTip": false,
             "loginTip": false,
             "logoutTip": false,
             "profileTip": false,
-            "markerIconset": [],
             "layerMap": [],
             "tipMap": [],
             "filterLayerMappedIcons": true,
-            "iconsetMetadata": [],
-            "widgetTitle": "",
-            "readAccess": "public",
-            "subControlColor": "rgb(143, 21, 64)",
-            "guestLoginDrag": true,
-            "onDragEndScript": "defaultBehaviorFn();",
-            "useTipIconsetLayerTitle": false,
-            "formatTipScript": "",
-            "showLogoutProfile": true,
-            "displayMapSave": "1",
-            "onDisplayTileScript": "",
-            "onProfileClickScript": "widget.TileButtons.2.onProfileClickScript.js"
+            "readAccess": "public"
         }
     },
     "widget.3": {
@@ -583,10 +616,12 @@
         "name": "Stylesheet",
         "instance": "CSS",
         "parameters": {
-            "customCSS": "map css.customCSS.css",
+            "cacheable": false,
+            "link": false,
             "widgetTitle": "map css",
-            "readAccess": "public",
-            "target": "map.1"
+            "target": "map.1",
+            "customCSS": "map css.customCSS.css",
+            "readAccess": "public"
         }
     },
     "widget.12": {
@@ -1583,9 +1618,6 @@
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/MXD_bna_[ImAgE]_4ND_[G].png",
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/MMT_92i_[ImAgE]_k3H_[G].png"
             ],
-            "layerMap": [],
-            "tipMap": [],
-            "filterLayerMappedIcons": true,
             "iconsetMetadata": {
                 "layerMap": {
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_cai_qou_wau_[G].png": 1,
@@ -1614,6 +1646,9 @@
                     }
                 }
             },
+            "layerMap": [],
+            "tipMap": [],
+            "filterLayerMappedIcons": true,
             "widgetTitle": "",
             "readAccess": "public",
             "_raw_layerMap": null,
@@ -2377,10 +2412,12 @@
         "name": "Stylesheet",
         "instance": "CSS",
         "parameters": {
-            "customCSS": "Sidebars.customCSS.css",
+            "cacheable": false,
+            "link": false,
             "widgetTitle": "Sidebars",
-            "readAccess": "public",
-            "target": "map.1"
+            "target": "map.1",
+            "customCSS": "Sidebars.customCSS.css",
+            "readAccess": "public"
         }
     },
     "widget.27": {
@@ -2511,8 +2548,11 @@
         "name": "Stylesheet",
         "instance": "CSS",
         "parameters": {
-            "customCSS": "Map Toolbar CSS.customCSS.css",
+            "cacheable": false,
+            "link": false,
             "widgetTitle": "Map Toolbar CSS",
+            "target": "",
+            "customCSS": "Map Toolbar CSS.customCSS.css",
             "readAccess": "public"
         }
     },
@@ -2663,8 +2703,11 @@
         "name": "Stylesheet",
         "instance": "CSS",
         "parameters": {
-            "customCSS": "Legend.customCSS.css",
+            "cacheable": false,
+            "link": false,
             "widgetTitle": "Legend",
+            "target": "",
+            "customCSS": "Legend.customCSS.css",
             "readAccess": "public"
         }
     },
@@ -3831,16 +3874,44 @@
     "widget.64": {
         "name": "Tile Buttons",
         "instance": "TileButtons",
-        "parameters": {}
+        "parameters": {
+            "widgetTitle": "",
+            "target": "",
+            "position": "LEFT_TOP",
+            "fullscreen": true,
+            "home": true,
+            "iconset": true,
+            "login": true,
+            "logout": true,
+            "controlColor": "rgb(48,84,107)",
+            "subControlColor": "rgb(100, 149, 237)",
+            "tileIcon": [],
+            "displayMapSave": true,
+            "tileSize": 50,
+            "markerSize": 32,
+            "markerIconset": [],
+            "iconsetMetadata": [],
+            "groupIcon": [],
+            "showToolTips": false,
+            "useTipIconsetLayerTitle": false,
+            "showLogoutProfile": false,
+            "formatTipScript": "",
+            "guestLoginDrag": true,
+            "onDragEndScript": "defaultBehaviorFn();",
+            "onDisplayTileScript": "",
+            "onProfileClickScript": ""
+        }
     },
     "widget.80": {
         "name": "Stylesheet",
         "instance": "CSS",
         "parameters": {
-            "customCSS": "Front Page CSS.customCSS.css",
+            "cacheable": false,
+            "link": false,
             "widgetTitle": "Front Page CSS",
-            "readAccess": "public",
-            "target": "none"
+            "target": "none",
+            "customCSS": "Front Page CSS.customCSS.css",
+            "readAccess": "public"
         }
     },
     "widget.66": {
@@ -4069,8 +4140,11 @@
         "name": "Stylesheet",
         "instance": "CSS",
         "parameters": {
-            "customCSS": "Front Article CSS.customCSS.css",
+            "cacheable": false,
+            "link": false,
             "widgetTitle": "Front Article CSS",
+            "target": "",
+            "customCSS": "Front Article CSS.customCSS.css",
             "readAccess": "public"
         }
     },
@@ -4078,10 +4152,12 @@
         "name": "Stylesheet",
         "instance": "CSS",
         "parameters": {
-            "customCSS": "Front Page CSS only.customCSS.css",
+            "cacheable": false,
+            "link": false,
             "widgetTitle": "Front Page CSS only",
-            "readAccess": "public",
-            "target": "none"
+            "target": "none",
+            "customCSS": "Front Page CSS only.customCSS.css",
+            "readAccess": "public"
         }
     },
     "widget.95": {
@@ -4188,8 +4264,11 @@
         "name": "Stylesheet",
         "instance": "CSS",
         "parameters": {
-            "customCSS": "Email Form CSS.customCSS.css",
+            "cacheable": false,
+            "link": false,
             "widgetTitle": "Email Form CSS",
+            "target": "",
+            "customCSS": "Email Form CSS.customCSS.css",
             "readAccess": "public"
         }
     },
@@ -4307,8 +4386,6 @@
         "name": "Named Iconset",
         "instance": "NamedIconset",
         "parameters": {
-            "exposeIconset": true,
-            "iconsetName": "buildingType",
             "icons": [
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/fik_Qih_[ImAgE]_[G]_7qp.png",
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_Pts_qTq_2cO.png",
@@ -4316,9 +4393,6 @@
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/3I1_sMs_[ImAgE]_[G]_mbr.png",
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_W0M_lWp_zQJ_[G].png"
             ],
-            "widgetTitle": "Housing Type Icons",
-            "readAccess": "public",
-            "position": "",
             "iconsetMetadata": {
                 "iconName": {
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_[ImAgE]_Pts_qTq_2cO.png": "transitional",
@@ -4337,6 +4411,11 @@
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/3I1_sMs_[ImAgE]_[G]_mbr.png": ""
                 }
             },
+            "exposeIconset": true,
+            "iconsetName": "buildingType",
+            "widgetTitle": "Housing Type Icons",
+            "readAccess": "public",
+            "position": "",
             "target": "buildingTypeIcons"
         }
     },
@@ -4344,8 +4423,6 @@
         "name": "Named Iconset",
         "instance": "NamedIconset",
         "parameters": {
-            "exposeIconset": false,
-            "iconsetName": "servicesProvided",
             "icons": [
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/qTr_tpk_[ImAgE]_[G]_aiZ.png",
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/iTq_yAO_[ImAgE]_[G]_Z5E.png",
@@ -4357,9 +4434,6 @@
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_0BZ_5dD_vxp_[ImAgE].png",
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/g3d_[G]_ivk_[ImAgE]_he7.png"
             ],
-            "widgetTitle": "Services Provided Icons",
-            "readAccess": "public",
-            "position": "",
             "iconsetMetadata": {
                 "iconName": {
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/qTr_tpk_[ImAgE]_[G]_aiZ.png": "Case Management",
@@ -4384,6 +4458,11 @@
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/g3d_[G]_ivk_[ImAgE]_he7.png": ""
                 }
             },
+            "exposeIconset": false,
+            "iconsetName": "servicesProvided",
+            "widgetTitle": "Services Provided Icons",
+            "readAccess": "public",
+            "position": "",
             "target": "servicesProvidedIcons"
         }
     },
@@ -4391,8 +4470,6 @@
         "name": "Named Iconset",
         "instance": "NamedIconset",
         "parameters": {
-            "exposeIconset": false,
-            "iconsetName": "dailyServices",
             "icons": [
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/9AK_eR6_[ImAgE]_8La_[G].png",
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/AET_[G]_[ImAgE]_6cq_oEM.png",
@@ -4401,9 +4478,6 @@
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/OZn_cee_[ImAgE]_327_[G].png",
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/EhZ_[ImAgE]_LXe_[G]_3oF.png"
             ],
-            "widgetTitle": "Daily Services Provided Icons",
-            "readAccess": "public",
-            "position": "",
             "iconsetMetadata": {
                 "iconName": {
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/9AK_eR6_[ImAgE]_8La_[G].png": "Meals",
@@ -4424,6 +4498,11 @@
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_Qwd_[G]_4I0_frw.png": ""
                 }
             },
+            "exposeIconset": false,
+            "iconsetName": "dailyServices",
+            "widgetTitle": "Daily Services Provided Icons",
+            "readAccess": "public",
+            "position": "",
             "target": "dailyServicesIcons"
         }
     },
@@ -4431,16 +4510,11 @@
         "name": "Named Iconset",
         "instance": "NamedIconset",
         "parameters": {
-            "exposeIconset": false,
-            "iconsetName": "primaryTargetResident",
             "icons": [
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_5sV_8io_[ImAgE]_kRu.png",
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/RF8_U7a_[G]_StY_[ImAgE].png",
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_[G]_xIK_fkF_60.png"
             ],
-            "widgetTitle": "Primary Target Resident Icons",
-            "readAccess": "public",
-            "position": "",
             "iconsetMetadata": {
                 "iconName": {
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_5sV_8io_[ImAgE]_kRu.png": "Individuals",
@@ -4455,6 +4529,11 @@
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_[G]_xIK_fkF_60.png": ""
                 }
             },
+            "exposeIconset": false,
+            "iconsetName": "primaryTargetResident",
+            "widgetTitle": "Primary Target Resident Icons",
+            "readAccess": "public",
+            "position": "",
             "target": "primaryTargetResidentIcons"
         }
     },
@@ -4462,16 +4541,11 @@
         "name": "Named Iconset",
         "instance": "NamedIconset",
         "parameters": {
-            "exposeIconset": false,
-            "iconsetName": "genderServed",
             "icons": [
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_Z7l_u9f_TK6_[ImAgE].png",
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_ZNo_OwQ_[G]_HUl.png",
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_zBj_[ImAgE]_kQr_5oA.png"
             ],
-            "widgetTitle": "Gender Served Icons",
-            "readAccess": "public",
-            "position": "",
             "iconsetMetadata": {
                 "iconName": {
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[G]_5sV_8io_[ImAgE]_kRu.png": "Male",
@@ -4488,6 +4562,11 @@
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_ZNo_OwQ_[G]_HUl.png": ""
                 }
             },
+            "exposeIconset": false,
+            "iconsetName": "genderServed",
+            "widgetTitle": "Gender Served Icons",
+            "readAccess": "public",
+            "position": "",
             "target": "genderServedIcons"
         }
     },
@@ -10088,9 +10167,11 @@
         "name": "Stylesheet",
         "instance": "CSS",
         "parameters": {
+            "cacheable": false,
+            "link": false,
+            "widgetTitle": "form-styles",
             "target": "form-styles",
             "customCSS": "form-styles.customCSS.css",
-            "widgetTitle": "form-styles",
             "readAccess": "public"
         }
     },
@@ -10400,9 +10481,6 @@
         "name": "Named Iconset",
         "instance": "NamedIconset",
         "parameters": {
-            "target": "servicesCategoriesIcons",
-            "exposeIconset": true,
-            "iconsetName": "",
             "icons": [
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/mwO_[G]_[ImAgE]_QAC_h0b.png",
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_lIS_[G]_IVO_nEm.png",
@@ -10464,6 +10542,9 @@
                     "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_Wlj_[G]_z4R_NvI.png": ""
                 }
             },
+            "target": "servicesCategoriesIcons",
+            "exposeIconset": true,
+            "iconsetName": "",
             "widgetTitle": "Services Categories",
             "readAccess": "public",
             "position": ""
