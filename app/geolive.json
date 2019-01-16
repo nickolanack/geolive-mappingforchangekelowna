@@ -4253,7 +4253,9 @@
             "customScript": "Technical Issue Article.customScript.js",
             "widgetTitle": "Technical Issue Article",
             "readAccess": "public",
-            "target": ""
+            "target": "technicalIssueForm",
+            "language": "html\/text",
+            "returnsValue": false
         }
     },
     "widget.103": {
