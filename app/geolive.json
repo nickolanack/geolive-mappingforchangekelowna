@@ -2546,7 +2546,7 @@
             "cacheable": false,
             "link": true,
             "widgetTitle": "Map Toolbar CSS",
-            "target": "",
+            "target": "map.1",
             "customCSS": "Map Toolbar CSS.customCSS.css",
             "readAccess": "public"
         }
