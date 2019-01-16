@@ -4128,7 +4128,9 @@
             "customScript": "About Questions.customScript.js",
             "widgetTitle": "About Questions",
             "readAccess": "public",
-            "target": ""
+            "target": "aboutSectionContent",
+            "language": "html\/text",
+            "returnsValue": false
         }
     },
     "widget.91": {
