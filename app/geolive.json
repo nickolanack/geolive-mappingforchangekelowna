@@ -10214,7 +10214,7 @@
         "instance": "CSS",
         "parameters": {
             "cacheable": false,
-            "link": false,
+            "link": true,
             "widgetTitle": "form-styles",
             "target": "form-styles",
             "customCSS": "form-styles.customCSS.css",
