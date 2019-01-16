@@ -4061,7 +4061,10 @@
         "parameters": {
             "customScript": "Front Intro.customScript.js",
             "widgetTitle": "Front Intro",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": "frontIntroContent",
+            "language": "html\/text",
+            "returnsValue": false
         }
     },
     "widget.86": {
