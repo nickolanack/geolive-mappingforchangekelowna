@@ -4148,7 +4148,7 @@
             "cacheable": false,
             "link": false,
             "widgetTitle": "Front Article CSS",
-            "target": "",
+            "target": "frontArticleStyle",
             "customCSS": "Front Article CSS.customCSS.css",
             "readAccess": "public"
         }
