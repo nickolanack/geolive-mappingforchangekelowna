@@ -4115,7 +4115,10 @@
         "parameters": {
             "customScript": "Quick Start Icon Articles.customScript.js",
             "widgetTitle": "Quick Start Icon Articles",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": "quickLinkIconsContent",
+            "language": "html\/text",
+            "returnsValue": false
         }
     },
     "widget.90": {
