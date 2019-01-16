@@ -4176,7 +4176,10 @@
         "parameters": {
             "customScript": "Red Zone Definition.customScript.js",
             "widgetTitle": "Red Zone Definition",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": "redZoneContent",
+            "language": "html\/text",
+            "returnsValue": false
         }
     },
     "widget.99": {
