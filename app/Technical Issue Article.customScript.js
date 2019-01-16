@@ -1,3 +1,4 @@
+<a name="ReportIssue"></a>
 <section class="explore housing-types">
 <h1>Experiencing a Technical Issue</h1>
 <div class="width-helper"><p>
