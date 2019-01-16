@@ -142,7 +142,7 @@ DeleteMenu.prototype.removeVertex = function() {
 map.setPolyClickFn(function(feature, latLng) {
 
 
-    GeoliveClient.authorize('write', feature, function(writable) {
+    AppClient.authorize('write', feature, function(writable) {
         if (writable) {
             if (!map.hasMode()) {
                 startEditing(feature);
