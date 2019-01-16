@@ -36,5 +36,5 @@ To have a brief introduction to the map's functionality, please click on the Que
 </section>
 
 <a name="ReportIssue"></a><?php 
-HtmlBlock('widget', 102);
+GetWidget('technicalIssueForm')->display();
 ?>
