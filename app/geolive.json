@@ -2671,7 +2671,8 @@
         "parameters": {
             "customScript": "Poly Behavior.customScript.js",
             "widgetTitle": "Poly Behavior",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": "map.1"
         }
     },
     "widget.31": {
