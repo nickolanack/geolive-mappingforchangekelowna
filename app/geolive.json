@@ -612,7 +612,7 @@
         "instance": "CSS",
         "parameters": {
             "cacheable": false,
-            "link": false,
+            "link": true,
             "widgetTitle": "map css",
             "target": "map.1",
             "customCSS": "map css.customCSS.css",
