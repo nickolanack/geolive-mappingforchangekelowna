@@ -4428,15 +4428,6 @@
             }
         }
     },
-    "widget.110": {
-        "name": "Content",
-        "instance": "CustomContent",
-        "parameters": {
-            "customScript": "Map Configuration Graph.customScript.js",
-            "widgetTitle": "Map Configuration Graph",
-            "readAccess": "public"
-        }
-    },
     "widget.111": {
         "name": "Named Iconset",
         "instance": "NamedIconset",
