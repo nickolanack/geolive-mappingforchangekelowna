@@ -18,7 +18,7 @@ be sure to include your email if you would like to hear back
 </section>
 
 <a name="ReportIssue"></a>
-<section class="explore housing-types">
+<section class="explore drop-in-services">
 <h1>Experiencing a Technical Issue</h1>
 <div class="width-helper"><p>
 
