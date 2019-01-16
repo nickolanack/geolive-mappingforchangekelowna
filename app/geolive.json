@@ -3799,7 +3799,10 @@
         "parameters": {
             "customScript": "Scroll Helper.customScript.js",
             "widgetTitle": "Scroll Helper",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": "scrollHelperScript",
+            "language": "html\/text",
+            "returnsValue": false
         }
     },
     "widget.55": {
