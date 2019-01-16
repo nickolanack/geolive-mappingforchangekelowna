@@ -1,54 +1,62 @@
 <?php
 
+
 //CSS
-HtmlBlock('widget', 80);
-HtmlBlock('widget', 93);
+
+GetWidget('frontPageStyle')->display();
+GetWidget('onlyFrontPageStyle')->display();
+
 
 //Intro
-HtmlBlock('widget', 83);
+GetWidget('frontIntroContent')->display();
 
 //Quick start icon articles
-HtmlBlock('widget', 94);
+GetWidget('quickLinkIconsContent')->display();
+
 
 //Quick start
-HtmlBlock('widget', 84);
+GetWidget('quickStartHeaderContent')->display();
 
-// Scroll helper
-HtmlBlock('widget', 119);;
 
 
 
 //Drop Down Search
-HtmlBlock('widget', 88);
+GetWidget('housingSearchForm')->display();
+
 
 //Drop in services Search
-HtmlBlock('widget', 89);
+GetWidget('dropinIconsContent')->display();
+
 
 
 
 
 
 //Search Container
-HtmlBlock('widget',86); 
+GetWidget('searchContainer')->display();
+
 
 
 //Search Bar
-HtmlBlock('widget',79); 
+GetWidget('searchBar')->display();
+
 
 
 //Explore
-HtmlBlock('widget',81) ;
+GetWidget('exploreServicesContent')->display();
+
 
 
 //Agencies
-//HtmlBlock('widget', 85);
+//GetWidget('agencyCardsSEOContent')->display();
+
 
 //Logos
-HtmlBlock('widget', 99);
+GetWidget('partnerLogosSection')->display();
+
 
 //Disclaimer
-HtmlBlock('widget', 91);
+GetWidget('disclaimerContent')->display();
 
-
-HtmlBlock('widget', 119);
+GetWidget('scrollHelperScript')->display();
 ?>
