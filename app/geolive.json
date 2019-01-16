@@ -4096,7 +4096,10 @@
         "parameters": {
             "customScript": "About Page.customScript.js",
             "widgetTitle": "About Page",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": "aboutPageArticle",
+            "language": "html\/text",
+            "returnsValue": false
         }
     },
     "widget.94": {
