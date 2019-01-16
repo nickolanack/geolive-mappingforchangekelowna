@@ -271,7 +271,7 @@ var IsearchDetailViewer = new Class({
 
 			hideTab('agency');
 
-			GeoliveClient.authorize('write', mapitem, function(userHasWriteAccess) {
+			AppClient.authorize('write', mapitem, function(userHasWriteAccess) {
 
 				if (lastMapitem) {
 					lastMapitem.stopMouseEditing();
