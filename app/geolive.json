@@ -4182,7 +4182,10 @@
         "parameters": {
             "customScript": "Partner Logos.customScript.js",
             "widgetTitle": "Partner Logos",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": "partnerLogosSection",
+            "language": "html\/text",
+            "returnsValue": false
         }
     },
     "widget.100": {
