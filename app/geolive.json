@@ -4037,7 +4037,10 @@
         "parameters": {
             "customScript": "Quick Start.customScript.js",
             "widgetTitle": "Quick Start",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": "quickStartHeaderContent",
+            "language": "html\/text",
+            "returnsValue": false
         }
     },
     "widget.82": {
