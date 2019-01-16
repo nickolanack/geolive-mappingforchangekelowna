@@ -2705,7 +2705,7 @@
             "cacheable": false,
             "link": true,
             "widgetTitle": "Legend",
-            "target": "",
+            "target": "map.1",
             "customCSS": "Legend.customCSS.css",
             "readAccess": "public"
         }
