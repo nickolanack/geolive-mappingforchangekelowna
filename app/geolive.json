@@ -4087,7 +4087,10 @@
         "parameters": {
             "customScript": "Definitions Page.customScript.js",
             "widgetTitle": "Definitions Page",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": "definitionsPageArticle",
+            "language": "html\/text",
+            "returnsValue": false
         }
     },
     "widget.97": {
