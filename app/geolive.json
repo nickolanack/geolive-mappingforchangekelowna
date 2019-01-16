@@ -4096,7 +4096,10 @@
         "parameters": {
             "customScript": "SEO Agency Cards.customScript.js",
             "widgetTitle": "SEO Agency Cards",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": "agencyCardsSEOContent",
+            "language": "html\/text",
+            "returnsValue": false
         }
     },
     "widget.96": {
