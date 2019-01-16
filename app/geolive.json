@@ -4314,7 +4314,7 @@
             "cacheable": false,
             "link": false,
             "widgetTitle": "Email Form CSS",
-            "target": "",
+            "target": "emailFormStyle",
             "customCSS": "Email Form CSS.customCSS.css",
             "readAccess": "public"
         }
