@@ -1,14 +1,16 @@
 <?php
 
 //CSS
-HtmlBlock('widget', 80);
-HtmlBlock('widget', 92);
-HtmlBlock('widget', 104);
 
-HtmlBlock('widget', 101);
+GetWidget('frontPageStyle')->display();
+GetWidget('frontArticleStyle')->display();
+GetWidget('emailFormStyle')->display();
+
+
+GetWidget('helpSectionsContent')->display();
 
 //Scroll Hellper
-HtmlBlock('widget', 119);
+GetWidget('scrollHelperScript')->display();
 
-UI('widget.button.form', 102);
+
 ?>
