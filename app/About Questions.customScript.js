@@ -50,7 +50,7 @@ Now that database, called i-Search Kelowna, has been developed, its use will be 
 
 
 <?php 
-GetWidget('partnerLogosSection')->diplay();
+GetWidget('partnerLogosSection')->display();
 ?>
 
 
@@ -69,7 +69,7 @@ To find out more about this project, how it was created and implemented, or to l
 
 
 <?php
-GetWidget('scrollHelperScript')->diplay();
+GetWidget('scrollHelperScript')->display();
 //Scroll Hellper
 
 
