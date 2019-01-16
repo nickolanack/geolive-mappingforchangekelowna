@@ -4121,7 +4121,10 @@
         "parameters": {
             "customScript": "Housing Definitions.customScript.js",
             "widgetTitle": "Housing Definitions",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": "housingDefinitionsContent",
+            "language": "html\/text",
+            "returnsValue": false
         }
     },
     "widget.98": {
