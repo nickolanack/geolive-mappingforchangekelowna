@@ -1,16 +1,8 @@
 <?php
+GetWidget('frontPageStyle')->display();
+GetWidget('frontArticleStyle')->display();
+//GetWidget('90')->display();
+GetWidget('redZoneContent')->display();
+GetWidget('scrollHelperScript')->display();
 
-
-
-
-//Housing
-
-HtmlBlock('widget', 90);
-HtmlBlock('widget', 92);
-HtmlBlock('widget', 80);
-HtmlBlock('widget', 95);
-
-
-//Scroll Hellper
-HtmlBlock('widget', 119);
 ?>
