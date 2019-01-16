@@ -4030,7 +4030,9 @@
             "customScript": "Drop in Services Icons.customScript.js",
             "widgetTitle": "Drop in Services Icons",
             "readAccess": "public",
-            "target": ""
+            "target": "dropinIconsContent",
+            "language": "html\/text",
+            "returnsValue": false
         }
     },
     "widget.84": {
