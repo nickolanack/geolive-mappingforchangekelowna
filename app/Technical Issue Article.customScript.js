@@ -1,6 +1,6 @@
 <a name="GeneralInquiry"></a>
 <section class="explore housing-types">
-<h1>Experiencing a Technical Issue</h1>
+<h1>General Inquiries and Comments</h1>
 <div class="width-helper"><p>
 
 To contact a isearch team member for general inquirys and comment please fill out the following form. 
