@@ -3908,7 +3908,7 @@
             "cacheable": false,
             "link": false,
             "widgetTitle": "Front Page CSS",
-            "target": "none",
+            "target": "frontPageStyle",
             "customCSS": "Front Page CSS.customCSS.css",
             "readAccess": "public"
         }
