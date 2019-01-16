@@ -4185,7 +4185,10 @@
         "parameters": {
             "customScript": "Help Page.customScript.js",
             "widgetTitle": "Help Page",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": "helpPageArticle",
+            "language": "html\/text",
+            "returnsValue": false
         }
     },
     "widget.101": {
