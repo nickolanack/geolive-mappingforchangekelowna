@@ -4018,7 +4018,9 @@
             "customScript": "Selection Housing Search.customScript.js",
             "widgetTitle": "Selection Housing Search",
             "readAccess": "public",
-            "target": ""
+            "target": "housingSearchForm",
+            "language": "html\/text",
+            "returnsValue": false
         }
     },
     "widget.89": {
