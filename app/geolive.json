@@ -4191,7 +4191,7 @@
         "instance": "CSS",
         "parameters": {
             "cacheable": false,
-            "link": false,
+            "link": true,
             "widgetTitle": "Front Page CSS only",
             "target": "onlyFrontPageStyle",
             "customCSS": "Front Page CSS only.customCSS.css",
@@ -4314,7 +4314,7 @@
         "instance": "CSS",
         "parameters": {
             "cacheable": false,
-            "link": false,
+            "link": true,
             "widgetTitle": "Email Form CSS",
             "target": "emailFormStyle",
             "customCSS": "Email Form CSS.customCSS.css",
