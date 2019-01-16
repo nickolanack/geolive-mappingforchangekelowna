@@ -2572,7 +2572,10 @@
         "parameters": {
             "customScript": "Front Page Display.customScript.js",
             "widgetTitle": "Front Page Display",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": "frontPageArticle",
+            "language": "html\/text",
+            "returnsValue": false
         }
     },
     "widget.76": {
