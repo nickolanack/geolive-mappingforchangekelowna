@@ -4265,7 +4265,7 @@
             "customScript": "Technical Issue Form.customScript.js",
             "widgetTitle": "Technical Issue Form",
             "readAccess": "public",
-            "target": "",
+            "target": "submitIssueForm",
             "language": "html\/text",
             "returnsValue": false
         }
