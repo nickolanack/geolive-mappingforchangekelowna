@@ -165,3 +165,87 @@ span.attribute-item>img:hover {
 .icn-s-lst li:hover.selected::before {
     background: cornflowerblue;
 }
+
+.attribute-filter .label {
+    background-color: transparent;
+    color: black;
+    text-shadow: none;
+    font-size: 14px;
+}
+
+
+.right>.sidebar-view:before {
+    content: "Select a marker from the map to view details here";
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    padding: 40px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.right>.sidebar-view>*   {
+    display: none;
+}
+
+.right>.sidebar-view.selected-mapitem>* {
+    display: block;
+}
+
+.right>.sidebar-view.selected-mapitem:before {
+    display: none;
+}
+
+/*Responsive Styles*/
+
+
+@media only screen and (max-height: 800px) {
+  .icn-s-lst li {
+    width: 35px;
+    height: 35px;
+  }
+
+  .icn-s-lst li>img {
+    top: 6px;
+    left: 8px;
+    height: 20px;
+  }
+  
+  
+  .SideBarWidget.active{
+      width: 310px;
+  }
+  
+
+
+    .cluster-toggle{
+        display:none;
+    }
+    .tutorial-tile{
+        display:none;
+    }
+
+
+    .SideBarWidget.left .attribute-filter[data-field=primaryTargetResident], .SideBarWidget.left .attribute-filter[data-field=genderServed] {
+        width: calc(50% - 15px);
+        display: inline-block;
+        margin-right: 0;
+        padding:0;
+    }
+    
+    .SideBarWidget.left .attribute-filter[data-field=primaryTargetResident] .label, .SideBarWidget.left .attribute-filter[data-field=genderServed] .label {
+      padding: 10px;
+    }
+    
+   
+
+}
+
+
+
+
+/*
+
+
+*/

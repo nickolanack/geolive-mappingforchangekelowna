@@ -70,6 +70,10 @@ foreach(($data=GetWidget('servicesCategoriesIcons')->getIconsetData())->names as
     font-size: 13px;
 }
 
+.uitext-container.uitext-container[data-identifier=descriptionField] .media-bar:before {
+    content: "You can also include Program/Service Dates or Schedule images (jpg, jpeg, png, gif, bmp)";
+}
+
 .tag-cloud- .label.top-left {
     margin: 5px;
 }
