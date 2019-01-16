@@ -4009,7 +4009,10 @@
         "parameters": {
             "customScript": "Explore Services.customScript.js",
             "widgetTitle": "Explore Services",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": "exploreServicesContent",
+            "language": "html\/text",
+            "returnsValue": false
         }
     },
     "widget.88": {
