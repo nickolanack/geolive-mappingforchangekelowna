@@ -4306,7 +4306,10 @@
         "parameters": {
             "customScript": "Agency Articles.customScript.js",
             "widgetTitle": "Agency Articles",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": "agencyArticlesContent",
+            "language": "html\/text",
+            "returnsValue": false
         }
     },
     "widget.108": {
