@@ -4241,7 +4241,7 @@
             "customScript": "Help Sections.customScript.js",
             "widgetTitle": "Help Sections",
             "readAccess": "public",
-            "target": "",
+            "target": "helpSectionsContent",
             "language": "html\/text",
             "returnsValue": false
         }
