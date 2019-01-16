@@ -1,8 +1,9 @@
 <?php
 
-//CSS
-HtmlBlock('widget', 80);
-HtmlBlock('widget', 92);
+GetWidget('frontPageStyle')->display();
+GetWidget('frontArticleStyle')->display();
+//GetWidget('frontPageStyle')->display();
+
 HtmlBlock('widget', 98);
 
 ?>
