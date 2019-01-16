@@ -4285,7 +4285,10 @@
         "parameters": {
             "customScript": "Agencies Page.customScript.js",
             "widgetTitle": "Agencies Page",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": "agenciesPageArticle",
+            "language": "html\/text",
+            "returnsValue": false
         }
     },
     "widget.106": {
