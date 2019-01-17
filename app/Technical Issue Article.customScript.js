@@ -3,8 +3,8 @@
 <h1>General Inquiries and Comments</h1>
 <div class="width-helper"><p>
 
-To contact a isearch team member for general inquirys and comment please fill out the following form. 
-be sure to include your email if you would like to hear back
+To contact an Isearch team member, for general inquiries and comments, please fill out the following form. 
+Be sure to include your email if you would like to hear back
 
 </p></div>
 <br/>
