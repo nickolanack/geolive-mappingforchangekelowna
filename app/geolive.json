@@ -4428,6 +4428,13 @@
             }
         }
     },
+    "widget.150": {
+        "name": "Javascript",
+        "instance": "CustomBehaviorScript",
+        "parameters": {
+            "target": "map.1"
+        }
+    },
     "widget.111": {
         "name": "Named Iconset",
         "instance": "NamedIconset",
