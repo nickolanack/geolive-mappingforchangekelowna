@@ -64,6 +64,17 @@ if (window.Cluster) {
 		}
 
 	};
+	
+	application.getLayerManager().getLayers().map(function(l){
+	    return  l.getRenderer(); 
+	}).filter(function(r){ 
+	    return r instanceof ClusterRenderer; 
+	    
+	}).forEach(function(r){ 
+	    r.refresh(); 
+	    
+	});
+	
 } else {
 	setTimeout(start, 100);
 }
