@@ -14,7 +14,7 @@ HtmlBlock('article',
                 'afterHeader' => '<hr/>',
                  'title'=>false,
                 'text'=>'A legal term used to delineate a geographic area within the downtown core in which individuals, under legal order, are restricted from accessing (in whole or in part). The term ‘Red Zone’ is increasingly being adopted by municipalities in relation to bylaw enforcement.',
-                 'link'=>'/map/filter-services-provided-equal-to-Meals',
+                 'link'=>'/map/layer-4',
                  'linkTitle'=>'',  
 
 'images'=>array('https://isearchkelowna.ca/components/com_geolive/users_files/user_files_994/Uploads/imu_[G]_gka_[ImAgE]_N0Y.png')
