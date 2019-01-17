@@ -10,13 +10,13 @@
     background-color: #fafafa;
 }
 
-.icn-s-lst li {
+.icn-s-lst li.list-icn {
     width: 50px;
     height: 50px;
     margin: 5px;
 }
 
-.icn-s-lst li>img {
+.icn-s-lst li.list-icn>img {
     top: 8px;
     left: 8px;
     height: 34px;
