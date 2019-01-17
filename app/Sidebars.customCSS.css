@@ -155,14 +155,14 @@ span.attribute-item>img:hover {
     border-color:rgba(0,0,0,0.4);
     
 }
-.icn-s-lst li::before, .icn-s-lst li::before {
+.icn-s-lst li.list-icn::before, .icn-s-lst li.list-icn::before {
     background: rgba(255,255,255,0.2);
 }
-.icn-s-lst li:hover::before{
+.icn-s-lst li.list-icn:hover::before{
     background: white;
 }
 
-.icn-s-lst li:hover.selected::before {
+.icn-s-lst li.list-icn:hover.selected::before {
     background: cornflowerblue;
 }
 
@@ -201,12 +201,12 @@ span.attribute-item>img:hover {
 
 
 @media only screen and (max-height: 800px) {
-  .icn-s-lst li {
+  .icn-s-lst li.list-icn {
     width: 35px;
     height: 35px;
   }
 
-  .icn-s-lst li>img {
+  .icn-s-lst li.list-icn>img {
     top: 6px;
     left: 8px;
     height: 20px;
