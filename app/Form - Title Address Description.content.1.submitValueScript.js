@@ -1,1 +1,1 @@
-wizardDataSet.address=object.value; if(object.value){item.setLatLng(object.value)};
+wizardDataSet.address=object.value; if(object.value&&(object.value.lat||object.value instanceof google.maps.LatLng)){item.setLatLng(object.value)};
