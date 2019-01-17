@@ -1,4 +1,6 @@
 var element=new Element('div');
+var el=application.getElement();
+
 
 element.innerHTML=<?php 
 ob_start();
