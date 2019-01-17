@@ -1,6 +1,7 @@
 var element=new Element('div');
-var el=application.getElement();
-
+var el=application.getContainerElement();
+var id=el.id
+el.parentNode.insertBefore(element, el);
 
 element.innerHTML=<?php 
 ob_start();
@@ -47,12 +48,4 @@ ob_end_clean();
 
 echo json_encode($content);
 
-?>
-
-
-var Control=new UIMapControl(map, {
-				element:element,
-				anchor:'tm',
-				className:'top-filter-form'
-			});
-			Control.addControl();
+?>;
