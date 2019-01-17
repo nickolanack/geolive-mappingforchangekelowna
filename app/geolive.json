@@ -10886,5 +10886,14 @@
             "readAccess": "registered",
             "position": "RIGHT_CENTER"
         }
+    },
+    "widget.151": {
+        "name": "Named Iconset",
+        "instance": "NamedIconset",
+        "parameters": {
+            "icons": [],
+            "iconsetMetadata": [],
+            "target": "none"
+        }
     }
 }
