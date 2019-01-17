@@ -22,15 +22,15 @@
             "uploadViewPageScript": "",
             "enableFileAttributes": false,
             "fileAttributesTableName": "filesystemAttributes",
-            "useS3Storage": false,
-            "bucket": "",
-            "folder": "",
+            "useS3Storage": true,
+            "bucket": "nickolanackbucket",
+            "folder": "isearch",
             "region": "us-west-2",
             "version": "latest",
-            "key": "",
-            "secret": "",
-            "useCloudFront": false,
-            "cloudFrontDomain": ""
+            "key": "XXXX-XXXX",
+            "secret": "XXXX-XXXX",
+            "useCloudFront": true,
+            "cloudFrontDomain": "https:\/\/dyl2vw577xcfk.cloudfront.net\/"
         }
     },
     "plugin.4": {
