@@ -1,1 +1,1 @@
-wizardDataSet.address=object.value; item.setLatLng(value);
+wizardDataSet.address=object.value; item.setLatLng(object.value);
