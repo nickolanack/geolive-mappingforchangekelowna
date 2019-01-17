@@ -4432,7 +4432,10 @@
         "name": "Javascript",
         "instance": "CustomBehaviorScript",
         "parameters": {
-            "target": "map.1"
+            "target": "map.1",
+            "customScript": "widget.CustomBehaviorScript.150.customScript.js",
+            "widgetTitle": "",
+            "readAccess": "public"
         }
     },
     "widget.111": {
