@@ -643,13 +643,6 @@
             "target": "map.1"
         }
     },
-    "widget.149": {
-        "name": "Custom Control Script",
-        "instance": "CustomControlScript",
-        "parameters": {
-            "target": "map.1"
-        }
-    },
     "widget.14": {
         "name": "Side Panel",
         "instance": "SidePanel",
