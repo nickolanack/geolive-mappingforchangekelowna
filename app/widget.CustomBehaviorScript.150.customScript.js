@@ -47,5 +47,73 @@ $content=ob_get_contents();
 ob_end_clean();
 
 echo json_encode($content);
-
+IncludeJS(GetPlugin('Attributes')->getPath().'/js/FilterFromInput.js');
 ?>;
+
+
+
+    
+
+      var setResultCount=function(count, link){
+
+        if(count<=0){
+          $$(".housing-results button").forEach(function(b){
+              b.addClass("disabled");
+          });
+
+         
+          if(count==-1){
+             $("housing-results").innerHTML="Looking";
+             $("housing-results-section").removeClass("empty");
+          }else{
+             $("housing-results").innerHTML="0 Results";
+             $("housing-results-section").addClass("empty");
+          }
+           console.log("remove events");
+          $("housing-search-goto-map").removeEvents();
+
+        }else{
+          $$(".housing-results button").forEach(function(b){
+              b.removeClass("disabled");
+          });
+
+           $("housing-results").innerHTML="<span class=\"r-count\">"+count+"</span> Result"+(count==1?"":"s");
+
+           console.log("add events");
+           var url="map/filter-"+encodeURIComponent(link);
+           $("housing-search-goto-map").setAttribute("title",url);
+           $("housing-search-goto-map").addEvent("click", function(){
+
+            $("housing-search-form").action=url;
+             $("housing-search-form").submit();
+
+           });
+
+        }
+
+
+      };
+
+       var setSearchedFor=function(label){
+          $("housing-query").innerHTML=label
+
+       }
+
+
+      setResultCount(0);
+      setSearchedFor("...");
+
+      (new FilterFromInput($$(".attributeFilter").concat($$(".attributeFilterJoin")))).addEvent("clear",function(){
+            setResultCount(0);
+            setSearchedFor("...");
+
+      }).addEvent("beforeFilter",function(){
+
+            setResultCount(-1);
+            setSearchedFor("...")
+
+      }).addEvent("filter",function(results, filter){
+            setResultCount(results.countMatches, results.link.alias);
+            setSearchedFor(results.link.description);
+
+      });
