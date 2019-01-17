@@ -62,7 +62,7 @@ div.search-bar-content {
   overflow: hidden;
 }
 
-article {
+.explore article, section article, article {
     display: inline-block;
     width: 350px;
   
