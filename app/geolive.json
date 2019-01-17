@@ -10893,7 +10893,12 @@
         "parameters": {
             "icons": [],
             "iconsetMetadata": [],
-            "target": "none"
+            "target": "servicesCategoryGroupIcons",
+            "exposeIconset": true,
+            "iconsetName": "",
+            "widgetTitle": "servicesCategoryGroupIcons",
+            "readAccess": "public",
+            "position": ""
         }
     }
 }
