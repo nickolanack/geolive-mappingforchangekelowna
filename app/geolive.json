@@ -10490,7 +10490,7 @@
         "instance": "GoogleMap",
         "parameters": {
             "widgetTitle": "housingMap",
-            "loadMapId": "{default}",
+            "loadMapId": "1",
             "target": "housingMap",
             "templateName": "googlemap",
             "loadWidgetsWithTarget": "map.1",
