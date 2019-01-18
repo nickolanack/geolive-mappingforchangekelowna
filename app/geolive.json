@@ -10942,7 +10942,10 @@
             "readAccess": "public",
             "categories": {
                 "Basic needs & Emergency Services": [
-                    "Drop-in Services"
+                    "Drop-in Services",
+                    "Outreach",
+                    "Financial Assistance",
+                    "Crisis Services"
                 ],
                 "Education, Training, & Skills development": [
                     "Education services",
