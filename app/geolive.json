@@ -10939,8 +10939,7 @@
             ],
             "hello": "World",
             "widgetTitle": "services-config-v2",
-            "readAccess": "public",
-            "categories": []
+            "readAccess": "public"
         }
     }
 }
