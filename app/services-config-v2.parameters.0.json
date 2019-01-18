@@ -1,0 +1,6 @@
+{
+    "type": "json",
+    "name": "categories",
+    "default": {},
+    "label": "Category Tree"
+}

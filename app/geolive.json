@@ -10934,18 +10934,13 @@
             "comments": "",
             "formatParametersScript": "return $parameters;",
             "formatOutputScript": "return $parameters;",
-            "parameters": {
-                "hello": {
-                    "type": "text",
-                    "name": "hello",
-                    "placeholder": "example config field",
-                    "default": "World",
-                    "label": "Hello"
-                }
-            },
+            "parameters": [
+                "services-config-v2.parameters.0.json"
+            ],
             "hello": "World",
             "widgetTitle": "services-config-v2",
-            "readAccess": "public"
+            "readAccess": "public",
+            "categories": []
         }
     }
 }
