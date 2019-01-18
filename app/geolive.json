@@ -10942,7 +10942,7 @@
             "readAccess": "public",
             "categories": {
                 "Basic needs & Emergency Services": [
-                    "Drop-in Services",
+                    "services-config-v2.categories.Basic needs & Emergency Services.0.json",
                     "Outreach",
                     "Financial Assistance",
                     "Crisis Services"
