@@ -10939,7 +10939,24 @@
             ],
             "hello": "World",
             "widgetTitle": "services-config-v2",
-            "readAccess": "public"
+            "readAccess": "public",
+            "categories": {
+                "Education, Training, & Skills development": [
+                    "Education services"
+                ],
+                "Health": [
+                    "Mental Health"
+                ],
+                "Counselling\/ Therapeutic & Spiritual": [
+                    "Counselling\/ Therapy"
+                ],
+                "Legal\/ Justice": [
+                    "Victim Services"
+                ],
+                "Other": [
+                    "Immigrant Services"
+                ]
+            }
         }
     }
 }
