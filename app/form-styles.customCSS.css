@@ -140,6 +140,8 @@ span.tag-el.withScale.selected.hide {
     background: cornflowerblue;
     pointer-events: none;
     display: inline-block;
+    color: white;
+    text-shadow: 0 0 2px rgba(0,0,0,0.5);
 }
 .selected-agency>div {
     display: inline-block;
