@@ -9778,16 +9778,16 @@
                             "Services Form.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
-                            "x": 432,
-                            "y": 333
+                            "x": 442,
+                            "y": 343
                         },
                         "children": [
                             "Services Form.metadata.children.1.children.0.json",
                             {
                                 "class": "InsertNode",
                                 "_diagramState": {
-                                    "x": 392,
-                                    "y": 696
+                                    "x": 402,
+                                    "y": 706
                                 }
                             }
                         ],
@@ -10141,7 +10141,7 @@
                                                 "shuffleTags": false,
                                                 "tags": "[\n    \"tag one\",\n    \"tag two\"\n]",
                                                 "getItemTagsScript": "Services Form.metadata.children.1.builderMetadata.positions.content.modules.17.config.getItemTagsScript.js",
-                                                "formatModule": "module.runOnceOnLoad(function(){\n    \n    \n    IsearchFormFilters.formatTagCloud(module, <?php \n        echo json_encode(GetWidget('services-config')->getParameter('categories'));\n        ?>);\n\n    \n})"
+                                                "formatModule": "module.runOnceOnLoad(function(){\n    \n    \n    IsearchFormFilters.formatTagCloud(module, <?php \n        echo json_encode(GetWidget('services-config-v2')->getParameter('categories'));\n        ?>);\n\n    \n})"
                                             }
                                         }
                                     ]
