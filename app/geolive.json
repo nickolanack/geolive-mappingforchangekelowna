@@ -10956,7 +10956,13 @@
                 "Health": [
                     "Mental Health",
                     "Physical Health",
-                    "Substance Abuse",
+                    {
+                        "Substance Abuse": [
+                            "Harm reduction",
+                            "Detox Management",
+                            " Treatment"
+                        ]
+                    },
                     "Personal Care\/ Assisted living",
                     "Recreational\/Social",
                     "Dental",
