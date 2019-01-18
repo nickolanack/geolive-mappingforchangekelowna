@@ -10956,16 +10956,25 @@
                     "Substance Abuse",
                     "Personal Care\/ Assisted living",
                     "Recreational\/Social",
-                    "Dental"
+                    "Dental",
+                    "Reproductive Health"
                 ],
                 "Counselling\/ Therapeutic & Spiritual": [
-                    "Counselling\/ Therapy"
+                    "Counselling\/ Therapy",
+                    "Religious\/ Spiritual",
+                    "Sexual Support"
                 ],
                 "Legal\/ Justice": [
-                    "Victim Services"
+                    "Victim Services",
+                    "Restorative justice",
+                    "Legal services"
                 ],
                 "Other": [
-                    "Immigrant Services"
+                    "Immigrant Services",
+                    "Language Services",
+                    "Transportation",
+                    "Housing support\/ Navigation",
+                    "ID\/ Paperwork"
                 ]
             }
         }
