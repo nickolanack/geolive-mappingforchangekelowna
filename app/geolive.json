@@ -10941,6 +10941,9 @@
             "widgetTitle": "services-config-v2",
             "readAccess": "public",
             "categories": {
+                "Basic needs & Emergency Services": [
+                    "Drop-in Services"
+                ],
                 "Education, Training, & Skills development": [
                     "Education services"
                 ],
