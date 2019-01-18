@@ -10929,7 +10929,23 @@
         "name": "Configuration",
         "instance": "Configuration",
         "parameters": {
-            "target": "none"
+            "target": "services-config-v2",
+            "contentTemplate": "",
+            "comments": "",
+            "formatParametersScript": "return $parameters;",
+            "formatOutputScript": "return $parameters;",
+            "parameters": {
+                "hello": {
+                    "type": "text",
+                    "name": "hello",
+                    "placeholder": "example config field",
+                    "default": "World",
+                    "label": "Hello"
+                }
+            },
+            "hello": "World",
+            "widgetTitle": "services-config-v2",
+            "readAccess": "public"
         }
     }
 }
