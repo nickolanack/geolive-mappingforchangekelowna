@@ -10924,5 +10924,12 @@
             "readAccess": "public",
             "position": ""
         }
+    },
+    "widget.152": {
+        "name": "Configuration",
+        "instance": "Configuration",
+        "parameters": {
+            "target": "none"
+        }
     }
 }
