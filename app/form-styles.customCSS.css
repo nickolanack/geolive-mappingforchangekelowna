@@ -133,10 +133,14 @@ span.image.noIcon:before {
     font-style: italic;
     color: gray;
 }
-span.tag-el.hide {
+span.tag-el.withScale.hide {
     display: none;
 }
-
+span.tag-el.withScale.selected.hide {
+    background: cornflowerblue;
+    pointer-events: none;
+    display: inline-block;
+}
 .selected-agency>div {
     display: inline-block;
     background-color: rgba(0,0,0,0.1);
