@@ -133,6 +133,9 @@ span.image.noIcon:before {
     font-style: italic;
     color: gray;
 }
+span.tag-el.hide {
+    display: none;
+}
 
 .selected-agency>div {
     display: inline-block;
