@@ -26,7 +26,7 @@ UI('input',
 		'value' => '',
 		'name' => 'subject',
 		'label' => 'Subject',
-		'message'=>'put a description or subject here'
+		'message'=>'enter a title or subject here'
 	));
 
 
@@ -49,7 +49,7 @@ UI('input',
 		'value' => '',
 		'name' => 'fromEmail',
 		'label' => 'Your Email Address',
-		'message'=>'put your email address here'
+		'message'=>'enter your email address here'
 	));
 
 UI('input',
@@ -57,7 +57,7 @@ UI('input',
 		'value' => '',
 		'name' => 'fromEmailName',
 		'label' => 'Your Name',
-		'message'=>'put your name here'
+		'message'=>'enter your name here'
 	));
 
 UI('button', array(
