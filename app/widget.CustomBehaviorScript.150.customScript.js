@@ -1,7 +1,7 @@
 var element=new Element('div');
 var el=application.getContainerElement();
 var id=el.id
-el.parentNode.insertBefore(element, el);
+el.parentNode.parentNode.insertBefore(element, el.parentNode);
 
 element.innerHTML=<?php 
 ob_start();
