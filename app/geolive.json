@@ -9822,16 +9822,16 @@
                             "Services Form.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
-                            "x": 281,
-                            "y": 154
+                            "x": 291,
+                            "y": 164
                         },
                         "children": [
                             "Services Form.metadata.children.1.children.0.json",
                             {
                                 "class": "InsertNode",
                                 "_diagramState": {
-                                    "x": 241,
-                                    "y": 517
+                                    "x": 251,
+                                    "y": 540
                                 }
                             }
                         ],
@@ -10169,10 +10169,26 @@
                                             }
                                         },
                                         {
-                                            "type": "plugin.Attributes.WizardTagCloud",
+                                            "type": "plugin.Attributes.WizardBooleanAttribute",
                                             "config": {
                                                 "attributeFields": [
                                                     "Services Form.metadata.children.1.builderMetadata.positions.content.modules.17.config.attributeFields.0.json"
+                                                ],
+                                                "className": "",
+                                                "label": "Pet Friendly",
+                                                "showLabel": false,
+                                                "presentationStyle": "checkbox",
+                                                "presentationRadioTrueLabel": "Yes",
+                                                "presentationRadioFalseLabel": "No",
+                                                "presentationImagesTrueImage": [],
+                                                "presentationImagesFalseImage": []
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardTagCloud",
+                                            "config": {
+                                                "attributeFields": [
+                                                    "Services Form.metadata.children.1.builderMetadata.positions.content.modules.18.config.attributeFields.0.json"
                                                 ],
                                                 "className": "category-tags",
                                                 "showLabel": false,
@@ -10184,24 +10200,8 @@
                                                 "selectedColor": "rgb(143, 188, 143)",
                                                 "shuffleTags": false,
                                                 "tags": "[\n    \"tag one\",\n    \"tag two\"\n]",
-                                                "getItemTagsScript": "Services Form.metadata.children.1.builderMetadata.positions.content.modules.17.config.getItemTagsScript.js",
+                                                "getItemTagsScript": "Services Form.metadata.children.1.builderMetadata.positions.content.modules.18.config.getItemTagsScript.js",
                                                 "formatModule": "module.runOnceOnLoad(function(){\n    \n    \n    IsearchFormFilters.formatTagCloud(module, <?php \n        echo json_encode(GetWidget('services-config-v2')->getParameter('categories'));\n        ?>);\n\n    \n})"
-                                            }
-                                        },
-                                        {
-                                            "type": "plugin.Attributes.WizardBooleanAttribute",
-                                            "config": {
-                                                "attributeFields": [
-                                                    "Services Form.metadata.children.1.builderMetadata.positions.content.modules.18.config.attributeFields.0.json"
-                                                ],
-                                                "className": "",
-                                                "label": "",
-                                                "showLabel": true,
-                                                "presentationStyle": "checkbox",
-                                                "presentationRadioTrueLabel": "Yes",
-                                                "presentationRadioFalseLabel": "No",
-                                                "presentationImagesTrueImage": [],
-                                                "presentationImagesFalseImage": []
                                             }
                                         }
                                     ]
