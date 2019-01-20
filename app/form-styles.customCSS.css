@@ -136,6 +136,11 @@ span.image.noIcon:before {
 span.tag-el.withScale.hide {
     display: none;
 }
+
+.tag-cloud span.tag-el.sub-cloud-word {
+    display: none;
+}
+
 span.tag-el.withScale.selected.hide {
     background: cornflowerblue;
     pointer-events: none;
