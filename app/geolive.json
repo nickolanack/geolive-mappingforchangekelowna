@@ -9822,16 +9822,16 @@
                             "Services Form.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
-                            "x": 291,
-                            "y": 164
+                            "x": 301,
+                            "y": 174
                         },
                         "children": [
                             "Services Form.metadata.children.1.children.0.json",
                             {
                                 "class": "InsertNode",
                                 "_diagramState": {
-                                    "x": 251,
-                                    "y": 540
+                                    "x": 261,
+                                    "y": 550
                                 }
                             }
                         ],
@@ -10174,7 +10174,7 @@
                                                 "attributeFields": [
                                                     "Services Form.metadata.children.1.builderMetadata.positions.content.modules.17.config.attributeFields.0.json"
                                                 ],
-                                                "className": "",
+                                                "className": "uitext-container ",
                                                 "label": "Pet Friendly",
                                                 "showLabel": false,
                                                 "presentationStyle": "checkbox",
