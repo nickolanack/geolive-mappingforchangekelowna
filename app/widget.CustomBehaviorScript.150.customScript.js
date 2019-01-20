@@ -1,4 +1,4 @@
-if(applicaton.getId()!=1){
+if(application.getId()!=1){
     return;
 }
 
