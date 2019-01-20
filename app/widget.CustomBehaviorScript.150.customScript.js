@@ -1,3 +1,7 @@
+if(applicaton.getId()!=1){
+    return;
+}
+
 var element=new Element('div');
 var el=application.getContainerElement();
 var id=el.id
