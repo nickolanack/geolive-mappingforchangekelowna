@@ -63,11 +63,15 @@ foreach(($data=GetWidget('servicesCategoriesIcons')->getIconsetData())->names as
     top: 2px;
 }
 
-.uitext-container.mirroring .lbl-txt:after {
+.uitext-container.mirroring .lbl-txt:after, span.tag-cloud-category-tags .lbl-txt:after {
     content: " autofilled from location field";
     font-style: italic;
     color: #911741;
     font-size: 13px;
+}
+
+span.tag-cloud-category-tags .lbl-txt:after {
+    content: " items with `+` provide additional subcategories";
 }
 
 .uitext-container.uitext-container[data-identifier=descriptionField] .media-bar:before {
