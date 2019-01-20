@@ -118,7 +118,14 @@ span.image.noIcon:before {
    background-image: url("<?php echo UrlFrom("{assets}/Interface Control Icons/image-mime.png?tint=rgb(144, 24, 65)"); ?>");
 }
 
+.checkboxStyle.uitext-container input {
+    margin: 10px;
+}
 
+.checkboxStyle.uitext-container {
+    background: rgba(153, 195, 153,0.1);
+    border-radius: 3px;
+}
 
 
 
