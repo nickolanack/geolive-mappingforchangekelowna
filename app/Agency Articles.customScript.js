@@ -1,4 +1,4 @@
-<a name="Login"></a><section class="explore drop-in-services">
+<a name="howtoguide"></a><section class="explore drop-in-services">
 <div class="width-helper">
 <h1>How to guide</h1>
 <p>
