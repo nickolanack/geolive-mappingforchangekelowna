@@ -136,7 +136,7 @@ var IsearchFilterBuilder = new Class({
 		}
 
 		var iconsForGroup = me.getIconsetIcons(field);
-		
+
 		if (iconsForGroup) {
 
 			var defaultAttributeValues = me.getAttributeValues(field);
@@ -147,12 +147,9 @@ var IsearchFilterBuilder = new Class({
 					fieldMetadata = me.getFieldMetadata();
 
 					return map.getContentFilterManager().makeFilter(fieldMetadata.tableName, values.map(function(v) {
-						return {
-							field: fieldMetadata.title,
-							comparator: 'equalTo',
-							value: v
-						};
+						return (new FilterExpander(fieldMetadata)).createFilter(v);
 					}));
+
 				},
 				listTemplate: function(values) {
 
@@ -166,12 +163,13 @@ var IsearchFilterBuilder = new Class({
 					var me = this; //bound to Attributes filter object
 
 					var div = new Element('div');
+
 					div.setAttribute('data-filter-type', 'iconset');
+
 					var iconSelection = new UIIconizedSelectionControl(div, {
 						allowMultipleSelection: true,
 						allowEmptySelection: true,
 						icons: iconsForGroup
-
 					});
 
 					iconSelection.addEvent('loadIcon', function(icon, i, asset) {
@@ -331,3 +329,84 @@ var IsearchFilterBuilder = new Class({
 
 
 });
+
+
+var FilterExpander = new Class({
+	initialize: function(fieldMetadata) {
+		var me=this;
+		me.fieldMetadata=fieldMetadata;
+	},
+	createFilter:function(value){
+
+		var me=this;
+
+		var fieldMetadata=me.fieldMetadata
+		var valueMap = window.groupedAttributes;
+
+		var joinFilter = function(v) {
+
+			if (typeof valueMap[v] == "string") {
+				return {
+					field: fieldMetadata.title,
+					comparator: 'equalTo',
+					value: valueMap[v]
+				};
+			}
+
+
+
+			if (Array.isArray(valueMap[v])) {
+
+				var filters = ([{
+					field: fieldMetadata.title,
+					comparator: 'equalTo',
+					value: v
+				}]).concat(valueMap[v].map(function(value) {
+					return joinFilter(value);
+				}))
+
+				return AttributeFilter.JoinFilter(fieldMetadata.tableName, filters);
+			}
+
+			if (typeof v == "object") {
+
+				var filters = [];
+
+				Object.keys(v).forEach(function(k) {
+
+					filters.push({
+						field: fieldMetadata.title,
+						comparator: 'equalTo',
+						value: k
+					});
+
+					filters = filters.concat(v[k].map(function(value) {
+						return joinFilter(value);
+					}));
+
+				});
+
+
+
+				return AttributeFilter.JoinFilter(fieldMetadata.tableName, filters);
+			}
+
+
+
+			return {
+				field: fieldMetadata.title,
+				comparator: 'equalTo',
+				value: v
+			};
+
+
+		};
+
+
+		return joinFilter(value);
+
+	}
+
+
+
+})

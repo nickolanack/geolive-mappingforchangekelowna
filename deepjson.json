@@ -1,0 +1,105 @@
+{  
+   "filters":{  
+      "join":"intersect",
+      "table":"servicesAttributes",
+      "set":"*",
+      "filters":[  
+         {  
+            "join":"join",
+            "table":"servicesAttributes",
+            "set":"*",
+            "filters":[  
+               {  
+                  "field":"categories",
+                  "comparator":"equalTo",
+                  "value":"Basic needs & Emergency Services"
+               },
+               {  
+                  "join":"join",
+                  "table":"servicesAttributes",
+                  "set":"*",
+                  "filters":[  
+                     {  
+                        "field":"categories",
+                        "comparator":"equalTo",
+                        "value":"Drop-in Services"
+                     },
+                     {  
+                        "field":"categories",
+                        "comparator":"equalTo",
+                        "value":"Laundry"
+                     },
+                     {  
+                        "field":"categories",
+                        "comparator":"equalTo",
+                        "value":"Toiletries"
+                     },
+                     {  
+                        "field":"categories",
+                        "comparator":"equalTo",
+                        "value":"Phone service"
+                     },
+                     {  
+                        "field":"categories",
+                        "comparator":"equalTo",
+                        "value":"Haircare"
+                     },
+                     {  
+                        "field":"categories",
+                        "comparator":"equalTo",
+                        "value":"Meals"
+                     },
+                     {  
+                        "field":"categories",
+                        "comparator":"equalTo",
+                        "value":"Showers"
+                     },
+                     {  
+                        "field":"categories",
+                        "comparator":"equalTo",
+                        "value":"Clothing"
+                     },
+                     {  
+                        "field":"categories",
+                        "comparator":"equalTo",
+                        "value":"Furniture"
+                     },
+                     {  
+                        "field":"categories",
+                        "comparator":"equalTo",
+                        "value":"Foodbank"
+                     },
+                     {  
+                        "field":"categories",
+                        "comparator":"equalTo",
+                        "value":"Internet access"
+                     },
+                     {  
+                        "field":"categories",
+                        "comparator":"equalTo",
+                        "value":"Household Items"
+                     }
+                  ]
+               },
+               {  
+                  "field":"categories",
+                  "comparator":"equalTo",
+                  "value":"Outreach"
+               },
+               {  
+                  "field":"categories",
+                  "comparator":"equalTo",
+                  "value":"Financial Assistance"
+               },
+               {  
+                  "field":"categories",
+                  "comparator":"equalTo",
+                  "value":"Crisis Services"
+               }
+            ]
+         }
+      ]
+   },
+   "mapId":2,
+   "plugin":"Attributes"
+}

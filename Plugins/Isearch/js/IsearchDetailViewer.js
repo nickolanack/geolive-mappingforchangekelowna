@@ -228,6 +228,16 @@ var IsearchDetailViewer = new Class({
 				sidePanel.hide();
 			});
 
+			var newClass = 'selected-mapitem layer-' + mapitem.getLayer().getId()+' item-'+mapitem.getId();
+			if (className) {
+				container.removeClass(className);
+			}
+			className = newClass;
+			container.addClass(newClass);
+			setTab('edit');
+			sidePanel.show();
+
+
 			return wizard;
 
 		});

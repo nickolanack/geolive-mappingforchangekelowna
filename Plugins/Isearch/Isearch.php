@@ -20,7 +20,7 @@ class Isearch extends \Plugin implements
     	IncludeJS($this->getPath().'/js/IsearchFilterBuilder.js');
     	IncludeJS($this->getPath().'/js/IsearchDetailViewer.js');
 
-
+    
 	}
 
 
@@ -28,6 +28,8 @@ class Isearch extends \Plugin implements
 	public function includeHousingAttributeMap(){
 
 		IncludeJSBlockOnce(function(){
+
+/*servicesCategories: <?php echo json_encode(($servicesCategoriesIcons=GetWidget('servicesCategoriesIcons')->getIconsetData())->names);?>*/
 
 			?>
 			<script type="text/javascript">
@@ -38,10 +40,13 @@ class Isearch extends \Plugin implements
 				dropinServicesProvided:<?php echo json_encode(($dropinServicesProvided=GetWidget('dailyServicesIcons')->getIconsetData())->names);?>,
 				genderServed:<?php echo json_encode(($genderServed=GetWidget('genderServedIcons')->getIconsetData())->names);?>,
 				primaryTargetResident: <?php echo json_encode(($primaryTargetResident=GetWidget('primaryTargetResidentIcons')->getIconsetData())->names);?>,
-				servicesCategories: <?php echo json_encode(($servicesCategoriesIcons=GetWidget('servicesCategoriesIcons')->getIconsetData())->names);?>
+				servicesCategories: <?php echo json_encode(($servicesCategoriesIcons=GetWidget('servicesCategoryGroupIcons')->getIconsetData())->names);?>
 			};
 
 			window.prefferedAttributeOrder = window.attributeValueList;
+
+
+			window.groupedAttributes = <?php echo json_encode(GetWidget('services-config-v2')->getParameter('categories'));?>	
 
 			window.attributeIconSets= {
 
