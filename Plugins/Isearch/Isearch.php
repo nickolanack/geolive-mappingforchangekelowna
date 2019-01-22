@@ -5,7 +5,10 @@ namespace Plugin;
 
 
 class Isearch extends \Plugin implements 
-	\core\ViewController{
+	\core\ViewController, \core\AjaxControllerProvider{
+
+
+	use \core\AjaxControllerProviderTrait;
 
 	protected $name = 'Isearch Plugin';
 	protected $description = 'Isearch behaviour';

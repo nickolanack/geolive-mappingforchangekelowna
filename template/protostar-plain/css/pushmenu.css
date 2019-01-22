@@ -32,7 +32,7 @@
 }
 
 
-button.btn.btn-primary, input.btn.btn-primary {
+button.btn.btn-primary, input.btn.btn-primary, a.btn.btn-primary {
     background-color: #8f1540;
     border-radius: 0;
     border: none;
