@@ -66,7 +66,7 @@
             "CSSInlineObfuscationEnabled": false,
             "PHPDebugEnabled": true,
             "JSDebugEnabled": false,
-            "CachingEnabled": true,
+            "CachingEnabled": false,
             "ExternalizeWidgetScripts": true,
             "PrettyPrintJson": true,
             "JSCacheObfuscationEnabled": false,
@@ -9071,12 +9071,12 @@
             "metadata": {
                 "title": "servicesAttributes",
                 "_tableDiagramState": {
-                    "x": 322,
-                    "y": 275
+                    "x": 314,
+                    "y": 180
                 },
                 "_diagramState": {
-                    "x": 322,
-                    "y": 275
+                    "x": 314,
+                    "y": 180
                 },
                 "appliesTo": [
                     "marker"
@@ -9750,6 +9750,50 @@
                             "trueIcon": [],
                             "falseIcon": []
                         }
+                    },
+                    {
+                        "was": "",
+                        "title": "petFriendly",
+                        "label": "Pet Friendly?",
+                        "description": "",
+                        "icon": [],
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "boolean",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
                     }
                 ]
             },
@@ -9778,16 +9822,16 @@
                             "Services Form.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
-                            "x": 422,
-                            "y": 323
+                            "x": 311,
+                            "y": 184
                         },
                         "children": [
                             "Services Form.metadata.children.1.children.0.json",
                             {
                                 "class": "InsertNode",
                                 "_diagramState": {
-                                    "x": 382,
-                                    "y": 686
+                                    "x": 271,
+                                    "y": 560
                                 }
                             }
                         ],
@@ -9866,7 +9910,7 @@
                                                 "hoverColor": "rgb(143, 188, 143)",
                                                 "selectedColor": "rgb(143, 188, 143)",
                                                 "shuffleTags": false,
-                                                "tags": "[\n    \"Children\/Youth\",\n    \"Families\",\n    \"Seniors\",\n    \"Adults\",\n    \"Indigenous\",\n    \"People with Disabilities\",\n    \"New Canadians\"\n]",
+                                                "tags": "[\n    \"Children\/Youth\",\n    \"Families\",\n    \"Seniors\",\n    \"Adults\",\n    \"Children\",\n    \"Babies\",\n    \"Indigenous\",\n    \"People with Disabilities\",\n    \"New Canadians\"\n]",
                                                 "getItemTagsScript": "return defaultTags;",
                                                 "formatModule": ""
                                             }
@@ -10125,10 +10169,26 @@
                                             }
                                         },
                                         {
-                                            "type": "plugin.Attributes.WizardTagCloud",
+                                            "type": "plugin.Attributes.WizardBooleanAttribute",
                                             "config": {
                                                 "attributeFields": [
                                                     "Services Form.metadata.children.1.builderMetadata.positions.content.modules.17.config.attributeFields.0.json"
+                                                ],
+                                                "className": "uitext-container ",
+                                                "label": "Pet Friendly",
+                                                "showLabel": false,
+                                                "presentationStyle": "checkbox",
+                                                "presentationRadioTrueLabel": "Yes",
+                                                "presentationRadioFalseLabel": "No",
+                                                "presentationImagesTrueImage": [],
+                                                "presentationImagesFalseImage": []
+                                            }
+                                        },
+                                        {
+                                            "type": "plugin.Attributes.WizardTagCloud",
+                                            "config": {
+                                                "attributeFields": [
+                                                    "Services Form.metadata.children.1.builderMetadata.positions.content.modules.18.config.attributeFields.0.json"
                                                 ],
                                                 "className": "category-tags",
                                                 "showLabel": false,
@@ -10140,8 +10200,8 @@
                                                 "selectedColor": "rgb(143, 188, 143)",
                                                 "shuffleTags": false,
                                                 "tags": "[\n    \"tag one\",\n    \"tag two\"\n]",
-                                                "getItemTagsScript": "Services Form.metadata.children.1.builderMetadata.positions.content.modules.17.config.getItemTagsScript.js",
-                                                "formatModule": "module.runOnceOnLoad(function(){\n    \n    \n    var el=module.getElement();\n    var cloud=module.getCloud();\n    \n    var catTree=<?php \n    \n    echo json_encode(GetWidget('services-config')->getParameter('categories'));\n        ?>;\n        \n            \n            var container=new Element('div');\n            el.appendChild(container);\n            container.appendChild(new Element('label',{html:\"Sub Categories\"}));\n            var subCloud=(new TagCloud(container, {\n                tags:[]\n            })).show();\n        \n     \n        \n      cloud.addEvent('onSelectWord',function(){\n          \n          var tags=[];\n          module.getValues().forEach(function(w){\n              \n              var subTags=catTree[w].filter(function(c){\n                  \n                  return Object.keys(catTree).indexOf(c)<0&&tags.indexOf(c)<0;\n              })\n              \n              tags=tags.concat(subTags);\n              subCloud.setTags(tags);\n              \n              \n          });\n          \n          \n          \n      })\n    \n    \n    \n    \n})"
+                                                "getItemTagsScript": "Services Form.metadata.children.1.builderMetadata.positions.content.modules.18.config.getItemTagsScript.js",
+                                                "formatModule": "module.runOnceOnLoad(function(){\n    \n    \n    IsearchFormFilters.formatTagCloud(module, <?php \n        echo json_encode(GetWidget('services-config-v2')->getParameter('categories'));\n        ?>);\n\n    \n})"
                                             }
                                         }
                                     ]
@@ -10885,6 +10945,116 @@
             "widgetTitle": "",
             "readAccess": "registered",
             "position": "RIGHT_CENTER"
+        }
+    },
+    "widget.151": {
+        "name": "Named Iconset",
+        "instance": "NamedIconset",
+        "parameters": {
+            "icons": [
+                "https:\/\/dyl2vw577xcfk.cloudfront.net\/isearch\/994\/Uploads\/unX_Ek8_%5BG%5D_INK_%5BImAgE%5D.png",
+                "https:\/\/dyl2vw577xcfk.cloudfront.net\/isearch\/994\/Uploads\/%5BG%5D_iBH_uMk_gRe_%5BImAgE%5D.png",
+                "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_SxZ_rAg_[G]_kCf.png",
+                "https:\/\/dyl2vw577xcfk.cloudfront.net\/isearch\/994\/Uploads\/%5BImAgE%5D_Zrg_sQf_m0E_%5BG%5D.png",
+                "https:\/\/dyl2vw577xcfk.cloudfront.net\/isearch\/994\/Uploads\/%5BG%5D_EwF_%5BImAgE%5D_Ks_oBI.png",
+                "https:\/\/dyl2vw577xcfk.cloudfront.net\/isearch\/994\/Uploads\/L5J_%5BG%5D_UKX_%5BImAgE%5D_YH.png"
+            ],
+            "iconsetMetadata": {
+                "iconName": {
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_SxZ_rAg_[G]_kCf.png": "Health",
+                    "https:\/\/dyl2vw577xcfk.cloudfront.net\/isearch\/994\/Uploads\/%5BG%5D_iBH_uMk_gRe_%5BImAgE%5D.png": "Education, Training, & Skills development",
+                    "https:\/\/dyl2vw577xcfk.cloudfront.net\/isearch\/994\/Uploads\/unX_Ek8_%5BG%5D_INK_%5BImAgE%5D.png": "Basic needs & Emergency Services",
+                    "https:\/\/dyl2vw577xcfk.cloudfront.net\/isearch\/994\/Uploads\/%5BImAgE%5D_Zrg_sQf_m0E_%5BG%5D.png": "Counselling\/ Therapeutic & Spiritual",
+                    "https:\/\/dyl2vw577xcfk.cloudfront.net\/isearch\/994\/Uploads\/%5BG%5D_EwF_%5BImAgE%5D_Ks_oBI.png": "Legal\/ Justice",
+                    "https:\/\/dyl2vw577xcfk.cloudfront.net\/isearch\/994\/Uploads\/L5J_%5BG%5D_UKX_%5BImAgE%5D_YH.png": "Other"
+                },
+                "iconMetadata": {
+                    "components\/com_geolive\/users_files\/user_files_994\/Uploads\/[ImAgE]_SxZ_rAg_[G]_kCf.png": "",
+                    "https:\/\/dyl2vw577xcfk.cloudfront.net\/isearch\/994\/Uploads\/%5BG%5D_iBH_uMk_gRe_%5BImAgE%5D.png": "",
+                    "https:\/\/dyl2vw577xcfk.cloudfront.net\/isearch\/994\/Uploads\/unX_Ek8_%5BG%5D_INK_%5BImAgE%5D.png": "",
+                    "https:\/\/dyl2vw577xcfk.cloudfront.net\/isearch\/994\/Uploads\/%5BImAgE%5D_Zrg_sQf_m0E_%5BG%5D.png": "",
+                    "https:\/\/dyl2vw577xcfk.cloudfront.net\/isearch\/994\/Uploads\/%5BG%5D_EwF_%5BImAgE%5D_Ks_oBI.png": "",
+                    "https:\/\/dyl2vw577xcfk.cloudfront.net\/isearch\/994\/Uploads\/L5J_%5BG%5D_UKX_%5BImAgE%5D_YH.png": ""
+                }
+            },
+            "target": "servicesCategoryGroupIcons",
+            "exposeIconset": true,
+            "iconsetName": "",
+            "widgetTitle": "servicesCategoryGroupIcons",
+            "readAccess": "public",
+            "position": ""
+        }
+    },
+    "widget.152": {
+        "name": "Configuration",
+        "instance": "Configuration",
+        "parameters": {
+            "target": "services-config-v2",
+            "contentTemplate": "",
+            "comments": "",
+            "formatParametersScript": "return $parameters;",
+            "formatOutputScript": "return $parameters;",
+            "parameters": [
+                "services-config-v2.parameters.0.json"
+            ],
+            "hello": "World",
+            "widgetTitle": "services-config-v2",
+            "readAccess": "public",
+            "categories": {
+                "Basic needs & Emergency Services": [
+                    "services-config-v2.categories.Basic needs & Emergency Services.0.json",
+                    "Outreach",
+                    "Financial Assistance",
+                    "Crisis Services"
+                ],
+                "Education, Training, & Skills development": [
+                    "Education services",
+                    "Employment training",
+                    "Social Skills",
+                    "Finance\/ Financial Literacy"
+                ],
+                "Health": [
+                    "Mental Health",
+                    "Physical Health",
+                    {
+                        "Substance Abuse": [
+                            "Harm reduction",
+                            "Detox Management",
+                            "Treatment"
+                        ]
+                    },
+                    "Personal Care\/ Assisted living",
+                    "Recreational\/Social",
+                    "Dental",
+                    "Reproductive Health"
+                ],
+                "Counselling\/ Therapeutic & Spiritual": [
+                    "Counselling\/ Therapy",
+                    "Religious\/ Spiritual",
+                    "Sexual Support"
+                ],
+                "Legal\/ Justice": [
+                    "Victim Services",
+                    "Restorative justice",
+                    "Legal services"
+                ],
+                "Other": [
+                    "Immigrant Services",
+                    "Language Services",
+                    "Transportation",
+                    "Housing support\/ Navigation",
+                    "ID\/ Paperwork"
+                ]
+            }
+        }
+    },
+    "widget.153": {
+        "name": "Named Iconset",
+        "instance": "NamedIconset",
+        "parameters": {
+            "icons": [],
+            "iconsetMetadata": [],
+            "target": "none"
         }
     }
 }

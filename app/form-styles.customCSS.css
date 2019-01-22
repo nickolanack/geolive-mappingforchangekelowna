@@ -63,11 +63,15 @@ foreach(($data=GetWidget('servicesCategoriesIcons')->getIconsetData())->names as
     top: 2px;
 }
 
-.uitext-container.mirroring .lbl-txt:after {
+.uitext-container.mirroring .lbl-txt:after, span.tag-cloud-category-tags .lbl-txt:after {
     content: " autofilled from location field";
     font-style: italic;
     color: #911741;
     font-size: 13px;
+}
+
+span.tag-cloud-category-tags .lbl-txt:after {
+    content: " items with `+` provide additional subcategories";
 }
 
 .uitext-container.uitext-container[data-identifier=descriptionField] .media-bar:before {
@@ -114,11 +118,70 @@ span.image.noIcon:before {
    background-image: url("<?php echo UrlFrom("{assets}/Interface Control Icons/image-mime.png?tint=rgb(144, 24, 65)"); ?>");
 }
 
+.checkboxStyle.uitext-container input {
+    margin: 10px;
+}
+
+.checkboxStyle.uitext-container {
+    background: rgba(153, 195, 153,0.1);
+    border-radius: 3px;
+}
 
 
 
+.sub-cloud {
+    vertical-align: top;
+    padding: 15px;
+    margin: 5px;
+    background-color: rgba(153, 195, 153,0.1);
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding-bottom: 3px;
+    padding-top: 6px;
+}
+
+.sub-cloud label {
+    font-style: italic;
+    color: gray;
+}
+span.tag-el.withScale.hide {
+    display: none;
+}
+
+.tag-cloud span.tag-el.sub-cloud-word {
+    display: none;
+}
+
+span.tag-el.withScale.selected.hide {
+    background: cornflowerblue;
+    pointer-events: none;
+    display: inline-block;
+    color: white;
+    text-shadow: 0 0 2px rgba(0,0,0,0.5);
+}
 
 
+.tag-cloud span.tag-el.is-parent-word:after {
+    width: 16px;
+    height: 18px;
+    border: 1px solid rgba(0,0,0,0.1);
+    position: relative;
+    content: "+";
+    top: -4px;
+    right: -4px;
+    background: white;
+    text-align: center;
+    line-height: 17px;
+    color: #901841;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 0 3px 3px 0;
+    font-size: 19px;
+}
+
+.tag-cloud span.tag-el.is-parent-word{
+    position:relative;
+}
 
 
 .selected-agency>div {

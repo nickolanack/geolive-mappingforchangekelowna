@@ -1,3 +1,15 @@
+<a name="howtoguide"></a><section class="explore drop-in-services">
+<div class="width-helper">
+<h1>How to guide</h1>
+<p>
+<a target="_blank" 
+href="https://nickolanackbucket.s3.us-west-2.amazonaws.com/isearch/994/Uploads/1Xk_%5BDoCuMeNt%5D_%5BG%5D_TIs_A9g.pdf" 
+class="btn btn-primary">Download How To Guide</a>
+</p></div>
+</section>
+
+
+
 <a name="Login"></a><section class="explore housing-types">
 <div class="width-helper">
 <h1>Do I need to create an account for my agency, house or organization?</h1>

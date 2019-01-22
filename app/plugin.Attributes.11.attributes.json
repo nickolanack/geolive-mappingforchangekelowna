@@ -3026,6 +3026,28 @@
                         }
                     },
                     "allowMultiple": false
+                },
+                {
+                    "visibility": "public",
+                    "tableId": "3",
+                    "tableName": "servicesAttributes",
+                    "tableSuffix": "_4223",
+                    "title": "petFriendly",
+                    "label": "Pet Friendly?",
+                    "description": "",
+                    "fieldType": "boolean",
+                    "color": "rgb(undefined, undefined, undefined)",
+                    "searchability": "public",
+                    "editability": "registered",
+                    "fieldBooleanOptions": {
+                        "hideFalse": true,
+                        "trueLabel": "",
+                        "falseLabel": "",
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
+                    },
+                    "allowMultiple": false
                 }
             ]
         }
