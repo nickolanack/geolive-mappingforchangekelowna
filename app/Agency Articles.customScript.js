@@ -2,7 +2,7 @@
 <div class="width-helper">
 <h1>How to guide</h1>
 <p>
-
+<button onclick="" target="_blank" href="" class="btn btn-primary">Download How To Guide</button>
 </p></div>
 </section>
 
