@@ -1,8 +1,3 @@
 
-return new MockDataTypeItem({
-    "id":-1,
-    "type":"marker",
-    //"latLng":{"lat":49.870536, "lng":-119.463176},
-    "title":"",
-    "description":""
-});
+return IsearchFormFilters.GetMockItem(
+    1, 'components/com_geolive/users_files/user_files_994/Uploads/[ImAgE]_cai_qou_wau_[G].png');
