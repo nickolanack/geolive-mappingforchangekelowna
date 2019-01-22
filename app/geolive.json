@@ -10838,11 +10838,13 @@
                                     "formOptions": "\"{}\"",
                                     "showDeleteButton": false,
                                     "deleteItemScript": "defaultBehaviorFn()",
+                                    "initModuleScript": "",
                                     "formatModuleScript": "",
                                     "resolveItemScript": "inline-agency-form.metadata.positions.content.modules.1.config.resolveItemScript.js",
                                     "filterModulesScript": "return list",
                                     "itemButtonsScript": "return [];",
-                                    "insertAtTop": false
+                                    "insertAtTop": false,
+                                    "targetName": ""
                                 }
                             }
                         ]
