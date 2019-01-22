@@ -184,7 +184,7 @@ span.tag-el.withScale.selected.hide {
 }
 
 
-.selected-agency>div {
+.selected-agency>div, .selectable-agencies>div {
     display: inline-block;
     background-color: rgba(0,0,0,0.1);
     padding: 5px 10px;
@@ -193,7 +193,7 @@ span.tag-el.withScale.selected.hide {
         height: 20px;
 }
 
-.selected-agency>div>* {
+.selected-agency>div>*, .selectable-agencies>div>* {
     display: inline-block;
 }
 
@@ -203,7 +203,7 @@ span.tag-el.withScale.selected.hide {
     padding-right: 0;
 }
 
-.selected-agency img {
+.selected-agency img, .selectable-agencies img {
     height: 17px;
     vertical-align: middle;
     position: relative;
