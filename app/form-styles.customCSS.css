@@ -220,6 +220,6 @@ span.tag-el.withScale.selected.hide {
     color: #901841;
 }
 
-.has-agency .text-input, .has-agencies .text-input {
+.has-agency .text-input, .has-agencies .text-input, .has-agency .selectable-agencies {
     display: none;
 }
