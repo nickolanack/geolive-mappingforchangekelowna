@@ -204,6 +204,12 @@ span.tag-el.withScale.selected.hide {
     display: inline-block;
 }
 
+p.no-agencies {
+    background-color: rgba(237, 20, 61,0.1);
+    padding: 7px;
+    border-radius: 3px;
+}
+
 .selected-agency button {
     border: none;
     background-color: transparent;
