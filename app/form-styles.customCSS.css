@@ -184,17 +184,32 @@ span.tag-el.withScale.selected.hide {
 }
 
 
-.selected-agency>div {
+.selected-agency>div, .selectable-agencies>div {
     display: inline-block;
     background-color: rgba(0,0,0,0.1);
     padding: 5px 10px;
     border-radius: 4px;
     margin: 5px 0;
         height: 20px;
+            border: 1px solid transparent;
 }
 
-.selected-agency>div>* {
+.selectable-agencies>div {
+    background-color: transparent;
+    box-shadow: 0 0 3px rgba(0,0,0,0.4);
+    
+    margin-right: 10px;
+}
+
+.selected-agency>div>*, .selectable-agencies>div>* {
     display: inline-block;
+}
+
+p.no-agencies {
+    background-color: rgba(237, 20, 61,0.1);
+    padding: 7px;
+    border-radius: 3px;
+   
 }
 
 .selected-agency button {
@@ -203,7 +218,7 @@ span.tag-el.withScale.selected.hide {
     padding-right: 0;
 }
 
-.selected-agency img {
+.selected-agency img, .selectable-agencies img {
     height: 17px;
     vertical-align: middle;
     position: relative;
@@ -220,6 +235,6 @@ span.tag-el.withScale.selected.hide {
     color: #901841;
 }
 
-.has-agency .text-input {
+.has-agency .text-input, .has-agencies .text-input, .has-agency .selectable-agencies {
     display: none;
 }

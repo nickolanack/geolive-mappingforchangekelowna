@@ -5,7 +5,7 @@ if (window.Cluster) {
 	};
 	ClusterSymbol.IconStyle = function(name) {
 
-    
+        var defaultStyle='rgb(35,206,37)';
 
 		var colorsForLayer = {
 			"1":'rgb(31,120,180)',
@@ -28,6 +28,7 @@ if (window.Cluster) {
 				if (colorMap['' + lid]) {
 					return colorMap['' + lid];
 				}
+			    
 			} catch (e) {}
 			return defaultColor;
 
@@ -40,7 +41,7 @@ if (window.Cluster) {
 
 			return {
 				path: google.maps.SymbolPath.CIRCLE,
-				fillColor: getColor(activeColorsForLayer, "#6f020c"),
+				fillColor: getColor(activeColorsForLayer, defaultStyle),
 				fillOpacity: 0.9,
 				strokeWeight: 1.5,
 				strokeColor: "#000000",
@@ -53,7 +54,7 @@ if (window.Cluster) {
 
 			return {
 				path: google.maps.SymbolPath.CIRCLE,
-				fillColor: getColor(colorsForLayer, "#a2000f"),
+				fillColor: getColor(colorsForLayer, defaultStyle),
 				fillOpacity: 0.7,
 				strokeWeight: 1.5,
 				strokeColor: "#000000",
