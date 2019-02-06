@@ -429,7 +429,7 @@
                 "isearchmap@gmail.com",
                 ""
             ],
-            "enableEmails": true,
+            "enableEmails": false,
             "fromEmailName": "Geolive Notifications",
             "fromEmail": "geolivemap+isearch@gmail.com",
             "siteUrl": "https:\/\/isearchkelowna.ca",
