@@ -12,7 +12,7 @@ $client=new \coreclient\Client($argv[1], $argv[2], $argv[3]);
 
 
 
-foreach(json_decode(file_get_contents(__DIR__.'/duplicates.json')) as $id){
+foreach(json_decode(file_get_contents(__DIR__.'/duplicates2.json')) as $id){
 
 	
 	$existing= $client->ajax('get_map_item', array("id"=>$id), "Maps");

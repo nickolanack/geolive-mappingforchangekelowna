@@ -120,7 +120,8 @@ var IsearchDetailViewer = new Class({
 			return (marker.getLayer().getId() === 1);
 		}
 		var isService = function(marker) {
-			return (marker.getLayer().getId() === 6);
+			var l=marker.getLayer().getId()
+			return ( l=== 6||l === 8);
 		}
 		var isDaily = function(marker) {
 			return (marker.getLayer().getId() === 5);
