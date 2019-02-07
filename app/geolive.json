@@ -10936,7 +10936,7 @@
             "downloadImage": [],
             "uploadImage": [],
             "controlColor": "rgb(48,84,107)",
-            "tileHoverTip": "Download CSV File",
+            "tileHoverTip": "Export Other BC Services",
             "exportMetadata": {
                 "fields": "DEFAULT"
             },
@@ -10945,8 +10945,8 @@
             "exportEncoding": "UTF-8",
             "importEncoding": "UTF-8",
             "showImportEncoding": false,
-            "filename": "Geolive Export DATE[Y-m-d (H.i.s)]",
-            "filterRowScript": "return true;",
+            "filename": "BC Services DATE[Y-m-d (H.i.s)]",
+            "filterRowScript": "bc services export.filterRowScript.js",
             "filterFieldsScript": "return true;",
             "widgetTitle": "bc services export",
             "readAccess": "public",
