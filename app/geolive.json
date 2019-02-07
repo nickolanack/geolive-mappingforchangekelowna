@@ -10935,7 +10935,7 @@
             "target": "services-map-widgets",
             "downloadImage": [],
             "uploadImage": [],
-            "controlColor": "rgb(48,84,107)",
+            "controlColor": "rgb(230, 0, 230)",
             "tileHoverTip": "Export Other BC Services",
             "exportMetadata": {
                 "fields": "DEFAULT"
