@@ -9071,19 +9071,19 @@
             "metadata": {
                 "title": "servicesAttributes",
                 "_tableDiagramState": {
-                    "x": 311,
-                    "y": 192
+                    "x": 332,
+                    "y": 147
                 },
                 "_diagramState": {
-                    "x": 311,
-                    "y": 192
+                    "x": 332,
+                    "y": 147
                 },
                 "appliesTo": [
                     "marker"
                 ],
                 "_typeDiagramState": {
-                    "x": 100,
-                    "y": 300
+                    "x": 107,
+                    "y": 317
                 },
                 "readAccess": "public",
                 "maxEntries": 1,
