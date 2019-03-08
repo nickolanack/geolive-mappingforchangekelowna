@@ -670,7 +670,7 @@
         "instance": "MultipointTool",
         "parameters": {
             "widgetTitle": "Polygons",
-            "target": "services-map-widgets",
+            "target": "disabled-services-map-widgets",
             "controlColor": "rgb(48,84,107)",
             "tileIcon": [],
             "strokeColor": "rgb(0,0,0)",
