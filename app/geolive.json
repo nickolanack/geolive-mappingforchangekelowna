@@ -637,10 +637,10 @@
         "instance": "SidePanel",
         "parameters": {
             "widgetTitle": "Left Panel - Filters",
-            "readAccess": "public",
+            "target": "map.1",
             "position": "LEFT_CENTER",
             "customScript": "Left Panel - Filters.customScript.js",
-            "target": "map.1"
+            "readAccess": "public"
         }
     },
     "widget.14": {
@@ -648,21 +648,21 @@
         "instance": "SidePanel",
         "parameters": {
             "widgetTitle": "Right Panel - Detail",
-            "readAccess": "public",
+            "target": "map.1",
             "position": "RIGHT_CENTER",
             "customScript": "Right Panel - Detail.customScript.js",
-            "target": "map.1"
+            "readAccess": "public"
         }
     },
     "widget.146": {
         "name": "Side Panel",
         "instance": "SidePanel",
         "parameters": {
-            "target": "services-map-widgets",
-            "customScript": "Services Left Panel Filters.customScript.js",
             "widgetTitle": "Services Left Panel Filters",
-            "readAccess": "public",
-            "position": "LEFT_CENTER"
+            "target": "services-map-widgets",
+            "position": "LEFT_CENTER",
+            "customScript": "Services Left Panel Filters.customScript.js",
+            "readAccess": "public"
         }
     },
     "widget.147": {
@@ -10907,7 +10907,7 @@
         "name": "Attr CSV Export",
         "instance": "AttributesCSVExport",
         "parameters": {
-            "target": "services-map-widgets",
+            "target": "disabled-services-map-widgets",
             "downloadImage": [],
             "uploadImage": [],
             "controlColor": "rgb(58, 210, 58)",
