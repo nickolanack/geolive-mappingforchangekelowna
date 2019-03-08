@@ -9071,12 +9071,12 @@
             "metadata": {
                 "title": "servicesAttributes",
                 "_tableDiagramState": {
-                    "x": 314,
-                    "y": 180
+                    "x": 322,
+                    "y": 275
                 },
                 "_diagramState": {
-                    "x": 314,
-                    "y": 180
+                    "x": 322,
+                    "y": 275
                 },
                 "appliesTo": [
                     "marker"
@@ -9229,11 +9229,11 @@
                         "label": "Sex",
                         "description": "",
                         "icon": [],
-                        "color": "rgb(undefined, undefined, undefined)",
+                        "color": "rgb(NaN, NaN, NaN)",
                         "visibility": "public",
                         "editability": "registered",
                         "searchability": "public",
-                        "allowMultiple": false,
+                        "allowMultiple": true,
                         "fieldType": "text",
                         "fieldTextOptions": {
                             "textType": "input",
