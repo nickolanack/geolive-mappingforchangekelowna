@@ -1,3 +1,4 @@
+<?php return; ?>
 <section class="explore drop-in-services red-zone"><a name="RedZone"></a>
 <h1>Red Zone Definition</h1>
 
