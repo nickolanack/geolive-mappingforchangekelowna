@@ -18,7 +18,7 @@ UI('form.outlet',array('fields'=>array(
 HtmlBlock('page', 
     array(
         'className'=>'email-form inline-form',
-        'content' => function () {
+        'content' => function () use($prefix){
 
 
 
