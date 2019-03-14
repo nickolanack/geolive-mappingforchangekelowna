@@ -67,7 +67,7 @@ UI('button', array(
 
     (new AjaxControlQuery(CoreAjaxUrlRoot,"send_email_feedback", Object.append({
     	"plugin":"EmailModerate"
-    }, window.Outlets.getFormDataWithNamespace('tech.')))).addEvent("success",function(response){
+    }, window.Outlets.getFormDataWithNamespace("tech.")))).addEvent("success",function(response){
 
 
     	if(response.success){
