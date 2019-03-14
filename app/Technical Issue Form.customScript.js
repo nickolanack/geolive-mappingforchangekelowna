@@ -4,12 +4,14 @@
 Behavior('ajax');
 Behavior('bubbles');
 
-UI('form.outlet',array('fields'=>array(
-	'tech.fromEmail'=>'',
-	'tech.fromEmailName'=>'',
+$prefix='f-'.rand(100000,999999);
 
-	'tech.subject'=>'',
-	'tech.message'=>'',
+UI('form.outlet',array('fields'=>array(
+	$prefix.'.fromEmail'=>'',
+	$prefix.'.fromEmailName'=>'',
+
+	$prefix.'.subject'=>'',
+	$prefix.'.message'=>'',
 
 	)));
 
@@ -24,7 +26,7 @@ HtmlBlock('page',
 UI('input',
 	array(
 		'value' => '',
-		'name' => 'tech.subject',
+		'name' => $prefix.'.subject',
 		'label' => 'Subject',
 		'message'=>'enter a title or subject here'
 	));
@@ -33,7 +35,7 @@ UI('input',
 UI('input',
 	array(
 		'value' => '',
-		'name' => 'tech.message',
+		'name' => $prefix.'.message',
 		'label' => 'Message',
 		'lines' =>5,
 		'message'=>'write your message here'
@@ -47,7 +49,7 @@ UI('input',
 UI('input',
 	array(
 		'value' => '',
-		'name' => 'tech.fromEmail',
+		'name' => $prefix.'.fromEmail',
 		'label' => 'Your Email Address',
 		'message'=>'enter your email address here'
 	));
@@ -55,7 +57,7 @@ UI('input',
 UI('input',
 	array(
 		'value' => '',
-		'name' => 'tech.fromEmailName',
+		'name' => $prefix.'.fromEmailName',
 		'label' => 'Your Name',
 		'message'=>'enter your name here'
 	));
@@ -67,7 +69,7 @@ UI('button', array(
 
     (new AjaxControlQuery(CoreAjaxUrlRoot,"send_email_feedback", Object.append({
     	"plugin":"EmailModerate"
-    }, window.Outlets.getFormDataWithNamespace("tech.")))).addEvent("success",function(response){
+    }, window.Outlets.getFormDataWithNamespace("'.$prefix.'.")))).addEvent("success",function(response){
 
 
     	if(response.success){
