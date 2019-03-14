@@ -5,11 +5,11 @@ Behavior('ajax');
 Behavior('bubbles');
 
 UI('form.outlet',array('fields'=>array(
-	'fromEmail'=>'',
-	'fromEmailName'=>'',
+	'tech.fromEmail'=>'',
+	'tech.fromEmailName'=>'',
 
-	'subject'=>'',
-	'message'=>'',
+	'tech.subject'=>'',
+	'tech.message'=>'',
 
 	)));
 
@@ -24,7 +24,7 @@ HtmlBlock('page',
 UI('input',
 	array(
 		'value' => '',
-		'name' => 'subject',
+		'name' => 'tech.subject',
 		'label' => 'Subject',
 		'message'=>'enter a title or subject here'
 	));
@@ -33,7 +33,7 @@ UI('input',
 UI('input',
 	array(
 		'value' => '',
-		'name' => 'message',
+		'name' => 'tech.message',
 		'label' => 'Message',
 		'lines' =>5,
 		'message'=>'write your message here'
@@ -47,7 +47,7 @@ UI('input',
 UI('input',
 	array(
 		'value' => '',
-		'name' => 'fromEmail',
+		'name' => 'tech.fromEmail',
 		'label' => 'Your Email Address',
 		'message'=>'enter your email address here'
 	));
@@ -55,7 +55,7 @@ UI('input',
 UI('input',
 	array(
 		'value' => '',
-		'name' => 'fromEmailName',
+		'name' => 'tech.fromEmailName',
 		'label' => 'Your Name',
 		'message'=>'enter your name here'
 	));
