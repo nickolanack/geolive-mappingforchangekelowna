@@ -10971,9 +10971,9 @@
             "importEncoding": "UTF-8",
             "showImportEncoding": false,
             "filename": "Drop In Export DATE[Y-m-d (H.i.s)]",
-            "filterRowScript": "widget.AttributesCSVExport.144.filterRowScript.js",
+            "filterRowScript": "drop in.filterRowScript.js",
             "filterFieldsScript": "return true;",
-            "widgetTitle": "",
+            "widgetTitle": "drop in",
             "readAccess": "registered",
             "position": "RIGHT_CENTER"
         }
