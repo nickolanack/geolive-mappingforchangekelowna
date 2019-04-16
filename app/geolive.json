@@ -10907,7 +10907,7 @@
         "name": "Attr CSV Export",
         "instance": "AttributesCSVExport",
         "parameters": {
-            "target": "services-map-widgets",
+            "target": "disabled-services-map-widgets",
             "downloadImage": [],
             "uploadImage": [],
             "controlColor": "rgb(58, 210, 58)",
