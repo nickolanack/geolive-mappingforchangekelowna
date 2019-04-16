@@ -10921,9 +10921,9 @@
             "importEncoding": "UTF-8",
             "showImportEncoding": false,
             "filename": "Service Export DATE[Y-m-d (H.i.s)]",
-            "filterRowScript": "widget.AttributesCSVExport.143.filterRowScript.js",
+            "filterRowScript": "services.filterRowScript.js",
             "filterFieldsScript": "return true;",
-            "widgetTitle": "",
+            "widgetTitle": "services",
             "readAccess": "registered",
             "position": "RIGHT_CENTER"
         }
