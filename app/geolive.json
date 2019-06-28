@@ -2452,7 +2452,7 @@
             "filterRowScript": "CSV Export.filterRowScript.js",
             "tileHoverTip": "Download Service Provider Data",
             "filterFieldsScript": "CSV Export.filterFieldsScript.js",
-            "target": ""
+            "target": "map.1"
         }
     },
     "widget.67": {
