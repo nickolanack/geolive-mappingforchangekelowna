@@ -50,7 +50,7 @@
             "enableLayerSyncronization": true,
             "onlyShowMarkersInIconset": false,
             "googleMapsServerApiKey": "XXXX-XXXX",
-            "googleMapsVersion": "",
+            "googleMapsVersion": "3.53",
             "tileCachePath": "",
             "layerDisplayFilterScript": "",
             "formatMapitemScript": ""
@@ -149,9 +149,9 @@
         ]
     },
     "plugin.15": {
-        "name": "Pusher Message Server",
-        "instance": "PusherMessages",
-        "parameters": "_PusherMessages.json"
+        "name": "Message Subscription Server",
+        "instance": "MessageSystem",
+        "parameters": "_MessageSystem.json"
     },
     "plugin.16": {
         "name": "Version Manager",
@@ -477,6 +477,8 @@
         "instance": "KeenIO",
         "parameters": {
             "enabled": false,
+            "exportData": true,
+            "exportDataPath": "{front}\/..\/export",
             "projectId": "5b69d28bc9e77c0001e7c2ce",
             "writeKey": "XXXX-XXXX",
             "readKey": "XXXX-XXXX",
@@ -2432,27 +2434,31 @@
     },
     "widget.29": {
         "name": "Attr CSV Export",
-        "instance": "AttributesCSVExport",
+        "instance": "ExportData",
         "parameters": {
+            "widgetTitle": "CSV Export",
+            "readAccess": "registered",
+            "target": "",
+            "position": "RIGHT_BOTTOM",
             "downloadImage": [],
-            "uploadImage": [],
             "controlColor": "rgb(143, 21, 64)",
+            "tileHoverTip": "Download Service Provider Data",
+            "skipConsitencyCheck": false,
+            "exportEncoding": "UTF-8",
+            "filename": "isearch-kelowna",
             "exportMetadata": {
                 "fields": "DEFAULT"
             },
-            "showImport": false,
-            "tileIcon": [],
-            "exportEncoding": "UTF-8",
-            "importEncoding": "UTF-8",
             "showImportEncoding": false,
-            "filename": "isearch-kelowna",
-            "widgetTitle": "CSV Export",
-            "readAccess": "registered",
-            "position": "RIGHT_BOTTOM",
-            "filterRowScript": "CSV Export.filterRowScript.js",
-            "tileHoverTip": "Download Service Provider Data",
+            "importEncoding": "UTF-8",
+            "showImport": false,
             "filterFieldsScript": "CSV Export.filterFieldsScript.js",
-            "target": ""
+            "filterRowScript": "CSV Export.filterRowScript.js",
+            "formatFieldsScript": "return $fields;",
+            "formatRowScript": "return $record;",
+            "formatMapTile": "",
+            "uploadImage": [],
+            "tileIcon": []
         }
     },
     "widget.67": {
@@ -4055,15 +4061,17 @@
         "name": "Custom Tile Control Script",
         "instance": "CustomTileControlScript",
         "parameters": {
+            "widgetTitle": "Heat Map Tile",
+            "target": "",
+            "readAccess": "public",
+            "position": "RIGHT_CENTER",
             "customScript": "Heat Map Tile.customScript.js",
+            "hoverTip": "",
+            "className": "",
             "tileIcon": [
                 "components\/com_geolive\/users_files\/user_files_994\/Uploads\/27M_zcX_[G]_[ImAgE]_bzG.png"
             ],
-            "hoverTip": "",
-            "className": "",
-            "widgetTitle": "Heat Map Tile",
-            "readAccess": "public",
-            "position": "RIGHT_CENTER"
+            "subTileIcons": []
         }
     },
     "widget.83": {
@@ -10905,77 +10913,89 @@
     },
     "widget.143": {
         "name": "Attr CSV Export",
-        "instance": "AttributesCSVExport",
+        "instance": "ExportData",
         "parameters": {
+            "widgetTitle": "services",
+            "readAccess": "registered",
             "target": "disabled-services-map-widgets",
+            "position": "RIGHT_CENTER",
             "downloadImage": [],
-            "uploadImage": [],
             "controlColor": "rgb(58, 210, 58)",
             "tileHoverTip": "Export Services",
+            "skipConsitencyCheck": false,
+            "exportEncoding": "UTF-8",
+            "filename": "Service Export DATE[Y-m-d (H.i.s)]",
             "exportMetadata": {
                 "fields": "DEFAULT"
             },
-            "showImport": false,
-            "tileIcon": [],
-            "exportEncoding": "UTF-8",
-            "importEncoding": "UTF-8",
             "showImportEncoding": false,
-            "filename": "Service Export DATE[Y-m-d (H.i.s)]",
-            "filterRowScript": "services.filterRowScript.js",
+            "importEncoding": "UTF-8",
+            "showImport": false,
             "filterFieldsScript": "return true;",
-            "widgetTitle": "services",
-            "readAccess": "registered",
-            "position": "RIGHT_CENTER"
+            "filterRowScript": "services.filterRowScript.js",
+            "formatFieldsScript": "return $fields;",
+            "formatRowScript": "return $record;",
+            "formatMapTile": "",
+            "uploadImage": [],
+            "tileIcon": []
         }
     },
     "widget.154": {
         "name": "Attr CSV Export",
-        "instance": "AttributesCSVExport",
+        "instance": "ExportData",
         "parameters": {
+            "widgetTitle": "bc services export",
+            "readAccess": "public",
             "target": "disabled-services-map-widgets",
+            "position": "RIGHT_CENTER",
             "downloadImage": [],
-            "uploadImage": [],
             "controlColor": "rgb(230, 0, 230)",
             "tileHoverTip": "Export Other BC Services",
+            "skipConsitencyCheck": false,
+            "exportEncoding": "UTF-8",
+            "filename": "BC Services DATE[Y-m-d (H.i.s)]",
             "exportMetadata": {
                 "fields": "DEFAULT"
             },
-            "showImport": false,
-            "tileIcon": [],
-            "exportEncoding": "UTF-8",
-            "importEncoding": "UTF-8",
             "showImportEncoding": false,
-            "filename": "BC Services DATE[Y-m-d (H.i.s)]",
-            "filterRowScript": "bc services export.filterRowScript.js",
+            "importEncoding": "UTF-8",
+            "showImport": false,
             "filterFieldsScript": "return true;",
-            "widgetTitle": "bc services export",
-            "readAccess": "public",
-            "position": "RIGHT_CENTER"
+            "filterRowScript": "bc services export.filterRowScript.js",
+            "formatFieldsScript": "return $fields;",
+            "formatRowScript": "return $record;",
+            "formatMapTile": "",
+            "uploadImage": [],
+            "tileIcon": []
         }
     },
     "widget.144": {
         "name": "Attr CSV Export",
-        "instance": "AttributesCSVExport",
+        "instance": "ExportData",
         "parameters": {
+            "widgetTitle": "drop in",
+            "readAccess": "registered",
             "target": "disabled-services-map-widgets",
+            "position": "RIGHT_CENTER",
             "downloadImage": [],
-            "uploadImage": [],
             "controlColor": "rgb(175, 108, 27)",
             "tileHoverTip": "Export Drop Ins",
+            "skipConsitencyCheck": false,
+            "exportEncoding": "UTF-8",
+            "filename": "Drop In Export DATE[Y-m-d (H.i.s)]",
             "exportMetadata": {
                 "fields": "DEFAULT"
             },
-            "showImport": false,
-            "tileIcon": [],
-            "exportEncoding": "UTF-8",
-            "importEncoding": "UTF-8",
             "showImportEncoding": false,
-            "filename": "Drop In Export DATE[Y-m-d (H.i.s)]",
-            "filterRowScript": "drop in.filterRowScript.js",
+            "importEncoding": "UTF-8",
+            "showImport": false,
             "filterFieldsScript": "return true;",
-            "widgetTitle": "drop in",
-            "readAccess": "registered",
-            "position": "RIGHT_CENTER"
+            "filterRowScript": "drop in.filterRowScript.js",
+            "formatFieldsScript": "return $fields;",
+            "formatRowScript": "return $record;",
+            "formatMapTile": "",
+            "uploadImage": [],
+            "tileIcon": []
         }
     },
     "widget.151": {
